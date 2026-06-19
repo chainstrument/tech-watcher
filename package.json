@@ -11,9 +11,11 @@
     "format": "prettier --write src",
     "format:check": "prettier --check src",
     "db:migrate": "tsx scripts/migrate.ts",
-    "pipeline": "tsx --tsconfig tsconfig.json scripts/pipeline.ts"
+    "pipeline": "tsx --tsconfig tsconfig.json scripts/pipeline.ts",
+    "ai:batch": "tsx --tsconfig tsconfig.json scripts/ai-batch.ts"
   },
   "dependencies": {
+    "@google/genai": "^2.9.0",
     "dotenv": "^17.4.2",
     "fast-xml-parser": "^5.9.3",
     "next": "16.2.9",

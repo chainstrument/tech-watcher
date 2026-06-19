@@ -25,7 +25,7 @@ const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_
 
 function text(val: string | { "#text": string } | undefined): string {
   if (!val) return "";
-  return typeof val === "string" ? val : val["#text"] ?? "";
+  return typeof val === "string" ? val : (val["#text"] ?? "");
 }
 
 function extractItems(raw: unknown): RssEntry[] {

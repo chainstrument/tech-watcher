@@ -10,9 +10,7 @@ export class ConnectorError extends Error {
     public readonly connectorName: string,
     public readonly cause: unknown
   ) {
-    super(
-      `[${connectorName}] failed: ${cause instanceof Error ? cause.message : String(cause)}`
-    );
+    super(`[${connectorName}] failed: ${cause instanceof Error ? cause.message : String(cause)}`);
     this.name = "ConnectorError";
   }
 }
@@ -38,10 +36,7 @@ export abstract class BaseConnector implements SourceConnector {
         return await Promise.race([
           fn(),
           new Promise<never>((_, reject) =>
-            setTimeout(
-              () => reject(new Error(`Timeout after ${this.timeoutMs}ms`)),
-              this.timeoutMs
-            )
+            setTimeout(() => reject(new Error(`Timeout after ${this.timeoutMs}ms`)), this.timeoutMs)
           ),
         ]);
       } catch (err) {
