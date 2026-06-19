@@ -5,6 +5,18 @@ interface RetryOptions {
   timeoutMs?: number;
 }
 
+export class ConnectorError extends Error {
+  constructor(
+    public readonly connectorName: string,
+    public readonly cause: unknown
+  ) {
+    super(
+      `[${connectorName}] failed: ${cause instanceof Error ? cause.message : String(cause)}`
+    );
+    this.name = "ConnectorError";
+  }
+}
+
 export abstract class BaseConnector implements SourceConnector {
   protected readonly sourceId: string;
   protected readonly retries: number;
@@ -26,7 +38,10 @@ export abstract class BaseConnector implements SourceConnector {
         return await Promise.race([
           fn(),
           new Promise<never>((_, reject) =>
-            setTimeout(() => reject(new Error(`Timeout after ${this.timeoutMs}ms`)), this.timeoutMs)
+            setTimeout(
+              () => reject(new Error(`Timeout after ${this.timeoutMs}ms`)),
+              this.timeoutMs
+            )
           ),
         ]);
       } catch (err) {
@@ -40,10 +55,8 @@ export abstract class BaseConnector implements SourceConnector {
       }
     }
 
-    console.error(
-      `[${this.constructor.name}] all ${this.retries + 1} attempts failed`,
-      lastError instanceof Error ? lastError.message : lastError
-    );
-    throw lastError;
+    const error = new ConnectorError(this.constructor.name, lastError);
+    console.error(error.message);
+    throw error;
   }
 }
