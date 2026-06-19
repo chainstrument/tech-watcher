@@ -13,6 +13,7 @@
     "db:migrate": "tsx scripts/migrate.ts"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.9.3",
     "next": "16.2.9",
     "node-pg-migrate": "^8.0.4",
     "pg": "^8.22.0",
@@ -32,6 +33,7 @@
     "eslint-config-next": "^16.2.9",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0",
     "prettier": "^3.8.4",
     "tailwindcss": "^4",
     "tsx": "^4.22.4",
