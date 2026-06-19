@@ -5,19 +5,42 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint src && prettier --check src",
+    "lint:fix": "eslint src --fix && prettier --write src",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "pipeline": "tsx --tsconfig tsconfig.json scripts/pipeline.ts",
+    "ai:batch": "tsx --tsconfig tsconfig.json scripts/ai-batch.ts"
   },
   "dependencies": {
+    "@google/genai": "^2.9.0",
+    "dotenv": "^17.4.2",
+    "fast-xml-parser": "^5.9.3",
     "next": "16.2.9",
+    "node-pg-migrate": "^8.0.4",
+    "pg": "^8.22.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.61.1",
+    "@typescript-eslint/parser": "^8.61.1",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.9",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.4",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
