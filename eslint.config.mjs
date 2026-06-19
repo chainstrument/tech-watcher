@@ -3,6 +3,7 @@ import tsPlugin from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 import reactPlugin from "eslint-plugin-react";
 import reactHooksPlugin from "eslint-plugin-react-hooks";
+import globals from "globals";
 
 /** @type {import('eslint').Linter.Config[]} */
 const config = [
@@ -17,13 +18,8 @@ const config = [
         ecmaFeatures: { jsx: true },
       },
       globals: {
-        React: "readonly",
-        console: "readonly",
-        process: "readonly",
-        setTimeout: "readonly",
-        clearTimeout: "readonly",
-        setInterval: "readonly",
-        clearInterval: "readonly",
+        ...globals.node,
+        ...globals.browser,
       },
     },
     plugins: {
