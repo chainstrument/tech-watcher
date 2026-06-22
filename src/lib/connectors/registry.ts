@@ -5,11 +5,12 @@ import { HackerNewsConnector } from "./hackernews";
 import { GithubConnector } from "./github";
 
 function buildConnector(source: Source): SourceConnector {
+  const limit = source.limit;
   switch (source.type) {
     case "rss":
-      return new RssConnector(source.id, source.url);
+      return new RssConnector(source.id, source.url, limit);
     case "hackernews":
-      return new HackerNewsConnector(source.id);
+      return new HackerNewsConnector(source.id, limit);
     case "github": {
       const repos = source.url.split(",").map((r) => r.trim());
       return new GithubConnector(source.id, repos);

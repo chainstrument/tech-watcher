@@ -61,10 +61,12 @@ function toContent(entry: RssEntry): string {
 
 export class RssConnector extends BaseConnector {
   private readonly url: string;
+  private readonly limit: number;
 
-  constructor(sourceId: string, url: string) {
+  constructor(sourceId: string, url: string, limit = 30) {
     super(sourceId);
     this.url = url;
+    this.limit = limit;
   }
 
   async fetch(): Promise<RawItem[]> {
@@ -77,6 +79,7 @@ export class RssConnector extends BaseConnector {
       const entries = extractItems(parsed);
 
       return entries
+        .slice(0, this.limit)
         .map((entry) => ({
           title: text(entry.title) || "(no title)",
           url: toUrl(entry),
