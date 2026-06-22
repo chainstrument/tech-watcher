@@ -4,20 +4,23 @@
     "name": "Hacker News",
     "type": "hackernews",
     "url": "",
-    "active": true
+    "active": true,
+    "limit": 5
   },
   {
     "id": "theregister",
     "name": "The Register",
     "type": "rss",
     "url": "https://www.theregister.com/headlines.atom",
-    "active": true
+    "active": true,
+    "limit": 5
   },
   {
     "id": "lobsters",
     "name": "Lobsters",
     "type": "rss",
     "url": "https://lobste.rs/rss",
-    "active": true
+    "active": true,
+    "limit": 5
   }
 ]
