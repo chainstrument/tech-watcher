@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T14:27:48.669Z",
+  "updatedAt": "2026-06-22T14:32:05.260Z",
   "items": [
     {
       "id": "04d115034da9cff6",
@@ -520,6 +520,16 @@
       "rawContent": "<p><a href=\"https://lobste.rs/s/agw0rr/performance_improvements_libffi\">Comments</a></p>",
       "status": "nouveau",
       "createdAt": "2026-06-22T14:27:48.154Z"
+    },
+    {
+      "id": "44b9cf171b82f159",
+      "sourceId": "hackernews",
+      "title": "Show HN: Teach your kids perfect pitch",
+      "url": "https://github.com/paytonjjones/bsharp",
+      "publishedAt": "2026-06-21T12:49:48.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T14:32:04.025Z"
     },
     {
       "id": "9b22e104f3ffa4ec",
