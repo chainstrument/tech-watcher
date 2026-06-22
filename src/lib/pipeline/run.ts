@@ -1,6 +1,6 @@
 import { loadActiveConnectors } from "@/lib/connectors/registry";
 import { ConnectorError } from "@/lib/connectors/base";
-import { storeItems } from "./store";
+import { storeRawItems } from "@/lib/storage";
 
 interface SourceStats {
   sourceName: string;
@@ -23,7 +23,7 @@ export async function runPipeline(): Promise<PipelineResult> {
   const startedAt = new Date();
   console.log(`[pipeline] run started at ${startedAt.toISOString()}`);
 
-  const activeConnectors = await loadActiveConnectors();
+  const activeConnectors = loadActiveConnectors();
   const sourceStats: SourceStats[] = [];
 
   for (const { sourceName, connector } of activeConnectors) {
@@ -33,7 +33,7 @@ export async function runPipeline(): Promise<PipelineResult> {
       const items = await connector.fetch();
       stat.fetched = items.length;
 
-      const { inserted, skipped } = await storeItems(items);
+      const { inserted, skipped } = storeRawItems(items);
       stat.inserted = inserted;
       stat.skipped = skipped;
     } catch (err) {
