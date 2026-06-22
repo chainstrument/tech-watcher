@@ -1,6 +1,7 @@
 import "dotenv/config";
 import { runPipeline } from "@/lib/pipeline/run";
 import { processNewItems } from "@/lib/ai/batch";
+import { readItems } from "@/lib/storage";
 
 async function main() {
   console.log("[action] running pipeline...");
@@ -9,14 +10,15 @@ async function main() {
     `[action] pipeline done — fetched=${pipeline.totalFetched} inserted=${pipeline.totalInserted} skipped=${pipeline.totalSkipped}`
   );
 
-  if (pipeline.totalInserted > 0) {
-    console.log("[action] running AI batch...");
+  const pending = readItems().filter((i) => i.status === "nouveau").length;
+  if (pending > 0) {
+    console.log(`[action] ${pending} items pending AI — running batch...`);
     const ai = await processNewItems();
     console.log(
       `[action] AI done — processed=${ai.processed} archived=${ai.archived} errors=${ai.errors}`
     );
   } else {
-    console.log("[action] no new items, skipping AI batch");
+    console.log("[action] no pending items, skipping AI batch");
   }
 }
 
