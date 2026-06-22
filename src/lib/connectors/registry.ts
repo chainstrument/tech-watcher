@@ -1,60 +1,36 @@
-import type { SourceConnector } from "@/types";
-import { getDb } from "@/lib/db/client";
+import type { SourceConnector, Source } from "@/types";
+import { readSources } from "@/lib/storage";
 import { RssConnector } from "./rss";
 import { HackerNewsConnector } from "./hackernews";
 import { GithubConnector } from "./github";
 
-interface SourceRow {
-  id: string;
-  type: string;
-  url: string;
-  name: string;
-}
-
-function buildConnector(row: SourceRow): SourceConnector {
-  switch (row.type) {
+function buildConnector(source: Source): SourceConnector {
+  const limit = source.limit;
+  switch (source.type) {
     case "rss":
-      return new RssConnector(row.id, row.url);
+      return new RssConnector(source.id, source.url, limit);
     case "hackernews":
-      return new HackerNewsConnector(row.id);
+      return new HackerNewsConnector(source.id, limit);
     case "github": {
-      const repos = row.url.split(",").map((r) => r.trim());
-      return new GithubConnector(row.id, repos);
+      const repos = source.url.split(",").map((r) => r.trim());
+      return new GithubConnector(source.id, repos);
     }
     default:
-      throw new Error(`Unknown source type: ${row.type}`);
+      throw new Error(`Unknown source type: ${(source as Source).type}`);
   }
 }
 
-/** Load all active sources from DB and return instantiated connectors. */
-export async function loadActiveConnectors(): Promise<
-  { sourceId: string; sourceName: string; connector: SourceConnector }[]
-> {
-  const db = getDb();
-  const { rows } = await db.query<SourceRow>(
-    "SELECT id, name, type, url FROM sources WHERE active = true"
-  );
-  return rows.map((row) => ({
-    sourceId: row.id,
-    sourceName: row.name,
-    connector: buildConnector(row),
-  }));
+export function loadActiveConnectors(): {
+  sourceId: string;
+  sourceName: string;
+  connector: SourceConnector;
+}[] {
+  const sources = readSources();
+  return sources
+    .filter((s) => s.active)
+    .map((source) => ({
+      sourceId: source.id,
+      sourceName: source.name,
+      connector: buildConnector(source),
+    }));
 }
-
-// In-memory registry for programmatic use (tests, seeding, dashboard)
-const connectors = new Map<string, SourceConnector>();
-
-export const registry = {
-  register(sourceId: string, connector: SourceConnector) {
-    connectors.set(sourceId, connector);
-  },
-  unregister(sourceId: string) {
-    connectors.delete(sourceId);
-  },
-  get(sourceId: string): SourceConnector | undefined {
-    return connectors.get(sourceId);
-  },
-  all(): SourceConnector[] {
-    return [...connectors.values()];
-  },
-};
