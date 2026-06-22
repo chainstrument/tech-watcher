@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T14:32:05.260Z",
+  "updatedAt": "2026-06-22T14:56:38.562Z",
   "items": [
     {
       "id": "04d115034da9cff6",
@@ -10,6 +10,16 @@
       "rawContent": " A Canadian power utility says customer data may have walked out the door during a security incident, but isn't yet saying whether the intruders got anywhere near the systems responsible for keeping the lights on. London Hydro, which distributes electricity to more than 160,000 customers in and around London, Ontario, said on Saturday that it is investigating a data security incident that \"may have impacted a portion of personal information on some accounts\" and has started notifying affected customers. The utility said the potentially exposed information includes names, addresses, email addresses, phone numbers, account and billing numbers, service addresses, pricing plans, contract start dates, and meter information. The good news, according to London Hydro, is that the incident did not involve banking information, payment card details, dates of birth, government-issued identification numbers, or other sensitive financial data. The less good news is that the company has disclosed little else. Its statement focuses on customer information and contains no indication that operational technology or grid systems were affected. London Hydro has yet to explain what systems were compromised, how the incident occurred, whether data was stolen or merely accessed, or how many customers may have been caught up in the incident. The haul may not include bank details, but it contains enough account information to make a fake utility bill, payment demand, or customer service call look considerably more believable. London Hydro is warning customers to watch for suspicious communications, unexpected bills, unfamiliar account activity, or requests to change payment arrangements. The company also reminded customers that it does not ask for banking details by email, phone, or SMS. The Register asked London Hydro when it discovered the intrusion, whether information was exfiltrated, how many customers were affected, whether ransomware or extortion was involved, whether any third-party systems were implicated, and whether operational or grid-related systems were touched during the incident. At the time of writing, London Hydro had not responded. The company has drawn a fairly clear boundary around the customer information that may have been exposed. Where the attackers went and what else they may have touched remains unclear. ® ",
       "status": "nouveau",
       "createdAt": "2026-06-22T14:27:47.924Z"
+    },
+    {
+      "id": "29e671837e847203",
+      "sourceId": "hackernews",
+      "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "publishedAt": "2026-06-22T14:22:46.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T14:56:37.231Z"
     },
     {
       "id": "30603a737bd12f06",
