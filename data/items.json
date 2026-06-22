@@ -1,1 +1,105 @@
-{ "updatedAt": null, "items": [] }
+{
+  "updatedAt": "2026-06-22T19:13:52.740Z",
+  "items": [
+    {
+      "id": "cbfcfbd4d097f5d3",
+      "sourceId": "hackernews",
+      "title": "Steam Machine",
+      "url": "https://store.steampowered.com/hardware/steammachine",
+      "publishedAt": "2026-06-22T17:09:51.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;store.steampowered.com&#x2F;sale&#x2F;steammachine\" rel=\"nofollow\">https:&#x2F;&#x2F;store.steampowered.com&#x2F;sale&#x2F;steammachine</a><p><a href=\"https:&#x2F;&#x2F;store.steampowered.com&#x2F;sub&#x2F;1629447&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;store.steampowered.com&#x2F;sub&#x2F;1629447&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;www.lttlabs.com&#x2F;articles&#x2F;2026&#x2F;06&#x2F;22&#x2F;the-newell-nucleus-steam-machine-ltt-companion-article\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lttlabs.com&#x2F;articles&#x2F;2026&#x2F;06&#x2F;22&#x2F;the-newell-nucle...</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=66QzlDewigE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=66QzlDewigE</a>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:51.320Z"
+    },
+    {
+      "id": "6c975cc61dd88dfd",
+      "sourceId": "hackernews",
+      "title": "Show HN: Oak – Git replacement designed for agents",
+      "url": "https://oak.space/oak/oak",
+      "publishedAt": "2026-06-22T15:37:48.000Z",
+      "rawContent": "Oak is a version control system I&#x27;ve been working on designed for agents (<a href=\"https:&#x2F;&#x2F;oak.space\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space</a>). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download everything or fight worktrees. Version control shouldn&#x27;t waste you or your agents time. It should be fast, creative and fun to make things with agents.<p>Oak is still early in development. There&#x27;s no Windows build and missing plenty of features (no CI, no issues, no comments). We still use GitHub Actions for building Oak now, but we&#x27;ve been fully bootstrapped on Oak with no Git backup for several months: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;oak&#x2F;oak\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;oak&#x2F;oak</a>.<p>Blog post: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;blog#git-is-forever\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;blog#git-is-forever</a><p>Docs: <a href=\"https:&#x2F;&#x2F;oak.space&#x2F;docs\" rel=\"nofollow\">https:&#x2F;&#x2F;oak.space&#x2F;docs</a>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:51.320Z"
+    },
+    {
+      "id": "30603a737bd12f06",
+      "sourceId": "lobsters",
+      "title": "One year with Codeberg",
+      "url": "https://guix.gnu.org/en/blog/2026/one-year-with-codeberg/",
+      "publishedAt": "2026-06-22T14:02:16.000Z",
+      "rawContent": "<p><a href=\"https://lobste.rs/s/pifl3k/one_year_with_codeberg\">Comments</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:52.444Z"
+    },
+    {
+      "id": "616d8a1b7ff81f5e",
+      "sourceId": "hackernews",
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "publishedAt": "2026-06-22T13:53:02.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:51.320Z"
+    },
+    {
+      "id": "2a6e26b5393e10e6",
+      "sourceId": "lobsters",
+      "title": "Why Drawing Tablet Brands Won't Collaborate on Linux FLOSS Drivers",
+      "url": "https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers",
+      "publishedAt": "2026-06-22T13:27:03.000Z",
+      "rawContent": "<p><a href=\"https://lobste.rs/s/rq2t8j/why_drawing_tablet_brands_won_t\">Comments</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:52.444Z"
+    },
+    {
+      "id": "6afeeb679757001f",
+      "sourceId": "lobsters",
+      "title": "p99 0ms* autocomplete for 240 million domain names",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "publishedAt": "2026-06-22T11:31:29.000Z",
+      "rawContent": "<p><a href=\"https://lobste.rs/s/xhpauz/p99_0ms_autocomplete_for_240_million\">Comments</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:52.444Z"
+    },
+    {
+      "id": "bbf63a66d5039171",
+      "sourceId": "lobsters",
+      "title": "Chesterton's middle finger",
+      "url": "https://www.arp242.net/chestersons-finger.html",
+      "publishedAt": "2026-06-22T09:02:51.000Z",
+      "rawContent": "<p><a href=\"https://lobste.rs/s/dh6o8k/chesterton_s_middle_finger\">Comments</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:52.444Z"
+    },
+    {
+      "id": "11fd014033065107",
+      "sourceId": "lobsters",
+      "title": "help i accidentally a wigglegram",
+      "url": "https://lmao.center/blog/wiggle-accidents/",
+      "publishedAt": "2026-06-22T06:07:05.000Z",
+      "rawContent": "<p><a href=\"https://lobste.rs/s/uuyjxb/help_i_accidentally_wigglegram\">Comments</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:52.444Z"
+    },
+    {
+      "id": "3209614492a1e17d",
+      "sourceId": "hackernews",
+      "title": "Deno Desktop",
+      "url": "https://docs.deno.com/runtime/desktop/",
+      "publishedAt": "2026-06-22T05:38:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:51.320Z"
+    },
+    {
+      "id": "9da238ec7e2968d9",
+      "sourceId": "hackernews",
+      "title": "My Mathematical Regression",
+      "url": "https://blog.dahl.dev/posts/my-mathematical-regression/",
+      "publishedAt": "2026-06-19T11:06:04.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-22T19:13:51.320Z"
+    }
+  ]
+}
