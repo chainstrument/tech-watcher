@@ -1,4 +1,4 @@
-import type { RawItem } from "@/types";
+import type { Item } from "@/types";
 
 const SOURCE_COLORS: Record<string, string> = {
   hackernews: "bg-orange-900/40 text-orange-400 ring-orange-700",
@@ -14,8 +14,14 @@ function timeAgo(date: Date): string {
   return `${Math.floor(diff / 86400)}j`;
 }
 
+function scoreColor(score: number): string {
+  if (score >= 0.7) return "text-emerald-400";
+  if (score >= 0.4) return "text-yellow-400";
+  return "text-gray-500";
+}
+
 interface Props {
-  item: RawItem & { sourceLabel: string };
+  item: Item & { sourceLabel: string };
 }
 
 export default function ItemCard({ item }: Props) {
@@ -32,13 +38,35 @@ export default function ItemCard({ item }: Props) {
         <p className="truncate text-sm font-medium text-gray-100 group-hover:text-white">
           {item.title}
         </p>
-        <div className="mt-1 flex items-center gap-2">
+
+        {item.summary && (
+          <p className="mt-1 line-clamp-2 text-xs text-gray-400">{item.summary}</p>
+        )}
+
+        <div className="mt-1.5 flex flex-wrap items-center gap-2">
           <span className={`rounded-full px-2 py-0.5 text-xs font-medium ring-1 ${colorClass}`}>
             {item.sourceLabel}
           </span>
+
           <span className="text-xs text-gray-500">{timeAgo(item.publishedAt)}</span>
+
+          {item.score != null && (
+            <span className={`text-xs font-medium ${scoreColor(item.score)}`}>
+              {Math.round(item.score * 100)}%
+            </span>
+          )}
+
+          {item.tags?.map((tag) => (
+            <span
+              key={tag}
+              className="rounded-full bg-gray-800 px-2 py-0.5 text-xs text-gray-400 ring-1 ring-gray-700"
+            >
+              {tag}
+            </span>
+          ))}
         </div>
       </div>
+
       <svg
         className="mt-0.5 size-4 shrink-0 text-gray-600 group-hover:text-gray-400"
         fill="none"

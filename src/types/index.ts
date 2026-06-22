@@ -6,7 +6,6 @@ export interface Source {
   type: "rss" | "hackernews" | "github";
   url: string;
   active: boolean;
-  createdAt: Date;
 }
 
 export interface Item {
