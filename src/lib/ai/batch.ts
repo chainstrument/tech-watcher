@@ -16,7 +16,8 @@ export interface BatchResult {
   errors: number;
 }
 
-const CHUNK_SIZE = 10;
+const CHUNK_SIZE = 2;
+const MAX_ITEMS_PER_RUN = 2;
 const MAX_CONTENT_CHARS = 500;
 const DELAY_BETWEEN_CHUNKS_MS = 5_000;
 const MAX_RETRIES = 3;
@@ -58,11 +59,13 @@ export async function processNewItems(): Promise<BatchResult> {
 
   const updatedMap = new Map<string, Partial<Item>>();
 
-  for (let i = 0; i < newItems.length; i += CHUNK_SIZE) {
+  const itemsToProcess = newItems.slice(0, MAX_ITEMS_PER_RUN);
+
+  for (let i = 0; i < itemsToProcess.length; i += CHUNK_SIZE) {
     if (i > 0) await sleep(DELAY_BETWEEN_CHUNKS_MS);
 
-    const chunk = newItems.slice(i, i + CHUNK_SIZE);
-    const chunkLabel = `${i}–${Math.min(i + CHUNK_SIZE, newItems.length) - 1}`;
+    const chunk = itemsToProcess.slice(i, i + CHUNK_SIZE);
+    const chunkLabel = `${i}–${Math.min(i + CHUNK_SIZE, itemsToProcess.length) - 1}`;
 
     let attempt = 0;
     let success = false;
