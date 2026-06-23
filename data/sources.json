@@ -8,18 +8,34 @@
     "limit": 5
   },
   {
-    "id": "theregister",
-    "name": "The Register",
+    "id": "simonwillison",
+    "name": "Simon Willison",
     "type": "rss",
-    "url": "https://www.theregister.com/headlines.atom",
+    "url": "https://simonwillison.net/atom/everything/",
     "active": true,
     "limit": 5
   },
   {
-    "id": "lobsters",
-    "name": "Lobsters",
+    "id": "github-blog",
+    "name": "GitHub Blog",
     "type": "rss",
-    "url": "https://lobste.rs/rss",
+    "url": "https://github.blog/feed/",
+    "active": true,
+    "limit": 5
+  },
+  {
+    "id": "devto-ai",
+    "name": "DEV.to — AI",
+    "type": "rss",
+    "url": "https://dev.to/t/ai/rss",
+    "active": true,
+    "limit": 5
+  },
+  {
+    "id": "changelog",
+    "name": "The Changelog",
+    "type": "rss",
+    "url": "https://changelog.com/feed",
     "active": true,
     "limit": 5
   }
