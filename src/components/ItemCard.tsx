@@ -2,8 +2,10 @@ import type { Item } from "@/types";
 
 const SOURCE_COLORS: Record<string, string> = {
   hackernews: "bg-orange-900/40 text-orange-400 ring-orange-700",
-  theregister: "bg-blue-900/40 text-blue-400 ring-blue-700",
-  lobsters: "bg-rose-900/40 text-rose-400 ring-rose-700",
+  simonwillison: "bg-violet-900/40 text-violet-400 ring-violet-700",
+  "github-blog": "bg-gray-800/60 text-gray-300 ring-gray-600",
+  "devto-ai": "bg-blue-900/40 text-blue-400 ring-blue-700",
+  changelog: "bg-emerald-900/40 text-emerald-400 ring-emerald-700",
 };
 
 function timeAgo(date: Date): string {
