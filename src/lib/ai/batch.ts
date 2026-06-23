@@ -16,8 +16,30 @@ export interface BatchResult {
   errors: number;
 }
 
-const CHUNK_SIZE = 30;
-const MAX_CONTENT_CHARS = 2000;
+const CHUNK_SIZE = 10;
+const MAX_CONTENT_CHARS = 500;
+const DELAY_BETWEEN_CHUNKS_MS = 5_000;
+const MAX_RETRIES = 3;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function extractRetryDelay(err: unknown): number {
+  if (err instanceof Error) {
+    const match = err.message.match(/Please retry in (\d+(?:\.\d+)?)s/);
+    if (match) return Math.ceil(parseFloat(match[1])) * 1000 + 2_000;
+  }
+  return 30_000;
+}
+
+function isRateLimit(err: unknown): boolean {
+  return (
+    err instanceof Error &&
+    "status" in err &&
+    (err as { status: number }).status === 429
+  );
+}
 
 export async function processNewItems(): Promise<BatchResult> {
   const allItems = readItems();
@@ -37,26 +59,42 @@ export async function processNewItems(): Promise<BatchResult> {
   const updatedMap = new Map<string, Partial<Item>>();
 
   for (let i = 0; i < newItems.length; i += CHUNK_SIZE) {
+    if (i > 0) await sleep(DELAY_BETWEEN_CHUNKS_MS);
+
     const chunk = newItems.slice(i, i + CHUNK_SIZE);
-    try {
-      const results = await callGemini(chunk);
-      for (const r of results) {
-        const isDuplicate = Boolean(r.duplicate_of);
-        updatedMap.set(r.id, {
-          summary: r.summary ?? undefined,
-          tags: r.tags ?? [],
-          score: r.score ?? undefined,
-          status: isDuplicate ? "archivé" : "traité",
-        });
-        if (isDuplicate) archived++;
-        else processed++;
+    const chunkLabel = `${i}–${Math.min(i + CHUNK_SIZE, newItems.length) - 1}`;
+
+    let attempt = 0;
+    let success = false;
+
+    while (attempt < MAX_RETRIES && !success) {
+      try {
+        const results = await callGemini(chunk);
+        for (const r of results) {
+          const isDuplicate = Boolean(r.duplicate_of);
+          updatedMap.set(r.id, {
+            summary: r.summary ?? undefined,
+            tags: r.tags ?? [],
+            score: r.score ?? undefined,
+            status: isDuplicate ? "archivé" : "traité",
+          });
+          if (isDuplicate) archived++;
+          else processed++;
+        }
+        success = true;
+      } catch (err) {
+        attempt++;
+        if (isRateLimit(err) && attempt < MAX_RETRIES) {
+          const delay = extractRetryDelay(err);
+          console.warn(
+            `[ai/batch] chunk ${chunkLabel} rate limited, retrying in ${delay / 1000}s... (attempt ${attempt}/${MAX_RETRIES})`
+          );
+          await sleep(delay);
+        } else {
+          console.error(`[ai/batch] chunk ${chunkLabel} failed after ${attempt} attempt(s):`, err);
+          errors += chunk.length;
+        }
       }
-    } catch (err) {
-      console.error(
-        `[ai/batch] chunk ${i}–${Math.min(i + CHUNK_SIZE, newItems.length) - 1} failed:`,
-        err
-      );
-      errors += chunk.length;
     }
   }
 
