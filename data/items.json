@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-06-24T10:25:12.791Z",
+  "updatedAt": "2026-06-25T10:17:06.306Z",
   "items": [
+    {
+      "id": "7530b5bc195ded3c",
+      "sourceId": "hackernews",
+      "title": "Wikipedia Workers in Britain set global first by seeking union recognition",
+      "url": "https://utaw.tech/news/wikipedia-recognition",
+      "publishedAt": "2026-06-25T07:02:37.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:04.976Z"
+    },
+    {
+      "id": "61eb3ed5850fa295",
+      "sourceId": "hackernews",
+      "title": "Half-Life 2 in a Browser",
+      "url": "https://hl2.slqnt.dev/",
+      "publishedAt": "2026-06-25T06:00:04.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:04.976Z"
+    },
+    {
+      "id": "7c6111284e721a5c",
+      "sourceId": "hackernews",
+      "title": "Cloudflare launched self-managed OAuth for all",
+      "url": "https://blog.cloudflare.com/oauth-for-all/",
+      "publishedAt": "2026-06-25T02:18:10.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:04.976Z"
+    },
+    {
+      "id": "802363aee5105ca5",
+      "sourceId": "simonwillison",
+      "title": "simonw/browser-compat-db",
+      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
+      "publishedAt": "2026-06-24T23:59:03.000Z",
+      "rawContent": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=\"https://github.com/mdn/browser-compat-data\">mdn/browser-compat-data</a> repository full of browser compatibility data into a SQLite database.</p>\n<p>This new GitHub repo includes a Claude Code for web (Opus 4.8) <a href=\"https://github.com/simonw/browser-compat-db/blob/main/build_db.py\">generated script</a> for doing that using <a href=\"https://github.com/simonw/sqlite-utils\">sqlite-utils</a>.</p>\n<p>I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build <a href=\"https://github.com/simonw/browser-compat-db/blob/main/.github/workflows/build-db.yml\">a GitHub Actions workflow</a> that builds the database and then force-pushes it to a <code>db</code> \"orphan\" branch.</p>\n<p>You can download the resulting database <a href=\"https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db\">from here</a>, and since it's hosted with open CORS headers you can also <a href=\"https://lite.datasette.io/?url=https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db#/browser-compat/releases_tree\">explore it with Datasette Lite</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/mozilla\">mozilla</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/mdn\">mdn</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:05.148Z"
+    },
+    {
+      "id": "3cb0afd9fd5224b0",
+      "sourceId": "hackernews",
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "publishedAt": "2026-06-24T19:48:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:04.976Z"
+    },
+    {
+      "id": "6918965612577e24",
+      "sourceId": "simonwillison",
+      "title": "Quoting Tom MacWright",
+      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+      "publishedAt": "2026-06-24T18:13:51.000Z",
+      "rawContent": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction is that <em>I don't know anything about these people</em>.</p>\n<p>They haven't put themselves out there. They haven't said anything true. [...]</p>\n<p>The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://macwright.com/2026/06/24/accidental-anonymity.html\">Tom MacWright</a>, Accidental anonymity</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/tom-macwright\">tom-macwright</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:05.148Z"
+    },
+    {
+      "id": "d6bb4be6138d4490",
+      "sourceId": "hackernews",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "publishedAt": "2026-06-24T17:47:00.000Z",
+      "rawContent": "Announcement: <a href=\"https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;openai-broadcom-jalapeno-inference-chip&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;openai-broadcom-jalapeno-inference-...</a><p><a href=\"https:&#x2F;&#x2F;decrypt.co&#x2F;371971&#x2F;openai-broadcom-jalapeno-first-custom-ai-chip\" rel=\"nofollow\">https:&#x2F;&#x2F;decrypt.co&#x2F;371971&#x2F;openai-broadcom-jalapeno-first-cus...</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;06&#x2F;24&#x2F;tech&#x2F;openai-broadcom-jalapeno-ai-chip\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;06&#x2F;24&#x2F;tech&#x2F;openai-broadcom-jalapeno...</a>",
+      "status": "nouveau",
+      "createdAt": "2026-06-25T10:17:04.976Z"
+    },
     {
       "id": "ebc96034fb086597",
       "sourceId": "hackernews",
