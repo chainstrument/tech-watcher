@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-06-27T09:31:09.865Z",
+  "updatedAt": "2026-06-28T10:06:14.751Z",
   "items": [
+    {
+      "id": "01b17446d488dede",
+      "sourceId": "hackernews",
+      "title": "Bashblog – a single bash script to create blogs",
+      "url": "https://github.com/cfenollosa/bashblog",
+      "publishedAt": "2026-06-28T04:48:32.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-28T10:06:13.457Z"
+    },
+    {
+      "id": "eb166180687b6629",
+      "sourceId": "hackernews",
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "publishedAt": "2026-06-28T04:31:18.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-28T10:06:13.457Z"
+    },
+    {
+      "id": "7ab1719b20ee51e4",
+      "sourceId": "hackernews",
+      "title": "Marfa Public Radio Puts You to Sleep",
+      "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+      "publishedAt": "2026-06-28T02:23:08.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-28T10:06:13.456Z"
+    },
+    {
+      "id": "1634c3a63bd66eb1",
+      "sourceId": "hackernews",
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "publishedAt": "2026-06-28T00:46:52.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-28T10:06:13.457Z"
+    },
+    {
+      "id": "307e7f1ccd5aa9c1",
+      "sourceId": "hackernews",
+      "title": "OpenRA",
+      "url": "https://www.openra.net/",
+      "publishedAt": "2026-06-27T12:10:27.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-06-28T10:06:13.457Z"
+    },
     {
       "id": "17abf7582f778e82",
       "sourceId": "hackernews",
