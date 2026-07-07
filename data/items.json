@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-07-06T11:40:05.300Z",
+  "updatedAt": "2026-07-07T10:28:10.038Z",
   "items": [
+    {
+      "id": "a88157cbcda457be",
+      "sourceId": "hackernews",
+      "title": "How to sequence your own DNA at home",
+      "url": "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
+      "publishedAt": "2026-07-07T00:14:21.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.348Z"
+    },
+    {
+      "id": "7d7bc23d2ad342c8",
+      "sourceId": "simonwillison",
+      "title": "tencent/Hy3",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "publishedAt": "2026-07-06T23:57:35.000Z",
+      "rawContent": "<p><strong><a href=\"https://huggingface.co/tencent/Hy3\">tencent/Hy3</a></strong></p>\nNew Apache 2.0 licensed model from Tencent in China:</p>\n<blockquote>\n<p>Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.</p>\n</blockquote>\n<p>The full-sized model is 598GB on Hugging Face, and the FP8 quantized one <a href=\"https://huggingface.co/tencent/Hy3-FP8/tree/main\">is 300GB</a>. The context length is 256K.</p>\n<p>It's available for free <a href=\"https://openrouter.ai/tencent/hy3:free\">on OpenRouter until July 21st</a>. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:</p>\n<p><img alt=\"Flat-style cartoon illustration  of a white pelican with a large orange beak riding a red bicycle across a pale blue background, its long orange legs stretched down to the pedals, with gray horizontal motion lines behind it suggesting speed.\" src=\"https://static.simonwillison.net/static/2026/hy3-pelican.png\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.440Z"
+    },
+    {
+      "id": "68e2eab30faf0d49",
+      "sourceId": "hackernews",
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "publishedAt": "2026-07-06T20:14:55.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.348Z"
+    },
+    {
+      "id": "84a7af73200dd3e1",
+      "sourceId": "hackernews",
+      "title": "CoMaps – FOSS Offline Maps",
+      "url": "https://www.comaps.app/",
+      "publishedAt": "2026-07-06T18:55:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.348Z"
+    },
+    {
+      "id": "27fc4cacdf45592d",
+      "sourceId": "hackernews",
+      "title": "OpenWrt One – Open Hardware Router",
+      "url": "https://openwrt.org/toh/openwrt/one",
+      "publishedAt": "2026-07-06T18:23:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.348Z"
+    },
     {
       "id": "774097965f54c870",
       "sourceId": "hackernews",
@@ -140,6 +190,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-07-05T09:44:15.762Z"
+    },
+    {
+      "id": "b7fd989ef5486e1c",
+      "sourceId": "hackernews",
+      "title": "Dolosse – a South African invention used over the world",
+      "url": "https://thisbugslife.com/2021/11/21/dolosse-a-south-african-invention-used-over-the-world/",
+      "publishedAt": "2026-07-04T15:32:58.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-07T10:28:09.348Z"
     },
     {
       "id": "c8024e73414fedd9",
