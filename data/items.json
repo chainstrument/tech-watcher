@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-07-17T09:11:59.403Z",
+  "updatedAt": "2026-07-18T08:50:41.523Z",
   "items": [
+    {
+      "id": "efd351343b074a48",
+      "sourceId": "simonwillison",
+      "title": "Claude make Fable 5 permanent",
+      "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "publishedAt": "2026-07-18T06:00:13.000Z",
+      "rawContent": "<p><strong><a href=\"https://twitter.com/claudeai/status/2078302415804379218\">Claude make Fable 5 permanent</a></strong></p>\nAn update from the <code>@claudeai</code> account on Twitter:</p>\n<blockquote>\n<p>Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.</p>\n<p>Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.</p>\n</blockquote>\n<p>As I was saying <a href=\"https://simonwillison.net/2026/Jul/12/bump/\">last week</a>, the competition from <a href=\"https://simonwillison.net/2026/Jul/9/gpt-5-6/\">GPT-5.6 Sol</a> (and maybe to a lesser extent <a href=\"https://simonwillison.net/2026/Jul/16/kimi-k3/\">Kimi 3</a>) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing.</p>\n<p>Why pay $100 or $200/month for a subscription plan that <em>doesn't</em> include Anthropic's best model?</p>\n<p>Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model.</p>\n<p>A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.662Z"
+    },
+    {
+      "id": "8d4229547b886f24",
+      "sourceId": "simonwillison",
+      "title": "nascheme/quixote",
+      "url": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+      "publishedAt": "2026-07-18T05:27:49.000Z",
+      "rawContent": "<p><strong><a href=\"https://github.com/nascheme/quixote\">nascheme/quixote</a></strong></p>\nA certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was <a href=\"(https://github.com/nascheme/quixote/commit/7f775cf9d1e7e80fcbb2706b4a1d971e55ca74a3)\">six hours ago</a>.</p>\n<p>The <a href=\"https://github.com/nascheme/quixote/commit/d6b73c5768c2d041b68b54cc71863604249abc18\">oldest commit</a> in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/computer-history\">computer-history</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/web-frameworks\">web-frameworks</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.662Z"
+    },
+    {
+      "id": "0392ac25abc72b60",
+      "sourceId": "hackernews",
+      "title": "Regressive JPEGs",
+      "url": "https://maurycyz.com/projects/bad_jpeg/",
+      "publishedAt": "2026-07-18T03:14:20.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.567Z"
+    },
+    {
+      "id": "1fde6b194534de90",
+      "sourceId": "hackernews",
+      "title": "Thanks HN for 15 years of support and helping me find my life's work",
+      "url": "https://news.ycombinator.com/item?id=48949551",
+      "publishedAt": "2026-07-17T16:57:27.000Z",
+      "rawContent": "Tomorrow is the 15th anniversary of the first day of the Recurse Center (<a href=\"https:&#x2F;&#x2F;www.recurse.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.recurse.com&#x2F;</a>)<p>My cofounders and I did YC all the way back in the Summer of 2010, with the initial idea of building &quot;OkCupid for jobs.&quot; That idea quickly fizzled, and we spent the better part of a year pivoting between other ideas that also failed.<p>Finally, we made something that we wanted ourselves: a self-directed programming retreat, where people built fun projects, contributed to open source, and helped each other become better programmers.<p>After running two small batches, we launched on HN[1] and got an incredible reception.<p>That post on HN helped us reach beyond our personal networks and meet programmers from around the world, many of whom have since become friends. HN brought us the majority of people who came to our next few batches, and in the years since, HN has remained our #2 source of applicants (after word of mouth).<p>Alas, pg&#x27;s comment[2] on HN when we launched turned out to be prescient: Running free programming retreats isn&#x27;t a billion-dollar business, but it&#x27;s still a worthwhile thing to do, and has positively impacted over 3,000 people so far. And 15 years on I still wake up every day excited to keep working on it.<p>So, thanks HN, for helping make the Recurse Center possible, and for helping me find my life&#x27;s work.<p>[1] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=3435183</a><p>[2] &quot;This sounds like a crazy plan for a startup, I realize, but this is the right sort of crazy. In fact, the way the Hackruiters think about Hacker School is a lot like the way we initially thought about YC: if it doesn&#x27;t make money, it will at least have been a benevolent thing to do.&quot;",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.567Z"
+    },
+    {
+      "id": "6792a6598ab6a153",
+      "sourceId": "github-blog",
+      "title": "The cost of saying yes has changed",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "publishedAt": "2026-07-17T16:46:47.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">The most expensive part of a small feature request used to be writing the code. Now it&rsquo;s usually the meeting about whether or not to write the code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That&rsquo;s a real shift, and it quietly breaks a lot of engineering instincts. Engineers learn early that most &ldquo;small asks&rdquo; aren&rsquo;t small: they need tests, a rollout plan, someone to think through the edge cases and own the behavior after it ships. A two-hour change can become a two-week distraction if it touches the wrong part of the system. So we push back. Is this really needed? Does it belong in this release? Does it change a contract we already agreed to? I&rsquo;m not giving that instinct up.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But it rests on an assumption that&rsquo;s quietly breaking, which is that writing the first version of the code is the expensive step. For a specific class of change, it no longer is. If you can tell those changes apart from the rest, you can replace &ldquo;is this in scope?&rdquo; with a question you can answer in thirty minutes instead of a two-day debate.</p>\n\n\n\n<h2 id=\"h-the-debate-often-costs-more-than-the-patch\" class=\"wp-block-heading\">The debate often costs more than the patch</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Here&rsquo;s a pattern I keep seeing. Someone asks for a small change such as surfacing a <code>last_active_at</code> timestamp that already exists in the backend on a settings page. The team spends forty minutes in a thread. One person says it sounds risky. Someone remembers a related migration from two years ago. Someone mentions the deadline. Eventually we land on &ldquo;probably a day or two, could be more,&rdquo; with low confidence, primarily because nobody has actually tried it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That process made sense when trying was the expensive part. You had to stop what you were doing, load the context into your head, make the change by hand, write the tests, then discover the second- and third-order consequences. When the first attempt is cheap, defending the boundary can cost more than crossing it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An agent can produce that first patch in the time the thread takes to warm up. It&rsquo;s not free and definitely not automatically correct. But it is cheap enough that the smart move is often to stop guessing and look at a real diff.</p>\n\n\n\n<h2 id=\"h-the-first-patch-is-a-price-check-not-the-product\" class=\"wp-block-heading\">The first patch is a price check, not the product</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The mistake is to treat the generated patch as the deliverable. It isn&rsquo;t. It&rsquo;s a probe. It turns an abstract scope argument into a concrete artifact you can interrogate:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Does it touch the files you expected, or does it sprawl across five packages?</li>\n\n\n\n<li>Are the tests obvious, or does the change resist being tested?</li>\n\n\n\n<li>Does it preserve the existing abstractions?</li>\n\n\n\n<li>Does it quietly require a new product decision?</li>\n\n\n\n<li>Would you be comfortable owning this behavior six months from now?</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Those are better questions than &ldquo;does this feel like scope creep?&rdquo; because now you&rsquo;re arguing from evidence instead of vibes. If the <code>last_active_at</code> field comes back as a four-line diff with a passing test, ship it. The debate was the expensive part. However, if that same request comes back touching the auth middleware, you&rsquo;ve learned the request was never small. Not only that, you learned this in thirty minutes instead of two days.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is not letting the AI decide. It&rsquo;s using the AI to make human judgment cheaper and better-informed.</p>\n\n\n\n<h2 id=\"h-cheap-to-write-is-not-the-same-as-cheap-to-own\" class=\"wp-block-heading\">Cheap to write is not the same as cheap to own</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Here&rsquo;s the trap, and it&rsquo;s the most important distinction of the AI era. A <strong>change is not cheap just because the code was cheap to generate. It&rsquo;s cheap only if a human can confidently review and own the result.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">A thousand-line diff that technically passes but nobody wants to own is not a cheap change. It&rsquo;s a deferred cost. So the dividing line in that case isn&rsquo;t &ldquo;can an agent write this?&rdquo; It&rsquo;s &ldquo;can a person validate it?&rdquo;</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Adding a display field that already exists in the backend is usually cheap.</li>\n\n\n\n<li>Changing authorization behavior is not cheap, no matter how clean the diff.</li>\n\n\n\n<li>Refactoring a well-tested helper is usually cheap.</li>\n\n\n\n<li>Changing data-retention semantics is not cheap.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Plenty of changes still deserve a hard no even when the code is trivial. This includes anything that moves the product contract, creates a support burden, or touches privacy, billing, or compliance. AI lowers the cost of <em>producing</em> a candidate. It does nothing to lower the cost of <em>owning</em> one.</p>\n\n\n\n<h2 id=\"h-move-scope-discipline-closer-to-the-evidence\" class=\"wp-block-heading\">Move scope discipline closer to the evidence</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Traditionally, scope discipline happened before implementation, because implementation was the expensive thing to protect. Now some of that discipline can move to review. That doesn&rsquo;t mean skipping planning. It means being precise about which planning actually pays off.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Before relitigating a small change, ask for a constrained attempt. The constraints are the whole point.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Produce the smallest possible patch. Keep it behind the existing feature flag. Don&rsquo;t change the public contract. Add or update tests. List every file you touched and call out anything risky.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the agent can&rsquo;t produce a clean patch under those constraints, the request was bigger than you thought, and you know it carries a real ownership cost before anyone commits to it. If it can, that tells you something too. Either way you&rsquo;ve replaced &ldquo;is this in scope?&rdquo; with &ldquo;here&rsquo;s what it costs. Do we want to pay it?&rdquo;</p>\n\n\n\n<h2 id=\"h-the-new-skill-is-pricing-uncertainty\" class=\"wp-block-heading\">The new skill is pricing uncertainty</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The best engineers in an AI-assisted world won&rsquo;t be the ones who say yes to everything, and they won&rsquo;t be the ones who reflexively say no. They&rsquo;ll be the ones who can price uncertainty fast. They&rsquo;ll know when a request is a product decision wearing an implementation costume, when review will be harder than writing, and when a change is small enough that the fastest responsible answer is to just try it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That last one is genuinely new. &ldquo;Try it and see&rdquo; used to mean pulling a developer off other work. Now, for the right kind of task, it means handing an agent a bounded assignment and using the result to make a better call. Less time guessing, more time supervising. Less time treating implementation as a black box, more time evaluating concrete artifacts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Scope creep is still real. But &ldquo;no, because any new code is too expensive&rdquo; is a much weaker argument than it was two years ago. The cost of producing code has dropped. The cost of understanding, reviewing, and owning it didn&rsquo;t. So the question worth asking shifted from &ldquo;is this more work?&rdquo; to &ldquo;where&rsquo;s the real cost?&rdquo; And sometimes, for a small, bounded change, the real cost is just finding out.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The cost of saying yes has changed. The cost of saying no should change with it.</p>\n</body></html>\n<p>The post <a href=\"https://github.blog/engineering/the-cost-of-saying-yes-has-changed/\">The cost of saying yes has changed</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.740Z"
+    },
+    {
+      "id": "a1210195b51a4aa5",
+      "sourceId": "hackernews",
+      "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+      "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+      "publishedAt": "2026-07-17T14:06:13.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.567Z"
+    },
+    {
+      "id": "3293d2845978c618",
+      "sourceId": "simonwillison",
+      "title": "Quoting Kimi K3",
+      "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+      "publishedAt": "2026-07-17T13:43:53.000Z",
+      "rawContent": "<blockquote cite=\"https://news.ycombinator.com/item?id=48935342#48936515\"><p>Is there something I can actually help you with today?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48935342#48936515\">Kimi K3</a>, after refusing to leak its system prompt</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kimi\">kimi</a>, <a href=\"https://simonwillison.net/tags/ai-personality\">ai-personality</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.662Z"
+    },
+    {
+      "id": "1371fbba18fd875e",
+      "sourceId": "simonwillison",
+      "title": "LLM cliché highlighter",
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+      "publishedAt": "2026-07-17T12:11:11.000Z",
+      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/llm-cliche-highlighter\">LLM cliché highlighter</a></p>\n        <p>I got frustrated reading <em>yet another</em> article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.</p>\n<p><img alt=\"Screenshot of a text-analysis web tool. Top summary row: &quot;2 matches&quot;, &quot;1 flagged sentence&quot;, &quot;0 chain items&quot;. Below, a collapsed &quot;▶ Patterns · all 11 on&quot; panel, then a URL input reading &quot;https://example.com/article — fetched via r.jina.ai&quot; with a &quot;Load URL&quot; button. A text area contains &quot;That loss is real and it's worth naming&quot;. Below are &quot;Load example&quot; and &quot;Clear&quot; buttons and a checked checkbox &quot;Show just the highlights&quot;. A &quot;Highlighted text&quot; section shows &quot;That loss is real and it's worth naming&quot; with &quot;That loss&quot; in pale yellow (flagged sentence) and &quot;is real and&quot; plus &quot;'s worth naming&quot; in darker yellow (pattern match). Legend: &quot;flagged sentence&quot;, &quot;pattern match&quot;, &quot;3 chain item count&quot;. &quot;Matches&quot; section: 1. &quot;is real and&quot; — &quot;Is real … and / not&quot;; 2. &quot;'s worth naming&quot; — &quot;Worth naming&quot;.\" src=\"https://static.simonwillison.net/static/2026/the-loss-is-real.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.662Z"
+    },
+    {
+      "id": "c2d00a0d84d8c383",
+      "sourceId": "hackernews",
+      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "url": "https://news.ycombinator.com/item?id=48945241",
+      "publishedAt": "2026-07-17T09:42:05.000Z",
+      "rawContent": "URL already posted: <a href=\"https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status\" rel=\"nofollow\">https:&#x2F;&#x2F;health.aws.amazon.com&#x2F;health&#x2F;status</a><p>I&#x27;ve got an estimated bill for $1.7 BILLION over this month. Normal usage is &lt; $5.<p>Obvs have created an urgent AWS support ticket. Anyone else seeing something like this?<p>Update: Reddit link: <a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;aws&#x2F;comments&#x2F;1uyuaw7&#x2F;help_my_bill_skyrocketed_from_around_5_cents_per&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;aws&#x2F;comments&#x2F;1uyuaw7&#x2F;help_my_bill_s...</a>",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.567Z"
+    },
     {
       "id": "6fdc5ffcfb21b6ec",
       "sourceId": "hackernews",
@@ -270,6 +360,16 @@
       "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a37\">datasette 1.0a37</a></p>\n        <p>A minor release. Performance and <a href=\"https://docs.datasette.io/en/latest/authentication.html#authentication-permissions-explained\">documentation</a> improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-15T09:11:41.024Z"
+    },
+    {
+      "id": "6376b3ea545af2e8",
+      "sourceId": "hackernews",
+      "title": "Reviving a 15-year-old netbook with Arch Linux",
+      "url": "https://parksb.github.io/en/article/41.html",
+      "publishedAt": "2026-07-14T14:02:36.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-18T08:50:40.567Z"
     },
     {
       "id": "72f4eaab8d7ba2a1",
