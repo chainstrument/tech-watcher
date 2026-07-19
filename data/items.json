@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-18T08:50:41.523Z",
+  "updatedAt": "2026-07-19T09:07:23.537Z",
   "items": [
+    {
+      "id": "5ae030bf07aabbb3",
+      "sourceId": "hackernews",
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "publishedAt": "2026-07-19T08:44:57.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.502Z"
+    },
+    {
+      "id": "746ff2a79bb880c4",
+      "sourceId": "simonwillison",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "publishedAt": "2026-07-19T05:06:21.000Z",
+      "rawContent": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p>\nHere's an entertaining perspective from Nik Suresh on the AI mania that is overwhelming the large companies that he consults with. It's crammed with spicy anecdotes from anonymous sources.</p>\n<blockquote>\n<p>In one extreme case, I have seen an executive confess that they had never even used ChatGPT or any AI tool in their life, immediately after producing a technical strategy for an organisation with $2B+ in revenue which was entirely centered around AI.</p>\n</blockquote>\n<p>Here's a report from an engineer at a company with a token leaderboard:</p>\n<blockquote>\n<p>Checking out a parallel copy of our Go repository and telling the AI to rewrite the whole thing in Zig while I work on something else just so I can keep my job.</p>\n</blockquote>\n<p>I particularly enjoyed this report of a conversation with a skeptical executive at an over-enthusiastic company:</p>\n<blockquote>\n<p>I asked <em>why</em> this was being repeated without opposition. Was it just sales fluff?</p>\n<p>The answer was a lot more interesting. It was <em>partially</em> ridiculous sales material being delivered to an easily excitable audience, but this was not the dominant factor constraining honesty. Executives at their <em>customers</em> were saying absurd things about achieving 100x productivity, and this meant that if any executive at the <em>vendor</em> said that these gains were not plausible, it would undermine the credibility of the customer’s executive, be perceived as an attack (or heresy), and possibly result in an enterprise contract cancellation. And getting enterprise contracts cancelled because you wanted to opine on something that doesn’t really matter to your organisation’s mission is a great way to get fired.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48964185\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.597Z"
+    },
+    {
+      "id": "eb24893336d648f2",
+      "sourceId": "simonwillison",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "publishedAt": "2026-07-19T03:54:09.000Z",
+      "rawContent": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p>\n<blockquote>\n<p>Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.</p>\n</blockquote>\n<p>I decided to have a poke at my own Claude Code installation to see if I could find evidence that it was using Bun written in Rust.</p>\n<p>I found these two commands convincing:</p>\n<pre><code>strings ~/.local/bin/claude | grep -m1 'Bun v1'\n</code></pre>\n<p>For me this outputs <code>Bun v1.4.0 (macOS arm64)</code>. The most recent release of <a href=\"https://github.com/oven-sh/bun/releases\">Bun on GitHub</a> is currently <a href=\"https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14\">v1.3.14</a> from May 12th, so that v1.4.0 version number in Claude supports them shipping a preview of a not-yet-released Bun version.</p>\n<pre><code>strings ~/.local/bin/claude | grep -Eo 'src/[[:alnum:]_./-]+\\.rs'\n</code></pre>\n<p>This outputs a list of <a href=\"https://gist.github.com/simonw/c92fb0f67b114ac26e3b95a09ddccfdc\">563 filenames</a>, starting with these:</p>\n<pre><code>src/runtime/bake/dev_server/mod.rs\nsrc/runtime/bake/production.rs\nsrc/bundler/bundle_v2.rs\n</code></pre>\n<p>It looks like Bun in Rust is indeed being run in production across millions of different devices. Like Jarred said, \"Boring is good\".</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/bun\">bun</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/jarred-sumner\">jarred-sumner</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.597Z"
+    },
+    {
+      "id": "71d61e0fd00cea3c",
+      "sourceId": "hackernews",
+      "title": "Transcribe.cpp",
+      "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "publishedAt": "2026-07-19T00:38:26.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.502Z"
+    },
+    {
+      "id": "e4b958abbc0833ee",
+      "sourceId": "hackernews",
+      "title": "Codex Resets",
+      "url": "https://codex-resets.com/",
+      "publishedAt": "2026-07-18T23:24:26.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.502Z"
+    },
+    {
+      "id": "b38b4ea43037f58e",
+      "sourceId": "simonwillison",
+      "title": "SQLite Query Explainer",
+      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "publishedAt": "2026-07-18T17:19:10.000Z",
+      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/sqlite-query-explainer\">SQLite Query Explainer</a></p>\n        <p>Julia Evan's, in <a href=\"https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/\">Learning a few things about running SQLite</a>:</p>\n<blockquote>\n<p>Maybe one day I’ll learn to read a query plan.</p>\n</blockquote>\n<p>Big same.... which inspired me to <a href=\"https://github.com/simonw/tools/pull/299#issue-4919268017\">have Fable build</a> this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN.</p>\n<p>Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/julia-evans\">julia-evans</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.597Z"
+    },
     {
       "id": "efd351343b074a48",
       "sourceId": "simonwillison",
@@ -262,6 +322,16 @@
       "createdAt": "2026-07-16T09:18:27.932Z"
     },
     {
+      "id": "4ba1637846a28f31",
+      "sourceId": "hackernews",
+      "title": "Searchable field-level encryption on Supabase with CipherStash",
+      "url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+      "publishedAt": "2026-07-15T13:10:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.502Z"
+    },
+    {
       "id": "976bea8ce91753b4",
       "sourceId": "hackernews",
       "title": "I tricked Claude into leaking your deepest, darkest secrets",
@@ -340,6 +410,16 @@
       "rawContent": "<p><strong><a href=\"https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite\">lobste.rs is now running on SQLite</a></strong></p>\nCommunity site <a href=\"https://lobste.rs\">Lobsters</a> has been planning a migration away from MariaDB <a href=\"https://github.com/lobsters/lobsters/issues/539#issuecomment-4959857588\">since August 2018</a> - originally targeting PostgreSQL, but last year they decided to <a href=\"https://github.com/lobsters/lobsters/issues/539#issuecomment-2964114295\">investigate SQLite</a> instead.</p>\n<p>This weekend they completed the migration, and now consider it stable enough that it looks like this is the permanent architecture for the site going forward:</p>\n<blockquote>\n<p>SQLite seems to have passed with flying colors: cpu usage is down, memory usage is down, site seems to be snappier at least for me, 1/2 the vps cost once mariadb vps is taken down</p>\n</blockquote>\n<p>The Lobsters Rails application now runs on a single VPS, with a primary content SQLite database file that's around 3.8GB. <a href=\"https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite#c_c9ydhs\">There's also</a> a 1.1GB cache database, a 218MB queue database, and a still growing 555MB rack_attack database used by the <a href=\"https://github.com/rack/rack-attack\">Rack::Attack</a> middleware for blocking and throttling abusive requests.</p>\n<p>There are plenty more details in both the linked thread and this <a href=\"https://github.com/lobsters/lobsters/pull/1927\">SQLite migration PR</a> by Thomas Dziedzic, which added 735 lines and removed 593 lines across 30 commits and 188 files. That PR built on top of previous PRs <a href=\"https://github.com/lobsters/lobsters/pull/1705\">#1705</a>, <a href=\"https://github.com/lobsters/lobsters/pull/1871\">#1871</a>, and <a href=\"https://github.com/lobsters/lobsters/pull/1924\">#1924</a>.</p>\n<p>This is a really useful case study, and a great reminder that you can get a whole lot done with a single server and SQLite in 2026.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/migrations\">migrations</a>, <a href=\"https://simonwillison.net/tags/ops\">ops</a>, <a href=\"https://simonwillison.net/tags/rails\">rails</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/lobsters\">lobsters</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-15T09:11:41.024Z"
+    },
+    {
+      "id": "04625b5fdd1588b1",
+      "sourceId": "hackernews",
+      "title": "Speech Recognition and TTS in less than 500kb",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "publishedAt": "2026-07-14T19:25:10.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-19T09:07:22.502Z"
     },
     {
       "id": "3a7c85312127dd26",
