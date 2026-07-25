@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-07-24T09:23:45.796Z",
+  "updatedAt": "2026-07-25T09:02:13.940Z",
   "items": [
+    {
+      "id": "ed0e22ab64a7d795",
+      "sourceId": "hackernews",
+      "title": "Android May Soon Restrict On-Device ADB",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "publishedAt": "2026-07-25T06:57:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:12.997Z"
+    },
+    {
+      "id": "a27f2ad202a2b5a7",
+      "sourceId": "hackernews",
+      "title": "ARC-AGI Leaderboard",
+      "url": "https://arcprize.org/leaderboard",
+      "publishedAt": "2026-07-25T06:31:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:12.997Z"
+    },
+    {
+      "id": "9ee2ff011967b57b",
+      "sourceId": "hackernews",
+      "title": "Hannah Fry Wins the Leelavati Prize in 2026 for Mathematics Outreach",
+      "url": "https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize",
+      "publishedAt": "2026-07-25T01:44:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:12.997Z"
+    },
+    {
+      "id": "25a79f33334f2b0e",
+      "sourceId": "simonwillison",
+      "title": "Quoting Boris Cherny",
+      "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "publishedAt": "2026-07-25T00:42:59.000Z",
+      "rawContent": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/bcherny/status/2080713091688583312\">Boris Cherny</a>, here's that <a href=\"https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73\">System Card section</a>, page 73</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/boris-cherny\">boris-cherny</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:13.108Z"
+    },
+    {
+      "id": "9ad129712140dfd6",
+      "sourceId": "simonwillison",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "publishedAt": "2026-07-24T23:48:50.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently <a href=\"https://twitter.com/artificialanlys/status/2080777718933995967\">leading the Artificial Analysis leaderboard</a>, in front of even Fable 5.</p>\n<p>It's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model.</p>\n<p>Based on this anecdote in the release post it sounds like it might be <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">relentlessly proactive</a>:</p>\n<blockquote>\n<p>On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part.</p>\n</blockquote>\n<p>It's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down!</p>\n<blockquote>\n<p>As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at <em>finding</em> cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the <em>exploitation</em> of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats.</p>\n</blockquote>\n<p>Anthropic have published a <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5\">prompting guide for Claude Opus 5</a>. Thariq Shihipar has also written <a href=\"https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models\">The new rules of context engineering for Claude 5 generation models</a>.</p>\n<p>The <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2F8272dfee5bdb65d5c88eef083da3ad885539b7df%2Flog.md\">first pelican I got</a> was missing the bicycle wheels; the <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2Ffeaab840ea20eb15e29d8f72a9e42feceb23876a%2Flog.md\">second attempt</a> was better.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:13.108Z"
+    },
+    {
+      "id": "c34a327604b5be4a",
+      "sourceId": "hackernews",
+      "title": "Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": "2026-07-24T16:57:41.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card\" rel=\"nofollow\">https:&#x2F;&#x2F;www.anthropic.com&#x2F;claude-opus-5-system-card</a>",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:12.997Z"
+    },
     {
       "id": "62214f5a155c9b72",
       "sourceId": "hackernews",
@@ -320,6 +380,16 @@
       "rawContent": "<p>I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.</p>\n<p>I think this is an interesting illustration of the impact of the reduced cost of writing code.</p>\n<p>Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?</p>\n<p>Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reverse-engineering\">reverse-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-21T09:30:33.641Z"
+    },
+    {
+      "id": "54c0986ae7fe677b",
+      "sourceId": "hackernews",
+      "title": "GC and Exceptions in Wasmtime",
+      "url": "https://bytecodealliance.org/articles/wasmtime-gc",
+      "publishedAt": "2026-07-20T17:10:50.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-07-25T09:02:12.997Z"
     },
     {
       "id": "7ca284d7d58869e9",
