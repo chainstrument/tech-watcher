@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-08-02T09:11:59.610Z",
+  "updatedAt": "2026-08-03T10:46:29.491Z",
   "items": [
+    {
+      "id": "775806d13c9377f5",
+      "sourceId": "hackernews",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "publishedAt": "2026-08-03T09:32:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.505Z"
+    },
+    {
+      "id": "afb0f073a143217f",
+      "sourceId": "hackernews",
+      "title": "Less Coffee, Better Sleep",
+      "url": "https://www.marginalia.nu/log/a_109_sleep2/",
+      "publishedAt": "2026-08-03T09:10:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.505Z"
+    },
+    {
+      "id": "19c04799c7167091",
+      "sourceId": "hackernews",
+      "title": "Bonsai: Janestreet's UI Library",
+      "url": "https://github.com/janestreet/bonsai",
+      "publishedAt": "2026-08-03T08:29:57.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.505Z"
+    },
+    {
+      "id": "7261192e5d958e9b",
+      "sourceId": "hackernews",
+      "title": "Don't be a meat proxy",
+      "url": "https://gruhn.me/blog/2026-08-03/",
+      "publishedAt": "2026-08-03T06:28:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.505Z"
+    },
+    {
+      "id": "29578a85932db50f",
+      "sourceId": "hackernews",
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "publishedAt": "2026-08-03T02:16:09.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.505Z"
+    },
+    {
+      "id": "76a4c194005a7e61",
+      "sourceId": "simonwillison",
+      "title": "condense-json 1.0",
+      "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+      "publishedAt": "2026-08-02T22:19:59.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p>\n        <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p>\n<p>Here's an example of what it can do, lifted from the README:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string with foxes in it<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another with foxes in it too<span class=\"pl-pds\">\"</span></span>]\n      }\n    }\n  }\n}</pre></div>\n<p>Combine that with a replacements object:</p>\n<div class=\"highlight highlight-source-json\"><pre>{<span class=\"pl-ent\">\"1\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>with foxes in it<span class=\"pl-pds\">\"</span></span>}</pre></div>\n<p>And <code>condense_json(input_json, replacements)</code> produces the following:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}]},\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span> too<span class=\"pl-pds\">\"</span></span>]}]\n      }\n    }\n  }\n}</pre></div>\n<p>It scans for strings or substrings that are present in that replacements object and replaces those with a special <code>{\"$r\": ...}</code> syntax in the output.</p>\n<p>You can reverse the effect with <code>uncondense_json(condensed, replacements)</code>.</p>\n\n<p>The idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by <a href=\"https://llm.datasette.io/\">LLM</a> - see <a href=\"https://github.com/simonw/llm/pull/1586\">PR #1586</a> for the latest iteration of that.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/json\">json</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-03T10:46:28.668Z"
+    },
     {
       "id": "fe470f21b2646aa3",
       "sourceId": "simonwillison",
