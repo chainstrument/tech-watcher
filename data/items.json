@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-03T10:46:29.491Z",
+  "updatedAt": "2026-08-04T09:40:35.086Z",
   "items": [
+    {
+      "id": "bc65587780a40f67",
+      "sourceId": "hackernews",
+      "title": "Harness Engineering for Self-Improvement",
+      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "publishedAt": "2026-08-04T06:17:54.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:33.996Z"
+    },
+    {
+      "id": "feb44c460a41cd08",
+      "sourceId": "simonwillison",
+      "title": "Quoting Steve Yegge",
+      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+      "publishedAt": "2026-08-04T00:42:45.000Z",
+      "rawContent": "<blockquote cite=\"https://yegge.ai/essays/the-shape-of-things-to-come/\"><p><a href=\"https://yegge.ai/gastown.html\">Gas Town</a> was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">Steve Yegge</a>, The Shape of Things to Come</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/steve-yegge\">steve-yegge</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:34.105Z"
+    },
+    {
+      "id": "bb9f77eb4d91620f",
+      "sourceId": "simonwillison",
+      "title": "Don't be a meat proxy",
+      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+      "publishedAt": "2026-08-03T23:45:04.000Z",
+      "rawContent": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p>\nNiklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>\n<blockquote>\n<p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/definitions\">definitions</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:34.105Z"
+    },
+    {
+      "id": "87da4fd2d88c7015",
+      "sourceId": "hackernews",
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "publishedAt": "2026-08-03T21:13:53.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:33.996Z"
+    },
+    {
+      "id": "2c81603e7aea49b9",
+      "sourceId": "hackernews",
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "publishedAt": "2026-08-03T16:54:15.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:33.996Z"
+    },
+    {
+      "id": "9337088aa5bc28bb",
+      "sourceId": "hackernews",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "publishedAt": "2026-08-03T16:27:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:33.996Z"
+    },
+    {
+      "id": "9fe0fd997118bc21",
+      "sourceId": "simonwillison",
+      "title": "Quoting David Crawshaw's prompt",
+      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "publishedAt": "2026-08-03T16:15:27.000Z",
+      "rawContent": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:34.105Z"
+    },
+    {
+      "id": "dcbb8b19832cad60",
+      "sourceId": "simonwillison",
+      "title": "Devtools must be open source (exe.dev)",
+      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "publishedAt": "2026-08-03T15:30:38.000Z",
+      "rawContent": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>\n<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on <em>other people</em> to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>\n<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.</p>\n<p>Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\".</p>\n<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>\n<p>I'm not habitually <em>modifying</em> the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:34.105Z"
+    },
     {
       "id": "775806d13c9377f5",
       "sourceId": "hackernews",
@@ -440,6 +520,16 @@
       "rawContent": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live in <a href=\"https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html\">Impagliazzo’s Minicrypt</a>) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\">Matthew Green</a>, on <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">Anthropic's recent cryptography work</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/cryptography\">cryptography</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-30T09:33:44.143Z"
+    },
+    {
+      "id": "801d0980dcd5d47b",
+      "sourceId": "hackernews",
+      "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
+      "url": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
+      "publishedAt": "2026-07-29T16:07:46.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-04T09:40:33.996Z"
     },
     {
       "id": "4bae8ecf85631780",
