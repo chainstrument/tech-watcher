@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-08-16T07:34:00.919Z",
+  "updatedAt": "2026-08-17T07:55:17.941Z",
   "items": [
+    {
+      "id": "e76e49416a37f96d",
+      "sourceId": "hackernews",
+      "title": "Linear Algebra Done Right – Sheldon Axler",
+      "url": "https://linear.axler.net/",
+      "publishedAt": "2026-08-17T05:21:34.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.011Z"
+    },
+    {
+      "id": "d1b716ac63674bba",
+      "sourceId": "hackernews",
+      "title": "GIMP Development Update",
+      "url": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+      "publishedAt": "2026-08-17T03:08:47.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.011Z"
+    },
+    {
+      "id": "b2b654098c8b61bd",
+      "sourceId": "simonwillison",
+      "title": "Markdown SVG upgrades",
+      "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+      "publishedAt": "2026-08-16T23:59:37.000Z",
+      "rawContent": "<p>I started building my <a href=\"https://tools.simonwillison.net/markdown-svg-renderer\">markdown-svg-renderer</a> tool <a href=\"https://tools.simonwillison.net/colophon#markdown-svg-renderer.html\">in May</a>, but I've since added enough features to it that it's worth talking about here again.</p>\n<p>It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">proclivity for drawing pelicans riding bicycles</a> this is a problem that I needed to solve!</p>\n<p>The tool is very simple. Navigate to <a href=\"https://tools.simonwillison.net/markdown-svg-renderer\">markdown-svg-renderer</a> in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document.</p>\n<p>The URL option will give you a bookmarkable page, for example <a style=\"overflow-wrap: anywhere;\" href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657</a> - which bakes in the URL to <a href=\"https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657\">this Gist</a>.</p>\n<p>If you visit <a href=\"https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657\">the Gist</a> you'll see raw SVG:</p>\n<p><img alt=\"beautiful-circle.md. Here's a self-contained SVG — a &quot;compass study&quot; of a circle with construction lines, a slowly rotating tick ring, and an orbiting accent dot: a block of SVG code\" src=\"https://static.simonwillison.net/static/2026/raw-svg.webp\" /></p>\n<p>In the rendered tool that <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">looks like this</a> instead:</p>\n<p><img alt=\"The same text, but now the code block has been replaced by a tabbed panel. The selected tab reads &quot;Rendered&quot; and shows the rendered PNG. The other tabs are PNG, JPEG, MP4, and Code\" src=\"https://static.simonwillison.net/static/2026/rendered-svg.webp\" /></p>\n<p>As you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs.</p>\n<p>The tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly.</p>\n<p>The MP4 tab is <a href=\"https://github.com/simonw/tools/commit/73e0327f6df9887ba2a9f9f16a2d06a45451d248\">new today</a> - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of <a href=\"https://github.com/ffmpegwasm/ffmpeg.wasm\">ffmpeg.wasm</a> so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser.</p>\n<p>Being able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/svg\">svg</a>, <a href=\"https://simonwillison.net/tags/markdown\">markdown</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.136Z"
+    },
+    {
+      "id": "9b4724385d5c91f3",
+      "sourceId": "hackernews",
+      "title": "Reticulum – Decentralized Mesh Network",
+      "url": "https://reticulum.network/",
+      "publishedAt": "2026-08-16T23:59:10.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.011Z"
+    },
+    {
+      "id": "79efbb054d4af9fc",
+      "sourceId": "hackernews",
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "publishedAt": "2026-08-16T23:45:09.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.011Z"
+    },
+    {
+      "id": "0ef5795694b3dbb2",
+      "sourceId": "hackernews",
+      "title": "A third world engineer responds to “RISC-V: They should have known better”",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "publishedAt": "2026-08-16T17:01:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.011Z"
+    },
+    {
+      "id": "e27bba9b0711b6a2",
+      "sourceId": "simonwillison",
+      "title": "Quoting Dario Amodei",
+      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+      "publishedAt": "2026-08-16T15:05:36.000Z",
+      "rawContent": "<blockquote cite=\"https://twitter.com/darioamodei/status/2088758819304443967\"><p>I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is <em>actually curing cancer</em>.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/darioamodei/status/2088758819304443967\">Dario Amodei</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-backlash\">ai-backlash</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-17T07:55:17.136Z"
+    },
     {
       "id": "3024fe00b473981e",
       "sourceId": "hackernews",
@@ -4930,76 +5000,6 @@
       "rawContent": "<p>What are you doing this week? Feel free to share!</p>\n<p>Keep in mind it’s OK to do nothing at all, too.</p>",
       "status": "nouveau",
       "createdAt": "2026-06-22T14:27:48.154Z"
-    },
-    {
-      "id": "f5fee1e6745a6575",
-      "sourceId": "theregister",
-      "title": "As another UK prime minister bites the dust, a contradictory tech legacy remains",
-      "url": "https://www.theregister.com/public-sector/2026/06/22/as-another-uk-prime-minister-bites-the-dust-a-contradictory-tech-legacy-remains/5259470",
-      "publishedAt": "2026-06-22T13:05:54.000Z",
-      "rawContent": " Long have we known that technology speeds up everything, and it's no different with British prime ministers. In the last ten years, the UK has gone through six prime ministers; it took 34 years to get through the previous six. Nonetheless, Sir Keir Starmer had hoped to make an impact on the UK tech industry and the government's use of technology during his tenure. Given the results, it may be a mixed blessing that, after nearly two years, he has achieved little. The signs were not good from the start. Desperate to invest without raising taxes, his government claimed it could find £45 billion in efficiency savings by applying AI and automation in the public sector. It even gave the cutesy Humphrey moniker to one AI bot in a reference to the much-loved sitcom Yes Minister. No Chance Minister would have been more accurate, as experts poured scorn on the estimate and, just a few weeks ago, a committee of MPs warned that such hype hinders effective digitization of government services. The botched announcement, which had little impact, set a precedent for how the Starmer government's technology policies would unfold: grand promises, too little thought, and contradictory priorities. Take another high-profile announcement. In July last year, then-technology secretary Peter Kyle signed a pact with Google Cloud with the promise to \"upskill\" as many as 100,000 civil servants in the latest tech by 2030. The agreement, announced at the Google Cloud Summit London, promised to help meet the government's target of having one in ten public officials designated \"tech experts\" to implement civil service reform. Google DeepMind would also work with technical experts in government to support them in \"deploying and diffusing\" emerging technologies. But the government later clarified that its deal with the Chocolate Factory \"doesn't comprise any specific commercial agreement\" and there was no payment schedule from the government. Google's apparent deal was just one tied to a $42 billion (£31 billion) trade pact announced to coincide with a visit from US President Trump. Just a year later, the government now wants to focus £400 billion in public spending power on UK sovereignty and innovation, including investment in tech. Nonetheless, the government has shown repeatedly that it is unable to hold its largest tech suppliers to account, as the supplier at the heart of the historic Horizon scandal – Fujitsu – has yet to contribute to compensation for victims of one of the nation's worst miscarriages of justice, one that, in fairness, predates Starmer's time in office by more than a decade. Also demonstrating the government's tendency to promote conflicting priorities is its so-called pro-growth approach to regulation. Yet, in March this year, the chair of the Competition and Markets Authority's cloud inquiry quit, citing the slow pace of implementing recommendations outlined in a report it published in 2025. As if to demonstrate its inability to resist the temptation to introduce more regulation when it gets a good headline, the government has set out plans to ban under-16s from social media platforms. In 2024, the finance minister promised the NHS £3.4 billion in IT investment, claiming it would unlock £35 billion in efficiency savings by the end of the decade. But the investment is under scrutiny from His Majesty's Treasury and requires an act of Parliament to remove the role of NHS England in implementing health tech policy. Starmer will perhaps be best known in tech circles for resurrecting the idea of digital ID cards, a classic in the solution-looking-for-a-problem genre. In September last year, the Starmer-backed policy promised that all legal residents would use digital identity to prove their right to work by the end of the current Parliament, which could run until August 2029. But by May this year, the plan, which leaves questions over its funding unanswered, was slammed by MPs as a poorly planned \"fiasco.\" In the next few weeks, or possibly days, the UK will get some clarity on the identity of the next prime minister. Front-runner Andy Burnham has already spoken out against digital ID cards, suggesting plans might be nixed if he wins power. Nonetheless, UK citizens can look forward to another ride on the government tech hype cycle. The next prime minister will be caught in the trap between unwanted tax rises and much-needed public investment, just like the last. A politician in a tight spot seldom keeps their hands out of the cookie jar of tech promises for long. ® ",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.924Z"
-    },
-    {
-      "id": "f995309498c32ea5",
-      "sourceId": "theregister",
-      "title": "Brazil probes emergency warning system after nationwide rogue alert",
-      "url": "https://www.theregister.com/security/2026/06/22/brazil-begins-investigating-emergency-alert-system-breach/5259421",
-      "publishedAt": "2026-06-22T12:49:58.000Z",
-      "rawContent": " The Brazilian National Secretariat for Civil Protection and Defense (SEDEC) and Federal Police (PF) are investigating a suspected hack of the country's emergency alert system after an unauthorized \"extreme\" alert pinged devices across the country. Defesa Civil Nacional confirmed that its dispatch platform, often used to inform the public about severe weather events, was taken offline in the early hours of Saturday, June 20, after Brazilians reported the alert, which read: \"Alerta extremo - Defesa Civil:misantropi4.\" \"Misantropia\" is Portuguese for misanthropy, hatred of humankind. The message reached an unknown number of devices, with reports coming from São Paulo, Rio de Janeiro, Paraná, and the Federal District. Civil defense authorities in all four areas confirmed the alerts were bogus and likely stemmed from an attack on the system overseen by Brazil's National Telecommunications Agency, Anatel. \"Anatel clarifies that the alert messages received by mobile phone users during the early hours of this Saturday were not issued by the competent authorities responsible for the population alert system,\" it said in a statement. \"There is currently no reason for concern on the part of the population as a result of the messages received.\" The agency went on to say that it remained confident in the alert broadcast system's capability to help save lives during periods of disaster. National Civil Defense officials have not confirmed whether anyone responsible for the suspected breach has been identified or apprehended, although they are not believed to be part of government staff. \"The Defesa Civil Alerta dispatch platform was taken offline at 01:30 this Saturday (6/20), after suffering a breach and issuing an alert to various regions of the country, remotely ordered by someone outside the National System of Protection and Civil Defense,\" the department stated. \"The message issued was of the Extreme Alert type and contained the word 'misanthropy' – which means hatred of humanity. It is likely a hacker attack.\" A Defesa Civil Nacional chief said in a press conference that a new dispatch system was already under development that would place greater emphasis on security and preventing unauthorized intrusions. The agency also committed to relaunching the affected system as soon as possible after ensuring it is properly secured. ® ",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.924Z"
-    },
-    {
-      "id": "114b8069ab8667b8",
-      "sourceId": "hackernews",
-      "title": "window.showDirectoryPicker opens up a whole new world",
-      "url": "https://steveharrison.dev/showdirectorypicker-opens-up-a-whole-new-world/",
-      "publishedAt": "2026-06-22T12:42:22.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "0ddfb42db430db57",
-      "sourceId": "hackernews",
-      "title": "Becoming a dad changes men's brains",
-      "url": "https://www.scientificamerican.com/article/how-becoming-a-dad-changes-mens-brains/",
-      "publishedAt": "2026-06-22T12:39:43.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "8e7616c4c4c9f69b",
-      "sourceId": "lobsters",
-      "title": "Linux and Secure Boot certificate expiration",
-      "url": "https://lwn.net/Articles/1029767/",
-      "publishedAt": "2026-06-22T12:37:47.000Z",
-      "rawContent": "<p><a href=\"https://lobste.rs/s/hpx7an/linux_secure_boot_certificate\">Comments</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:48.154Z"
-    },
-    {
-      "id": "b78bac4e35bb1517",
-      "sourceId": "hackernews",
-      "title": "Show HN: Got sick of ads, so I made my own logic puzzle site",
-      "url": "https://puzzlelair.com/",
-      "publishedAt": "2026-06-22T12:23:46.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "05400da6539f867f",
-      "sourceId": "theregister",
-      "title": "Microsoft accidentally kills epic Outlook email threads",
-      "url": "https://www.theregister.com/personal-tech/2026/06/22/microsoft-accidentally-kills-epic-outlook-email-threads/5259388",
-      "publishedAt": "2026-06-22T12:14:00.000Z",
-      "rawContent": " Microsoft has managed to break a very basic Outlook function – the ability to include the previous email in a reply. The issue, which afflicts Outlook for Mac, was introduced in version 16.110, build 26061317, which rolled out to users last week. Before the update, the original message appeared in the reply window. After the update, nothing. One affected user said: \"It makes it impossible to have a proper email thread because the recipient can't see the conversation history.\" Another remarked: \"This is an extremely frustrating bug in this last update, and I hope a fix is on the way. This is frankly quite disappointing that something major like this completely evaded the software testing process before it was being rolled out.\" The solution, according to one of Microsoft's forum moderators, is to roll back to a previous version and turn off auto-updating until a fix is released. Great for users in full control of their devices – not so good for anyone with a managed device. Administrators with fleets of Macs running Outlook should brace for helpdesk tickets. In some instances, having a user copy and paste the salient bits of the email they are responding to might not be such a bad thing. We've all had emails that required epic amounts of scrolling to find what started the conversation, so forcing users to think about what they actually need to include is no bad thing. However, disrupting user workflows without warning – well, that is undoubtedly a bad thing. This is, after all, one of the most basic things an email client needs to do, so shipping a product with a bug that breaks this functionality says more about Microsoft's approach to quality than anything else. The Register asked Microsoft for its take on the matter, but the tech behemoth has yet to respond. Microsoft has already delivered a kicking to Apple hardware users in recent weeks. Office 2019 will cease to be useful on the platform in July, or enter a \"reduced functionality mode\" in Microspeak, with the only option available to users keen to remain Office customers being an upgrade. However, as this latest bug demonstrates, running Microsoft's latest and greatest carries its own risks. ® ",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.924Z"
     }
   ]
 }
