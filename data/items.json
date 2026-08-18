@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-08-17T07:55:17.941Z",
+  "updatedAt": "2026-08-18T07:41:16.748Z",
   "items": [
+    {
+      "id": "5c1052a6b247c228",
+      "sourceId": "hackernews",
+      "title": "The Benchmarkpocalypse",
+      "url": "https://danluu.com/benchpocalypse/",
+      "publishedAt": "2026-08-18T02:11:02.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.807Z"
+    },
+    {
+      "id": "e31db42fd1ba6c48",
+      "sourceId": "simonwillison",
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "publishedAt": "2026-08-17T23:58:14.000Z",
+      "rawContent": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>\n<p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishing model</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49334544\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.937Z"
+    },
+    {
+      "id": "a52672b0840956f8",
+      "sourceId": "hackernews",
+      "title": "How Bluesky draws its logo on screenshots",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+      "publishedAt": "2026-08-17T22:20:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.807Z"
+    },
+    {
+      "id": "b961931d546f10f9",
+      "sourceId": "hackernews",
+      "title": "Quake Shareware, a CD-ROM just a little too full",
+      "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+      "publishedAt": "2026-08-17T22:06:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.807Z"
+    },
+    {
+      "id": "2b385af36e4880c9",
+      "sourceId": "hackernews",
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "url": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "publishedAt": "2026-08-17T22:01:17.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.807Z"
+    },
+    {
+      "id": "f8a2ad7a615b241b",
+      "sourceId": "hackernews",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "publishedAt": "2026-08-17T21:03:18.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.807Z"
+    },
+    {
+      "id": "539a4e5f39bd505f",
+      "sourceId": "github-blog",
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "publishedAt": "2026-08-17T16:00:00.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">When I was in college, I joined the beta for one of the first versions of AI inline completions in VS Code. It felt like a game changer. Since then, GenAI has fundamentally changed software development: hybrid teams where agents and humans work in tandem, with the developer at the center as visionary and orchestrator. We are living in that transition right now.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" fetchpriority=\"high\" decoding=\"async\" height=\"312\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?resize=1024%2C312\" alt=\"A software lifecycle timeline &mdash; Plan, Build, Review, Ship &mdash; with intertwining green and purple paths representing a human and an AI agent working in tandem.\" class=\"wp-image-98310\" srcset=\"https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?w=1608 1608w, https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?w=300 300w, https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?w=768 768w, https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/08/623371402-ddb0772d-e566-4895-b030-6be9b0fe304c.png?w=1536 1536w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">As a natural byproduct of how fast innovation in GenAI has moved, we now have tools to help us plan, build, review, and ship code. But in the current state, many workflows still feel disjointed. Context gets lost across threads and surfaces, and too much time gets spent reviewing agent-generated work. Agents can produce changes faster than any human can review them, and most developer tools were not originally designed for multi-agent orchestration. It becomes easy to lose track of what ran, what changed, what was validated, and what still needs human judgment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The GitHub Copilot app is a major step toward addressing this. One feature in particular that I&rsquo;ve learned to love and use almost every day is <strong>canvases</strong>. Canvases let developers and agents interact on a durable, shared surface. Instead of treating chat as the only place where work happens, canvases make work visible, steerable, and approvable as it unfolds.</p>\n\n\n\n<h2 id=\"h-chat-is-great-for-intent-but-weak-for-durable-execution\" class=\"wp-block-heading\">Chat is great for intent, but weak for durable execution</h2>\n\n\n\n<p class=\"wp-block-paragraph\">I still believe chat is one of the best interfaces we have for intent. It&rsquo;s where you can think, refine, and direct. It&rsquo;s fast and flexible, especially when the problem is still ambiguous.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But once an agent starts doing real work, chat becomes a long scroll of instructions, logs, pivots, and corrections. The important parts are technically there, but buried: the plan, decision points, validations, and approval moments. If you have to reconstruct all of that from history, you&rsquo;re already paying a coordination tax.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Canvases solve that by giving workflows a home. They make state explicit and persistent. Humans can inspect and guide. Agents can update and progress. Both can stay aligned without constantly replaying context.</p>\n\n\n\n<h2 id=\"h-the-first-build-java-modernization-studio\" class=\"wp-block-heading\">The first build: Java Modernization Studio</h2>\n\n\n\n<p class=\"wp-block-paragraph\">One of the first canvases I built was <strong>Java Modernization Studio</strong>. Java modernization is exactly the kind of workflow where visibility and governance matter: assessment, planning, migration tasks, validation gates, and readiness to ship.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In a chat-only experience, those steps blur together. You can still move forward, but it gets harder to audit and harder to trust at scale, especially with multiple contributors. Teams keep asking the same expensive questions: What stage are we in? What decisions were made? What is blocked? What still needs human approval?</p>\n\n\n\n<p class=\"wp-block-paragraph\">The studio made each phase explicit and inspectable. Instead of parsing narrative history, teams could see operational state directly. Instead of guessing what happened, they could verify it. Human reviewers could focus on high-signal judgments while agents kept execution moving between checkpoints.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img data-recalc-dims=\"1\" decoding=\"async\" width=\"2200\" height=\"2494\" src=\"https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?resize=2200%2C2494\" alt=\"The Java Modernization Studio canvas Overview tab, showing the modernization journey (Assess, Remediate, Validate, Ship), a compile-blocker card, a Run on autopilot option, assessment findings with P0&ndash;P3 severity counts, and the detected stack.\" class=\"wp-image-98311\" srcset=\"https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=2200 2200w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=265 265w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=768 768w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=903 903w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=1355 1355w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=1807 1807w, https://github.blog/wp-content/uploads/2026/08/623375232-cbf590d3-74d6-471d-be21-76add276959b.png?w=2000 2000w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://awesome-copilot.github.com/extension/appmod-cockpit/\"><strong>Explore the Java Modernization Studio canvas &gt;</strong></a></p>\n\n\n\n<h2 id=\"h-the-second-build-site-studio\" class=\"wp-block-heading\">The second build: Site Studio</h2>\n\n\n\n<p class=\"wp-block-paragraph\">After that, I built <strong>Site Studio</strong> for a very different workflow: creating and managing personal site content. It&rsquo;s content-heavy rather than migration-heavy, but the orchestration challenge is similar: section progress, iterative edits, review loops, and status transitions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In a chat-only flow, content can drift quickly. A section gets revised, then revised again, and confidence drops in what is current. Feedback gets scattered, drafts repeat, and momentum slows because each iteration starts by rebuilding context.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Site Studio keeps that state durable. Section status is visible. Draft values are persisted as work happens. Human review points are explicit. The agent can keep moving while the human can steer, approve, or redirect without losing the thread.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img data-recalc-dims=\"1\" decoding=\"async\" width=\"1185\" height=\"2623\" src=\"https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?resize=1185%2C2623\" alt=\"The Site Studio canvas Content tab at 100% completion, with editable sections &mdash; Design System, Hero, Navigation, About, Conference Talks, Videos, and Contact &mdash; each showing filled fields and a Mark ready for review action.\" class=\"wp-image-98313\" srcset=\"https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=1185 1185w, https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=136 136w, https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=768 768w, https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=463 463w, https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=694 694w, https://github.blog/wp-content/uploads/2026/08/623387227-87abbc64-0005-4816-a6f5-3c86756e1651.png?w=925 925w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><a href=\"https://awesome-copilot.github.com/extension/site-studio/\">Explore the Site Studio canvas &gt;</a></strong></p>\n\n\n\n<h2 id=\"h-the-repeatable-pattern\" class=\"wp-block-heading\">The repeatable pattern</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Across both canvases, I found the same repeatable blueprint:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Define workflow states clearly.</li>\n\n\n\n<li>Surface the decisions that matter.</li>\n\n\n\n<li>Persist progress and drafts immediately.</li>\n\n\n\n<li>Keep explicit human approval points.</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\">This shifts the model from prompt-by-prompt interaction to durable collaborative workflows. You stop treating each turn like a fresh start and start treating each workflow like a system with memory, structure, and control.</p>\n\n\n\n<h2 id=\"h-cost-and-efficiency-yes-canvases-are-an-investment\" class=\"wp-block-heading\">Cost and efficiency: yes, canvases are an investment</h2>\n\n\n\n<p class=\"wp-block-paragraph\">I also want to be explicit about cost: canvases can be an investment. For instance, Site Studio cost me about 2,000 AI credits, and the modernization canvas cost me about 3,000 AI credits. They take effort to design and shape well.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But in the long run, especially for repeated workflows, that investment pays back. Durable surfaces reduce repeated prompting, reduce context loss, reduce unnecessary back-and-forth, and reduce rework. Over time, that can save both time and money while improving trust and throughput.</p>\n\n\n\n<p class=\"wp-block-paragraph\">So for me, this is not &ldquo;spend more tokens for nicer UX.&rdquo; It&rsquo;s &ldquo;invest in better workflow architecture so recurring work becomes more efficient, predictable, and governable.&rdquo;</p>\n\n\n\n<h2 id=\"h-available-now-in-awesome-copilot\" class=\"wp-block-heading\">Available now in awesome-copilot</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The canvases I built&mdash;<strong>Java Modernization Studio</strong> and <strong>Site Studio</strong>&mdash;<a href=\"https://awesome-copilot.github.com/extensions/\">are available in <strong>awesome-copilot</strong></a> for anyone who wants to use them, adapt them, or learn from them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you are already using Copilot agents, a practical next step is to pick one repeated workflow and build a minimal canvas around it with <code>/create-canvas</code>. Start small, run real work, and iterate from actual usage. If it helps your team, contribute it back to <strong>awesome-copilot</strong> so others can benefit too.</p>\n\n\n\n<p class=\"wp-block-paragraph\">We&rsquo;re still early in this transition, but the direction is clear. Agents can accelerate execution. Humans provide vision, judgment, and accountability. Canvases are one way to make that partnership real, durable, and scalable.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\"><a href=\"https://awesome-copilot.github.com/extensions/\">Build your own canvas with /create-canvas</a> and contribute it back to awesome-copilot &gt;</p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/\">How canvases make agentic workflows visible, steerable, and cost-efficient</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:16.023Z"
+    },
+    {
+      "id": "8282daa933f2b919",
+      "sourceId": "simonwillison",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "publishedAt": "2026-08-17T15:21:29.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p>\nExcellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a href=\"https://simonwillison.net/2025/Jun/24/anthropic-training/\">my previous coverage</a> of Anthropic's book scanning from June 2025.)</p>\n<p>404 Media investigated with an AirTag!</p>\n<blockquote>\n<p>In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.</p>\n</blockquote>\n<p>The book ended up delivered to the VGT3 corner of the <a href=\"https://maps.app.goo.gl/2hMqbHrovTSZxh1U9\">LAS8 Amazon facility</a> in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!</p>\n<p><img alt=\"Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.\" src=\"https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg\" /></p>\n<p style=\"margin-top: -1em\"><small>Photo credit: 404 Media</small></p>\n\n<p>Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-18T07:41:15.937Z"
+    },
     {
       "id": "e76e49416a37f96d",
       "sourceId": "hackernews",
@@ -4920,86 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-06-22T14:56:37.231Z"
-    },
-    {
-      "id": "30603a737bd12f06",
-      "sourceId": "lobsters",
-      "title": "One year with Codeberg",
-      "url": "https://guix.gnu.org/en/blog/2026/one-year-with-codeberg/",
-      "publishedAt": "2026-06-22T14:02:16.000Z",
-      "rawContent": "<p><a href=\"https://lobste.rs/s/pifl3k/one_year_with_codeberg\">Comments</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:48.154Z"
-    },
-    {
-      "id": "43a12059b39994c4",
-      "sourceId": "hackernews",
-      "title": "Nvidia Halos",
-      "url": "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
-      "publishedAt": "2026-06-22T13:57:49.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.532Z"
-    },
-    {
-      "id": "fa9245984188a375",
-      "sourceId": "theregister",
-      "title": "Microsoft tells Windows users to get ready for 26H2 – unless they're on 26H1",
-      "url": "https://www.theregister.com/os-platforms/2026/06/22/microsoft-tells-windows-users-to-get-ready-for-26h2-unless-theyre-on-26h1/5259511",
-      "publishedAt": "2026-06-22T13:57:00.000Z",
-      "rawContent": " Microsoft has issued a stark warning for Windows users everywhere: \"Get ready for Windows 11, version 26H2.\" Unless, of course, you're running Windows 11 26H1, in which case 26H2 will not be offered and you'll have to wait for a later upgrade path. 26H2, due for general availability in the coming months, uses the same Windows core as Windows 11 25H2 and Windows 24H2. As such, it will be delivered via an enablement package that switches on the new features and updates the versioning. 26H1 is an altogether different beast, aimed at devices based on Qualcomm's Snapdragon X2 Series processors and other new hardware platforms. Other than the version number change, users will be hard-pressed to notice much difference between 25H2 and 26H2, which, frankly, is no bad thing. A bit of stability wouldn't be a problem for Windows users, even if the monthly updates, where most new features are delivered these days, can be somewhat hit-and-miss in terms of quality and reliability. Windows Insiders can take a look at the new release now – the brave souls in the Experimental channel will see their versioning updated to 26H2, and there are also paths from the Dev and Beta channels. Also lurking in the previews is an update to Windows Search that will bring a sigh of relief to many users. In an Experimental Insider release just over a week ago, Microsoft wrote: \"Finding apps is more forgiving. Search is better at handling typos, dropped letters, extra letters, and partial words for apps. Queries like 'utlook' can still find Outlook. \"Settings results are improving. We've made ranking improvements to help more relevant settings appear higher in results.\" All well and good. Search has been infamously awful in Windows for years. However, March Rogers, partner director of product design for Windows at Microsoft, later clarified: \"Local files are prioritized in the new search updates. Also, if you want, you can turn off web suggestions entirely.\" Tweaking Search to ditch web suggestions has been possible for a while, if a user knows where to look, but bringing the setting front and center (according to Rogers, it can be turned off in Settings > Privacy & Security > Search) is a welcome move. Otherwise, 26H2 should be a straightforward release, with little in it to alarm users and administrators – Microsoft saves those for monthly updates. Support for Windows 11 24H2 will end on October 13, 2026, for Home and Pro users (Enterprise and Education users get another year – until October 13, 2027). Microsoft's support lifecycle means 26H2 will get 24 months of support from its release for Home and Pro, and 36 months for Enterprise and Education. ® ",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.924Z"
-    },
-    {
-      "id": "b3ef534b64b19f35",
-      "sourceId": "hackernews",
-      "title": "Never Give Them Your Face",
-      "url": "https://nevergivethemyourface.com/",
-      "publishedAt": "2026-06-22T13:45:48.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "5ad90e34ef63e206",
-      "sourceId": "hackernews",
-      "title": "Pledging Another $400k to the Zig Software Foundation",
-      "url": "https://mitchellh.com/writing/zig-donation-2026",
-      "publishedAt": "2026-06-22T13:43:01.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "aa2824498a12c43e",
-      "sourceId": "hackernews",
-      "title": "Die analysis of the 8087 math coprocessor's fast bit shifter",
-      "url": "https://www.righto.com/2020/05/die-analysis-of-8087-math-coprocessors.html",
-      "publishedAt": "2026-06-22T13:40:16.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:47.531Z"
-    },
-    {
-      "id": "6ce8d08146426490",
-      "sourceId": "lobsters",
-      "title": "Web Browsers on PDAs",
-      "url": "https://vale.rocks/posts/pda-browsers",
-      "publishedAt": "2026-06-22T13:29:29.000Z",
-      "rawContent": "<p><a href=\"https://lobste.rs/s/kocnfd/web_browsers_on_pdas\">Comments</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:48.154Z"
-    },
-    {
-      "id": "40acfe91e1efed20",
-      "sourceId": "lobsters",
-      "title": "What are you doing this week?",
-      "url": "https://lobste.rs/s/12jy9c/what_are_you_doing_this_week",
-      "publishedAt": "2026-06-22T13:11:56.000Z",
-      "rawContent": "<p>What are you doing this week? Feel free to share!</p>\n<p>Keep in mind it’s OK to do nothing at all, too.</p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-22T14:27:48.154Z"
     }
   ]
 }
