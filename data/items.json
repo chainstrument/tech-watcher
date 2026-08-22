@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-08-21T07:46:54.442Z",
+  "updatedAt": "2026-08-22T07:34:54.255Z",
   "items": [
+    {
+      "id": "27b7e490bced9706",
+      "sourceId": "hackernews",
+      "title": "There's no reason for software to be slow anymore",
+      "url": "https://danluu.com/perf-opt/",
+      "publishedAt": "2026-08-22T01:06:17.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.340Z"
+    },
+    {
+      "id": "10778dfe314d8928",
+      "sourceId": "hackernews",
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "publishedAt": "2026-08-21T19:51:54.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html\" rel=\"nofollow\">https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html</a>",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.340Z"
+    },
+    {
+      "id": "5864af6cae430f0d",
+      "sourceId": "hackernews",
+      "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
+      "url": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+      "publishedAt": "2026-08-21T17:54:06.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.340Z"
+    },
+    {
+      "id": "cf6af109a0ee1fd2",
+      "sourceId": "simonwillison",
+      "title": "llm 0.32.1",
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "publishedAt": "2026-08-21T17:16:13.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p>\n        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>\n<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.483Z"
+    },
+    {
+      "id": "866d80edbe878622",
+      "sourceId": "simonwillison",
+      "title": "llm-openrouter 0.7",
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "publishedAt": "2026-08-21T16:58:19.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p>\n        <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p>\n<blockquote>\n<ul>\n<li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li>\n<li>Models now use OpenRouter's implementation of the <a href=\"https://openrouter.ai/docs/api_reference/responses/overview\">Responses API</a>.</li>\n<li>Three new server-side tools: <a href=\"https://github.com/simonw/llm-openrouter#shell\">Shell</a>, <a href=\"https://github.com/simonw/llm-openrouter#web-fetch\">WebFetch</a>, and <a href=\"https://github.com/simonw/llm-openrouter#web-search\">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.483Z"
+    },
+    {
+      "id": "acd943a5b9656967",
+      "sourceId": "hackernews",
+      "title": "Kobo can run apps now",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "publishedAt": "2026-08-21T16:25:25.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.340Z"
+    },
+    {
+      "id": "51b0cf062317357a",
+      "sourceId": "simonwillison",
+      "title": "Stop Making TUIs",
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "publishedAt": "2026-08-21T16:07:32.000Z",
+      "rawContent": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p>\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p>\n<p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, and I'm still using both of those on a daily basis.</p>\n<p>I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!</p>\n<p>Thomas:</p>\n<blockquote>\n<p>If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.483Z"
+    },
+    {
+      "id": "404ef0e0d6981e27",
+      "sourceId": "hackernews",
+      "title": "Felony Bench",
+      "url": "https://www.felonybench.com/",
+      "publishedAt": "2026-08-21T15:17:04.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.340Z"
+    },
+    {
+      "id": "21b220d0ec1ebd80",
+      "sourceId": "simonwillison",
+      "title": "Quoting Matt Webb",
+      "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "publishedAt": "2026-08-21T15:06:26.000Z",
+      "rawContent": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p>\n<p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://interconnected.org/home/2026/08/21/galactic\">Matt Webb</a>, Galactic Compass 2: now with new augmented reality mode</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/matt-webb\">matt-webb</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/education\">education</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-22T07:34:53.483Z"
+    },
     {
       "id": "3ff60315c57bf02c",
       "sourceId": "hackernews",
@@ -4910,96 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-06-25T10:17:04.976Z"
-    },
-    {
-      "id": "c656884508b1ee53",
-      "sourceId": "hackernews",
-      "title": "Linux on Older Hardware: The Complete Revival Guide",
-      "url": "https://www.fosslinux.com/158206/linux-on-older-hardware-revival-guide.htm",
-      "publishedAt": "2026-06-25T04:06:29.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-27T09:31:09.018Z"
-    },
-    {
-      "id": "7c6111284e721a5c",
-      "sourceId": "hackernews",
-      "title": "Cloudflare launched self-managed OAuth for all",
-      "url": "https://blog.cloudflare.com/oauth-for-all/",
-      "publishedAt": "2026-06-25T02:18:10.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-25T10:17:04.976Z"
-    },
-    {
-      "id": "802363aee5105ca5",
-      "sourceId": "simonwillison",
-      "title": "simonw/browser-compat-db",
-      "url": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-      "publishedAt": "2026-06-24T23:59:03.000Z",
-      "rawContent": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=\"https://github.com/mdn/browser-compat-data\">mdn/browser-compat-data</a> repository full of browser compatibility data into a SQLite database.</p>\n<p>This new GitHub repo includes a Claude Code for web (Opus 4.8) <a href=\"https://github.com/simonw/browser-compat-db/blob/main/build_db.py\">generated script</a> for doing that using <a href=\"https://github.com/simonw/sqlite-utils\">sqlite-utils</a>.</p>\n<p>I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build <a href=\"https://github.com/simonw/browser-compat-db/blob/main/.github/workflows/build-db.yml\">a GitHub Actions workflow</a> that builds the database and then force-pushes it to a <code>db</code> \"orphan\" branch.</p>\n<p>You can download the resulting database <a href=\"https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db\">from here</a>, and since it's hosted with open CORS headers you can also <a href=\"https://lite.datasette.io/?url=https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db#/browser-compat/releases_tree\">explore it with Datasette Lite</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/mozilla\">mozilla</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/mdn\">mdn</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-25T10:17:05.148Z"
-    },
-    {
-      "id": "3cb0afd9fd5224b0",
-      "sourceId": "hackernews",
-      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
-      "publishedAt": "2026-06-24T19:48:01.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-25T10:17:04.976Z"
-    },
-    {
-      "id": "6918965612577e24",
-      "sourceId": "simonwillison",
-      "title": "Quoting Tom MacWright",
-      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
-      "publishedAt": "2026-06-24T18:13:51.000Z",
-      "rawContent": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction is that <em>I don't know anything about these people</em>.</p>\n<p>They haven't put themselves out there. They haven't said anything true. [...]</p>\n<p>The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this person, other than that they use particular tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://macwright.com/2026/06/24/accidental-anonymity.html\">Tom MacWright</a>, Accidental anonymity</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/tom-macwright\">tom-macwright</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-06-25T10:17:05.148Z"
-    },
-    {
-      "id": "d6bb4be6138d4490",
-      "sourceId": "hackernews",
-      "title": "OpenAI unveils its first custom chip, built by Broadcom",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-      "publishedAt": "2026-06-24T17:47:00.000Z",
-      "rawContent": "Announcement: <a href=\"https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;openai-broadcom-jalapeno-inference-chip&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;openai.com&#x2F;index&#x2F;openai-broadcom-jalapeno-inference-...</a><p><a href=\"https:&#x2F;&#x2F;decrypt.co&#x2F;371971&#x2F;openai-broadcom-jalapeno-first-custom-ai-chip\" rel=\"nofollow\">https:&#x2F;&#x2F;decrypt.co&#x2F;371971&#x2F;openai-broadcom-jalapeno-first-cus...</a><p><a href=\"https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;06&#x2F;24&#x2F;tech&#x2F;openai-broadcom-jalapeno-ai-chip\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnn.com&#x2F;2026&#x2F;06&#x2F;24&#x2F;tech&#x2F;openai-broadcom-jalapeno...</a>",
-      "status": "nouveau",
-      "createdAt": "2026-06-25T10:17:04.976Z"
-    },
-    {
-      "id": "a0d939cd8a750b67",
-      "sourceId": "hackernews",
-      "title": "NUMA: Cores, memory, and the distance between them",
-      "url": "https://edera.dev/stories/numa-part-1-cores-memory-and-the-distance-between-them",
-      "publishedAt": "2026-06-24T16:10:08.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-29T12:02:51.559Z"
-    },
-    {
-      "id": "ebc96034fb086597",
-      "sourceId": "hackernews",
-      "title": "We're making Bunny DNS free: because a faster internet won't build itself",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
-      "publishedAt": "2026-06-24T08:50:41.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-24T10:25:11.704Z"
-    },
-    {
-      "id": "6fd818b1c856b9f5",
-      "sourceId": "hackernews",
-      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
-      "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
-      "publishedAt": "2026-06-24T03:17:47.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-06-24T10:25:11.704Z"
     }
   ]
 }
