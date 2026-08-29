@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-28T19:19:51.301Z",
+  "updatedAt": "2026-08-29T13:04:25.907Z",
   "items": [
+    {
+      "id": "ff8d7420d4eeccd4",
+      "sourceId": "hackernews",
+      "title": "Iceland votes on whether to restart talks on joining EU",
+      "url": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
+      "publishedAt": "2026-08-29T11:39:38.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-29T13:04:24.852Z"
+    },
+    {
+      "id": "6c66c63ff1adf27b",
+      "sourceId": "hackernews",
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "publishedAt": "2026-08-29T06:06:51.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-29T13:04:24.852Z"
+    },
+    {
+      "id": "bd488c1cb70b7284",
+      "sourceId": "hackernews",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "publishedAt": "2026-08-28T23:02:21.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-29T13:04:24.852Z"
+    },
+    {
+      "id": "983102b3ea3b4340",
+      "sourceId": "simonwillison",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "publishedAt": "2026-08-28T22:12:02.000Z",
+      "rawContent": "<p><strong><a href=\"https://anil.recoil.org/notes/rumour-is-the-exploit\">Just a rumour of a bug is enough to find a security exploit these days</a></strong></p>\nAnil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion:</p>\n<blockquote>\n<p>This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories.</p>\n</blockquote>\n<p>Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task.</p>\n<p>Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe.</p>\n<p>rclone maintainer Nick Craig-Wood <a href=\"https://news.ycombinator.com/item?id=49480466#49480777\">confirms in the Hacker News comments</a> that his project is seeing this problem:</p>\n<blockquote>\n<p>In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.</p>\n<p>The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...]</p>\n<p>GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49480466\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ocaml\">ocaml</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-08-29T13:04:25.028Z"
+    },
     {
       "id": "a3d40848cd03fefd",
       "sourceId": "hackernews",
@@ -130,6 +170,16 @@
       "rawContent": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p>\nAnother open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p>\n<p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p>\n<p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized models</a>. I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff9c69ebdab90d8a45b8de4742cc7b840\">these pelicans</a>) and the 78.9GB UD-Q2_K_XL (producing <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ba7cbfc1a9336986703b41f7fccd73a\">these</a>).</p>\n<p>My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL:</p>\n<p><img alt=\"Flat vector illustration: a white pelican with an orange beak and orange legs rides a red bicycle along a sandy path, a wicker basket on the handlebars holding a blue fish, with green rolling hills, a small tree and bushes, white clouds and a bright yellow sun in a blue sky behind it\" src=\"https://static.simonwillison.net/static/2026-08-27/IMG_7667.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49448210\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/nvidia-spark\">nvidia-spark</a></p>",
       "status": "nouveau",
       "createdAt": "2026-08-27T18:09:36.058Z"
+    },
+    {
+      "id": "dd7f6d928e357716",
+      "sourceId": "hackernews",
+      "title": "Europe's last regular standard-gauge steam passenger service",
+      "url": "https://parowozowniawolsztyn.pl/?page_id=2141",
+      "publishedAt": "2026-08-26T22:32:00.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-08-29T13:04:24.852Z"
     },
     {
       "id": "8ba46bf8dae5cc6e",
@@ -4947,56 +4997,6 @@
       "title": "ArXiv's Next Chapter",
       "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
       "publishedAt": "2026-07-01T02:51:36.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-01T10:44:26.270Z"
-    },
-    {
-      "id": "2acafbd6a6457016",
-      "sourceId": "simonwillison",
-      "title": "Quoting Anthropic",
-      "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-      "publishedAt": "2026-06-30T23:58:15.000Z",
-      "rawContent": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropicai/status/2072106151890809341\">Anthropic</a>, on Twitter</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-01T10:44:26.420Z"
-    },
-    {
-      "id": "9e61dd70a4729661",
-      "sourceId": "simonwillison",
-      "title": "Nano Banana 2 Lite",
-      "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
-      "publishedAt": "2026-06-30T22:15:35.000Z",
-      "rawContent": "<p><strong><a href=\"https://deepmind.google/models/gemini-image/flash-lite/\">Nano Banana 2 Lite</a></strong></p>\nAlso known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href=\"https://ai.google.dev/gemini-api/docs/image-generation\">in their API</a>), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".</p>\n<p>I <a href=\"https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image\">used AI studio</a> to run this prompt:</p>\n<blockquote>\n<p><code>Do a where's Waldo style image but it's where is the raccoon holding a ham radio</code></p>\n</blockquote>\n<p><img alt=\"Densely illustrated &quot;Where's Waldo&quot;-style cartoon of a woodland festival filled with anthropomorphic animals (bears, foxes, badgers, rabbits, squirrels, owls) under a banner reading &quot;FOREE'S FESTIVAL&quot; and another reading &quot;FOREST FIVAL,&quot; with bunting flags strung between trees, a Ferris wheel on the right, market stalls including one labeled &quot;ACORN FAIR,&quot; signs reading &quot;BANDSTAND,&quot; &quot;HAM RADIO MEET&quot; (appearing twice), and a stage where a bear plays guitar, a raccoon uses a ham radio, a badger plays drums, an owl looks on, and a fox plays trumpet, with crowds of animals wandering forest paths between trees and mountains in the background.\" src=\"https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg\" /></p>\n<p>I like that one better than <a href=\"https://simonwillison.net/2026/Apr/21/gpt-image-2/#nano-banana-2-and-pro\">the results I got from the other Nano Banana models</a> when I tried this back in April. It spelled Forest Festival wrong in two different ways though.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48735444\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/text-to-image\">text-to-image</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/nano-banana\">nano-banana</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-01T10:44:26.420Z"
-    },
-    {
-      "id": "36f5f67c86fa79a9",
-      "sourceId": "simonwillison",
-      "title": "What's new in Claude Sonnet 5",
-      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
-      "publishedAt": "2026-06-30T21:23:02.000Z",
-      "rawContent": "<p><strong><a href=\"https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5\">What&#x27;s new in Claude Sonnet 5</a></strong></p>\nClaude Sonnet 5 came out <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">this morning</a>. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement post.</p>\n<p>Anthropic say of Sonnet 5 that \"its performance is close to that of Opus 4.8, but at lower prices\". The <a href=\"https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf\">system card</a> helps explain how they were able to release the model without being blocked by the US government:</p>\n<blockquote>\n<p>Sonnet 5 is significantly less capable at cyber tasks than Mythos 5: its safeguards are thus similar to those we apply to Opus 4.7 and Opus 4.8 (models that are more capable than Sonnet 5 but much less capable than Mythos 5).</p>\n</blockquote>\n<p>Of note from the \"what's new\" API changes:</p>\n<ul>\n<li>Sampling parameters <code>temperature</code>, <code>top_p</code>, <code>top_k</code> are no longer supported.</li>\n<li>It has a 1 million token context window and 128,000 maximum output tokens.</li>\n<li>It features \"the same set of tools and platform features as Claude Sonnet 4.6\"</li>\n<li>Adaptive thinking is on by default, unless you specify <code>\"thinking\": {type: \"disabled\"}</code>.</li>\n<li>The pricing is the same as Sonnet 4.6: $3/million input, $15/million input, with an introductory discount to $2/$10 until 31st August. But...</li>\n<li>The model has a new tokenizer, where \"The same input text produces approximately 30% more tokens than on Claude Sonnet 4.6.\" - effectively a 30% price increase.</li>\n</ul>\n<p>I used my <a href=\"https://tools.simonwillison.net/claude-token-counter\">Claude Token Counter</a> tool to try out the new tokenizer. Here are my results for several larger documents:</p>\n<table>\n  <thead>\n    <tr>\n      <th>Document</th>\n      <th>Sonnet 4.6</th>\n      <th>Opus 4.7</th>\n      <th>Sonnet 5</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><a href=\"https://github.com/simonw/udhr-markdown/blob/main/declarations/eng.md\">Universal Declaration of Human Rights (English)</a></td>\n      <td><b>2,356</b></td>\n      <td><b>3,347</b><br>1.42x</td>\n      <td><b>3,341</b><br>1.42x</td>\n    </tr>\n    <tr>\n      <td><a href=\"https://github.com/simonw/udhr-markdown/blob/main/declarations/spa.md\">Universal Declaration of Human Rights (Spanish)</a></td>\n      <td><b>3,572</b></td>\n      <td><b>4,753</b><br>1.33x</td>\n      <td><b>4,747</b><br>1.33x</td>\n    </tr>\n    <tr>\n      <td><a href=\"https://github.com/simonw/udhr-markdown/blob/main/declarations/cmn_hans.md\">Universal Declaration of Human Rights (Chinese, Mandarin Simplified)</a></td>\n      <td><b>3,334</b></td>\n      <td><b>3,366</b><br>1.01x</td>\n      <td><b>3,360</b><br>1.01x</td>\n    </tr>\n    <tr>\n      <td><a href=\"https://github.com/simonw/sqlite-utils/blob/79117b9d110d72f46dab5fe2cda412ff4789ab55/sqlite_utils/db.py\">sqlite_utils/db.py</a> (4,279 lines of Python)</td>\n      <td><b>44,014</b></td>\n      <td><b>56,118</b><br>1.28x</td>\n      <td><b>56,113</b><br>1.27x</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>So the new token is roughly 1.4x times more expensive for English, 1.33x for Spanish, 1.28x for Python code and effectively the same cost for Simplified Mandarin.</p>\n<p>Here's <a href=\"https://gist.github.com/simonw/a89e756b621a31e8ffc210e3428efa77\">the pelican</a>. It's nothing to write home about. Sonnet 5 thinks it looks like a goose.</p>\n<p><img alt=\"Illustration of a white goose riding a bicycle, with one wing extended forward to grip the handlebar, set against a plain white background with a brown ground line.\" src=\"https://static.simonwillison.net/static/2026/sonnet-5-pelican.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48736605\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-01T10:44:26.420Z"
-    },
-    {
-      "id": "358d0579d40081af",
-      "sourceId": "hackernews",
-      "title": "Mir Books – Books from the Soviet Era",
-      "url": "https://mirtitles.org",
-      "publishedAt": "2026-06-30T20:50:58.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-04T09:25:49.326Z"
-    },
-    {
-      "id": "4307222bc7e5f2e4",
-      "sourceId": "hackernews",
-      "title": "Claude Sonnet 5",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": "2026-06-30T17:59:52.000Z",
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-07-01T10:44:26.270Z"
