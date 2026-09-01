@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-08-31T14:56:45.408Z",
+  "updatedAt": "2026-09-01T12:27:22.840Z",
   "items": [
+    {
+      "id": "509d3421298856d6",
+      "sourceId": "hackernews",
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "publishedAt": "2026-09-01T10:11:02.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.748Z"
+    },
+    {
+      "id": "2e7d0fb45461c661",
+      "sourceId": "hackernews",
+      "title": "44% on ARC-AGI-1 in 67 cents",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "publishedAt": "2026-09-01T09:52:45.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.748Z"
+    },
+    {
+      "id": "da38740894257e67",
+      "sourceId": "hackernews",
+      "title": "GPU World",
+      "url": "https://www.gpuworld.org/",
+      "publishedAt": "2026-09-01T03:16:36.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.749Z"
+    },
+    {
+      "id": "89e5df783443a9e3",
+      "sourceId": "hackernews",
+      "title": "Fastpotify",
+      "url": "https://fastpotify.rocks/",
+      "publishedAt": "2026-09-01T02:52:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.749Z"
+    },
+    {
+      "id": "bf3e1e0703c07305",
+      "sourceId": "simonwillison",
+      "title": "Introducing wrapture",
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "publishedAt": "2026-08-31T23:59:36.000Z",
+      "rawContent": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p>\nNew from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p>\n<p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value.</p>\n<p>It acts as both an alternative to <code>unittest.mock</code> and a way to implement tracing against an existing project:</p>\n<blockquote>\n<p>Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about.</p>\n</blockquote>\n<p>Wrapture includes <a href=\"https://wrapture.readthedocs.io/en/latest/otel-export.html\">OpenTelemetry support</a> and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this:</p>\n<div class=\"highlight highlight-source-toml\"><pre><span class=\"pl-smi\">capture</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>summary<span class=\"pl-pds\">\"</span></span>\n\n[[<span class=\"pl-en\">observe</span>]]\n<span class=\"pl-smi\">target</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>domain:Calculator<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">name</span> = [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>outer<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>inner<span class=\"pl-pds\">\"</span></span>]\n\n[[<span class=\"pl-en\">sink</span>]]\n<span class=\"pl-smi\">type</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>jsonlines<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">path</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>trace.jsonl<span class=\"pl-pds\">\"</span></span></pre></div>\n<p>This is still a very young project - just a few weeks old - but it's off to a very promising start.</p>\n<p>Interestingly, this is also Graham's first attempt at  large entirely agent-driven project:</p>\n<blockquote>\n<p>Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design.</p>\n</blockquote>\n<p>In a follow-up post, <a href=\"https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/\">Unit testing with wrapture</a>, Graham shows the testing patterns supported by the new library:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_stub_with_wrapture</span>():\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    ).<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">returns</span>({\n        <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"stub\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">0</span>}\n    ):\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n            <span class=\"pl-c1\">500</span>\n        )[<span class=\"pl-s\">\"id\"</span>] <span class=\"pl-c1\">==</span> <span class=\"pl-s\">\"stub\"</span></pre>\n<p>And this neat example of a test that calls and then modifies the return value from the original method:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_pinned_result_with_wrapture</span>():\n    <span class=\"pl-s1\">charge</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    )\n    <span class=\"pl-s1\">charge</span>.<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">transforms_result</span>(\n        <span class=\"pl-k\">lambda</span> <span class=\"pl-s1\">r</span>: {<span class=\"pl-c1\">**</span><span class=\"pl-s1\">r</span>, <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>}\n    )\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">charge</span>:\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n           <span class=\"pl-c1\">500</span>\n        ) <span class=\"pl-c1\">==</span> {\n            <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">500</span>\n        }</pre>\n\n<p>(In both of these examples the <code>OrderService().place(...)</code> method calls <code>Gateway().charge(...)</code>.)\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/graham-dumpleton\">graham-dumpleton</a>, <a href=\"https://simonwillison.net/tags/monkey-patching\">monkey-patching</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/testing\">testing</a>, <a href=\"https://simonwillison.net/tags/pytest\">pytest</a>, <a href=\"https://simonwillison.net/tags/observability\">observability</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/opentelemetry\">opentelemetry</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.846Z"
+    },
+    {
+      "id": "3bbd285f29ae0294",
+      "sourceId": "simonwillison",
+      "title": "Quoting Andrew Digby",
+      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+      "publishedAt": "2026-08-31T22:25:02.000Z",
+      "rawContent": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kakapo\">kakapo</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.846Z"
+    },
     {
       "id": "a3f40d92ed89c939",
       "sourceId": "hackernews",
@@ -110,6 +170,16 @@
       "rawContent": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p>\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p>\n<p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 598GB.</p>\n<p>I recently started using model chat templates to better understand their capabilities. Here's Hy4's  <a href=\"https://huggingface.co/tencent/Hy4-preview/blob/main/chat_template.jinja\">chat_template.jinja</a> on Hugging Face, which includes this section:</p>\n<div class=\"highlight highlight-text-html-django\"><pre><span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-k\">not</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">defined</span> <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-s\">set</span> <span class=\"pl-s\">reasoning_effort</span> = <span class=\"pl-s\">'high'</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-s\">elif</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-k\">not</span> <span class=\"pl-k\">in</span> [<span class=\"pl-s\">'high'</span>, <span class=\"pl-s\">'no_think'</span>] <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">none</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">else</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span></pre></div>\n<p>So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled).</p>\n<p>I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning <a href=\"https://openrouter.ai/tencent/hy4-preview#apps\">via OpenRouter</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fcb69816b3fb940f2782569a82a523af1\">got this</a>:</p>\n<p><img alt=\"Flat vector cartoon illustration of a white pelican with a large orange bill riding a red bicycle to the right along a grey road with a dashed white centre line, its orange webbed feet on the pedals and grey tail feathers fanned out behind, against a pale blue sky with a yellow sun, white clouds and horizontal white motion lines suggesting speed\" src=\"https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg\" /></p>\n<p>Quoting the reasoning trace:</p>\n<blockquote>\n<p>[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.</p>\n<p>Maybe add sunglasses? no.</p>\n<p>Maybe add water? no.</p>\n</blockquote>\n<p>It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
       "status": "nouveau",
       "createdAt": "2026-08-30T12:40:57.301Z"
+    },
+    {
+      "id": "1e2306d2251e5799",
+      "sourceId": "hackernews",
+      "title": "American Airlines' Legendary Mechanic Passes Away at 100 After 80-Year Career",
+      "url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+      "publishedAt": "2026-08-29T21:25:17.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-01T12:27:21.749Z"
     },
     {
       "id": "ff8d7420d4eeccd4",
@@ -4930,76 +5000,6 @@
       "rawContent": "<p>One of the most interesting tips I got from <a href=\"https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_main_stage_1230_2026_06_08t09_35_43_039z\">the Fireside Chat</a> I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.</p>\n<p>The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.</p>\n<p>Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.</p>\n<p>I prompted Claude Code just now with:</p>\n<blockquote>\n<p><code>For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent</code></p>\n</blockquote>\n<p>Claude saved this memory file in <code>~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md</code>:</p>\n<blockquote>\n<pre><code>---\nname: delegate-coding-to-subagents\ndescription: Simon wants coding tasks delegated to subagents running an appropriately lower-power model\nmetadata: \n  node_type: memory\n  type: feedback\n  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a\n---\n</code></pre>\n<p>Stated by Simon on 2026-07-03: \"For all coding tasks use your judgement to\ndecide an appropriate lower power model and run that in a subagent.\"</p>\n<p><strong>Why:</strong> cost/efficiency — implementation work rarely needs the top-tier\nmodel; judgment, review, and synthesis stay with the main loop.</p>\n<p><strong>How to apply:</strong> when a task in this project is primarily writing/editing\ncode, spawn an Agent with a model override (sonnet for substantive\nimplementation, haiku for trivial/mechanical edits) and a self-contained\nprompt; review the result in the main loop before committing. Design,\nauditing, data synthesis, and anything judgment-heavy stays in the main\nmodel. See also [[project-goals]].</p>\n</blockquote>\n<p>So far it seems to be working well. I'm getting a <em>ton</em> of work done and my Fable allowance is shrinking less quickly than before.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-04T09:25:49.412Z"
-    },
-    {
-      "id": "631dfdc403b947c1",
-      "sourceId": "simonwillison",
-      "title": "June 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
-      "publishedAt": "2026-07-03T14:50:50.000Z",
-      "rawContent": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-06-june.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Claude Fable 5, GPT-5.6, and US export restrictions</li>\n<li>GLM-5.2 is the new best open weights model</li>\n<li>Tokenmaxxing is so over</li>\n<li>Datasette Apps</li>\n<li>sqlite-utils and shot-scraper and Datasette</li>\n<li>Miscellaneous WASM projects</li>\n<li>Other model releases</li>\n<li>What I'm using</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-05-may.md\">a copy of the May newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-04T09:25:49.412Z"
-    },
-    {
-      "id": "58cc5c46d6663f01",
-      "sourceId": "hackernews",
-      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
-      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
-      "publishedAt": "2026-07-03T08:31:37.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.252Z"
-    },
-    {
-      "id": "0c669c77f74e1b56",
-      "sourceId": "hackernews",
-      "title": "Half-Baked Product",
-      "url": "https://weli.dev/blog/half-baked-product/",
-      "publishedAt": "2026-07-03T08:23:32.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.252Z"
-    },
-    {
-      "id": "172310ec08cb1e4b",
-      "sourceId": "hackernews",
-      "title": "CarPlay Is Additive",
-      "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
-      "publishedAt": "2026-07-03T01:02:45.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.252Z"
-    },
-    {
-      "id": "5987a85e5621e477",
-      "sourceId": "hackernews",
-      "title": "Right to Local Intelligence",
-      "url": "https://righttointelligence.org/",
-      "publishedAt": "2026-07-02T23:54:03.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.252Z"
-    },
-    {
-      "id": "d5d3033da500eaac",
-      "sourceId": "hackernews",
-      "title": "Virginia bans sale of geolocation data",
-      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
-      "publishedAt": "2026-07-02T21:03:45.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.252Z"
-    },
-    {
-      "id": "aa700a0b090cbd98",
-      "sourceId": "simonwillison",
-      "title": "llm-coding-agent 0.1a0",
-      "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-      "publishedAt": "2026-07-02T19:33:12.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-coding-agent/releases/tag/0.1a0\">llm-coding-agent 0.1a0</a></p>\n        <p>Another Fable 5 experiment. Now that my <a href=\"https://llm.datasette.io/\">LLM library</a> has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.</p>\n<p>I started a <a href=\"https://github.com/simonw/llm-coding-agent/tree/2466fa03ba8e5122c3bfa93d52167d33bce40ac6\">new Python library</a> using my <a href=\"https://github.com/simonw/python-lib-template-repository\">python-lib-template-repository</a> GitHub template repository, then ran these two prompts (here's the <a href=\"https://claude.ai/code/session_01TEUBvBbMipbFSoqjMiJ7ha\">Claude Code for web transcript</a>):</p>\n<blockquote>\n<p><code>Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands</code></p>\n</blockquote>\n<p>Then:</p>\n<blockquote>\n<p><code>Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment</code></p>\n</blockquote>\n<p>Here's <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/spec.md\">the spec</a>, the <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">resulting README file</a>, and the <a href=\"https://github.com/simonw/llm-coding-agent/commits/0.1a0\">sequence of commits</a>.</p>\n<p>I've shipped a slop-alpha to PyPI, so you can run the new agent like this:</p>\n<pre><code>uvx --prerelease=allow --with llm-coding-agent llm code\n</code></pre>\n<p>It's pretty good for a first attempt! Here's the (Fable-authored) <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">README</a>, which lists recipes like <code>llm code --yolo</code> and <code>llm code --allow \"pytest*\" --allow \"git diff*\"</code>.</p>\n<p>It also presents <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md#codingagent\">a Python API</a> based around a <code>CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\")</code> class which I didn't ask for but I'm delighted to see implemented.</p>\n<p>Here's the suite of tools <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/llm_coding_agent/tools.py#L22\">it implemented</a>, listed using <code>uvx ... llm tools</code>:</p>\n<blockquote>\n<p><code>CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -&gt; str</code></p>\n<p>Replace an exact string in a file.</p>\n<p>old_string must match the file contents exactly (including\nwhitespace) and must identify a unique location unless replace_all\nis true. Returns a diff of the change so it can be verified.</p>\n<p><code>CodingTools_execute_command(command: str, timeout: int = 120) -&gt; str</code></p>\n<p>Run a shell command in the session root directory.</p>\n<p>Returns combined stdout and stderr followed by an Exit code line.\ntimeout is in seconds (maximum 600); on timeout the whole process\ntree is killed.</p>\n<p><code>CodingTools_list_files(pattern: str = '**/*', path: str = '.') -&gt; str</code></p>\n<p>List files matching a glob pattern, newest first.</p>\n<p>Skips hidden directories, node_modules, __pycache__ and (in a git\nrepository) anything covered by .gitignore. Returns at most 200\npaths relative to the searched directory.</p>\n<p><code>CodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -&gt; str</code></p>\n<p>Read a text file, returning numbered lines like cat -n.</p>\n<p>Paths are relative to the session root. Use offset (0-based first\nline) and limit (max lines) to page through files too large to read\nin one call.</p>\n<p><code>CodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -&gt; str</code></p>\n<p>Search file contents for a regular expression.</p>\n<p>Returns matches as path:line_number:line, capped at max_results.\nUse glob (e.g. \"*.py\") to restrict which files are searched.</p>\n<p><code>CodingTools_write_file(path: str, content: str) -&gt; str</code></p>\n<p>Create or overwrite a file with the given content.</p>\n<p>Parent directories are created as needed. Prefer edit_file for\nmodifying existing files.</p>\n</blockquote>\n<p>I tried it out by running <code>llm code --yolo</code> and then prompting:</p>\n<blockquote>\n<p><code>mkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art</code></p>\n</blockquote>\n<p>Here's <a href=\"https://gist.github.com/simonw/750009007050124cd1b390cfe8488e41\">the transcript</a>, in which GPT-5.5 reasoning notes that \"SwiftUI isn't suitable for a true CLI\" and then builds an app that outputs this on <code>swift run AsciiTime</code>:</p>\n<pre style=\"font-size: 9px\">\n      █    █████         ████     █             █     ███   \n     ██    █        █        █   ██      █     ██    █   █  \n      █    ████           ███     █             █       █   \n      █        █    █        █    █      █      █      █    \n     ███   ████          ████    ███           ███   █████\n</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-03T10:08:17.378Z"
     }
   ]
 }
