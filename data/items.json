@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-03T12:00:34.698Z",
+  "updatedAt": "2026-09-04T12:02:16.186Z",
   "items": [
+    {
+      "id": "656e675460d44f88",
+      "sourceId": "hackernews",
+      "title": "Solving the Jane Street Reverse Engineering Challenge",
+      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "publishedAt": "2026-09-04T10:17:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.081Z"
+    },
+    {
+      "id": "e9ec875a98e14df8",
+      "sourceId": "hackernews",
+      "title": "Carbon-aware electricity pricing, measured daily on 38 grids",
+      "url": "https://carbonawarepricing.com/",
+      "publishedAt": "2026-09-04T08:19:57.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.081Z"
+    },
+    {
+      "id": "88719dc4d96e4074",
+      "sourceId": "simonwillison",
+      "title": "August newsletter is out",
+      "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "publishedAt": "2026-09-04T05:54:40.000Z",
+      "rawContent": "<p>The August edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-08-august.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>We got more details on OpenAl's accidental cyberattacks</li>\n<li>One-shotting Raccoon Heist games with Fable 5 and Sol 5.6</li>\n<li>Claude auto mode</li>\n<li>Understanding ChatGPT Work</li>\n<li>Model releases</li>\n<li>Miscellaneous bits and bobs</li>\n<li>My projects</li>\n<li>What I'm using at the moment</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-07-july.md\">a copy of the July newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.286Z"
+    },
+    {
+      "id": "9c15d28a330d5e62",
+      "sourceId": "simonwillison",
+      "title": "GPT‑6 Astra",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "publishedAt": "2026-09-03T20:18:41.000Z",
+      "rawContent": "<p><strong><a href=\"https://openai.com/index/gpt-6-astra/\">GPT‑6 Astra</a></strong></p>\nGPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet.</p>\n<p>It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks.</p>\n<p>Most impressively, Astra scores 99.9% on the recent (released in March) <a href=\"https://arcprize.org/arc-agi/3\">ARC-AGI 3 benchmark</a> - though notably Fable 5 does not yet have a published result, and the <a href=\"https://arcprize.org/blog/astra\">ARC-AGI blog notes</a> that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K.</p>\n<blockquote>\n<p>The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work.</p>\n</blockquote>\n<p>Unsurprisingly, given <a href=\"https://simonwillison.net/tags/openai-hugging-face-incident/\">the recent Hugging Face incident</a>, Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%.</p>\n<p>It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing.</p>\n<p>It doesn't win at everything though. <a href=\"https://twitter.com/ArtificialAnlys/status/2095595489031000350\">Artificial Analysis</a> note that Astra is still beaten by Fable on their Intelligence Index:</p>\n<blockquote>\n<p><strong>Sits beside GPT-5.6 Sol in Intelligence</strong>: GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max).</p>\n</blockquote>\n<p>It did better on their Coding Agent Index:</p>\n<blockquote>\n<p><strong>Leads Coding Agent Index cost efficiency frontier</strong>: At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score.</p>\n</blockquote>\n<p>I'll write more about Astra once I get access to it. The API model label once it rolls out will be <code>gpt-6-astra</code>.</p>\n<!-- <small>OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070).</small> -->\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49554643\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.286Z"
+    },
+    {
+      "id": "61f0ece1cfd3f3cf",
+      "sourceId": "changelog",
+      "title": "Forking Cal.com to closed source",
+      "url": "https://changelog.com/podcast/685",
+      "publishedAt": "2026-09-03T20:00:00.000Z",
+      "rawContent": "<p>This week I’m joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don’t know it yet? That’s the theory Peer brings to the table this week. We dig into how AI has flattened the knowledge graph to the point that a 16-year-old can vibe hack a power station just as easily as their mom can vibe code an iOS app, why the reporting culture that has kept open source safe all these years is collapsing under AI generated noise, Cal.com’s move to fork its own codebase and take the sensitive parts private, and the eye opening reality that shipping “$1 of AI tokens for pennies on the dollar” is now a common startup business model.</p>\n<p><a href=\"https://changelog.zulipchat.com/#narrow/stream/456187-interviews\">Join the discussion</a></p><p><a href=\"https://changelog.com/++\" rel=\"payment\">Changelog++</a> members save 10 minutes on this episode because they made the ads disappear. Join today!</p><p>Sponsors:</p><p><ul><li><a href=\"https://coder.com/\">Coder.com</a> – Secure environments where devs and agents work in parallel. Open by design. Secure by default.\n</li>\n<li><a href=\"https://buildkite.com/\">Buildkite</a> – You deserve better CI. Buildkite is engineered for frontier scale and trusted by the teams setting the pace.\n</li>\n<li><a href=\"https://workos.com\">WorkOS</a> – Auth for CLI with AuthKit from WorkOS — Bring secure browser-based login to your terminal apps using the OAuth Device Flow, with the same polished AuthKit experience plus SSO, MFA, and passkeys. Learn more at <a href=\"https://workos.com/\">WorkOS.com</a> and <a href=\"https://www.authkit.com\">AuthKit.com</a>\n</li>\n<li><a href=\"https://fly.io/\">Fly.io</a> – <strong>The home of Changelog.com</strong> — Deploy your apps close to your users — global Anycast load-balancing, zero-configuration private networking, hardware isolation, and instant WireGuard VPN connections. Push-button deployments that scale to thousands of instances. <a href=\"https://fly.io/speedrun/\">Check out the speedrun</a> to get started in minutes.\n</li>\n</ul></p><p>Featuring:</p><ul><li>Peer Richelsen &ndash; <a href=\"https://cal.com/peer\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/PeerRich\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/peer-richelsen-221233138\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://x.com/peer_rich\" rel=\"external ugc\">X</a></li><li>Adam Stacoviak &ndash; <a href=\"https://adamstacoviak.com/\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/adamstac\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/adamstacoviak\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://changelog.social/@adam\" rel=\"external ugc\">Mastodon</a>, <a href=\"https://x.com/adamstac\" rel=\"external ugc\">X</a></li></ul></p><p>Show Notes:</p><p><p>Editorial disclosure: Adam states in the episode that he is a small seed investor in Cal.com.</p>\n<h4>Cal.com and Cal.diy</h4>\n<ul>\n<li><a href=\"https://cal.com/blog/cal-com-goes-closed-source-why\">Cal.com is going closed source — here’s why</a></li>\n<li><a href=\"https://cal.com/blog/cal-diy-open-source-to-closed-source\">Moving to closed-source: the technical changes</a></li>\n<li><a href=\"https://github.com/calcom/cal.diy\">Cal.diy on GitHub</a></li>\n<li><a href=\"https://github.com/calcom/cal.diy/blob/main/CONTRIBUTING.md\">Cal.diy contributing guide</a></li>\n<li><a href=\"https://cal.com/\">Cal.com</a></li>\n</ul>\n<h4>Open source, agents, and contribution workflows</h4>\n<ul>\n<li><a href=\"https://swamp-club.com/\">Swamp Club</a></li>\n<li><a href=\"https://openclaw.ai/\">OpenClaw</a></li>\n<li><a href=\"https://mitchellh.com/writing/non-trivial-vibing\">Mitchell Hashimoto: Vibing a Non-Trivial Ghostty Feature</a></li>\n<li><a href=\"https://github.blog/ai-and-ml/automate-repository-tasks-with-github-agentic-workflows/\">GitHub Agentic Workflows</a></li>\n<li><a href=\"https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/manage-rationale-confidence-approvals\">GitHub issue-intent, rationale, confidence, and approvals</a></li>\n</ul>\n<h4>AI-assisted security</h4>\n<ul>\n<li><a href=\"https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/\">Mozilla: Hardening Firefox with Anthropic’s Red Team</a></li>\n<li><a href=\"https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/\">Mozilla: The zero-days are numbered</a></li>\n<li><a href=\"https://www.anthropic.com/news/mozilla-firefox-security\">Anthropic and Mozilla’s Firefox security collaboration</a></li>\n<li><a href=\"https://nextjs.org/blog\">Next.js security advisories</a></li>\n<li><a href=\"https://github.com/BerriAI/litellm/issues/24512\">LiteLLM issue: malicious package and credential stealer</a></li>\n</ul>\n</p><p>Something missing or broken? <a href=\"https://github.com/thechangelog/show-notes/blob/master/podcast/the-changelog-685.md\">PRs welcome!</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.985Z"
+    },
+    {
+      "id": "ea74e2fffbc50210",
+      "sourceId": "hackernews",
+      "title": "GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "publishedAt": "2026-09-03T18:41:05.000Z",
+      "rawContent": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.081Z"
+    },
+    {
+      "id": "3096b36f6056d24c",
+      "sourceId": "github-blog",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+      "publishedAt": "2026-09-03T16:00:00.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">Running multiple AI agents on the same project seems like pure chaos, with too many cooks in your development kitchen. But with the <a href=\"https://github.com/features/ai/github-app?utm_source=blog-copilot-app-ep5&amp;utm_medium=blog&amp;utm_campaign=copilot-app-for-beginners-series\">GitHub Copilot app</a>, these agents work separately and don&rsquo;t interfere with each other, allowing you to get more done in less time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Think of parallel agent sessions like a trip to the laundromat. You can start multiple loads of laundry at the same time, in their own machines. You can set each washer with its own settings, and it won&rsquo;t impact the other loads. Most importantly, you don&rsquo;t have to wait for one to finish before you can start another one.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Let&rsquo;s look at how it works.</p>\n\n\n\n<h2 id=\"h-agent-sessions-git-worktrees-and-context\" class=\"wp-block-heading\">Agent sessions, Git worktrees, and context</h2>\n\n\n\n<p class=\"wp-block-paragraph\">An agent session is a task you&rsquo;ve given Copilot, start to finish.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In the GitHub Copilot app, you can manage several sessions through the sessions view. Each card shows its title and how far along the agent is in completing its task.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Each session runs independently of the others. That means you can start a new session whenever you want, and the ones already running won&rsquo;t be disturbed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But here&rsquo;s where the real magic happens. Each agent session in the GitHub Copilot app can run on its own Git worktree. Since each session is isolated, they can run in parallel, all at the same time.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That means you spend your time reviewing and making decisions rather than watching your agents at work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Plus, each session keeps its own context, so you can switch between them freely. Each picks up exactly where you left it, and you never have to re-explain what you were doing. Less context switching means you feel less scattered.</p>\n\n\n\n<h2 id=\"h-what-this-looks-like\" class=\"wp-block-heading\">What this looks like</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Let&rsquo;s look at an example repository, <code>tailspin-toys</code>. There are three things I want to do to this project today: add funded sort, perform an accessibility review, and run some tests on this project.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The first step is to ask Copilot to build the funded sort feature. Just as it gets started, open a new session and ask Copilot to perform an accessibility review. As that gets under way, start prompting Copilot to run some tests in a third session.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In the session view, you can keep track of all of these as they progress and review the results as they finish. Or you can step away entirely, grab a cup of coffee, and know your work is happening without you babysitting it.</p>\n\n\n\n<h2 id=\"h-get-started\" class=\"wp-block-heading\">Get started</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Ready to feel the power of parallel agent sessions?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Try starting two small tasks at the same time in the <a href=\"https://github.com/features/ai/github-app?utm_source=blog-copilot-app-ep5&amp;utm_medium=blog&amp;utm_campaign=copilot-app-for-beginners-series\">GitHub Copilot app</a>. It&rsquo;s a low-stakes way to watch your tasks progress independently.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\">Start using the <a href=\"https://github.com/features/ai/github-app?utm_source=blog-copilot-app-ep5&amp;utm_medium=blog&amp;utm_campaign=copilot-app-for-beginners-series\">GitHub Copilot app &gt;</a></p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/\">GitHub Copilot app for Beginners: Run several agents at once</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.608Z"
+    },
+    {
+      "id": "b837590e8bc38616",
+      "sourceId": "hackernews",
+      "title": ".name Termination",
+      "url": "https://neil.fraser.name/news/2026/09/03/",
+      "publishedAt": "2026-09-03T14:54:39.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.081Z"
+    },
     {
       "id": "dd805fe846c9ff0c",
       "sourceId": "hackernews",
@@ -180,6 +260,16 @@
       "rawContent": "<blockquote cite=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\"><p>They took the letters from me! I have to talk about <em>dwarf behavior</em> now. I can't even talk about dwarf AI. It doesn't exist. It's <em>dwarf behavior</em>, and they misbehave sometimes</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/\">Tarn Adams</a>, co-creator of Dwarf Fortress</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/game-design\">game-design</a></p>",
       "status": "nouveau",
       "createdAt": "2026-09-02T12:00:57.209Z"
+    },
+    {
+      "id": "5e6c81ccfc2090f1",
+      "sourceId": "hackernews",
+      "title": "Authorization terminology is a mess: Let's fix it",
+      "url": "https://idpro.org/authorization-terminology-is-a-mess-lets-fix-it/",
+      "publishedAt": "2026-09-01T14:18:54.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-04T12:02:15.081Z"
     },
     {
       "id": "d240490cb339d1e9",
@@ -4910,96 +5000,6 @@
       "rawContent": "<p><strong><a href=\"https://huggingface.co/tencent/Hy3\">tencent/Hy3</a></strong></p>\nNew Apache 2.0 licensed model from Tencent in China:</p>\n<blockquote>\n<p>Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.</p>\n</blockquote>\n<p>The full-sized model is 598GB on Hugging Face, and the FP8 quantized one <a href=\"https://huggingface.co/tencent/Hy3-FP8/tree/main\">is 300GB</a>. The context length is 256K.</p>\n<p>It's available for free <a href=\"https://openrouter.ai/tencent/hy3:free\">on OpenRouter until July 21st</a>. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:</p>\n<p><img alt=\"Flat-style cartoon illustration  of a white pelican with a large orange beak riding a red bicycle across a pale blue background, its long orange legs stretched down to the pedals, with gray horizontal motion lines behind it suggesting speed.\" src=\"https://static.simonwillison.net/static/2026/hy3-pelican.png\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
       "status": "nouveau",
       "createdAt": "2026-07-07T10:28:09.440Z"
-    },
-    {
-      "id": "68e2eab30faf0d49",
-      "sourceId": "hackernews",
-      "title": "GLM 5.2 and the coming AI margin collapse",
-      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-      "publishedAt": "2026-07-06T20:14:55.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-07T10:28:09.348Z"
-    },
-    {
-      "id": "84a7af73200dd3e1",
-      "sourceId": "hackernews",
-      "title": "CoMaps – FOSS Offline Maps",
-      "url": "https://www.comaps.app/",
-      "publishedAt": "2026-07-06T18:55:07.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-07T10:28:09.348Z"
-    },
-    {
-      "id": "27fc4cacdf45592d",
-      "sourceId": "hackernews",
-      "title": "OpenWrt One – Open Hardware Router",
-      "url": "https://openwrt.org/toh/openwrt/one",
-      "publishedAt": "2026-07-06T18:23:12.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-07T10:28:09.348Z"
-    },
-    {
-      "id": "774097965f54c870",
-      "sourceId": "hackernews",
-      "title": "Real-time map of Great Britain's rail network",
-      "url": "https://www.map.signalbox.io",
-      "publishedAt": "2026-07-06T09:38:36.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-06T11:40:04.415Z"
-    },
-    {
-      "id": "1eb6e47c95e4808e",
-      "sourceId": "simonwillison",
-      "title": "sqlite-utils 4.0rc3",
-      "url": "https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything",
-      "publishedAt": "2026-07-06T05:40:08.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc3\">sqlite-utils 4.0rc3</a></p>\n        <p>I hoped to release <code>sqlite-utils 4.0</code> stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#rc3-2026-07-05\">kept getting bigger</a>.</p>\n<p>The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to <a href=\"https://sqlite-utils.datasette.io/en/latest/python-api.html#foreign-keys\">table.foreign_keys</a> and hence needed to land for the 4.0 stable release.</p>\n<p><code>sqlite-utils</code> also now follows SQLite's convention for case insensitive column names, which turned out to touch <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#case-insensitive-column-matching\">a bunch of different places at once</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-06T11:40:04.512Z"
-    },
-    {
-      "id": "3050262d1bbe9263",
-      "sourceId": "hackernews",
-      "title": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
-      "url": "https://nexte.st/",
-      "publishedAt": "2026-07-06T04:19:30.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-09T10:32:19.549Z"
-    },
-    {
-      "id": "63fb9999dc2f39ec",
-      "sourceId": "hackernews",
-      "title": "GPT-5.6 Sol Ultra will be in Codex",
-      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
-      "publishedAt": "2026-07-06T01:04:03.000Z",
-      "rawContent": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;haider1&#x2F;status&#x2F;2073695124220006575</a>",
-      "status": "nouveau",
-      "createdAt": "2026-07-06T11:40:04.415Z"
-    },
-    {
-      "id": "125b7554ede0c978",
-      "sourceId": "hackernews",
-      "title": "Has_not_been_viewed_much",
-      "url": "https://iamwillwang.com/notes/has-not-been-viewed-much/",
-      "publishedAt": "2026-07-05T23:49:00.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-06T11:40:04.415Z"
-    },
-    {
-      "id": "3f58f99d7aa7e2c9",
-      "sourceId": "hackernews",
-      "title": "Organic Maps",
-      "url": "https://organicmaps.app/",
-      "publishedAt": "2026-07-05T14:14:30.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-06T11:40:04.415Z"
     }
   ]
 }
