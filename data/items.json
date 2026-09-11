@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-09-10T12:07:36.571Z",
+  "updatedAt": "2026-09-11T12:05:42.388Z",
   "items": [
+    {
+      "id": "244ca616b7edfe06",
+      "sourceId": "hackernews",
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "publishedAt": "2026-09-11T11:17:50.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.298Z"
+    },
+    {
+      "id": "a7e839f442e5efa3",
+      "sourceId": "hackernews",
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "publishedAt": "2026-09-11T11:15:13.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.298Z"
+    },
+    {
+      "id": "214c86f57b820be1",
+      "sourceId": "hackernews",
+      "title": "Claude is no longer available for minors",
+      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "publishedAt": "2026-09-11T10:48:00.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.298Z"
+    },
+    {
+      "id": "dad32b98cff7aab7",
+      "sourceId": "hackernews",
+      "title": "Cherenkov Radiation - traveling faster than light",
+      "url": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
+      "publishedAt": "2026-09-11T08:42:04.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.298Z"
+    },
+    {
+      "id": "1e206d769558c6a9",
+      "sourceId": "simonwillison",
+      "title": "Datasette 1.0a39 and 0.65.4 security releases",
+      "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "publishedAt": "2026-09-11T03:27:16.000Z",
+      "rawContent": "<p><strong><a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette 1.0a39 and 0.65.4 security releases</a></strong></p>\nToday we're releasing two new security patch versions of Datasette: <a href=\"https://docs.datasette.io/en/latest/changelog.html#v1-0-a39\">1.0a39</a> and <a href=\"https://docs.datasette.io/en/stable/changelog.html#v0-65-4\">0.65.4</a> - one for the current alpha series and one for the stable 0.65.x family.</p>\n<p>These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables.</p>\n<p>Following issues reported by <a href=\"https://github.com/jankesec\">Sevban Dönmez</a>, <a href=\"https://alexgarcia.xyz\">Alex Garcia</a> and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes.</p>\n<p>They helped find some <em>very</em> subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward.</p>\n<p>Alex came up with a way of splitting the work which I found extremely productive:</p>\n<blockquote>\n<p>Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/releases\">releases</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.428Z"
+    },
+    {
+      "id": "a2c293f2ef6d41e4",
+      "sourceId": "simonwillison",
+      "title": "Any Nix package, live in your browser",
+      "url": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "publishedAt": "2026-09-10T23:44:15.000Z",
+      "rawContent": "<p><strong><a href=\"https://fzakaria.com/2026/09/04/any-nix-package-live-in-your-browser\">Any Nix package, live in your browser</a></strong></p>\nFarid Zakaria calls this his \"<em>magnum opus</em> of Nix work\", and I can see why.</p>\n<p><a href=\"https://trynix.dev\">trynix.dev</a> provides a <a href=\"https://github.com/ktock/qemu-wasm\">qemu-wasm</a> powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with <em>any Nix package</em> from the past 13 years. They are URL addressable, so you can navigate to this page:</p>\n<p><a href=\"https://trynix.dev/?pkg=python3%403.6.2\">https://trynix.dev/?pkg=python3%403.6.2</a></p>\n<p>Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017.</p>\n<p>Farid is building all sorts of neat things on top of this. One recent example: <a href=\"https://fzakaria.com/2026/09/09/review-a-pull-request-by-booting-it\">Review a pull request by booting it</a> introduces <a href=\"https://github.com/marketplace/actions/trynix-preview\">trynix-preview</a>, described like this:</p>\n<blockquote>\n<p>GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using <a href=\"https://trynix.dev/\">https://trynix.dev</a>. No servers, just browsers.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/7lii0g/review_pull_request_by_booting_it\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/code-review\">code-review</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.428Z"
+    },
+    {
+      "id": "53dc2a824ef94f8a",
+      "sourceId": "github-blog",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+      "publishedAt": "2026-09-10T21:31:19.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">When an agent makes a change to your code, you want to review it, run it, and see what changed. Great news: now you can do all three without having to leave the <a href=\"https://github.com/features/ai/github-app?utm_source=blog-copilot-app-ep6&amp;utm_medium=blog&amp;utm_campaign=copilot-app-for-beginners-series\">GitHub Copilot app</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Before, doing those three jobs would mean having to bounce between your editor, terminal window, and web browser. But when these steps live side by side as built-in panels in the Copilot app, checking your agent&rsquo;s work is simple.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Let&rsquo;s walk through each of the panels in the app and how we&rsquo;ll use them to complete the AI coding loop.</p>\n\n\n\n<h2 id=\"h-using-the-diff-panel-to-review-changes\" class=\"wp-block-heading\">Using the diff panel to review changes</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The diff panel (a diff is a before and after comparison) shows exactly what lines were added, removed, or changed, with additions highlighted in green and deletions in red.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This gives you complete clarity, so you can choose what happens. You can accept changes, leave comments, or ask Copilot to make changes. You&rsquo;re in complete control and make the final decisions.</p>\n\n\n\n<h2 id=\"h-running-commands-in-the-terminal-panel\" class=\"wp-block-heading\">Running commands in the terminal panel</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Reading code is good, but running it is even better. You can run commands right inside the session from the Copilot app&rsquo;s terminal panel. And if it looks intimidating, don&rsquo;t worry. You&rsquo;re mostly just running the project&rsquo;s own commands and reading the results.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You can run the code by hand or configure it as a script (available through the <strong>Run</strong> button). Pretend you&rsquo;re working on a website, here&rsquo;s an example of how that works:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Add the <code>dev server</code> script that opens the client folder and then runs <code>npm run dev</code>.</li>\n\n\n\n<li>Click <strong>Run</strong> to start the server for the website.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">You can have multiple terminal windows open at once, so you can switch between them and keep running commands.</p>\n\n\n\n<h2 id=\"h-using-the-pick-amp-polish-tool-in-the-browser-panel\" class=\"wp-block-heading\">Using the pick &amp; polish tool in the browser panel</h2>\n\n\n\n<p class=\"wp-block-paragraph\">For anything that has a user interface, the browser panel closes the loop. And for our website example: this panel means you can open it and test your new feature as if you were using the site.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you want to keep iterating, you can use the <strong>Pick &amp; Polish</strong> tool to select an element and adjust it with the agent.</p>\n\n\n\n<p class=\"wp-block-paragraph\">And to see what got fixed, you can run the <code>dev server</code> script again after you&rsquo;ve made changes.</p>\n\n\n\n<h2 id=\"h-closing-the-loop-of-reviewing-ai-code\" class=\"wp-block-heading\">Closing the loop of reviewing AI code</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Now you&rsquo;ve reviewed the diff, started the project in the terminal, reviewed it in the browser, and iterated to get it to a working feature. Once you&rsquo;ve gotten it where you want, you can accept the change directly from the Copilot app and create a pull request. Completing this loop from one place means there&rsquo;s no tab hopping, switching apps, or losing your place.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Having review, run, and preview side by side is what makes agent-made changes feel safe instead of scary, because you can prove that what you&rsquo;re merging works.</p>\n\n\n\n<h2 id=\"h-take-this-with-you\" class=\"wp-block-heading\">Take this with you</h2>\n\n\n\n<p class=\"wp-block-paragraph\">These built-in panels answer three important questions you should always ask before you accept an agent&rsquo;s work.</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>What&rsquo;s&nbsp;changed?&nbsp;</li>\n\n\n\n<li>Does it run?&nbsp;&nbsp;</li>\n\n\n\n<li>And does it&nbsp;<em>actually</em><strong>&nbsp;</strong>work?&nbsp;&nbsp;</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Running through this list before accepting agent-generated code will help you understand what changed and whether it functions the way you want, keeping you in control. &#10024;</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\">Try using the <a href=\"https://github.com/features/ai/github-app?utm_source=blog-copilot-app-ep6&amp;utm_medium=blog&amp;utm_campaign=copilot-app-for-beginners-series\">GitHub Copilot app &gt;</a></p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/\">GitHub Copilot app for Beginners: Using the diff, terminal, and browser</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.707Z"
+    },
+    {
+      "id": "f498dec7f81a4f85",
+      "sourceId": "simonwillison",
+      "title": "Native is now the future of mobile at Shopify",
+      "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+      "publishedAt": "2026-09-10T21:11:15.000Z",
+      "rawContent": "<p><strong><a href=\"https://shopify.engineering/back-to-native\">Native is now the future of mobile at Shopify</a></strong></p>\nShopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:</p>\n<blockquote>\n<p>We decided to switch from native to React Native in 2020 for three reasons:</p>\n<ul>\n<li>Stop building the same features twice</li>\n<li>Allow developers to work across the stack</li>\n<li>Spend less time chasing feature parity and more time shipping value</li>\n</ul>\n<p>[...]</p>\n<p>Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020.</p>\n</blockquote>\n<p>It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it.</p>\n<p>Shopify are the maintainers of three significant React Native libraries: <a href=\"https://github.com/Shopify/react-native-skia\">react-native-skia</a>, <a href=\"https://github.com/Shopify/flash-list\">flash-list</a>, and <a href=\"https://github.com/Shopify/restyle\">restyle</a>. The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49643982\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/android\">android</a>, <a href=\"https://simonwillison.net/tags/mobile\">mobile</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ios\">ios</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/react\">react</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-search\">ai-assisted-search</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/swift\">swift</a>, <a href=\"https://simonwillison.net/tags/shopify\">shopify</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.428Z"
+    },
     {
       "id": "1d9206ddba9954ec",
       "sourceId": "hackernews",
@@ -110,6 +190,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-09T12:14:01.791Z"
+    },
+    {
+      "id": "ba5dd3c1f4c35db4",
+      "sourceId": "hackernews",
+      "title": "So you want to use OpenRouter?",
+      "url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "publishedAt": "2026-09-09T05:37:21.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-11T12:05:41.298Z"
     },
     {
       "id": "93334b7607d9e35b",
@@ -4910,96 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-07-14T09:07:09.731Z"
-    },
-    {
-      "id": "86da57583a025800",
-      "sourceId": "simonwillison",
-      "title": "Using uvx in GitHub Actions in a cache-friendly way",
-      "url": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
-      "publishedAt": "2026-07-14T00:56:20.000Z",
-      "rawContent": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/github-actions/uvx-github-actions-cache\">Using uvx in GitHub Actions in a cache-friendly way</a></p>\n        <p>I finally found a cache-friendly recipe for using <code>uvx tool-name</code> in GitHub Actions workflows that I like.</p>\n<p>The trick is setting a <code>UV_EXCLUDE_NEWER: \"2026-07-12\"</code> environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any <code>uvx tool-name</code> commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future.</p>\n<p>My goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies.</p>\n<p><strong>Update</strong>: Here's an existing <a href=\"https://github.com/astral-sh/setup-uv/issues/745\">issue</a> against the <code>astral-sh/setup-uv</code> repository requesting that they switch the default to cache rather than purge wheels from PyPI.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-14T09:07:09.860Z"
-    },
-    {
-      "id": "083d0cae653d4b7c",
-      "sourceId": "simonwillison",
-      "title": "DOOMQL",
-      "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
-      "publishedAt": "2026-07-13T22:34:41.000Z",
-      "rawContent": "<p><strong><a href=\"https://github.com/petergpt/doomql\">DOOMQL</a></strong></p>\nPeter Gostev built this using GPT-5.6 Sol. This is a <em>lot</em> of fun: </p>\n<blockquote>\n<p>DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data?</p>\n<p>The result is a small, original Doom-like game in which SQL owns movement, collision, enemies, combat, progression and every RGB pixel on screen.</p>\n</blockquote>\n<p>It's implemented as a Python terminal script - I tried it out like this:</p>\n<pre><code>cd /tmp\ngit clone https://github.com/petergpt/doomql\ncd doomql\nuv run host/doomql.py\n</code></pre>\n<p><img alt=\"Screenshot of a macOS terminal window titled &quot;doomql — python3.14 ◂ uv run host/doomql.py — 134×31&quot; showing a retro Doom-style game rendered as text-mode pixel art. The scene is a pixelated first-person corridor with gray paneled walls, dark red doors on the far left and right, a floating cyan-and-gold coin pickup on the right side, a white crosshair near the center, and a dark weapon barrel rising from the bottom center. A status bar below the scene reads &quot;HP 100/100 AMMO 037 SCORE 00225 INDEX MISSING TICK 0028450&quot;, followed by an orange line &quot;FIND THE INDEX TOKEN&quot; and a cyan controls line &quot;WASD MOVE J/L OR ARROWS TURN SPACE FIRE E USE P PAUSE CTRL-C EXIT&quot;.\" src=\"https://static.simonwillison.net/static/2026/doomql-window.png\" /></p>\n<p>Here's <a href=\"https://github.com/petergpt/doomql/blob/main/sql/003_render.sql\">the huge SQL query</a> that implements a full ray tracer in SQLite using a recursive CTE.</p>\n<p>Running the above script creates a <code>/tmp/doomql/.doomql/doomql.sqlite</code> SQLite database, which you can explore using Datasette like this:</p>\n<pre><code>uvx --prerelease=allow  --with datasette-apps datasette \\\n  /tmp/doomql/.doomql/doomql.sqlite \\\n  -p 4444 --root --secret 1 --internal internal.db\n</code></pre>\n<p>The <code>--with datasette-apps</code> option installs the new <a href=\"https://simonwillison.net/2026/Jun/18/datasette-apps/\">Datasette Apps</a> plugin, which supports creating custom HTML+JavaScript apps that can run SQL queries directly within the Datasette interface.</p>\n<p>I created a new app, pasted the copy-paste prompt into Claude chat (Fable 5) <a href=\"https://claude.ai/share/c793280c-2ef1-4555-a7c2-31281abfdf78\">and told it</a>:</p>\n<blockquote>\n<p><code>Build an app that displays the current state of the screen using the frame_pixels view with its x, y, r, g, b columns. have it refresh once a second.</code></p>\n</blockquote>\n<p>This got me a working HTML+JavaScript app inside Datasette that could reflect the current state while I played the game in my terminal. Then I added:</p>\n<blockquote>\n<p><code>add a minimap</code></p>\n</blockquote>\n<p>And now my Datasette App looks like this:</p>\n<p><img alt=\"Screenshot of a dark-themed web app running a retro Doom-style game rendered from SQL queries. The page header reads &quot;DOOMQL&quot; with buttons &quot;All apps&quot;, &quot;Edit app&quot;, &quot;Pin&quot;, and &quot;Full screen&quot;. Inside the game panel, the title &quot;DOOMQL&quot; sits above the subtitle &quot;auto-refreshing once a second · frame and tactical map straight from SQL&quot;. The left side shows a pixelated first-person corridor view with gray walls, dark red doors, a floating cyan-and-gold coin pickup, a white crosshair, and a weapon barrel at bottom center. A status bar below reads &quot;HP 100/100 AMMO 037 SCORE 00225 INDEX MISSING TICK 0027847&quot;. On the right, a panel titled &quot;TACTICAL MAP&quot; shows a top-down grid map with a player triangle, a red enemy circle, yellow pickup dots, red wall markers, and a green exit square, with a legend reading &quot;you&quot;, &quot;enemy&quot;, &quot;pickup&quot;, &quot;locked door&quot;, &quot;door&quot;, &quot;exit&quot;. Below the game view, an orange banner reads &quot;FIND THE INDEX TOKEN&quot;, followed by the cyan line &quot;READ-ONLY VIEWER · SELECT x, y, r, g, b FROM frame_pixels&quot;. At the bottom, a green &quot;RUNNING&quot; badge appears beside the stats &quot;160×54 · 8,640 pixels · 3 hostiles · query 89 ms · refreshing every 1 s&quot;.\" src=\"https://static.simonwillison.net/static/2026/doomql-datasette-app.png\" /></p>\n<p>Here's <a href=\"https://gist.github.com/simonw/7c78184476fccd4b70b02f7f9048dffa\">the HTML app code</a> - paste that into your own Datasette instance (using the <code>uvx --with datasette-apps</code> recipe from above) to try it yourself.\n\n    <p><small></small>Via <a href=\"https://twitter.com/petergostev/status/2076692164310884468\">@petergostev</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/games\">games</a>, <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-14T09:07:09.860Z"
-    },
-    {
-      "id": "d20bc9f9cdd109f3",
-      "sourceId": "simonwillison",
-      "title": "datasette code-frequency chart on GitHub",
-      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
-      "publishedAt": "2026-07-13T21:45:27.000Z",
-      "rawContent": "<p><strong><a href=\"https://github.com/simonw/datasette/graphs/code-frequency\">datasette code-frequency chart on GitHub</a></strong></p>\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my <a href=\"https://datasette.io/\">Datasette</a> open source project:</p>\n<p><img alt=\"Screenshot of a GitHub &quot;Code frequency&quot; bar chart, subtitled &quot;Additions and deletions per week&quot;, showing green addition bars and red deletion bars per week from 2018 through 2026, with a y-axis labeled Frequency ranging from -20k to 30k. Activity comes in sporadic bursts: the largest spike is 37,022 additions with -9,528 deletions in 2026, followed by 14,638 additions with -6,584 deletions in late 2025, 15,998 additions in early 2018, and a standout deletion spike of -10,658 in mid-2020, with quieter periods of smaller weekly changes in between.\" src=\"https://static.simonwillison.net/static/2026/datasette-code-frequency.png\" /></p>\n<p>The big spike in activity at the end aligns with Opus 4.8, GPT-5.5, Fable 5 and GPT-5.6 Sol.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-14T09:07:09.860Z"
-    },
-    {
-      "id": "d51c5746565178f0",
-      "sourceId": "hackernews",
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "publishedAt": "2026-07-13T08:39:39.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.005Z"
-    },
-    {
-      "id": "eca83f316e73c35e",
-      "sourceId": "hackernews",
-      "title": "Interrail: 6,379Km and 13 Countries over 7 weeks",
-      "url": "https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks/",
-      "publishedAt": "2026-07-13T08:04:30.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.005Z"
-    },
-    {
-      "id": "302c72b05f0036cf",
-      "sourceId": "hackernews",
-      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "url": "https://github.com/schlae/BeavisUltrasound",
-      "publishedAt": "2026-07-13T05:15:14.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.005Z"
-    },
-    {
-      "id": "2546e8c5277b1da9",
-      "sourceId": "simonwillison",
-      "title": "Directly Responsible Individuals (DRI)",
-      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
-      "publishedAt": "2026-07-12T23:57:14.000Z",
-      "rawContent": "<p><strong><a href=\"https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/\">Directly Responsible Individuals (DRI)</a></strong></p>\nI went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\".</p>\n<p>I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I don't think an agent should <em>ever</em> be considered the DRI for a project - that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot.</p>\n<p>(See also <a href=\"https://simonwillison.net/2025/Feb/3/a-computer-can-never-be-held-accountable/\">IBM's legendary 1979 training slide</a> that states \"A computer can never be held accountable, therefore a computer must never make a management decision.\")\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/apple\">apple</a>, <a href=\"https://simonwillison.net/tags/management\">management</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/gitlab\">gitlab</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.153Z"
-    },
-    {
-      "id": "b626f9f50c91bc84",
-      "sourceId": "simonwillison",
-      "title": "shot-scraper 1.11",
-      "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
-      "publishedAt": "2026-07-12T23:46:52.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.11\">shot-scraper 1.11</a></p>\n        <p>Some minor improvements, mainly around command option consistency and making the <code>server:</code> mechanism <a href=\"https://shot-scraper.datasette.io/en/stable/multi.html#running-a-server-for-the-duration-of-the-session\">used by</a> both <code>shot-scraper video</code> and <code>shot-scraper multi</code> work if the server takes longer than a second to start serving traffic.</p>\n<blockquote>\n<ul>\n<li><code>server:</code> processes used by <code>shot-scraper multi</code> and <code>shot-scraper video</code> now wait up to 30 seconds for the target URL to accept connections, polling for port availability and replacing the previous fixed one-second delay. <a href=\"https://github.com/simonw/shot-scraper/issues/197\">#197</a></li>\n<li>The <code>shot-scraper</code>, <code>pdf</code>, <code>html</code>, <code>accessibility</code> and <code>har</code> commands now have a <code>--js-file</code> option for loading JavaScript from a local file, standard input or <code>gh:username/script</code>, as an alternative to <code>--javascript</code>which accepts the string of JavaScript directly as an argument. <a href=\"https://github.com/simonw/shot-scraper/issues/192\">#192</a></li>\n<li><code>shot-scraper multi</code> supports the equivalent <code>js_file:</code> YAML key. </li>\n<li>The <code>shot-scraper javascript</code> and <code>shot-scraper html</code> commands now have a <code>--timeout</code> option for consistency with other commands. <a href=\"https://github.com/simonw/shot-scraper/issues/118\">#118</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.153Z"
-    },
-    {
-      "id": "abbfea7aa0789a5d",
-      "sourceId": "simonwillison",
-      "title": "Fable gets another bump",
-      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
-      "publishedAt": "2026-07-12T21:20:07.000Z",
-      "rawContent": "<p>One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, <a href=\"https://x.com/claudeai/status/2076351399999557669\">bumped the date</a> that Fable stops being available in their Claude Max plans:</p>\n<blockquote>\n<p>We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</p>\n<p>As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits.</p>\n</blockquote>\n<p>Anthropic's original rationale for this was compute constraints - they wanted a better idea of both demand and compute availability before committing to keeping the new model cheap for subscribers.</p>\n<p>OpenAI appear confident that they won't need to restrict access to GPT-5.6 in the same way. Here's Thibault Sottiaux <a href=\"https://twitter.com/thsottiaux/status/2076365965915467978\">this morning</a>:</p>\n<blockquote>\n<p>The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:</p>\n<ul>\n<li>Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans</li>\n<li>Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared</li>\n<li>We hit 6M active users, and are landing a usage reset in the next hour</li>\n</ul>\n</blockquote>\n<p>At this point I think Anthropic should change track and keep Fable permanently available on those plans. OpenAI are winning users simply due to the uncertainty that surrounds Fable access.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-13T10:31:06.153Z"
     }
   ]
 }
