@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-01T14:19:36.339Z",
+  "updatedAt": "2026-10-02T13:41:37.272Z",
   "items": [
+    {
+      "id": "75e9adf76cb1c21e",
+      "sourceId": "hackernews",
+      "title": "The Legend of von Neumann [pdf]",
+      "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+      "publishedAt": "2026-10-02T13:18:32.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "97a5f50a708038f2",
+      "sourceId": "hackernews",
+      "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
+      "url": "https://github.com/kvoltmer/Audionaut",
+      "publishedAt": "2026-10-02T08:05:48.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "00f1e1bc55443ac1",
+      "sourceId": "hackernews",
+      "title": "Shimano Bicycle Museum Review",
+      "url": "https://inrng.com/2026/10/shimano-bicycle-museum/",
+      "publishedAt": "2026-10-02T05:12:58.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "d315aa5bb99e76d8",
+      "sourceId": "hackernews",
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "url": "https://lwn.net/Articles/1097401/",
+      "publishedAt": "2026-10-01T23:10:44.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "9b9edebdd384270d",
+      "sourceId": "hackernews",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "publishedAt": "2026-10-01T19:33:05.000Z",
+      "rawContent": "Related: <i>Pi Durable</i> - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49925969",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "a0c03d16e7252ace",
+      "sourceId": "github-blog",
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "publishedAt": "2026-10-01T15:07:16.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">I&rsquo;m looking for ideas I can take back to my own work, from verifying agent-written code and securing dependencies to building software that works where internet access is unreliable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are more sessions at <a href=\"https://githubuniverse.com/?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">GitHub Universe</a> than I can fit into two days. To narrow the list, I built my agenda around questions I&rsquo;m working through right now:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>How do we know an agent&rsquo;s code works?</li>\n\n\n\n<li>What should it remember?</li>\n\n\n\n<li>What are we trusting every time we install a dependency?</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">That puts agent memory, evaluations, and permissions high on my list. I&rsquo;m also making room for JavaScript tooling and building software where internet access is unreliable. Here are my 10 picks.</p>\n\n\n\n<h2 id=\"h-what-happens-behind-the-scenes-when-you-run-npm-install\" class=\"wp-block-heading\">What happens behind the scenes when you run npm install</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Most of us use npm, but the truth is that many of us rarely stop to think about the people, permissions, and release processes behind the packages it pulls in. Karen Li and Leo Balter from GitHub will trace those dependencies through the systems that publish and protect them. I&rsquo;m interested in what npm audit can&rsquo;t catch, and where package provenance and OpenID Connect fit into the picture.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777602763278001LSdB?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">View the full session description &gt;</a></p>\n\n\n\n<h2 id=\"h-how-github-taught-copilot-to-remember-and-when-to-forget\" class=\"wp-block-heading\">How GitHub taught Copilot to remember and when to forget</h2>\n\n\n\n<p class=\"wp-block-paragraph\">GitHub researchers Cooper Nederhood and Alejandro Carderera built a benchmark from sequences of real pull requests and found that accumulated context can hurt performance. We expend a lot of effort deciding what context to give an agent. I want to understand what to not give. They&rsquo;ll cover how that research informs their work on agent memory, including features still in development.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777557576923001fNOZ?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">View the full session description &gt;</a></p>\n\n\n\n<h2 id=\"h-treat-your-ai-context-as-infrastructure\" class=\"wp-block-heading\">Treat your AI context as infrastructure</h2>\n\n\n\n<p class=\"wp-block-paragraph\">You&rsquo;ve written instructions, built and installed skills, and added your MCP servers. It works for you. How do you make that context useful across a team? Christopher Harrison from GitHub will break down what each tool is good for and how to distribute the right context consistently as your setup grows.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1778275240014001huB4?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">View the full session description &gt;</a></p>\n\n\n\n<h2 id=\"h-open-pull-requests-don-t-merge-them-fine-grained-authorization-for-hosted-mcp-servers\" class=\"wp-block-heading\">Open pull requests, don&rsquo;t merge them: Fine-grained authorization for hosted MCP servers</h2>\n\n\n\n<p class=\"wp-block-paragraph\">&ldquo;Open a pull request, but do not merge&rdquo; is a boundary I want enforced in permissions. Putting it in an instructions file feels like an inadequate setup. Nick Taylor from Pomerium will demonstrate an identity-aware proxy that adds per-identity authorization in front of a hosted MCP server without changing the upstream server. I want to see how the rule holds up when an agent actually tries to act.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777489102123001ThSM?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">View the full session description &gt;</a></p>\n\n\n\n<h2 id=\"h-your-benchmark-is-lying-what-evals-actually-look-like\" class=\"wp-block-heading\">Your benchmark is lying: What evals actually look like</h2>\n\n\n\n<p class=\"wp-block-paragraph\">A model can score well on a benchmark and still disappoint developers using it. Walker Chabbott from GitHub and Julia Kasper from Microsoft will show how Copilot evaluates models in production, including what the team measures and what they stopped measuring. Metrics help us and models make real decisions, so understanding what to measure is more important than ever. This session is a Sandbox Session, so I&rsquo;m looking forward to working through the question of what makes an evaluation useful.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776460904386001a8nL?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\">View the full session description &gt;</a></p>\n\n\n\n<h2 id=\"h-beyond-pass-or-fail-how-agents-verify-ai-generated-code-nbsp\" class=\"wp-block-heading\">Beyond pass or fail: How agents verify AI-generated code&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The test passed so why is the app still broken? Safe to say we&rsquo;ve all been there. Jeff An from Momentic will explore how agents investigate applications, reproduce unexpected behavior, and distinguish product bugs from broken tests or infrastructure failures. &nbsp;I&rsquo;m especially interested in the deterministic controls that limit what those agents can do while they investigate.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1787615869752001IyaJ?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">View the full session description &gt;</a> <a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1787615869752001IyaJ\" target=\"_blank\" rel=\"noopener\"></a>&nbsp;</p>\n\n\n\n<h2 id=\"h-the-2-a-m-rca-agent-architecting-ai-that-investigates-not-hallucinates-nbsp\" class=\"wp-block-heading\">The 2 a.m. RCA Agent: Architecting AI that investigates, not hallucinates&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">In the architecture Achin Gupta from Intuit and Divya Mahajan from Amazon will present, deterministic code handles signal collection, topology traversal, correlation, and scoring. The language model narrates the evidence. That&rsquo;s a clear split of responsibilities, and I want to understand the decisions behind it.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777687372042001GE87?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">View the full session description &gt;</a> &nbsp;</p>\n\n\n\n<h2 id=\"h-disrupting-supply-chain-attacks-a-threat-framework-for-github-actions-nbsp\" class=\"wp-block-heading\">Disrupting supply chain attacks: A threat framework for GitHub Actions&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;A workflow with access to credentials and the ability to publish a release is an attractive target.&nbsp;Steve Glass and Greg Ose from GitHub will map supply chain attack techniques to GitHub Actions controls, covering the ecosystem, workflow attack surface, and runner infrastructure. I want a clearer picture of where to put defenses in a pipeline I&rsquo;d trust with a release.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777658986177001QNCH?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">View the full session description &gt;</a> &nbsp;</p>\n\n\n\n<h2 id=\"h-one-cli-to-replace-your-entire-javascript-toolchain-nbsp\" class=\"wp-block-heading\">One CLI to replace your entire JavaScript toolchain&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">&ldquo;Your entire JavaScript toolchain&rdquo; is a bold statement. I&rsquo;m glad this session includes a real migration. Alexander Lichter from VoidZero will walk through Vite+, an open source CLI for managing the front-end toolchain. Bundling, testing, linting, formatting, runtime management: there&rsquo;s plenty of configuration in that list. I want to see what Vite+ replaces today, what I&rsquo;d need to manage separately, and what&rsquo;s on the roadmap.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776349155958001oTwn?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">View the full session description &gt;</a> &nbsp;</p>\n\n\n\n<h2 id=\"h-lessons-from-building-tech-in-a-low-connectivity-community-nbsp\" class=\"wp-block-heading\">Lessons from building tech in a low-connectivity community&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Alex Junior Antwi from Braveon AI will share lessons from building CarbonSight for low-connectivity communities in Ghana. There is a long list of concerns when building for less-than-ideal connectivity scenarios, and shouldn&rsquo;t we all build for our least-connected users? I&rsquo;m very excited about the offline demo on this one.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1775902696655001nnFo?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">View the full session description &gt;</a> &nbsp;</p>\n\n\n\n<h2 id=\"h-come-build-a-skill-with-us-nbsp\" class=\"wp-block-heading\">Come build a skill with us&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">I&rsquo;ll also join Shishir Tewari from Procore for <a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785179690271001xi4A?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">Build once, run on any agent: a practical guide to agent skills</a>. I&rsquo;ll bring the skills I&rsquo;ve built for recurring work; Shishir will bring his experience building skills for a production data engineering team. We&rsquo;ll explore when a workflow belongs in a reusable skill. If you&rsquo;re tired of repeating yourself to your coding agent and want to understand what makes a skill useful in both your work and personal projects, come join us.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Want to see what else is happening at Universe? Think about the topics you are prioritizing, then check out the <a href=\"https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">rest of the schedule here and add sessions to your agenda</a>. And if you haven&rsquo;t registered yet, there&rsquo;s still time to <a href=\"https://githubuniverse.com/pricing?utm_source=GitHub&amp;utm_medium=Blog&amp;utm_campaign=Tech_content_uni_26\" target=\"_blank\" rel=\"noreferrer noopener\">pick up in-person or virtual passes</a>. I hope to see you there October 28&ndash;29!</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n</body></html>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/\">10 technical talks I’m excited about at GitHub Universe 2026</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-10-02T13:41:36.206Z"
+    },
     {
       "id": "916493f77794f23e",
       "sourceId": "hackernews",
@@ -4940,66 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-03T10:46:28.505Z"
-    },
-    {
-      "id": "76a4c194005a7e61",
-      "sourceId": "simonwillison",
-      "title": "condense-json 1.0",
-      "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
-      "publishedAt": "2026-08-02T22:19:59.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p>\n        <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p>\n<p>Here's an example of what it can do, lifted from the README:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string with foxes in it<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another with foxes in it too<span class=\"pl-pds\">\"</span></span>]\n      }\n    }\n  }\n}</pre></div>\n<p>Combine that with a replacements object:</p>\n<div class=\"highlight highlight-source-json\"><pre>{<span class=\"pl-ent\">\"1\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>with foxes in it<span class=\"pl-pds\">\"</span></span>}</pre></div>\n<p>And <code>condense_json(input_json, replacements)</code> produces the following:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}]},\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span> too<span class=\"pl-pds\">\"</span></span>]}]\n      }\n    }\n  }\n}</pre></div>\n<p>It scans for strings or substrings that are present in that replacements object and replaces those with a special <code>{\"$r\": ...}</code> syntax in the output.</p>\n<p>You can reverse the effect with <code>uncondense_json(condensed, replacements)</code>.</p>\n\n<p>The idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by <a href=\"https://llm.datasette.io/\">LLM</a> - see <a href=\"https://github.com/simonw/llm/pull/1586\">PR #1586</a> for the latest iteration of that.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/json\">json</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.668Z"
-    },
-    {
-      "id": "fe470f21b2646aa3",
-      "sourceId": "simonwillison",
-      "title": "Open letters about AI development",
-      "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "publishedAt": "2026-08-02T04:16:52.000Z",
-      "rawContent": "<h4>Open letters about AI development</h4>\n<p><em>I wrote this summary of the past few weeks of open letters as a section of <a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/\">my sponsors-only newsletter</a> but I've decided to share it here as well.</em></p>\n<p><strong><a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Open Weights and American AI Leadership</a></strong> was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI.</p>\n<p>It's clearly an argument designed to counter <a href=\"https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\">any instincts</a> by the current US government to ban or limit open weight models over \"safety\" concerns - a reasonable consideration given <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">what happened to Claude Fable 5</a>!</p>\n<blockquote>\n<p>Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time.</p>\n</blockquote>\n<p>The one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models:</p>\n<blockquote>\n<p>In shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model’s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement.</p>\n</blockquote>\n<p>Notably absent from the signatures: Anthropic, who published their own response <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Our position on open-weights models</a> three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building \"AI models that are more powerful than those built by the US\", and models being \"misused to carry out cyberattacks or biological attacks\", and called for \"a crack down on industrial-scale <a href=\"https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks\">distillation operations</a>\", while also stating that \"Anthropic has never advocated for a ban on open-weights models\".</p>\n<p>Then on July 28th <a href=\"https://www.pacingthefrontier.com\">Pacing the Frontier</a> was published, featuring signatures from \"1,324 employees of frontier AI companies\" - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message:</p>\n<blockquote>\n<p>We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.</p>\n</blockquote>\n<p>Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic <a href=\"https://www.anthropic.com/institute/recursive-self-improvement\">produce 80% of their code with Claude Code</a>, OpenAI had Sol <a href=\"https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/\">reduce their end-to-end serving costs by 20%</a>, and Kimi K3 <a href=\"https://www.kimi.com/blog/kimi-k3#chip-design\">designed a chip to serve a nano model built on its own architecture</a>, you can see why people are taking that risk more seriously right now.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-02T09:11:58.673Z"
-    },
-    {
-      "id": "eb2b47d50db42393",
-      "sourceId": "simonwillison",
-      "title": "July 2026 newsletter",
-      "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-      "publishedAt": "2026-08-02T04:12:41.000Z",
-      "rawContent": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-07-july.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Accidental cyberattacks by OpenAl and Anthropic models under test</li>\n<li>GPT-5.6 Sol, Terra, and Luna</li>\n<li>Claude Opus 5</li>\n<li>Kimi K3 and DeepSeek-V4-Flash-0731</li>\n<li>Open letters about Al development</li>\n<li>A fireside chat and a podcast</li>\n<li>Reigniting my interest in MCP</li>\n<li>Other model releases</li>\n<li>My projects</li>\n<li>What I'm using at the moment</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-06-june.md\">a copy of the June newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-02T09:11:58.673Z"
-    },
-    {
-      "id": "14196b926672dfa5",
-      "sourceId": "hackernews",
-      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
-      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
-      "publishedAt": "2026-08-02T03:12:52.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-02T09:11:58.430Z"
-    },
-    {
-      "id": "a3c9af9b9fe739f9",
-      "sourceId": "hackernews",
-      "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
-      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
-      "publishedAt": "2026-08-02T02:07:09.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-02T09:11:58.430Z"
-    },
-    {
-      "id": "bd1fe04bddb74701",
-      "sourceId": "hackernews",
-      "title": "Go 1.27 Interactive Tour",
-      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
-      "publishedAt": "2026-08-02T01:35:51.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-02T09:11:58.430Z"
     }
   ]
 }
