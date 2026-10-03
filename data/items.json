@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-10-02T13:41:37.272Z",
+  "updatedAt": "2026-10-03T12:21:04.564Z",
   "items": [
+    {
+      "id": "66a5be11d54aeae4",
+      "sourceId": "hackernews",
+      "title": "GitHub's new dashboard experience now the default",
+      "url": "https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default/",
+      "publishedAt": "2026-10-03T09:59:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.254Z"
+    },
+    {
+      "id": "32023900b443069d",
+      "sourceId": "hackernews",
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "url": "https://www.newgrounds.com/",
+      "publishedAt": "2026-10-03T00:55:25.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.254Z"
+    },
+    {
+      "id": "c31b3a6f6261007c",
+      "sourceId": "hackernews",
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "publishedAt": "2026-10-02T19:06:56.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.254Z"
+    },
+    {
+      "id": "afd517ff06180871",
+      "sourceId": "github-blog",
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">AI is changing how developers work and apply their skills. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tradeoffs, and make sound technical decisions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The good news? You can start preparing today. Here&rsquo;s where to focus:</p>\n\n\n\n<h2 id=\"h-tip-1-learn-to-direct-ai-not-just-use-it\" class=\"wp-block-heading\">Tip #1: Learn to direct AI, not just use it.</h2>\n\n\n\n<p class=\"wp-block-paragraph\">AI is changing what execution looks like. Increasingly, great execution means defining the problem clearly, providing the right context, evaluating AI-generated code, and deciding what&rsquo;s ready to ship. As AI agents take on more of the implementation, these skills become even more valuable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example, imagine you&rsquo;re asked to add a new authentication flow.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A traditional workflow might look like this:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>Task: Add authentication  \n\n&rarr; Create branch  \n&rarr; Write code  \n&rarr; Run tests  \n&rarr; Open pull request</code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"Task: Add authentication  \n\n&rarr; Create branch  \n&rarr; Write code  \n&rarr; Run tests  \n&rarr; Open pull request\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">As AI tools become more capable and more deeply integrated into day-to-day workflows, those same skills can help you coordinate multiple AI agents. Your workflow might look more like this:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>Workspace: Add authentication  \n\nAgent 1 &#10003; Authentication ready for review \nAgent 2 &#10003; Documentation draft ready  \nAgent 3 &#10003; Test suite ready</code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"Workspace: Add authentication  \n\nAgent 1 &#10003; Authentication ready for review \nAgent 2 &#10003; Documentation draft ready  \nAgent 3 &#10003; Test suite ready\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">Notice what changed. You&rsquo;re still responsible for the outcome, but you&rsquo;re spending less time implementing every piece yourself. Instead, you&rsquo;re defining the work, reviewing outputs, and making the technical decisions that bring everything together.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Takeaway:</strong> Learn to direct AI agents.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://docs.github.com/copilot/how-tos/github-copilot-app/getting-started/\">Start your first agent session &gt;</a></p>\n\n\n\n<h2 id=\"h-tip-2-don-t-trust-ai-s-first-answer\" class=\"wp-block-heading\">Tip #2: Don&rsquo;t trust AI&rsquo;s first answer</h2>\n\n\n\n<p class=\"wp-block-paragraph\">AI can generate impressive solutions in seconds, but the first answer isn&rsquo;t always the best. Your experience writing clean, maintainable code can help you evaluate AI&rsquo;s output.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ask a second AI model to critique the first model&rsquo;s work, then use your own judgment to evaluate both responses.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Here&rsquo;s a prompt that shows what that might look like in practice:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>\"Write a SQL query that returns each customer's most recent order.\" \n&darr; \nAI Model #1 \n&#10003; Generates the query \n&darr; \nAI Model #2 (Critique) \n&#9888; Doesn't handle duplicate timestamps \n&#9888; Missing index recommendation \n&#9888; May perform poorly on large tables</code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"&quot;Write a SQL query that returns each customer's most recent order.&quot; \n&darr; \nAI Model #1 \n&#10003; Generates the query \n&darr; \nAI Model #2 (Critique) \n&#9888; Doesn't handle duplicate timestamps \n&#9888; Missing index recommendation \n&#9888; May perform poorly on large tables\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">Different AI models have different strengths and blind spots. That&rsquo;s why GitHub Copilot&rsquo;s built-in <strong>Rubber Duck agent</strong> uses a second model to critique plans, code, and tests before you move forward. A second perspective often catches issues the first model misses.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Takeaway:</strong> Trust AI enough to use it but not enough to skip review.</p>\n\n\n\n<h2 id=\"h-tip-3-use-ai-to-solve-bigger-problems\" class=\"wp-block-heading\">Tip #3: Use AI to solve bigger problems</h2>\n\n\n\n<p class=\"wp-block-paragraph\">When AI saves implementation time, developers can use that time to tackle broader problems: understanding customer needs, evaluating tradeoffs, designing better systems, and making technical decisions that AI can&rsquo;t make for them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>Issue #4821 \nTitle: Add dark mode \n\nAI \n\n&#10003; Build implementation \n&#10003; Generate tests \n&#10003; Update documentation \n\nDeveloper checklist \n\n&#9744; Validate customer problem \n&#9744; Review architectural tradeoffs \n&#9744; Check accessibility \n&#9744; Define success metrics \n&#9744; Approve solution </code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"Issue #4821 \nTitle: Add dark mode \n\nAI \n\n&#10003; Build implementation \n&#10003; Generate tests \n&#10003; Update documentation \n\nDeveloper checklist \n\n&#9744; Validate customer problem \n&#9744; Review architectural tradeoffs \n&#9744; Check accessibility \n&#9744; Define success metrics \n&#9744; Approve solution\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">As AI takes on more implementation work, the skills that distinguish great engineers become even more important: exercising sound judgment, balancing tradeoffs, and solving the right problems.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Takeaway:</strong> Let AI handle more of the implementation so you can spend more time building the judgment that helps teams make better decisions.</p>\n\n\n\n<h2 id=\"h-the-bottom-line\" class=\"wp-block-heading\">The bottom line</h2>\n\n\n\n<p class=\"wp-block-paragraph\">As developer workflows evolve, learning to work effectively with AI&mdash;and strengthening your own technical judgment&mdash;can help you adapt.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://docs.github.com/copilot/how-tos/github-copilot-app/getting-started/\">Put these ideas in practice &gt;</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/\">AI is changing developer work. Here are three skills to strengthen.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.615Z"
+    },
     {
       "id": "75e9adf76cb1c21e",
       "sourceId": "hackernews",
@@ -40,6 +80,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-10-02T13:41:35.654Z"
+    },
+    {
+      "id": "e13eb55edf540c62",
+      "sourceId": "hackernews",
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "publishedAt": "2026-10-01T22:23:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.254Z"
     },
     {
       "id": "9b9edebdd384270d",
@@ -120,6 +170,16 @@
       "rawContent": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p>\n<p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p>\n<p><img alt=\"A wide shot of the model of the island of Manhattan, plus the edge of Brooklyn. It looks so great!\" src=\"https://static.simonwillison.net/static/2026-09-30/image_crop_4853x3640_w2427_q0.3.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/museums\">museums</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
       "status": "nouveau",
       "createdAt": "2026-10-01T14:19:35.555Z"
+    },
+    {
+      "id": "ecacf19183b8a9f1",
+      "sourceId": "hackernews",
+      "title": "cp: -r or -R?",
+      "url": "https://movq.de/blog/postings/2026-09-30/0/POSTING-en.html",
+      "publishedAt": "2026-09-30T15:44:02.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-03T12:21:03.254Z"
     },
     {
       "id": "18ab198f8c85f084",
@@ -4940,66 +5000,6 @@
       "rawContent": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
       "status": "nouveau",
       "createdAt": "2026-08-04T09:40:34.105Z"
-    },
-    {
-      "id": "dcbb8b19832cad60",
-      "sourceId": "simonwillison",
-      "title": "Devtools must be open source (exe.dev)",
-      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-      "publishedAt": "2026-08-03T15:30:38.000Z",
-      "rawContent": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>\n<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on <em>other people</em> to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>\n<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.</p>\n<p>Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\".</p>\n<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>\n<p>I'm not habitually <em>modifying</em> the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:34.105Z"
-    },
-    {
-      "id": "775806d13c9377f5",
-      "sourceId": "hackernews",
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-      "publishedAt": "2026-08-03T09:32:07.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.505Z"
-    },
-    {
-      "id": "afb0f073a143217f",
-      "sourceId": "hackernews",
-      "title": "Less Coffee, Better Sleep",
-      "url": "https://www.marginalia.nu/log/a_109_sleep2/",
-      "publishedAt": "2026-08-03T09:10:07.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.505Z"
-    },
-    {
-      "id": "19c04799c7167091",
-      "sourceId": "hackernews",
-      "title": "Bonsai: Janestreet's UI Library",
-      "url": "https://github.com/janestreet/bonsai",
-      "publishedAt": "2026-08-03T08:29:57.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.505Z"
-    },
-    {
-      "id": "7261192e5d958e9b",
-      "sourceId": "hackernews",
-      "title": "Don't be a meat proxy",
-      "url": "https://gruhn.me/blog/2026-08-03/",
-      "publishedAt": "2026-08-03T06:28:01.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.505Z"
-    },
-    {
-      "id": "29578a85932db50f",
-      "sourceId": "hackernews",
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "publishedAt": "2026-08-03T02:16:09.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-03T10:46:28.505Z"
     }
   ]
 }
