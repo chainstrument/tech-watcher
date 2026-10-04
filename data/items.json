@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-03T12:21:04.564Z",
+  "updatedAt": "2026-10-04T13:05:44.372Z",
   "items": [
+    {
+      "id": "777226cc9e710885",
+      "sourceId": "hackernews",
+      "title": "VGHF Digital Archive passes 5000 magazines. Here's what's next",
+      "url": "https://gamehistory.org/5k-magazines/",
+      "publishedAt": "2026-10-04T09:07:11.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:42.913Z"
+    },
+    {
+      "id": "a473e06b4f69feb3",
+      "sourceId": "hackernews",
+      "title": "Why don't more developers “use the platform”?",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "publishedAt": "2026-10-04T04:10:47.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:42.913Z"
+    },
+    {
+      "id": "b722d5fe788efcd8",
+      "sourceId": "hackernews",
+      "title": "Tell HN: Bob Cringely has died",
+      "url": "https://news.ycombinator.com/item?id=49949438",
+      "publishedAt": "2026-10-04T00:50:52.000Z",
+      "rawContent": "I heard from a friend of the family that Bob passed away in his sleep early Saturday. Very sad news. Bob, who&#x27;s real name was Mark Stevens, was an early employee of Apple and was best known for his PBS documentaries, especially &quot;Triumph of the Nerds&quot;. He will be missed.",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:42.913Z"
+    },
+    {
+      "id": "345f1755705d282a",
+      "sourceId": "simonwillison",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "publishedAt": "2026-10-03T23:34:02.000Z",
+      "rawContent": "<p>Here's a product feature which the world is going to need a whole lot more of over the coming months and years: <strong>default hard budget caps</strong>. I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be <strong>hard</strong> limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it.</p>\n<p>Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute.</p>\n<p>Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage.</p>\n<p>An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill.</p>\n<p>I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent:</p>\n<blockquote>\n<p><input type=\"checkbox\" disabled=\"disabled\" /> Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges.</p>\n</blockquote>\n<p>The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who <em>didn't</em> anticipate this and ended up seriously burned.</p>\n<p>... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement <a href=\"https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/\">New AWS experience helps builders get started and ship faster</a> on 16th September:</p>\n<blockquote>\n<p>When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month.</p>\n</blockquote>\n<p>See also <a href=\"https://docs.aws.amazon.com/accounts/latest/reference/create-spend-limit.html\">Create a spend limit in AWS Settings</a>, though that page warns that \"We're currently releasing our new experience to a limited number of customers.\" Here's hoping that hits general availability for existing accounts soon.</p>\n<p>Google Cloud <a href=\"https://cloud.google.com/blog/topics/cost-management/new-early-anomalies-and-spend-caps-on-google-cloud-budgets\">launched a similar feature</a> in July, called Spend Caps, which lets you \"set a monthly financial cap on specific services within a project\". Looks like this is becoming a trend!</p>\n<p>In an ideal world, our agents could help with this. It would be great if agents started biasing towards recommending providers with hard budget caps, and warning new and inexperienced builders against deploying applications using uncapped services that might get them into trouble.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/amazon-web-services\">amazon-web-services</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:43.022Z"
+    },
+    {
+      "id": "637b19621e90d689",
+      "sourceId": "simonwillison",
+      "title": "September sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+      "publishedAt": "2026-10-03T22:00:31.000Z",
+      "rawContent": "<p>I just sent the September edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-09-september.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>More Fable class models</li>\n<li>A pricing war</li>\n<li>3D graphics, Blender, and pixel art</li>\n<li>LLMs come for mathematics</li>\n<li>So many more accidental cyberattacks</li>\n<li>The vulnapocalypse comes for Datasette</li>\n<li>What I'm using right now</li>\n<li>My software releases this month</li>\n<li>2026 in LLMs (so far)</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-08-august.md\">a copy of the August newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:43.022Z"
+    },
+    {
+      "id": "737811d7489dff4e",
+      "sourceId": "hackernews",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "publishedAt": "2026-10-03T19:14:48.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:42.913Z"
+    },
     {
       "id": "66a5be11d54aeae4",
       "sourceId": "hackernews",
@@ -22,6 +82,16 @@
       "createdAt": "2026-10-03T12:21:03.254Z"
     },
     {
+      "id": "b23a71d2dca41cfa",
+      "sourceId": "simonwillison",
+      "title": "Rex's Dino Store",
+      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "publishedAt": "2026-10-02T22:57:38.000Z",
+      "rawContent": "<p><strong>Museum:</strong> <a href=\"https://www.niche-museums.com/119\">Rex&#x27;s Dino Store</a></p>\n        <p>Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur.</p>\n<p>The density of dinosaur puns is <em>exceptional</em>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/art\">art</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:43.022Z"
+    },
+    {
       "id": "c31b3a6f6261007c",
       "sourceId": "hackernews",
       "title": "Apple Pass Designer",
@@ -30,6 +100,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-10-03T12:21:03.254Z"
+    },
+    {
+      "id": "11f369e971141459",
+      "sourceId": "hackernews",
+      "title": "gpuvis: GPU Trace Visualizer",
+      "url": "https://github.com/mikesart/gpuvis",
+      "publishedAt": "2026-10-02T16:04:48.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-04T13:05:42.913Z"
     },
     {
       "id": "afd517ff06180871",
@@ -4920,86 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-05T09:38:58.066Z"
-    },
-    {
-      "id": "5ca28bfcdf5c9e60",
-      "sourceId": "hackernews",
-      "title": "How to Make a Nintendo 64 Game in 2026",
-      "url": "https://phoboslab.org/log/2026/08/xibalba64-making-of",
-      "publishedAt": "2026-08-04T13:24:03.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-06T09:42:34.573Z"
-    },
-    {
-      "id": "bc65587780a40f67",
-      "sourceId": "hackernews",
-      "title": "Harness Engineering for Self-Improvement",
-      "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-      "publishedAt": "2026-08-04T06:17:54.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:33.996Z"
-    },
-    {
-      "id": "feb44c460a41cd08",
-      "sourceId": "simonwillison",
-      "title": "Quoting Steve Yegge",
-      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
-      "publishedAt": "2026-08-04T00:42:45.000Z",
-      "rawContent": "<blockquote cite=\"https://yegge.ai/essays/the-shape-of-things-to-come/\"><p><a href=\"https://yegge.ai/gastown.html\">Gas Town</a> was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">Steve Yegge</a>, The Shape of Things to Come</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/steve-yegge\">steve-yegge</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:34.105Z"
-    },
-    {
-      "id": "bb9f77eb4d91620f",
-      "sourceId": "simonwillison",
-      "title": "Don't be a meat proxy",
-      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
-      "publishedAt": "2026-08-03T23:45:04.000Z",
-      "rawContent": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p>\nNiklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>\n<blockquote>\n<p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/definitions\">definitions</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:34.105Z"
-    },
-    {
-      "id": "87da4fd2d88c7015",
-      "sourceId": "hackernews",
-      "title": "LLMs reward expertise",
-      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-      "publishedAt": "2026-08-03T21:13:53.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:33.996Z"
-    },
-    {
-      "id": "2c81603e7aea49b9",
-      "sourceId": "hackernews",
-      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
-      "url": "https://github.com/leonickson1/Swiftlet",
-      "publishedAt": "2026-08-03T16:54:15.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:33.996Z"
-    },
-    {
-      "id": "9337088aa5bc28bb",
-      "sourceId": "hackernews",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "publishedAt": "2026-08-03T16:27:12.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:33.996Z"
-    },
-    {
-      "id": "9fe0fd997118bc21",
-      "sourceId": "simonwillison",
-      "title": "Quoting David Crawshaw's prompt",
-      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-      "publishedAt": "2026-08-03T16:15:27.000Z",
-      "rawContent": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-04T09:40:34.105Z"
     }
   ]
 }
