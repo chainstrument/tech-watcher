@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-10-11T13:52:03.836Z",
+  "updatedAt": "2026-10-12T16:36:10.486Z",
   "items": [
+    {
+      "id": "bd918ac4222d7c7a",
+      "sourceId": "hackernews",
+      "title": "French supermarkets suffer refrigerator shutdown after unprecedented cyberattack",
+      "url": "https://www.afp.com/en/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack",
+      "publishedAt": "2026-10-12T16:15:28.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-12T16:36:09.563Z"
+    },
+    {
+      "id": "ab91ee9162f42d35",
+      "sourceId": "hackernews",
+      "title": "GLM-Legal: Advancing Agentic Legal Intelligence",
+      "url": "https://z.ai/blog/glm-legal",
+      "publishedAt": "2026-10-12T16:11:45.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-12T16:36:09.563Z"
+    },
+    {
+      "id": "be694a2809d4800f",
+      "sourceId": "hackernews",
+      "title": "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack",
+      "url": "https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html",
+      "publishedAt": "2026-10-12T15:36:21.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-12T16:36:09.563Z"
+    },
+    {
+      "id": "97e026a93ef159e9",
+      "sourceId": "hackernews",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "publishedAt": "2026-10-12T06:46:53.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-12T16:36:09.563Z"
+    },
     {
       "id": "1359074c93e6b5ed",
       "sourceId": "hackernews",
@@ -70,6 +110,16 @@
       "rawContent": "<p><strong><a href=\"https://github.com/actions/python-versions/commit/49858b91c92d27403416ee43117032e91d00ce24\">Python 3.15.0 added to actions/python-versions</a></strong></p>\nBit of a niche link, but I've been waiting for this for a couple of days - I even <a href=\"https://chatgpt.com/share/6acad42a-2868-83e8-9a16-736f9def2b45\">told ChatGPT</a> to check for it:</p>\n<blockquote>\n<p><code>Clone https://github.com/actions/python-versions  and git pull once an hour until they add the stable  3.15 - then tell me about it</code></p>\n</blockquote>\n<p>Now that this has landed, you can add <code>\"3.15\"</code> to a GitHub Actions testing matrix to run tests against the <a href=\"https://www.python.org/downloads/release/python-3150/\">new Python 3.15.0 release</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a></p>",
       "status": "nouveau",
       "createdAt": "2026-10-11T13:52:02.681Z"
+    },
+    {
+      "id": "a711e2039ae47524",
+      "sourceId": "hackernews",
+      "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+      "url": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+      "publishedAt": "2026-10-10T19:28:41.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-12T16:36:09.563Z"
     },
     {
       "id": "ce69094308f4ea3d",
@@ -4950,56 +5000,6 @@
       "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-upload-dbs/releases/tag/0.5a0\">datasette-upload-dbs 0.5a0</a></p>\n        <p>This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that instance.</p>\n<p>It can also be used to atomically swap a database with a more recent version. The uploaded database is saved to a file, verified, then swapped in so <code>/name</code> starts serving the new one.</p>\n<p>The new release adds a formalized API, so you can replace an existing database (or add a new one) like this:</p>\n<pre><code>curl -X POST \\\n  -H \"Authorization: Bearer $API_TOKEN\" \\\n  -H \"Accept: application/json\" \\\n  -F \"db=@content.db\" \\\n  -F \"db_name=content\" \\\n  https://your-instance.example.com/-/upload-dbs\n</code></pre>\n<p>This means you can build fresh databases in an environment such as GitHub Actions and swap them in production as soon as that build has completed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
       "status": "nouveau",
       "createdAt": "2026-08-12T08:21:09.086Z"
-    },
-    {
-      "id": "dad79aeca39c5980",
-      "sourceId": "hackernews",
-      "title": "Compression is prediction",
-      "url": "https://ngrok.com/blog/compression-is-prediction",
-      "publishedAt": "2026-08-11T19:49:44.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-12T08:21:08.993Z"
-    },
-    {
-      "id": "be1f8249ad90a2c0",
-      "sourceId": "github-blog",
-      "title": "From coder to orchestrator: How agents shift the role of a developer",
-      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
-      "publishedAt": "2026-08-11T18:38:17.000Z",
-      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">Stop me if you&rsquo;ve heard this one before: I&rsquo;ve created an exciting new demo with just a single prompt.</p>\n\n\n\n<figure class=\"wp-block-image size-medium\"><img data-recalc-dims=\"1\" fetchpriority=\"high\" decoding=\"async\" height=\"300\" width=\"281\" src=\"https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-10.43.51-AM.png?resize=281%2C300\" alt=\"Screenshot of a simple 'snake' game, where the snake is 9 cubes long and approaching another piece of food.\" class=\"wp-image-98116\" srcset=\"https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-10.43.51-AM.png?w=836 836w, https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-10.43.51-AM.png?w=281 281w, https://github.blog/wp-content/uploads/2026/08/Screenshot-2026-08-11-at-10.43.51-AM.png?w=768 768w\" sizes=\"(max-width: 281px) 100vw, 281px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Everyone claps!</p>\n\n\n\n<p class=\"wp-block-paragraph\">One-prompt demos are quick and easy to create. But setting up a system that lets you generate code reliably and safely&hellip; that&rsquo;s a completely different story. With a prompt, you receive a one-off output, but what you need is a wired workflow to produce repeatable delivery, with the right checks, context, and controls in place.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That changes the developer role. You still write code, sure, but you also design the system: how code is proposed,&nbsp;validated, reviewed, and shipped.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Doing it all in one place makes it easier to track and execute. GitHub Copilot is your control plane for building software that gets wired up. And it helps you better orchestrate your agents.</p>\n\n\n\n<h2 id=\"h-the-agentic-flow-that-works\" class=\"wp-block-heading\">The agentic flow that works</h2>\n\n\n\n<p class=\"wp-block-paragraph\">To create a workflow that fits the way you work, you want to start with familiar repository events and triggers. Add a label to an issue or run a scheduled workflow overnight. Those events can trigger a GitHub Actions workflow that invokes an agent to perform a task that you scoped.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The agent&rsquo;s output is captured in a pull request, where deterministic checks take over: linting, tests, security scanning, and build verification. From there, CODEOWNERS, required reviews, and branch protections govern what can merge. Agents are flexible, but within a deterministic boundary that is rule-based and predictable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The deterministic side is what makes teams trust the system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">CI checks produce repeatable signals. Branch rules prevent accidental bypass. Review requirements make it so your judgement is needed to make higher-risk changes. Meanwhile, agents handle the ambiguous, context-heavy tasks. Developers are the system orchestrators who define triggers, scope agent permissions, and design handoffs. Ultimately, they also decide where human judgment must remain in the loop.</p>\n\n\n\n<p class=\"wp-block-paragraph\">GitHub is where you can create this ecosystem. Configure <a href=\"https://docs.github.com/copilot/how-tos/use-copilot-agents/cloud-agent/create-automations\">event-driven automations</a> with Copilot cloud agent workflows. Run <a href=\"https://docs.github.com/copilot/how-tos/copilot-cli/use-copilot-cli-in-actions\">Copilot CLI in GitHub Actions</a> to blend AI-powered steps into your pipeline. Extend <a href=\"https://docs.github.com/copilot/tutorials/enhance-agent-mode-with-mcp\">agent capabilities with MCP</a> when you need more tools or external context. Those aren&rsquo;t separate philosophies&mdash;they&rsquo;re implementation options along the same maturity path.</p>\n\n\n\n<h2 id=\"h-get-started\" class=\"wp-block-heading\">Get started</h2>\n\n\n\n<p class=\"wp-block-paragraph\">If you&rsquo;re adopting this approach, start small.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pick one bounded workflow, something like issue triage, docs-and-tests sync, or low-risk maintenance updates. Bring GitHub Copilot into your existing software development infrastructure, and let it help you build what you want to see next.</p>\n\n\n\n<h2 id=\"h-from-coder-to-orchestrator\" class=\"wp-block-heading\">From coder to orchestrator</h2>\n\n\n\n<p class=\"wp-block-paragraph\">As the developer role continues to shift, you are owning more of the delivery system around code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ready to expand into this role and learn more about working with agents? Explore <a href=\"https://githubuniverse.com/?utm_source=Blog&amp;utm_medium=GitHub&amp;utm_campaign=launch_seb_uni_26\">GitHub Universe</a>, where builders become orchestrators. Join us on October 28&ndash;29 to see what&rsquo;s new and what&rsquo;s next. Time is running out for Early Bird pricing&mdash;<strong>buy your ticket by August 19 to get $300 off!</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Throughout the event, you&rsquo;ll be able to develop your skills and learn something new during workshops. You can connect with developers, open source maintainers, and leaders. Learn about technology that is developing fast so you can keep doing what you love&mdash;and build the next big thing.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\"><a href=\"https://githubuniverse.com/?utm_source=Blog&amp;utm_medium=GitHub&amp;utm_campaign=launch_seb_uni_26\">Register now to attend GitHub Universe 2026 &gt;</a></p>\n</div>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Additional resources</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Need help convincing your manager? <a href=\"https://githubuniverse.com/registration/convince-your-boss.pdf\">Use our customizable email template</a>.</li>\n\n\n\n<li>Want to stay updated? <a href=\"https://reg.githubuniverse.com/flow/github/universe26/getnotified/form/reggetnotified\">Sign up</a>.</li>\n\n\n\n<li>Curious what the experience is like? <a href=\"https://www.youtube.com/playlist?list=PL0lo9MOBetEFKNlPHNouEmVeYeyoyGTXC\">Explore last year&rsquo;s highlights</a>.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n</body></html>\n<p>The post <a href=\"https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/\">From coder to orchestrator: How agents shift the role of a developer</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
-      "status": "nouveau",
-      "createdAt": "2026-08-12T08:21:09.395Z"
-    },
-    {
-      "id": "af0a76b7009c83d0",
-      "sourceId": "hackernews",
-      "title": "Show HN: C# Game Engine with its own scripting language and IDE",
-      "url": "https://github.com/ArcadeMakerSources/ArcadeMaker",
-      "publishedAt": "2026-08-11T13:34:54.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-14T08:18:54.447Z"
-    },
-    {
-      "id": "69d1a861b67c373a",
-      "sourceId": "hackernews",
-      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
-      "url": "https://github.com/activeing123/mcptoon",
-      "publishedAt": "2026-08-11T05:26:58.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-11T08:11:18.109Z"
-    },
-    {
-      "id": "f0fa1fe670d03028",
-      "sourceId": "hackernews",
-      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
-      "url": "https://github.com/antirez/h3.c",
-      "publishedAt": "2026-08-11T01:22:09.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-11T08:11:18.109Z"
     }
   ]
 }
