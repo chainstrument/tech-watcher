@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-10-16T12:11:01.808Z",
+  "updatedAt": "2026-10-17T11:29:31.594Z",
   "items": [
+    {
+      "id": "bb7567bf1088595f",
+      "sourceId": "hackernews",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "publishedAt": "2026-10-17T08:37:46.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.390Z"
+    },
+    {
+      "id": "cac24968e5aa0d5b",
+      "sourceId": "hackernews",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "publishedAt": "2026-10-17T08:21:25.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.390Z"
+    },
+    {
+      "id": "5cf8bc3a52e1e15c",
+      "sourceId": "hackernews",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "publishedAt": "2026-10-17T04:36:53.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.390Z"
+    },
+    {
+      "id": "e8a95e9b22df9875",
+      "sourceId": "simonwillison",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "publishedAt": "2026-10-16T22:06:37.000Z",
+      "rawContent": "<blockquote cite=\"https://claude.dev/blog/solving-code-review-at-anthropic/\"><p>We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"</p>\n<p>Asking that question also changed <em>when</em> review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague.</p>\n<p>Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">Addy Osmani, Morgan Westlee Lunt, and Qing Wang</a>, How the Claude Code team does code review</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/addy-osmani\">addy-osmani</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/code-review\">code-review</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.531Z"
+    },
+    {
+      "id": "5a44bd5340bc84eb",
+      "sourceId": "hackernews",
+      "title": "Tesla Roadster",
+      "url": "https://www.tesla.com/roadster",
+      "publishedAt": "2026-10-16T01:32:45.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=7p5LxFdc-Qg</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;Tesla&#x2F;status&#x2F;2110788059008819215</a>",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.390Z"
+    },
     {
       "id": "b89a7f41ec955d31",
       "sourceId": "hackernews",
@@ -52,6 +102,16 @@
       "createdAt": "2026-10-16T12:11:00.750Z"
     },
     {
+      "id": "4d011f309cdd05c9",
+      "sourceId": "hackernews",
+      "title": "Ultramarine 1 Flash",
+      "url": "https://www.paperinstruments.com/ultramarine",
+      "publishedAt": "2026-10-15T17:06:01.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;www.paperinstruments.com&#x2F;blog&#x2F;ultramarine\">https:&#x2F;&#x2F;www.paperinstruments.com&#x2F;blog&#x2F;ultramarine</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;bertgodel&#x2F;status&#x2F;2110400987622265232\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;bertgodel&#x2F;status&#x2F;2110400987622265232</a>",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.390Z"
+    },
+    {
       "id": "782d5b0065aab2f9",
       "sourceId": "simonwillison",
       "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
@@ -60,6 +120,16 @@
       "rawContent": "<p><strong><a href=\"https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1\">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a></strong></p>\nThe phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \"<a href=\"https://simonwillison.net/2023/Nov/22/deciphering-clues/#hints-to-look-out-for\">people with knowledge of the matter</a>\".</p>\n<p>Key things I learned from the article:</p>\n<ul>\n<li>Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\"</li>\n<li>Q2 (Apr/May/Jun) was $11.5bn</li>\n<li>Q3 (Jul/Aug/Sep) was $16.8bn</li>\n<li>In Q3: $1.70 in revenue for every $1 spent on \"computing power\"</li>\n<li>Adjusted operating margins (excluding stock-based compensation) were 11%</li>\n</ul>\n<p>This point about distillation is worth quoting in full (highlight mine):</p>\n<blockquote>\n<p>The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones.</p>\n<p>When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending.</p>\n<p>Anthropic told investors on Wednesday <strong>distillation accounted for 5 per cent to 7 per cent of revenue</strong> and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter.</p>\n</blockquote>\n<p>Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter!</p>\n<p>Also notable: Anthropic appear to no longer be leaning on \"annualized run-rate revenue\" (<a href=\"https://simonwillison.net/2026/May/29/anthropic/\">previously</a>) in these communications to their investors.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
       "status": "nouveau",
       "createdAt": "2026-10-16T12:11:00.921Z"
+    },
+    {
+      "id": "34013be11de2ae69",
+      "sourceId": "simonwillison",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "publishedAt": "2026-10-15T02:07:28.000Z",
+      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/latex\">LaTeX renderer</a></p>\n        <p>Inspired by Paul Ford and Aboard Foundary's new web app <a href=\"https://tinylittleoffice.com/\">Tiny Little Office</a>, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner).</p>\n<p>Tiny Little Office's signature trick is to store all of the document data in the <code>#fragment</code> section of the URL, so every document created using it becomes a bookmarkable and shareable link.</p>\n<p>It also has <a href=\"https://tinylittleoffice.com/llms.txt\">an llms.txt file</a> telling agents how to construct URLs that will render as documents. Claude <a href=\"https://claude.ai/share/239301ff-edde-420e-b433-b9c16fe40a6c\">used that file</a> to generate <a href=\"https://tinylittleoffice.com/#/v1/deck/zXVVdb9tGEHznr1hED2kBSbZcO4UFtIHTuCgQtylstwH6Uq7Io3gRdcfeHS1T_fjtnV1Ssp038r52d2Z2djabZcmmxizpJ78jpnvrerqxCUv0sapsYaixbkM7HzYxS7XZ4ujWls6u65SlwC7aZL1bUmxsabIZHpxMaCmXlnRfG9rVHm~Vvui2xiWykfDK8Ojfc439b5bN6BdP0YQHE6bkPJWceMXR6A8Xhe9cwqFr7Peptm5NXCUT9Kl8klNM3EeyjnrfBVoFv8Nj2TGbaDgU9ZKuHCe_7clXKFVSkMh5Qs2Nluy14nnhtyeTk4fFSWmKzUn_7e~f5_N5LkcfFvlSg1Y~bDkR8omoXrbkLDZ3tS1q4rYl3xqHnCTvvB~vbX2J2k1C7rI8vjzsHSCaEuK3wcRoSmJXknEFrpVZ9r0CWgVeK5QDBBOB1BlkAgCxmry~dgAz~hePj0i1wT5wMnIY_Ohl0FQ~cTN_Aq~yIo~7ZFpaoL5gcc8iOg6bx5QdaHlB8f3Nxykg_pnDpvQ7Rw8cLCuFdyKTSLEF4uQd5QiTS0gTsftDzSHFKZWBd2A5av3sLLAGzPgNqB94AJlV44uN3LmvEVDQl8C88l2iBX14JyS3DUMTY5pjOS0XG14fKjqDcP_qjNlLTVLLLe_o_fWPN1f319MBSN4a4mbtUXi9lbL3ttW81vgQFvcgcIg0XjwwPv7SDjeBhnBqEpW2kGI49HIu4Bw0fqAcGwRdcdMc6O6fXdAKAcBurA9dWSrYR_AjddGIuH1ayqNbvHft1o2N9RTqc5IIUi~5J4fCAHVEXC5jbZBa1TkNheUjdbF3iR_ndGtaw3i_9RYcr1jwdtAPaLQuJrwhGa2MNGdsTdOAI3DxTEii4hH2b2AivFEd_XZ7M4tcGQH_XZ~gjZVB4oak_9~cd6FZ0htaWQkNmRZQCBdj_1zN_iCe7el0dpkLWZDTf7kWmP~p_Yq_YMBNYQZpd7HjBprLp8OpmViHbRpSDKiCDNWLBo9xxpQatQCyM21DLD8rSNQ6uBwKtgU71eGUVj1Fu0dJeZ4rsnplPL7ioL93CTKkf4aiMyFRhIqFi_PLs~y9qRp0aDmIp8fy4vzsIrsR32y5bzzwxtrl6UKCiFgu5hejLNSKozTg2EdjGz11EioV2kYXpM6VgPZsenp6~gSwaKP2IcF_fLeuxfKgoJjkRBKHi8~43Zh~SZ_qXgyYAMTrpJAKwQDD9ErvJ5Qi7amGdBT1lGpuKl1cKf~DwhDDDTxoj3N6HeFVvfSR9pp1ChBVbJs4oPSqtLA3uAN8zWMjqExfaZshma~~zqVmbWqYGN7j1s4_q3l4MSXG7BunwnFwpCQ~tKTrRwy7KI4l940rdXS8BUK7fLR6HlxI29ylIfH8bZkfJ4HYrSRyGBfztk2PJzIBSFpNOI2jtaLLYbs4~KsWK~MGpgAz10G8pHyYTRP0_Xc5EOm~0CmE89L2ihrnoVUxkfRi8sJzHYTonVE_Ua0cR3Shm1H9CXPLNP2XjovGNI3M0_1smG4C4P8\">this link to a deck</a> that explains how the URL format works:</p>\n<p><img alt=\"Screenshot of a slide deck editor in a web app with a dark-themed presentation open. The document title field reads &quot;How a Tiny Little Office link works&quot;, with a progress ring, share icon and menu icon at top right. Below is a formatting toolbar with an &quot;Insert&quot; dropdown followed by icon buttons for play, bold, italic, underline, strikethrough, highlight, code, link, superscript, emoji, outdent, indent, layout and color palette. The main canvas shows slide 1 with a blue chain-link icon and the text: &quot;The whole document is the link&quot; &quot;No server, no database, no account&quot; &quot;Everything after the # stays in your browser&quot; and a slide counter &quot;1 / 9&quot;. Below the canvas is a &quot;SPEAKER NOTES&quot; heading. A sidebar on the right shows slide thumbnails. Slide 1 (selected): &quot;The whole document is the link&quot; &quot;No server, no database, no account&quot; &quot;Everything after the # stays in your browser&quot;. Slide 2: &quot;Anatomy of a link&quot; with bullets &quot;tinylittleoffice.com/#/v1/deck/y7Vj...&quot; &quot;v1: the format version&quot; &quot;deck: which app opens it&quot; &quot;y: the mode letter&quot; &quot;7Vj...: the document, compressed and encoded&quot;. Slide 3: &quot;Step 1: write it as text&quot; with bullets &quot;Every document is TLO, a Markdown variant&quot; &quot;Slides split on --- lines&quot; &quot;Charts, drawings and animations are fenced blocks&quot; &quot;This deck is about 1 KB of plain text&quot;. Slide 4: &quot;Step 2: squeeze it&quot; with bullets &quot;Raw DEFLATE, the same algorithm as zip and gzip&quot; &quot;z: plain DEFLATE&quot; &quot;y: DEFLATE with a preset dictionary&quot; &quot;r: no compression at all&quot;.\" src=\"https://static.simonwillison.net/static/2026/tiny-little-office.webp\" /></p>\n<p>Tiny Little Office inspired me <a href=\"https://claude.ai/code/session_017KJrPqqWVHLqr4E7TLPnpt\">to have Claude Code</a> (Opus 5.5 Extra) build a similar tool that works with LaTeX. Here's the sequence of prompts I used:</p>\n<blockquote>\n<p><code>I want a tool where you can link to it with a fragment hash #code-here and it treats that code as LaTeX and renders it really effectively. It should also support a prefix which means the latex is compressed with a custom compression dictionary optimized for latex. Use the best available latex render library from a CDN (consider WebAssembly too). If loaded without a fragment hash show an editor you can paste latex into and then toggle to a \"rendered\" view. That rendered view should be bookmarkable. The #fragment view should let you switch to edit source too.</code></p>\n</blockquote>\n<p>Since it was working in <a href=\"https://github.com/simonw/tools\">my tools repo</a> I told it to take inspiration from the <code>&lt;iframe sandbox=\"...\"&gt;</code> mechanism used by my existing <a href=\"https://tools.simonwillison.net/markdown-svg-renderer\">SVG in Markdown tool</a> as protection against XSS risks:</p>\n<blockquote>\n<p><code>Safe from XSS? We could run in an iframe sandbox like we do on the SVG markdown render project</code></p>\n</blockquote>\n<p>I had it copy the Gist/URL loading feature from that tool as well:</p>\n<blockquote>\n<p><code>We should have an option to load latex from a URL (or gist) similar to the markdown SVG tool</code></p>\n</blockquote>\n<p>Here's <a href=\"https://tools.simonwillison.net/latex#~1jZq9DoIwEIB3nuKGbigJJS5svoAOMJuQ4EBEJWJjGHh3765A_8DIQtJfIMdR-n0uCV9l4DOs_p8ua3ZZKK2anOsaTqya9AZnHhMo3qqewKWPMh2SOQOFkhSJtmruY1QungBJFk-cQLsspAF8qgFPWKQ6FmdYdCB7oseX5HVNfgE-HGmM2OPATDfAlCssyLcLGI4BONwZ7E8pby5KWoilFBK0n5T4lMeHgQaMMsYjS6hrG61G4Micmcj2EN48tyVgHpzNKMBEHuxEbV0dZhsJwZB7_Lux0mR4YDc9HTd1bnGaki0V1nr6kGHSI8NAwCWaVjeAPyYUNAYxUZt8k2aKlODPRQq7JIYMS-VKaQwHrMmoxqWeLlT6Ag\">an example link</a>. The tool uses <a href=\"https://github.com/nodeca/pako\">Pako 2.1.0</a>, <a href=\"https://github.com/mathjax/MathJax\">MathJax 4.1.3</a>, <a href=\"https://github.com/arena-ai/faster-latex\">faster-latex 0.3.1</a>, and <a href=\"https://github.com/cure53/DOMPurify\">DOMPurify 3.4.16</a>.</p>\n<p><img alt=\"Screenshot of a web app titled &quot;LaTeX renderer&quot; with a split-pane layout. The top bar has an Edit/Rendered toggle, a blue Copy link button, and a Share button. The left pane, labeled LaTeX source with a &quot;Document · faster-latex (WASM)&quot; badge, has a URL/GitHub Gist input with a Load button, a code editor containing a LaTeX document, and rows of example buttons (Quadratic formula, Gaussian integral, Maxwell, Attention, Matrix, Chemistry, Prose, TikZ, Document). The right pane shows the typeset output: a paper titled &quot;Sums of Odd Numbers&quot; by A. Student, with a section stating a theorem that the first n odd numbers sum to n squared, a Proof section with numbered equations, and a bulleted list of small cases.\" src=\"https://static.simonwillison.net/static/2026/latex-tool.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/latex\">latex</a>, <a href=\"https://simonwillison.net/tags/paul-ford\">paul-ford</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-17T11:29:30.531Z"
     },
     {
       "id": "884571b923cce1b1",
@@ -4930,76 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-17T07:55:17.011Z"
-    },
-    {
-      "id": "4894b420e1f2f19a",
-      "sourceId": "hackernews",
-      "title": "A faster way to calculate the day of the week",
-      "url": "https://www.benjoffe.com/fast-day-of-week",
-      "publishedAt": "2026-08-16T21:20:40.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-20T07:43:38.794Z"
-    },
-    {
-      "id": "0ef5795694b3dbb2",
-      "sourceId": "hackernews",
-      "title": "A third world engineer responds to “RISC-V: They should have known better”",
-      "url": "https://rvembedded.com/blog_post/12/",
-      "publishedAt": "2026-08-16T17:01:07.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-17T07:55:17.011Z"
-    },
-    {
-      "id": "e27bba9b0711b6a2",
-      "sourceId": "simonwillison",
-      "title": "Quoting Dario Amodei",
-      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
-      "publishedAt": "2026-08-16T15:05:36.000Z",
-      "rawContent": "<blockquote cite=\"https://twitter.com/darioamodei/status/2088758819304443967\"><p>I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks.  I think it is fundamentally a crisis of trust.  I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over.  The causes of this go back decades and AI is just the latest iteration of it.  I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive.  The thing that will work is <em>actually curing cancer</em>.  I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world.  That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/darioamodei/status/2088758819304443967\">Dario Amodei</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-backlash\">ai-backlash</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-17T07:55:17.136Z"
-    },
-    {
-      "id": "3024fe00b473981e",
-      "sourceId": "hackernews",
-      "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
-      "url": "https://github.com/jitpass/jit",
-      "publishedAt": "2026-08-16T06:55:04.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-16T07:34:00.058Z"
-    },
-    {
-      "id": "f87e14ef06b6e708",
-      "sourceId": "hackernews",
-      "title": "Patterns and problems in emerging multi-agent systems",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
-      "publishedAt": "2026-08-16T02:12:53.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-16T07:34:00.058Z"
-    },
-    {
-      "id": "cc46e9b7f6f7c44a",
-      "sourceId": "hackernews",
-      "title": "Semaglutide linked to lower predicted dementia risk",
-      "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
-      "publishedAt": "2026-08-15T15:58:53.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-16T07:34:00.058Z"
-    },
-    {
-      "id": "a22cf7dd149bd8e0",
-      "sourceId": "simonwillison",
-      "title": "CORS Chat",
-      "url": "https://simonwillison.net/2026/Aug/15/cors-chat/",
-      "publishedAt": "2026-08-15T14:49:54.000Z",
-      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/cors-chat\">CORS Chat</a></p>\n        <p>I built this today (<a href=\"https://gist.github.com/simonw/92a1d97773744b45bf259e003013cf36\">with GPT-5.6-Sol xhigh</a>) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark.</p>\n<p>It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the <code>--cors</code> option and OpenRouter, and both work fine.</p>\n<p>Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in.</p>\n<p><img alt=\"Alt text generated by Qwen-3.8 27B: Screenshot of the CORS Chat web interface. The left sidebar lists three saved conversations, with &quot;render an svg of five intersecting squares&quot; selected. The main panel shows a chat with the qwen3.8‑27b model: the user asked &quot;render an svg of five intersecting squares. don't overthink this,&quot; followed by the model's reasoning trace describing the design (five semi‑transparent squares rotated around a common center on a dark background). Below is an SVG preview pane displaying five overlapping, semi‑transparent colored squares—pink, blue, green, yellow, and purple—with white outlines, rotated at different angles to form a starburst pattern on a dark navy background. Top controls include endpoint/model selectors and a &quot;New chat&quot; button; the bottom has a message input and a &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/cors-chat.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/svg\">svg</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/cors\">cors</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-16T07:34:00.153Z"
     }
   ]
 }
