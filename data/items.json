@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-19T14:27:57.697Z",
+  "updatedAt": "2026-10-20T12:36:31.570Z",
   "items": [
+    {
+      "id": "9e219e1e5ee053c0",
+      "sourceId": "hackernews",
+      "title": "Demographic \"Doomsday\" Misses the Mark",
+      "url": "https://www.science.org/doi/10.1126/science.ael8752",
+      "publishedAt": "2026-10-20T12:22:28.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.384Z"
+    },
+    {
+      "id": "be38b11f937cd76c",
+      "sourceId": "hackernews",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-20T09:08:54.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.384Z"
+    },
+    {
+      "id": "db9973c02c9fde7f",
+      "sourceId": "hackernews",
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "url": "https://github.com/microg/GmsCore/wiki",
+      "publishedAt": "2026-10-20T06:37:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.384Z"
+    },
+    {
+      "id": "bb9e270d6541f34a",
+      "sourceId": "hackernews",
+      "title": "OpenBSD 8.0",
+      "url": "https://www.openbsd.org/80.html",
+      "publishedAt": "2026-10-20T02:06:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.384Z"
+    },
+    {
+      "id": "a286ccfbec858524",
+      "sourceId": "simonwillison",
+      "title": "My obituary for programming",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "publishedAt": "2026-10-19T23:58:25.000Z",
+      "rawContent": "<p><strong><a href=\"https://dumbmatter.com/2026/10/programming-obituary/\">My obituary for programming</a></strong></p>\nJeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the <em>puzzle</em> of developing code:</p>\n<blockquote>\n<p>Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple puzzles were worth a lot of money because regular people just couldn't do it! No, they needed us. They would give us a problem and we would solve it the way we wanted. We set the strategy, we made the timeline, we defined what was and was not possible.</p>\n</blockquote>\n<p>If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.</p>\n<p>If directly solving those problems was a big part of your enjoyment, the loss is very real.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/wtobpt/my_obituary_for_programming\">lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/programming\">programming</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/deep-blue\">deep-blue</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.613Z"
+    },
+    {
+      "id": "5e09805dda87945d",
+      "sourceId": "github-blog",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "publishedAt": "2026-10-19T18:47:22.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">The agent has finished the bulk of your change. Now you want to inspect one implementation detail, adjust a few lines by hand, and run the project locally before you ship it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But the work is sitting in the <a href=\"https://github.com/features/ai/github-app\">GitHub Copilot app</a>&hellip; and your editor is where you review diffs, debug code, and make final adjustments. Do you have to choose between staying in the session and starting over in Visual Studio Code?</p>\n\n\n\n<p class=\"wp-block-paragraph\">You don&rsquo;t. You can open the Copilot app session directly in VS Code and continue with its conversation, code changes, and working context intact. That means Copilot can handle the repetitive or time-consuming work, then hand control back to you for closer review, hands-on editing, and local testing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In this tutorial, you&rsquo;ll learn how to:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Open a Copilot app session in VS Code.</li>\n\n\n\n<li>Review the agent&rsquo;s changes line by line.</li>\n\n\n\n<li>Continue the same conversation from your editor.</li>\n\n\n\n<li>Modify and test the code locally.</li>\n\n\n\n<li>Push your updates to the pull request associated with the session.</li>\n</ul>\n\n\n\n<aside data-color-mode=\"light\" data-dark-theme=\"dark\" data-light-theme=\"light_dimmed\" class=\"wp-block-group post-aside--large p-4 p-md-6 is-style-light-dimmed has-global-padding is-layout-constrained wp-block-group-is-layout-constrained is-style-light-dimmed--1\" style=\"border-top-width:4px\">\n<h2 id=\"h-prerequisites-nbsp\" class=\"wp-block-heading\">Prerequisites&nbsp;</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Before you begin, make sure you have:&nbsp;</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The GitHub Copilot app installed and signed in.&nbsp;</li>\n\n\n\n<li><a href=\"https://code.visualstudio.com/\" target=\"_blank\" rel=\"noopener\">Visual Studio Code installed</a> and connected to the same GitHub account.&nbsp;</li>\n\n\n\n<li>A Copilot app session with code changes you want to review or continue.&nbsp;</li>\n\n\n\n<li>Permission to work in and push changes to the session&rsquo;s repository.&nbsp;</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">This tutorial assumes you are already comfortable navigating VS Code, running commands in its integrated terminal, and working with Git branches and pull requests.</p>\n</aside>\n\n\n\n<h2 id=\"h-1-start-with-a-session-in-the-copilot-app\" class=\"wp-block-heading\">1. Start with a session in the Copilot app</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Open the session you want to continue. Before handing it off, take a moment to review the task and the work Copilot completed.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A session contains more than a collection of modified files. It also records the task, the plan, and the conversation that produced those changes. That context is important when you want to understand why Copilot chose a particular implementation or ask it to revise part of the work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You do not need to summarize that history or copy it into a new chat before moving to VS Code.</p>\n\n\n\n<h2 id=\"h-2-open-the-session-in-vs-code\" class=\"wp-block-heading\">2. Open the session in VS Code</h2>\n\n\n\n<p class=\"wp-block-paragraph\">From the session, select <strong>Open in VS Code</strong>. If the app presents more than one supported editor or VS Code installation, choose the one you want to use.</p>\n\n\n\n<p class=\"wp-block-paragraph\">VS Code opens the project using the worktree associated with the session. It also displays the existing session in the Copilot sidebar.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That gives you three connected pieces of the original work:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>The session context:</strong> The task, plan, and conversation remain available.</li>\n\n\n\n<li><strong>The diff:</strong> The files and lines changed by the agent are ready for review.</li>\n\n\n\n<li><strong>The worktree:</strong> VS Code opens the same isolated working tree the session used.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">You are continuing the existing session, not reconstructing it in a new editor window.</p>\n\n\n\n<h2 id=\"h-3-review-the-agent-s-changes\" class=\"wp-block-heading\">3. Review the agent&rsquo;s changes</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Before editing, inspect the diff in VS Code. Open the Source Control view to see the changed files, then select a file to review its changes line by line.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Review the implementation as you would any other proposed change. In particular, check that:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The code solves the requested problem.</li>\n\n\n\n<li>The implementation follows the repository&rsquo;s conventions.</li>\n\n\n\n<li>Error states and edge cases are handled appropriately.</li>\n\n\n\n<li>Tests cover the behavior that changed.</li>\n\n\n\n<li>No unrelated files or behaviors were modified.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">The preserved conversation can help explain how Copilot arrived at the implementation. If something is unclear, continue prompting Copilot in the sidebar. For example:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>Explain why you changed this function instead of adding a new helper. Identify any behavior this could affect.</code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"Explain why you changed this function instead of adding a new helper. Identify any behavior this could affect.\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">You can also ask Copilot to make another change. Because the session and worktree remain connected, you do not have to describe the task from the beginning.</p>\n\n\n\n<h2 id=\"h-4-make-a-hands-on-edit\" class=\"wp-block-heading\">4. Make a hands-on edit</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Once you understand the proposed changes, edit any file directly in VS Code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is useful for adjustments that are faster or easier to make by hand, such as:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Refining a label or error message.</li>\n\n\n\n<li>Renaming a variable for clarity.</li>\n\n\n\n<li>Adjusting layout or styling.</li>\n\n\n\n<li>Adding a missing test case.</li>\n\n\n\n<li>Applying a repository-specific convention.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">You are editing the session&rsquo;s existing worktree, so your manual changes build directly on the agent&rsquo;s work. You do not need to copy files between directories or manually re-create the branch.</p>\n\n\n\n<h2 id=\"h-5-run-and-verify-the-project-locally\" class=\"wp-block-heading\">5. Run and verify the project locally</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Use the VS Code integrated terminal to run the project&rsquo;s normal validation workflow. The exact commands depend on the repository, but some web app examples may include:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><code>npm install</code></li>\n\n\n\n<li><code>npm test</code></li>\n\n\n\n<li><code>npm run lint</code></li>\n\n\n\n<li><code>npm run dev</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Treat agent-generated changes the same way you would treat code written by a person: run the relevant tests, inspect failures, and verify the behavior yourself.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If the development server prints a localhost URL, open it to test the change in a browser. When supported by your VS Code setup, you can open the URL in VS Code&rsquo;s integrated browser and inspect the result without leaving the editor.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For a user-interface change, verify both the requested behavior and nearby states. For example, check the modified component at different viewport sizes and confirm that loading, empty, and error states still work.</p>\n\n\n\n<h2 id=\"h-6-continue-with-copilot-or-keep-editing-yourself\" class=\"wp-block-heading\">6. Continue with Copilot or keep editing yourself</h2>\n\n\n\n<p class=\"wp-block-paragraph\">At any point, you can choose the interaction that best fits the next step:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Prompt Copilot when the change requires repository-wide analysis or repetitive edits.</li>\n\n\n\n<li>Edit directly when you know the exact change you want.</li>\n\n\n\n<li>Use both approaches iteratively as you test and refine the implementation.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">For example, after making a manual UI adjustment, you might ask Copilot:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Add a test for the updated label and run the relevant test file. Do not modify unrelated components.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because you are still in the original session, Copilot retains the context needed to interpret &ldquo;the updated label.&rdquo;</p>\n\n\n\n<h2 id=\"h-7-commit-and-push-the-finished-changes\" class=\"wp-block-heading\">7. Commit and push the finished changes</h2>\n\n\n\n<p class=\"wp-block-paragraph\">When the implementation is ready, review the final diff one more time. Then commit and push the changes using the Source Control view or the integrated terminal:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><code>git status</code></li>\n\n\n\n<li><code>git add</code></li>\n\n\n\n<li><code>git commit -m \"Refine session changes\"</code></li>\n\n\n\n<li><code>git push</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Use your repository&rsquo;s normal branch, commit, review, and approval practices. Because VS Code opened the worktree and branch associated with the session, pushing the branch updates the pull request already tracking that work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There is no need to copy the finished files into another checkout or reconnect the work to the pull request manually.</p>\n\n\n\n<h2 id=\"h-a-continuous-workflow-from-agent-to-editor\" class=\"wp-block-heading\">A continuous workflow from agent to editor</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Opening a Copilot app session in VS Code gives you a clean division of labor without splitting the work itself. Copilot can take on a larger or repetitive implementation, while you can move into the editor for detailed review, targeted changes, local testing, and final polish.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The session, diff, and worktree move with you. Start by directing the work in the Copilot app, switch to VS Code whenever you want hands-on control, and push the finished result through the same pull request workflow.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\">Ready to try it? <a href=\"https://gh.io/app\">Download the GitHub Copilot app</a>, start a session, and open it in VS Code when you are ready to continue coding.</p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/\">How to continue a GitHub Copilot app session in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.804Z"
+    },
     {
       "id": "50f75b68ac5537b6",
       "sourceId": "hackernews",
@@ -70,6 +130,16 @@
       "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-echo/releases/tag/0.5\">llm-echo 0.5</a></p>\n        <p>I'm working towards a new <a href=\"https://llm.datasette.io/\">LLM</a> release, and testing PRs caused me to revisit the <code>llm-echo</code> debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account.</p>\n<p>Example usage:</p>\n<pre><code>uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage\n</code></pre>\n<p>Outputs:</p>\n<pre><code>First I consider the prompt, then I decide what to say.\n{\n  \"prompt\": \"hi there\",\n  \"system\": \"\",\n  \"attachments\": [],\n  \"stream\": true,\n  \"previous\": []\n}\nToken usage: 2 input, 24 output\n</code></pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
       "status": "nouveau",
       "createdAt": "2026-10-19T14:27:56.685Z"
+    },
+    {
+      "id": "7af2974074bbd9c1",
+      "sourceId": "hackernews",
+      "title": "Nordwand Mono – A monospace font for coders and adventurers",
+      "url": "https://github.com/tywr/Nordwand-Mono",
+      "publishedAt": "2026-10-18T14:48:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-20T12:36:30.384Z"
     },
     {
       "id": "d992fb8bbdeef24d",
@@ -4930,76 +5000,6 @@
       "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">This is the third post in our GitHub Copilot app for Beginners series. If you&rsquo;re just joining us, check out, <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/\">GitHub Copilot app for beginners: Getting started</a>, where we introduced the app and how it helps you work across multiple agent sessions. Our second post goes deeper on working within a session. Here, we&rsquo;ll look at how to keep all of the requests and work being done on a project organized in one place.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you&rsquo;ve been following along in this series, you know that real development is rarely a straight line. You fix a bug here, review a pull request there, and chase down a new idea somewhere in between. As you continue to assign tasks to Copilot and create new pull requests, you&rsquo;ll quickly find yourself with several proverbial balls in the air.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Being able to manage everything from one centralized location is key, and that&rsquo;s exactly why the My work pane exists. Below, we&rsquo;ll cover how you can use it to manage what&rsquo;s currently in flight, what&rsquo;s completed, and what&rsquo;s next.</p>\n\n\n\n<h2 id=\"h-exploring-the-default-views-for-pull-requests-and-issues\" class=\"wp-block-heading\">Exploring the default views for pull requests and issues</h2>\n\n\n\n<p class=\"wp-block-paragraph\">When you open the My work tab, you&rsquo;ll see three tabs waiting for you. The first is All, which shows all of your pull requests and issues in one place.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This list is automatically filtered based on the projects you&rsquo;ve touched inside the Copilot app. It&rsquo;s not every repo you have access to. If there&rsquo;s a repo you&rsquo;d like to see here, just create a quick session pointing to that repo, and it&rsquo;ll show up.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Alongside All, you&rsquo;ll find three more built-in views:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Active shows all of your open pull requests and issues.</li>\n\n\n\n<li>Review requests shows the pull requests where someone has requested your review.</li>\n\n\n\n<li>Done shows everything that&rsquo;s been closed.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">These give you an at-a-glance sense of what needs your attention right now versus what&rsquo;s already wrapped up.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"creating-your-own-views-and-filters\">Creating your own views and filters</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The built-in views are a great start, but you can also create your own. Select New view, and you&rsquo;ll get the familiar &ldquo;New view&rdquo; placeholder name, which you can rename to something like &ldquo;My issues.&rdquo;</p>\n\n\n\n<p class=\"wp-block-paragraph\">From here, you can build your filter. You can type it out using the angle-bracket syntax you might recognize from GitHub, or use the UI, which is often the friendlier option when you&rsquo;re getting started.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For your My issues view, you can add a filter for Is: Issue to grab all issues, then add one more filter for Assignee: Me. Select Save, and now this view shows every issue that&rsquo;s been assigned to you.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You can also do some quick filtering. Select the filter at the top and you&rsquo;ll get the same interface. Maybe instead of sorting by Recently updated, you&rsquo;d rather flip it to Ascending so the oldest items float to the top. From there, save your changes to a brand-new view, update the view you&rsquo;re currently on, or discard the changes to revert back.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"customizing-your-list-and-table-layouts\">Customizing your list and table layouts</h2>\n\n\n\n<p class=\"wp-block-paragraph\">By default, your items show up in a list view, which feels a bit like a set of cards. It&rsquo;s a clean, approachable way to scan through your work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you&rsquo;d like a little more control, switch to the table view. The table unlocks a few extra features you won&rsquo;t find in the list: choose which columns to display, move them around, and resize them to fit how you like to work.</p>\n\n\n\n<p class=\"wp-block-paragraph\">And don&rsquo;t worry about experimenting: you can always reset everything back to the way it was before, and switch right back to the list view whenever you&rsquo;d like.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"starting-agent-sessions-from-issues-and-pull-requests\">Starting agent sessions from issues and pull requests</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Here&rsquo;s where things really come together. You can bring up any item by selecting it, and from there, start a brand-new session on it. Just tell Copilot, &ldquo;Hey, let&rsquo;s get to work on this,&rdquo; it&rsquo;ll get to work, using the issue as its context.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Back in the list view, you can select multiple items at once, choose Actions, and create new sessions from them. This is useful in a couple of ways:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>If you have several independent feature requests, you can spin up an individual session for each one.</li>\n\n\n\n<li>If you have a series of bug reports that all point to the same feature, you can bundle them into a single session by selecting New session.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">In either case, you can change the repo that the Copilot app uses for its session, which is perfect for those situations where the repo hosting the issue is separate from the one hosting the code.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"creating-issues-and-changing-your-repository-scope\">Creating issues and changing your repository scope</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Near the top of the pane, you&rsquo;ll find two more helpful buttons.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The first is your repository filter, which is set to All Repositories by default. Remember, even &ldquo;all&rdquo; here is automatically scoped to the repos you&rsquo;ve touched inside the Copilot app.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The second is New issue, which lets you create an issue right on the spot. For example, if you want to add a light mode toggle, select Create and you can kick off a brand-new session that starts with that issue as its context.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"take-this-with-you\">Take this with you</h2>\n\n\n\n<p class=\"wp-block-paragraph\">The My work pane gives you a single, centralized place to manage all of your pull requests and issues. You can create custom views, search to find exactly what you need, and quickly assign tasks to Copilot, so you can stay organized and focus your attention where it&rsquo;s needed most.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Learn more by exploring the rest of the videos in this series, or by visiting gh.io/app. We&rsquo;ll see you in the next post!</p>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/\">GitHub Copilot app for Beginners: Managing your work</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
       "status": "nouveau",
       "createdAt": "2026-08-20T07:43:39.065Z"
-    },
-    {
-      "id": "a55c0c147a5d5626",
-      "sourceId": "hackernews",
-      "title": "OpenRouter is joining Stripe",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "publishedAt": "2026-08-19T17:32:38.000Z",
-      "rawContent": "Previously: Stripe will reportedly acquire OpenRouter for $7B+ <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49323381</a>",
-      "status": "nouveau",
-      "createdAt": "2026-08-20T07:43:38.794Z"
-    },
-    {
-      "id": "f336163aa764cbd8",
-      "sourceId": "hackernews",
-      "title": "HTML Can Do That",
-      "url": "https://chrisburnell.com/html-can-do-that/",
-      "publishedAt": "2026-08-19T15:11:36.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-21T07:46:53.467Z"
-    },
-    {
-      "id": "979d4473cfe65c63",
-      "sourceId": "hackernews",
-      "title": "Palomar: A registry of Lean verified mathematics",
-      "url": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
-      "publishedAt": "2026-08-19T02:41:50.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-19T07:41:28.549Z"
-    },
-    {
-      "id": "dbce497b64424f23",
-      "sourceId": "hackernews",
-      "title": "OpenLogi",
-      "url": "https://openlogi.org/en",
-      "publishedAt": "2026-08-19T01:58:28.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-19T07:41:28.549Z"
-    },
-    {
-      "id": "da7b93e6dd5a5954",
-      "sourceId": "hackernews",
-      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
-      "url": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
-      "publishedAt": "2026-08-19T00:48:23.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-19T07:41:28.549Z"
-    },
-    {
-      "id": "6eb73f63ff0ede32",
-      "sourceId": "hackernews",
-      "title": "Cerebras CS-4",
-      "url": "https://www.cerebras.ai/cs4",
-      "publishedAt": "2026-08-19T00:28:18.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-19T07:41:28.549Z"
-    },
-    {
-      "id": "d82f5875badeb539",
-      "sourceId": "simonwillison",
-      "title": "Mojo🔥 is now open source",
-      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "publishedAt": "2026-08-18T21:39:20.000Z",
-      "rawContent": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p>\nMojo🔥 is now open source</p>\n<p>The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p>\n<p>When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed <a href=\"https://forum.modular.com/t/mojo-vision-document-and-roadmap/2187\">around August 2025</a>:</p>\n<blockquote>\n<p>Mojo may or may not evolve into a full superset of Python, and it’s okay if it doesn’t.</p>\n<p>We’re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we’re confident that future tooling and ecosystem maturity will make this evolution even smoother.</p>\n</blockquote>\n<p>Today Mojo is its own language, optimized to make GPU programming as painless as possible using syntax inspired by Python, if not 100% compatible with existing code.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/01lxuf/mojo_is_now_open_source\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/mojo\">mojo</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-19T07:41:28.676Z"
     }
   ]
 }
