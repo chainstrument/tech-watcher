@@ -1,6 +1,106 @@
 {
-  "updatedAt": "2026-10-22T12:51:33.742Z",
+  "updatedAt": "2026-10-23T12:29:45.251Z",
   "items": [
+    {
+      "id": "6961cf70fece2ae2",
+      "sourceId": "hackernews",
+      "title": "Swedish government offices to ban ChatGPT and Claude",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "publishedAt": "2026-10-23T11:39:54.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.715Z"
+    },
+    {
+      "id": "078b41e2b15912e7",
+      "sourceId": "hackernews",
+      "title": "Is this the new cyber normal?",
+      "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+      "publishedAt": "2026-10-23T11:04:53.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.715Z"
+    },
+    {
+      "id": "c9acdb51c4ea130f",
+      "sourceId": "hackernews",
+      "title": "Job Loss and Cortisone Mania",
+      "url": "https://tilschuenemann.de/job-loss-cortisone-mania",
+      "publishedAt": "2026-10-23T10:31:24.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.715Z"
+    },
+    {
+      "id": "eaf6e95c99cc4135",
+      "sourceId": "hackernews",
+      "title": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "publishedAt": "2026-10-22T23:45:56.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.715Z"
+    },
+    {
+      "id": "67d9de400f929ce0",
+      "sourceId": "hackernews",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "publishedAt": "2026-10-22T23:01:18.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.715Z"
+    },
+    {
+      "id": "87e22db35085845a",
+      "sourceId": "simonwillison",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "publishedAt": "2026-10-22T19:42:26.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow\">DE STAAT - FREEDOM (Official Music Video)</a></strong></p>\nOK well this is a first for me... at <a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow&amp;t=44s\">00:44</a> in this new music video by Dutch alternative rock band <a href=\"https://en.wikipedia.org/wiki/De_Staat\">De Staat</a>:</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026/freedom-pelican.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026/freedom-pelican-poster.jpg\"\n  preload=\"none\"\n  loop=\"1\" controls=\"1\"\n  playsinline=\"1\" muted=\"1\"\n  width=\"1280\"\n  height=\"720\"\n  style=\"display: block; width: 100%; height: auto;\"\n> </video>\n</p>\n<p>The visual effects are credited to Matties Grooten of <a href=\"https://fakeitorleaveit.com\">Fake it or Leave it</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50186129#50193407\">flir on Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/music\">music</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.866Z"
+    },
+    {
+      "id": "2f38489938aada9c",
+      "sourceId": "simonwillison",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "publishedAt": "2026-10-22T18:09:56.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation\">Donating Agent Skills to the Agentic AI Foundation</a></strong></p>\nNews today from Anthropic:</p>\n<blockquote>\n<p>We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, <a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation\">which we co-founded</a> with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP).</p>\n</blockquote>\n<p>I'm pleased to note I called this one <a href=\"https://simonwillison.net/2025/Dec/19/agent-skills/\">last December</a>, when Anthropic first declared skills to be an \"open standard\":</p>\n<blockquote>\n<p>I wouldn't be surprised to see this end up <a href=\"https://simonwillison.net/2025/Dec/9/agentic-ai-foundation/\">in the AAIF</a>, recently the new home of the MCP specification.</p>\n</blockquote>\n<p>Fun side note: since my blog content is available to Claude via the <a href=\"https://github.com/datasette/datasette-mcp\">datasette-mcp</a>\nplugin I found that post by <a href=\"https://claude.ai/share/80b341de-590b-4834-bca9-0d9c9a3a0298\">prompting Claude</a> to \"<code>Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body</code>\".\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/standards\">standards</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/skills\">skills</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.866Z"
+    },
+    {
+      "id": "c10dae251e662270",
+      "sourceId": "github-blog",
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "publishedAt": "2026-10-22T17:21:30.000Z",
+      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\"><em>As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program:</em> <code>@r31n</code><em>!</em></p>\n\n\n\n<p class=\"wp-block-paragraph\">As home to the world&rsquo;s developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and <a href=\"https://bounty.github.com/\">our Bug Bounty Program</a> remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year, the community helps us identify and fix vulnerabilities that make the platform safer for everyone.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The security research landscape is changing rapidly. AI has lowered the barrier to entry and become a genuine force multiplier. We use it across our own internal security programs, and <a href=\"https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/\">we welcome researchers who do the same</a>. However, what separates great research has not changed: validation, a working proof of concept, and a clear demonstration of real security impact. The tools do not matter; the quality of the work does. The researchers we spotlight this month exemplify exactly that standard through findings that are verified, reproducible, and demonstrate that a security boundary has been crossed rather than simply theorizing that one exists.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Researchers who consistently work at that level can earn an invitation to our permanent VIP program, which offers higher payouts, faster response times, and early previews of beta products and features. Learn more about how to qualify on our <a href=\"https://bounty.github.com/\">public bounty site</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As we wrap up our Cybersecurity Awareness Month celebration, we interview <code>@r31n</code>, a researcher renowned for their work on GitHub Enterprise Server, where they have repeatedly uncovered high-impact issues. Their reports consistently include working proofs of concept and clear reproduction steps, helping our engineering teams move from triage to remediation more quickly.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\">\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How did you get started in security and bug bounty, and what keeps you coming back to GitHub&rsquo;s program?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">I got into bug bounty because I wanted a way to keep developing my security skills outside the environments I work with every day. It exposes me to different products, technologies, and architectures I probably wouldn&rsquo;t run into otherwise. GitHub is one of those programs I keep coming back to because there&rsquo;s just so much surface area. It&rsquo;s large, complex, and constantly changing. New features ship all the time, so it never really feels like a finished target. They also work closely with researchers, the bounty structure is competitive, and the swag is a nice bonus. It&rsquo;s simply a program I enjoy spending time on.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What are your favorite classes of bugs to research and why?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">I don&rsquo;t really have one favorite bug class. What interests me more are exploit chains, especially cases where a few things that seem relatively harmless on their own come together and create something much more serious. An open redirect is a simple example. By itself, the impact might be limited. But if you find an allowlisted-domain SSRF that follows redirects, suddenly that open redirect can become a useful part of a much bigger chain. That&rsquo;s probably the part of vulnerability research I enjoy most: finding those connections, looking at two or three separate bugs and realizing they can be combined in a way that wasn&rsquo;t intended. It takes some technical knowledge, but also quite a bit of creativity.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How do you keep your skills sharp and stay on top of new vulnerability trends?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">It&rsquo;s actually a mix of different things. Security blogs, vulnerability write-ups, conference talks, proof of concepts, research papers, courses. I try to learn from wherever useful work is being shared. But most of it only really sticks once I try it myself. I can read a vulnerability write-up, but working through it myself gives me a much deeper understanding. If I actually reproduce the technique, play around with it, break it, and figure out why it behaves the way it does, that&rsquo;s when it really stays with me. And later, when I see a similar pattern on a real target, it&rsquo;s much easier to recognize.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What tools or workflows have been gamechangers for your research? Any lesser-known utilities you&rsquo;d recommend?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">I tend to prefer manual investigation and small, purpose-built scripts over large automated toolchains. If I notice I&rsquo;m repeating the same task during research, I&rsquo;ll usually automate that specific part. AI has probably impacted my way of working more than any individual security tool.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Even then, I think mindset matters more than tooling. You can become extremely good with a particular tool and still miss interesting bugs because you&rsquo;re only looking at the target through the lens that tool gives you. Sometimes relying too heavily on tooling actually narrows the way you think. Tools change. Techniques change. Curiosity and persistence tend to age much better. So, I don&rsquo;t really have one tool I&rsquo;d recommend to everyone. The most useful tool is usually the one that helps answer the specific question I&rsquo;m investigating.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Walk us through your general approach. How do you pick a target area, and how do you go from &ldquo;interesting feature&rdquo; to a confirmed finding?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">I usually start by mapping out the application and getting a feel for how its different parts fit together. I tend to spend more time on complex functionality, integrations, trust boundaries, and anything that behaves a little differently from the rest. Experience and intuition matter too. Some areas simply look more likely to expose interesting security behavior. From there, I often think in terms of sources and sinks rather than starting with a specific vulnerability class. A source is a point where attacker-controlled data enters the application.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Think of a request parameter, uploaded file, API input, or data coming from another service. A sink can be a security-sensitive operation that consumes this data, for example, a network request, file access, process execution, database query, or authorization decision. The interesting part is tracing the path between the two. I look at how the data is transformed, validated, or passed across trust boundaries, and whether those controls are sufficient before it reaches the sink.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I like this approach because it lets me reason about attack paths without forcing my investigation into a predefined bug class. Sometimes the vulnerability only becomes obvious once you understand how a particular source can influence a security-sensitive operation. I consider a finding confirmed once I understand the attack path, can produce a working PoC, and can explain the impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Do you use AI in your research? Where does it genuinely help and where does it fall short?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Yes. Quite a lot, actually, but mostly as an accelerator. I use it for navigating unfamiliar code, finding call sites, tracing data through the codebase, and understanding how a system is structured and how its components interact. I also find it helpful for writing PoC scripts once I&rsquo;ve identified the vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where it works best is when the question is specific. &ldquo;Is this application vulnerable?&rdquo; usually isn&rsquo;t a very useful prompt. Give it the right context, explain what you already know, and ask a narrow question, and the quality goes up dramatically. There&rsquo;s a bit of a paradox there. AI becomes more useful as you understand the problem better yourself. And I never treat its conclusions as facts. Hallucinations, false positives, bad assumptions, and confidently wrong answers are all common. Everything should still be manually verified. AI makes my work faster. However, it doesn&rsquo;t replace understanding the application, developing intuition, or proving that something actually works.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What&rsquo;s your guidance on using AI responsibly in bug bounty?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Use it to improve your research, not to outsource responsibility for it. If AI tells you it found a vulnerability, that doesn&rsquo;t mean you found a real vulnerability. You still need to reproduce it yourself. You should understand exactly what&rsquo;s happening, which security boundary or control is being violated, and what the real impact is. Ideally, you should understand the issue well enough that you could write the report without AI at all. Build a clear PoC. Make sure the security team can follow it. Know why every step matters.</p>\n\n\n\n<p class=\"wp-block-paragraph\">AI has lowered the barrier to doing security research, which is great in a lot of ways. But you can also see the downside in the number of unverified reports teams now have to deal with. AI should make research better. Not just make more reports.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>As the industry ships more AI-powered features, does testing them require a different mindset than traditional web bugs?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Yes. Conventional vulnerabilities still matter, but attackers may also be able to influence a probabilistic decision-making component through the data, instructions, or context it receives. But getting a model to say or do something unexpected isn&rsquo;t necessarily the interesting part. The more important question is what that influence allows an attacker to achieve. Can they access something they should not or cause the system to act with privileges the attacker does not have? That&rsquo;s why I don&rsquo;t think model-level guardrails should ever be treated as the only or primary security boundary. You still need deterministic controls around the model. This includes proper authorization, least-privilege access, isolation, and validation. The surrounding systems matter just as much as the model itself. And traditional application security doesn&rsquo;t disappear just because AI is involved. Model output should still be treated as untrusted input. If that output ends up in a browser, database query, shell command, web request, or another downstream system without the right controls, you can still end up with very familiar vulnerabilities: XSS, SQL injection, command injection, SSRF, and so on. I think the model is new. A lot of the dangerous sinks aren&rsquo;t.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What&rsquo;s one thing you wish you&rsquo;d known when you first started?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Learn systems, not checklists. When I started, I was tempted to collect huge lists of techniques, payloads, tools, and bypasses and then work through them one by one. Those lists can be useful.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I still use them. But understanding how a system works has been far more valuable. Its internal logic. The data flows. Trust relationships. Assumptions. Why one component is allowed to talk to another. Why a particular restriction exists in the first place. I also learned not to assume something is secure because it looks secure, or because plenty of researchers have already tested it.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A lot of interesting research begins with: &ldquo;Why does this work this way?&rdquo; rather than &ldquo;Which payload should I try next?&rdquo; There&rsquo;s some luck involved too. Sometimes you spend days following something that goes absolutely nowhere. Then you notice one tiny detail almost by accident and it turns into a high-impact finding. You can&rsquo;t control that part. You can control whether you keep questioning things long enough to notice it.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What advice or resources would you recommend to researchers trying to land their first valid report?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Get comfortable with the fundamentals, then pick one program and one target and stick with them for a while. Constantly jumping between targets makes it difficult to build a real mental model of any of them. Use the application. Explore weird flows. Test different roles and permission levels. Read the documentation. Watch the requests and responses. Look at the APIs. Labs, courses, public write-ups, disclosed bug bounty reports, and intentionally vulnerable applications are all useful too. They teach you where bugs tend to hide and, over time, help build the intuition to recognize similar situations elsewhere.</p>\n\n\n\n<p class=\"wp-block-paragraph\">One mistake I see a lot is relying on tools too early. Another is giving up because the obvious tests didn&rsquo;t find anything. Tools help. They don&rsquo;t build the mental model for you. And when you finally do find something, spend the extra time validating it properly. Create a working PoC. Make reproduction easy for the security team. Understanding one target deeply will usually get you further than trying to find a bug as quickly as possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What do you enjoy doing when you aren&rsquo;t hacking?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Endurance sports, mainly road cycling, especially in the mountains. I enjoy the physical challenge of a long climb and pushing myself over longer distances. It&rsquo;s also a great way to get away from screens for a while and spend some time outside. There&rsquo;s actually something about climbing that feels pretty similar to vulnerability research. You can put in a lot of effort without seeing much progress. Sometimes you have no idea whether what you&rsquo;re doing is going to lead anywhere. You just keep going. And every now and then, it pays off.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Any social media profiles you&rsquo;d like to share with our readers?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">You can find me on <a href=\"https://hackerone.com/r31n\">HackerOne</a>.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\">\n\n\n\n<p class=\"wp-block-paragraph\">Thank you, <code>@r31n</code>, for participating in GitHub&rsquo;s bug bounty researcher spotlight! Each submission to our bug bounty program is a chance to make GitHub, our products, and our customers more secure, and we continue to welcome and appreciate collaboration with the security research community. So, if this inspired you to go hunting for bugs, feel free to report your findings through <a href=\"https://hackerone.com/github?type=team\">HackerOne</a>.</p>\n</body></html>\n<p>The post <a href=\"https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/\">How bug bounty sharpens one researcher’s security skills</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:44.039Z"
+    },
+    {
+      "id": "4d94ea9e2e6bcfc5",
+      "sourceId": "changelog",
+      "title": "Building what's next",
+      "url": "https://changelog.com/podcast/687",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "rawContent": "<p>This week I’m talking with Zeno Rocha, CEO of Resend, about scaling “boring” email to 3 million users, the secret Go rewrite behind it, and building for agents. We cover pricing.md, MCP, spam gangs, and why Resend keeps what’s next for email.</p>\n<p><a href=\"https://changelog.zulipchat.com/#narrow/stream/456187-interviews\">Join the discussion</a></p><p><a href=\"https://changelog.com/++\" rel=\"payment\">Changelog++</a> members save 10 minutes on this episode because they made the ads disappear. Join today!</p><p>Sponsors:</p><p><ul><li><a href=\"https://workos.com\">WorkOS</a> – Auth for CLI with AuthKit from WorkOS — Bring secure browser-based login to your terminal apps using the OAuth Device Flow, with the same polished AuthKit experience plus SSO, MFA, and passkeys. Learn more at <a href=\"https://workos.com/\">WorkOS.com</a> and <a href=\"https://www.authkit.com\">AuthKit.com</a>\n</li>\n<li><a href=\"https://buildkite.com/\">Buildkite</a> – You deserve better CI. Buildkite is engineered for frontier scale and trusted by the teams setting the pace.\n</li>\n<li><a href=\"https://coder.com/\">Coder.com</a> – Secure environments where devs and agents work in parallel. Open by design. Secure by default.\n</li>\n<li><a href=\"https://fly.io/\">Fly.io</a> – <strong>The home of Changelog.com</strong> — Deploy your apps close to your users — global Anycast load-balancing, zero-configuration private networking, hardware isolation, and instant WireGuard VPN connections. Push-button deployments that scale to thousands of instances. <a href=\"https://fly.io/speedrun/\">Check out the speedrun</a> to get started in minutes.\n</li>\n</ul></p><p>Featuring:</p><ul><li>Zeno Rocha &ndash; <a href=\"https://zenorocha.com\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/zenorocha\" rel=\"external ugc\">GitHub</a>, <a href=\"https://x.com/zenorocha\" rel=\"external ugc\">X</a></li><li>Adam Stacoviak &ndash; <a href=\"https://adamstacoviak.com/\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/adamstac\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/adamstacoviak\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://changelog.social/@adam\" rel=\"external ugc\">Mastodon</a>, <a href=\"https://x.com/adamstac\" rel=\"external ugc\">X</a></li></ul></p><p>Show Notes:</p><p><ul>\n<li><a href=\"https://resend.com\">Resend</a></li>\n<li><a href=\"https://resend.com/products/inboxes\">Resend Inboxes</a></li>\n<li><a href=\"https://resend.com/features/cli\">Resend CLI</a></li>\n<li><a href=\"https://draculatheme.com\">Dracula</a></li>\n<li><a href=\"https://draculatheme.com/pro\">Dracula Pro</a></li>\n</ul>\n</p><p>Something missing or broken? <a href=\"https://github.com/thechangelog/show-notes/blob/master/podcast/the-changelog-687.md\">PRs welcome!</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:44.993Z"
+    },
+    {
+      "id": "2eded73c1a58a8ad",
+      "sourceId": "simonwillison",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "publishedAt": "2026-10-22T15:34:13.000Z",
+      "rawContent": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/armin-ronacher\">armin-ronacher</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-23T12:29:43.866Z"
+    },
     {
       "id": "e1feaa9c6204066b",
       "sourceId": "hackernews",
@@ -4900,106 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-23T07:36:12.693Z"
-    },
-    {
-      "id": "0eccfa5da2ee777f",
-      "sourceId": "simonwillison",
-      "title": "Quoting Linus Torvalds",
-      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "publishedAt": "2026-08-22T21:04:26.000Z",
-      "rawContent": "<blockquote cite=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\"><p>And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work.</p>\n<p>I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it.</p>\n<p>I suspect those things have been trained by people who may not be quite as stubborn as I am.</p>\n<p>But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://github.com/torvalds/linux/commit/818bebeb63dd6bf5f4e07e145f6cdbace520a34c\">Linus Torvalds</a>, drm/xe: Don't hand out the flat CCS storage as usable VRAM</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/linus-torvalds\">linus-torvalds</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.881Z"
-    },
-    {
-      "id": "2948ba53feffa8c3",
-      "sourceId": "simonwillison",
-      "title": "llm 0.33",
-      "url": "https://simonwillison.net/2026/Aug/22/llm/",
-      "publishedAt": "2026-08-22T17:01:16.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.33\">llm 0.33</a></p>\n        <p>My highlights from this release:</p>\n<blockquote>\n<ul>\n<li>Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from <code>httpx</code> to <code>httpx2</code>. <a href=\"https://github.com/simonw/llm/issues/1608\">#1608</a>, <a href=\"https://github.com/simonw/llm/pull/1631\">#1631</a></li>\n</ul>\n</blockquote>\n<p>I shipped a quick <a href=\"https://simonwillison.net/2026/Aug/21/llm/\">0.32.1 fix</a> for this yesterday, but this is the more comprehensive fix.</p>\n<blockquote>\n<ul>\n<li><code>llm embed</code> and <code>llm embed-multi</code> now accept <code>--key</code>. The Python <code>EmbeddingModel.embed()</code>, <code>EmbeddingModel.embed_multi()</code>, <code>Collection.embed()</code> and <code>Collection.embed_multi()</code> methods accept <code>key=</code> too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read <code>self.key</code> continue to work through a compatibility fallback. Thanks, <a href=\"https://github.com/ChrisJr404\">ChrisJr404</a>. <a href=\"https://github.com/simonw/llm/issues/757\">#757</a>, <a href=\"https://github.com/simonw/llm/pull/1620\">#1620</a></li>\n</ul>\n</blockquote>\n<p>The embedding models now use the same pattern for keys that regular LLM models do.</p>\n<blockquote>\n<ul>\n<li><code>llm prompt -t/--template</code> can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another.</li>\n</ul>\n</blockquote>\n<p>This unlocks a neat pattern where you can create templates that package a model with a set of default options:</p>\n<pre><code>llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh\nllm \"Generate an SVG of a pelican riding a bicycle\" --save pelican\n# Combine and run the templates\nllm -t lhigh -t pelican\n</code></pre>\n<blockquote>\n<ul>\n<li>Reasoning-capable Responses API models now support a <code>reasoning_summary</code> option with <code>auto</code>, <code>concise</code>, and <code>detailed</code> values. This can be used with <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint\">llm openai endpoint --responses</a>. <a href=\"https://github.com/simonw/llm/issues/1600\">#1600</a></li>\n</ul>\n</blockquote>\n<p>This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.881Z"
-    },
-    {
-      "id": "d548c978bd4efd13",
-      "sourceId": "simonwillison",
-      "title": "More than just code review",
-      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "publishedAt": "2026-08-22T15:56:54.000Z",
-      "rawContent": "<p>The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way.</p>\n<p>Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/code-review\">code-review</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.881Z"
-    },
-    {
-      "id": "23156485d9c0221f",
-      "sourceId": "hackernews",
-      "title": "Nostr is an inclusive communication commons",
-      "url": "https://nostr.org/",
-      "publishedAt": "2026-08-22T13:49:01.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-25T07:48:27.732Z"
-    },
-    {
-      "id": "5ccd0bdea0d03507",
-      "sourceId": "hackernews",
-      "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
-      "url": "https://www.youtube.com/watch?v=656058JxTM0",
-      "publishedAt": "2026-08-22T01:52:24.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-26T07:50:32.154Z"
-    },
-    {
-      "id": "27b7e490bced9706",
-      "sourceId": "hackernews",
-      "title": "There's no reason for software to be slow anymore",
-      "url": "https://danluu.com/perf-opt/",
-      "publishedAt": "2026-08-22T01:06:17.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-22T07:34:53.340Z"
-    },
-    {
-      "id": "10778dfe314d8928",
-      "sourceId": "hackernews",
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "url": "https://rust-glancer.github.io/blog/hello-world/",
-      "publishedAt": "2026-08-21T19:51:54.000Z",
-      "rawContent": "<a href=\"https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html\" rel=\"nofollow\">https:&#x2F;&#x2F;matklad.github.io&#x2F;2026&#x2F;08&#x2F;21&#x2F;rust-glancer.html</a>",
-      "status": "nouveau",
-      "createdAt": "2026-08-22T07:34:53.340Z"
-    },
-    {
-      "id": "5864af6cae430f0d",
-      "sourceId": "hackernews",
-      "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
-      "url": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
-      "publishedAt": "2026-08-21T17:54:06.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-22T07:34:53.340Z"
-    },
-    {
-      "id": "cf6af109a0ee1fd2",
-      "sourceId": "simonwillison",
-      "title": "llm 0.32.1",
-      "url": "https://simonwillison.net/2026/Aug/21/llm/",
-      "publishedAt": "2026-08-21T17:16:13.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p>\n        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>\n<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-22T07:34:53.483Z"
-    },
-    {
-      "id": "866d80edbe878622",
-      "sourceId": "simonwillison",
-      "title": "llm-openrouter 0.7",
-      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-      "publishedAt": "2026-08-21T16:58:19.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p>\n        <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it can display the reasoning traces for LLMs available through OpenRouter.</p>\n<blockquote>\n<ul>\n<li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li>\n<li>Models now use OpenRouter's implementation of the <a href=\"https://openrouter.ai/docs/api_reference/responses/overview\">Responses API</a>.</li>\n<li>Three new server-side tools: <a href=\"https://github.com/simonw/llm-openrouter#shell\">Shell</a>, <a href=\"https://github.com/simonw/llm-openrouter#web-fetch\">WebFetch</a>, and <a href=\"https://github.com/simonw/llm-openrouter#web-search\">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-22T07:34:53.483Z"
     }
   ]
 }
