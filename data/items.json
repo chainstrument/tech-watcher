@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-23T12:29:45.251Z",
+  "updatedAt": "2026-10-24T11:54:30.443Z",
   "items": [
+    {
+      "id": "c755b08d9cb3b23c",
+      "sourceId": "hackernews",
+      "title": "I Don't Understand Quantum Physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "publishedAt": "2026-10-24T09:53:26.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.152Z"
+    },
+    {
+      "id": "4906ded72c396dea",
+      "sourceId": "hackernews",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "publishedAt": "2026-10-24T04:49:58.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.152Z"
+    },
+    {
+      "id": "93fe052dfccec831",
+      "sourceId": "hackernews",
+      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "publishedAt": "2026-10-24T01:15:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.152Z"
+    },
+    {
+      "id": "1560ea04dee0e58a",
+      "sourceId": "simonwillison",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "publishedAt": "2026-10-23T21:35:13.000Z",
+      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p>\n        <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p>\n<blockquote>\n<p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p>\n</blockquote>\n<p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor/\">my previous experiment</a> getting Claude Fable to simulate a watercolor illustration with P5.js.</p>\n<p><img alt=\"A simulated oil painting of a photograph of a heron\" src=\"https://static.simonwillison.net/static/2026/heron-oil.webp\" /></p>\n<p>Quick Study uses <a href=\"https://en.wikipedia.org/wiki/Sobel_operator\">Sobel edge detection</a>, with no external libraries beyond Google Fonts.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.341Z"
+    },
+    {
+      "id": "9e0308113d32ae3f",
+      "sourceId": "simonwillison",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">Introducing Kimi K3.1 Pro</a></strong></p>\nKimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot  promise \"Full model weights will be released by Nov 4, 2026\".</p>\n<p>They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).</p>\n<p>The <a href=\"https://platform.kimi.ai/docs/pricing/chat\">US dollar pricing</a> is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.</p>\n<p>Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.</p>\n<p>Artificial Analysis <a href=\"https://artificialanalysis.ai/models/kimi-k3-1-pro\">scored Kimi at 55</a> - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58).</p>\n<p>This is the first time a (soon-to-be) open weight model has scored this highly against the frontier.</p>\n<p>I tried it out via the <a href=\"https://platform.kimi.ai/docs/get-your-api-key\">Moonshot API</a> using the <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint\">llm openai endpoint</a> command I added to <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a> back in August:</p>\n<pre><code>llm openai endpoint \\\n  https://api.moonshot.ai/v1 \\\n  --key kimi \\\n  -m kimi-k3.1-pro \\\n  \"Generate an SVG of a pelican riding a bicycle\" \\\n  --responses \\\n  -o reasoning_effort low \\\n  &gt; kimi-k3.1-pro-pelican-low.stdout.txt \\\n  2&gt; kimi-k3.1-pro-pelican-low.stderr.txt\n</code></pre>\n<p><code>llm openai endpoint</code> can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace).</p>\n<p>Here <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F9b7181492209387da1d4f53002f26663\">are the pelicans</a> I got for Kimi K3.1 Pro on the three reasoning levels it supports -  low, medium, and max. This is max:</p>\n<p><img alt=\"It's pretty solid - feet are on the pedals, bicycle frame is good, nice beak. Both legs are on the same side of the Fram though.\" src=\"https://static.simonwillison.net/static/2026-10-23/image-2.png\" /></p>\n<p>For comparison, I ran fresh <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Feba9a4283c9e94cbbb5325902a3921a8\">pelicans against Kimi K3</a> on those three reasoning levels.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/moonshot\">moonshot</a>, <a href=\"https://simonwillison.net/tags/kimi\">kimi</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.341Z"
+    },
+    {
+      "id": "bf44de9e544de4cb",
+      "sourceId": "hackernews",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.152Z"
+    },
     {
       "id": "6961cf70fece2ae2",
       "sourceId": "hackernews",
@@ -140,6 +200,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-10-22T12:51:32.743Z"
+    },
+    {
+      "id": "e2f60b8a844782da",
+      "sourceId": "hackernews",
+      "title": "Physicists trap a single antimatter particle for a month",
+      "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+      "publishedAt": "2026-10-21T19:40:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-24T11:54:29.152Z"
     },
     {
       "id": "60cdd6b596008249",
@@ -4930,76 +5000,6 @@
       "rawContent": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;paulg&#x2F;status&#x2F;2091544343589060625\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;paulg&#x2F;status&#x2F;2091544343589060625</a>",
       "status": "nouveau",
       "createdAt": "2026-08-24T07:59:31.490Z"
-    },
-    {
-      "id": "99acd73254864f62",
-      "sourceId": "simonwillison",
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "publishedAt": "2026-08-23T20:24:52.000Z",
-      "rawContent": "<p><strong><a href=\"https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245\">Anthropic’s best AI model struggles to attract users as cheaper tools thrive</a></strong></p>\nA few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":</p>\n<ul>\n<li>Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected <a href=\"https://simonwillison.net/2026/May/29/anthropic/\">more historic numbers here</a>.</li>\n<li>Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\"</li>\n<li>As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year\".</li>\n</ul>\n<p>This article also introduced me to the <a href=\"https://ramp.com/data/ai-index\">Ramp AI index</a>, which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption.</p>\n<p>Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model:</p>\n<ol>\n<li>Opus 4.8: 28.0%</li>\n<li>Sonnet 4.6: 8.3%</li>\n<li>Fable 5: 8.0%</li>\n<li>Opus 4.6: 6.9%</li>\n<li>Sonnet 5: 3.6%</li>\n<li>Opus 5: 3.5%</li>\n<li>Opus 4.7: 1.7%</li>\n<li>Sonnet 4.5: 1.3%</li>\n<li>Haiku 4.5: 1.0%</li>\n<li>Opus 4.5: 0.7%</li>\n</ol>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49411102\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.591Z"
-    },
-    {
-      "id": "71343321c7660b7a",
-      "sourceId": "simonwillison",
-      "title": "Quoting Drew Breunig",
-      "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-      "publishedAt": "2026-08-23T19:55:30.000Z",
-      "rawContent": "<blockquote cite=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\"><p>Prior to Fable, it felt silly to waste <em>too</em> much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p>\n<p>But then Fable landed. It was (and still is!) <em>incredible</em>. But the cost was so high and Opus was <em>good enough</em> (as was 5.6, K3, and even GLM) for <em>most</em> of the code we needed.</p>\n<p><em>So we started to think about what work went where.</em></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html\">Drew Breunig</a>, Fable &amp; The End of the Free Lunch</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/drew-breunig\">drew-breunig</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.591Z"
-    },
-    {
-      "id": "8643c9395c2b5f8b",
-      "sourceId": "hackernews",
-      "title": "JIT Compiling Code in 5μs",
-      "url": "https://malisper.me/jit-compiling-code-in-5-us/",
-      "publishedAt": "2026-08-23T06:04:51.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.693Z"
-    },
-    {
-      "id": "a5b9842fb2f986f2",
-      "sourceId": "hackernews",
-      "title": "The End of an Athlon",
-      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-      "publishedAt": "2026-08-23T05:51:01.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.693Z"
-    },
-    {
-      "id": "7dc96f572507ae04",
-      "sourceId": "hackernews",
-      "title": "The Golden Rule for Becoming a Better Writer",
-      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "publishedAt": "2026-08-23T03:32:25.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.693Z"
-    },
-    {
-      "id": "b74e2345182525b0",
-      "sourceId": "hackernews",
-      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-      "url": "https://martypc.net/",
-      "publishedAt": "2026-08-23T03:13:16.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.693Z"
-    },
-    {
-      "id": "7f6c265bb8f9719f",
-      "sourceId": "hackernews",
-      "title": "I Dream of Quieter Computing",
-      "url": "https://henry.codes/writing/i-dream-of-quieter-computing/",
-      "publishedAt": "2026-08-23T02:33:22.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-23T07:36:12.693Z"
     }
   ]
 }
