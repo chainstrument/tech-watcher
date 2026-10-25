@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-10-24T11:54:30.443Z",
+  "updatedAt": "2026-10-25T12:25:13.449Z",
   "items": [
+    {
+      "id": "9282e3edfd40c3e3",
+      "sourceId": "hackernews",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "url": "https://github.com/ihhub/fheroes2",
+      "publishedAt": "2026-10-25T11:09:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.131Z"
+    },
+    {
+      "id": "b2b4cdc45f5a4e5e",
+      "sourceId": "hackernews",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+      "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+      "publishedAt": "2026-10-25T10:42:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.131Z"
+    },
+    {
+      "id": "04e8833d9ef6b445",
+      "sourceId": "hackernews",
+      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "publishedAt": "2026-10-25T09:00:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.131Z"
+    },
+    {
+      "id": "e1545bcc45f4c70b",
+      "sourceId": "hackernews",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "publishedAt": "2026-10-25T01:33:49.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.131Z"
+    },
+    {
+      "id": "42532ee811b2ffa8",
+      "sourceId": "hackernews",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "publishedAt": "2026-10-24T21:47:31.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.131Z"
+    },
     {
       "id": "c755b08d9cb3b23c",
       "sourceId": "hackernews",
@@ -20,6 +70,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-10-24T11:54:29.152Z"
+    },
+    {
+      "id": "d1879513a33727bd",
+      "sourceId": "simonwillison",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "publishedAt": "2026-10-24T03:59:57.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p>\n        <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p>\n<p>Here's the initial prompt I used: </p>\n<blockquote>\n<p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI)</code></p>\n</blockquote>\n<p>Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes.</p>\n<p><img alt=\"The new map does indeed look a bit like a rose - it uses the cold and ice biome. Also shown are purple robots battling on the map.\" src=\"https://raw.githubusercontent.com/simonw/battledrones/v14/progress-shots/v14/compass-rose.jpg\" /></p>\n<p>The new teams use robots themed in purple and green, joining the existing blue and red designs. You can preview those colors in <a href=\"https://simonw.github.io/battledrones/models.html\">the updated model browser</a>.</p>\n<p>Here's <a href=\"https://simonw.github.io/battledrones/v14/?replay=https://gist.githubusercontent.com/simonw/faa550a002b25a78f1c88a64217786c1/raw/4ff9b03de71d757cd33eb5d1a0e388155b6c20e5/compass.json\">a replay link</a> to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/game-design\">game-design</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-25T12:25:12.306Z"
     },
     {
       "id": "93fe052dfccec831",
@@ -4940,66 +5000,6 @@
       "rawContent": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;lemire&#x2F;status&#x2F;2091894299289874926</a>",
       "status": "nouveau",
       "createdAt": "2026-08-25T07:48:27.732Z"
-    },
-    {
-      "id": "8ccf6a718866a13d",
-      "sourceId": "simonwillison",
-      "title": "Your executable is a SQLite database",
-      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-      "publishedAt": "2026-08-24T11:38:15.000Z",
-      "rawContent": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p>\nFarid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p>\n<p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format.  The various components of the ELF executable format are then arranged into a number of different SQLite tables, using <a href=\"https://github.com/fzakaria/selfdb/blob/main/schema/self.sql\">this schema</a>.</p>\n<p>Their <code>self-exec</code> interpreter (<a href=\"https://github.com/fzakaria/selfdb/blob/main/loader/self-exec.c\">C code here</a>) can then extract and execute the necessary pieces.</p>\n<p>You can additionally use a Linux mechanism called <a href=\"https://docs.kernel.org/admin-guide/binfmt-misc.html\">binfmt_misc</a> to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this:</p>\n<pre><code>printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\\n  &gt; /proc/sys/fs/binfmt_misc/register\n</code></pre>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49415271\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/c\">c</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-25T07:48:27.831Z"
-    },
-    {
-      "id": "42dd282864e14cb2",
-      "sourceId": "hackernews",
-      "title": "Anthropic Claude and API service outages",
-      "url": "https://status.claude.com/uptime",
-      "publishedAt": "2026-08-24T06:32:28.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.490Z"
-    },
-    {
-      "id": "7f204604484459cd",
-      "sourceId": "hackernews",
-      "title": "FDA clears blood test to aid evaluation for Alzheimer's disease",
-      "url": "https://medicine.washu.edu/news/fda-clears-blood-test-to-aid-evaluation-for-alzheimers-disease/",
-      "publishedAt": "2026-08-24T06:30:07.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.490Z"
-    },
-    {
-      "id": "34b8d22a9c0865d0",
-      "sourceId": "hackernews",
-      "title": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
-      "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
-      "publishedAt": "2026-08-24T06:25:42.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.490Z"
-    },
-    {
-      "id": "a895c739bfa512f3",
-      "sourceId": "hackernews",
-      "title": "Everything I own, owned",
-      "url": "https://schlarp.com/posts/everything-i-own-owned/",
-      "publishedAt": "2026-08-23T22:41:04.000Z",
-      "rawContent": "<a href=\"https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.com&#x2F;posts&#x2F;everything-i-own-owned&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20260823225933&#x2F;https:&#x2F;&#x2F;schlarp.c...</a>",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.490Z"
-    },
-    {
-      "id": "90c1d51aafc4ad30",
-      "sourceId": "hackernews",
-      "title": "I were 17, I'd learn how to build LLMs from scratch",
-      "url": "https://twitter.com/paulg/status/2091544343589060625",
-      "publishedAt": "2026-08-23T20:38:09.000Z",
-      "rawContent": "<a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;paulg&#x2F;status&#x2F;2091544343589060625\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;paulg&#x2F;status&#x2F;2091544343589060625</a>",
-      "status": "nouveau",
-      "createdAt": "2026-08-24T07:59:31.490Z"
     }
   ]
 }
