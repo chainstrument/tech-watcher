@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-27T13:03:44.683Z",
+  "updatedAt": "2026-10-28T13:53:58.772Z",
   "items": [
+    {
+      "id": "b6ef72a535891f68",
+      "sourceId": "hackernews",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "publishedAt": "2026-10-28T13:41:30.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.650Z"
+    },
+    {
+      "id": "354a5be38f2bdf56",
+      "sourceId": "hackernews",
+      "title": "ICE Is Running One of the Largest Anti-Left Surveillance Ops in US History",
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
+      "publishedAt": "2026-10-28T12:49:45.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.650Z"
+    },
+    {
+      "id": "a47fefdfcbeeae76",
+      "sourceId": "hackernews",
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "publishedAt": "2026-10-28T11:03:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.650Z"
+    },
+    {
+      "id": "2cf23206607f40da",
+      "sourceId": "simonwillison",
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "publishedAt": "2026-10-28T10:09:07.000Z",
+      "rawContent": "<blockquote cite=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\"><p>If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai\">Terk Terkowitz</a>, An update from Amazon engineering leadership on the role of the developer in the age of AI</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.831Z"
+    },
+    {
+      "id": "001b60c8250b041f",
+      "sourceId": "hackernews",
+      "title": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "publishedAt": "2026-10-28T01:47:50.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.650Z"
+    },
+    {
+      "id": "8333c89d9d7c203a",
+      "sourceId": "simonwillison",
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "publishedAt": "2026-10-27T19:34:18.000Z",
+      "rawContent": "<p><strong><a href=\"https://spf13.com/p/game-boy-color-on-my-conference-badge/\">Game Boy Color on My Conference Badge</a></strong></p>\nI'm at GitHub Universe this week and, <a href=\"https://simonwillison.net/2025/Oct/28/github-universe-badge/\">similar to last year</a>, the conference badge is a full-blown color screen computer.</p>\n<p>I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a <a href=\"https://spf13.com/p/zelda-on-my-conference-badge/\">full NES emulator</a> working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color.</p>\n<p>Which means, if you can obtain the ROM, you can run <a href=\"https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening\">The Legend of Zelda: Link's Awakening</a> on your conference badge!</p>\n<p><img alt=\"Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.\" src=\"https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg\" /></p>\n<p>A neat feature of the badge is that you can turn it upside down and then use game controller touch buttons that are built into the badge body.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/games\">games</a>, <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/hardware-hacking\">hardware-hacking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/steve-francia\">steve-francia</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.831Z"
+    },
     {
       "id": "c6fe857ce6102977",
       "sourceId": "hackernews",
@@ -250,6 +310,16 @@
       "rawContent": "<a href=\"https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.kimi.com&#x2F;code&#x2F;docs&#x2F;en&#x2F;kimi-code&#x2F;models.html</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;kimi-k3-1-pro</a><p><a href=\"https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai\" rel=\"nofollow\">https:&#x2F;&#x2F;www.modelcompare.ai&#x2F;blog&#x2F;china-open-source-ai</a>",
       "status": "nouveau",
       "createdAt": "2026-10-24T11:54:29.152Z"
+    },
+    {
+      "id": "8c285bd437575eca",
+      "sourceId": "hackernews",
+      "title": "Start Doing Graph Theory",
+      "url": "https://vertex.degree/",
+      "publishedAt": "2026-10-23T13:49:50.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-28T13:53:57.650Z"
     },
     {
       "id": "6961cf70fece2ae2",
@@ -4930,76 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-27T18:09:35.796Z"
-    },
-    {
-      "id": "3504ab23c7389865",
-      "sourceId": "hackernews",
-      "title": "Suica, Japan's First IC Transit Card",
-      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
-      "publishedAt": "2026-08-27T15:55:12.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:35.796Z"
-    },
-    {
-      "id": "01105ec6ce8a69f0",
-      "sourceId": "hackernews",
-      "title": "507 Mechanical Movements",
-      "url": "https://507movements.com/",
-      "publishedAt": "2026-08-27T14:08:18.000Z",
-      "rawContent": "Book (1868): <a href=\"https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;fivehundredseven00browiala\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;fivehundredseven00browiala</a>",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:35.796Z"
-    },
-    {
-      "id": "71f61eaf57a97dad",
-      "sourceId": "hackernews",
-      "title": "Microduck",
-      "url": "https://pollen-robotics.com/microduck/",
-      "publishedAt": "2026-08-27T10:57:56.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:35.796Z"
-    },
-    {
-      "id": "c66ebdceece6d7fb",
-      "sourceId": "simonwillison",
-      "title": "Qwen3.8-Flash-Next",
-      "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "publishedAt": "2026-08-26T23:52:58.000Z",
-      "rawContent": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">Qwen3.8-Flash-Next</a></strong></p>\nAnother open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\".</p>\n<p>It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost.</p>\n<p>I've been trying it out on a DGX Spark using <a href=\"https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF\">these Unsloth quantized models</a>. I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff9c69ebdab90d8a45b8de4742cc7b840\">these pelicans</a>) and the 78.9GB UD-Q2_K_XL (producing <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6ba7cbfc1a9336986703b41f7fccd73a\">these</a>).</p>\n<p>My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL:</p>\n<p><img alt=\"Flat vector illustration: a white pelican with an orange beak and orange legs rides a red bicycle along a sandy path, a wicker basket on the handlebars holding a blue fish, with green rolling hills, a small tree and bushes, white clouds and a bright yellow sun in a blue sky behind it\" src=\"https://static.simonwillison.net/static/2026-08-27/IMG_7667.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49448210\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/nvidia-spark\">nvidia-spark</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:36.058Z"
-    },
-    {
-      "id": "dd7f6d928e357716",
-      "sourceId": "hackernews",
-      "title": "Europe's last regular standard-gauge steam passenger service",
-      "url": "https://parowozowniawolsztyn.pl/?page_id=2141",
-      "publishedAt": "2026-08-26T22:32:00.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-29T13:04:24.852Z"
-    },
-    {
-      "id": "8ba46bf8dae5cc6e",
-      "sourceId": "github-blog",
-      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-      "publishedAt": "2026-08-26T20:12:53.000Z",
-      "rawContent": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html><body><p class=\"wp-block-paragraph\">I might be biased, but I think Dependabot is pretty amazing. It helps keep my projects up to date, ensuring I&rsquo;m always using secure libraries. But because there&rsquo;re frequently new vulnerabilities, there&rsquo;re frequently new pull requests from Dependabot.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sometimes it&rsquo;s a minor version bump. Sometimes it&rsquo;s a major version upgrade. Sometimes everything will work just fine. And sometimes&hellip; well, every single developer has been caught by a breaking change.</p>\n\n\n\n<p class=\"wp-block-paragraph\">How can we best triage these pull requests? The work isn&rsquo;t particularly difficult per se, but it certainly is repetitive.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It&rsquo;s the perfect task to offload to Copilot! With <a href=\"https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-automations\">GitHub Copilot app automations</a>, you can hand off that first round of review. Instead of manually inspecting every Dependabot pull request, you can create an automation that reviews open pull requests, groups them by risk, verifies CI status, and delivers a summary before your day begins.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Follow the steps below to build a daily Dependabot triage automation.</p>\n\n\n\n<h2 id=\"h-step-1-create-a-new-automation\" class=\"wp-block-heading\">Step 1: Create a new automation</h2>\n\n\n\n<p class=\"wp-block-paragraph\">From the GitHub Copilot app, <a href=\"https://docs.github.com/en/copilot/how-tos/github-copilot-app/using-automations\">create a new automation</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You&rsquo;ll configure two things first:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Name:</strong> Give the automation a descriptive name, such as <strong>Daily Dependabot Triage</strong>.</li>\n\n\n\n<li><strong>Trigger:</strong> Decide when it should run.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Available trigger options include:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Manual</li>\n\n\n\n<li>Hourly</li>\n\n\n\n<li>Daily</li>\n\n\n\n<li>Weekly</li>\n\n\n\n<li>When an issue is created</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">For recurring maintenance tasks like <a href=\"https://docs.github.com/en/code-security/tutorials/secure-your-dependencies/dependabot-quickstart\">Dependabot reviews</a>, a daily schedule is often a good choice. For example, you might schedule it to run before your workday begins so the results are waiting when you log in.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You can also choose whether the automation runs in the cloud or on your local machine.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"step-2-describe-the-task-in-natural-language\">Step 2: Describe the task in natural language</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Next, tell Copilot what you want it to do.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example:</p>\n\n\n<div class=\"wp-block-code-wrapper\">\n<pre class=\"wp-block-code language-plaintext\"><code>Review the open Dependabot pull requests, group them by risk, identify the safe patch and minor version updates, verify that CI is passing for each pull request, and provide a short summary of the recommended next steps.</code></pre>\n<clipboard-copy aria-label=\"Copy\" class=\"code-copy-btn\" data-copy-feedback=\"Copied!\" value=\"Review the open Dependabot pull requests, group them by risk, identify the safe patch and minor version updates, verify that CI is passing for each pull request, and provide a short summary of the recommended next steps.\" tabindex=\"0\" role=\"button\"><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-copy js-clipboard-copy-icon\"><path d=\"M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z\"></path><path d=\"M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z\"></path></svg><svg aria-hidden=\"true\" height=\"16\" viewbox=\"0 0 16 16\" version=\"1.1\" width=\"16\" class=\"octicon octicon-check js-clipboard-check-icon\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"></path></svg></clipboard-copy></div>\n\n\n<p class=\"wp-block-paragraph\">Because the prompt uses natural language, you can customize it to match your team&rsquo;s workflow.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"step-3-select-the-repository\">Step 3: Select the repository</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Choose the repository or project the automation should analyze.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once you&rsquo;ve selected the repository, create the automation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you want to test it immediately instead of waiting for the scheduled run, choose <strong>Create and Run</strong>.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"step-4-review-the-results\">Step 4: Review the results</h2>\n\n\n\n<p class=\"wp-block-paragraph\">When the automation finishes, Copilot returns a summary instead of a list of individual pull requests.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example, it might:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Group safe patch updates together</li>\n\n\n\n<li>Separate minor and major version upgrades</li>\n\n\n\n<li>Identify which pull requests have passing CI</li>\n\n\n\n<li>Highlight dependencies that require additional investigation</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Rather than interrupting your morning with dozens of small decisions, you can quickly identify which updates are ready to merge and which deserve closer attention.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"step-5-continue-the-work-in-a-copilot-session\">Step 5: Continue the work in a Copilot session</h2>\n\n\n\n<p class=\"wp-block-paragraph\">If one of the updates requires additional work, you can continue directly from the automation results.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For example, if the summary identifies a major framework upgrade, you can start a new Copilot session from the results and ask Copilot to help complete the migration.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Because the session starts with the automation&rsquo;s context, you don&rsquo;t have to gather the information again.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"review-previous-automation-runs\">Review previous automation runs</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Every automation run is saved, making it easy to see:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>When it ran</li>\n\n\n\n<li>What actions it performed</li>\n\n\n\n<li>What results it produced</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Having a history of each run makes automations transparent. You can always review what happened instead of treating them as a black box.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"turn-repetitive-work-into-background-work\">Turn repetitive work into background work</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Dependabot triage is a good example of the kind of recurring task that&rsquo;s well suited for automation. You describe the workflow once, choose when it should run, and let Copilot perform the repetitive steps automatically.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you&rsquo;re just getting started with automations, begin with a task you already perform on autopilot. Let Copilot handle the routine work so you can spend your time on the decisions that require your expertise.</p>\n\n\n\n<div class=\"wp-block-group post-content-cta has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<p class=\"wp-block-paragraph\"><strong>Ready to automate your next recurring task?</strong> <a href=\"https://github.com/features/ai/github-app\">Create your first automation in the GitHub Copilot app &gt;</a></p>\n</div>\n</body></html>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/\">GitHub Copilot app for Beginners: Automate Dependabot pull request triage</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>\n",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:36.179Z"
-    },
-    {
-      "id": "69963c113d8fc5e8",
-      "sourceId": "simonwillison",
-      "title": "Quoting Paul Dix",
-      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-      "publishedAt": "2026-08-26T08:07:55.000Z",
-      "rawContent": "<blockquote cite=\"https://pauldix.com/the-end-of-programming\"><p>The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://pauldix.com/the-end-of-programming\">Paul Dix</a>, The end of programming</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-27T18:09:36.058Z"
     }
   ]
 }
