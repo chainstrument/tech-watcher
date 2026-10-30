@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-10-29T14:00:20.494Z",
+  "updatedAt": "2026-10-30T13:55:18.135Z",
   "items": [
+    {
+      "id": "a198bee42c004d81",
+      "sourceId": "hackernews",
+      "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "publishedAt": "2026-10-30T12:08:00.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.636Z"
+    },
+    {
+      "id": "f61d3e32ca006400",
+      "sourceId": "hackernews",
+      "title": "Backdoors in official Claude Code extensions",
+      "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "publishedAt": "2026-10-30T11:05:53.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.636Z"
+    },
+    {
+      "id": "0d3b5aac153790f5",
+      "sourceId": "hackernews",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "publishedAt": "2026-10-30T10:06:15.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.636Z"
+    },
+    {
+      "id": "dafe0defec633437",
+      "sourceId": "hackernews",
+      "title": "elect.horse",
+      "url": "https://elect.horse/",
+      "publishedAt": "2026-10-30T09:14:34.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.636Z"
+    },
+    {
+      "id": "49d99f09e516b736",
+      "sourceId": "simonwillison",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "publishedAt": "2026-10-29T22:48:29.000Z",
+      "rawContent": "<p><strong><a href=\"https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions\">API credits benefit for eligible ChatGPT subscriptions</a></strong></p>\nEarlier this month Anthropic <a href=\"https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/#api-credits\">announced a generous new benefit</a> for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API.</p>\n<p>OpenAI have now launched pretty much exactly the same deal: if you have a $100, $200, or $500 subscription plan with them you now get that same quantity of credits to apply to one of your API organizations.</p>\n<p>I maintain subscriptions with both companies, so this is great news for me! I may even ship some public-facing demos now that the credits are already covered by my existing subscriptions.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.878Z"
+    },
+    {
+      "id": "541ef083bcb7fa92",
+      "sourceId": "hackernews",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "publishedAt": "2026-10-29T21:38:59.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.636Z"
+    },
+    {
+      "id": "a41c6b1e5e903c63",
+      "sourceId": "simonwillison",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "publishedAt": "2026-10-29T17:00:26.000Z",
+      "rawContent": "<p><strong><a href=\"https://twitter.com/jsnnsa/status/2115623382721126826\">How I Built the Most AI-Pilled Company in the World</a></strong></p>\nDon't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building <a href=\"https://spawn.co\">Spawn</a> is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models.</p>\n<p>Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world.</p>\n<p>I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle.</p>\n<p><img alt=\"Two mobile screenshots side by side from a 3D voxel-style game. Left: a first-person view from the saddle of a small teal dragon, its neck with pale diamond markings and two curved white horns in the foreground, flying toward a dark stone castle with tall teal-gray conical spires, glowing windows and teal pennants, on a rocky island in a lake with green and snowy hills behind. Top bar: profile icon, &quot;keep it&quot;, &quot;your den&quot; dropdown, &quot;+ new game&quot; button and a &quot;...&quot; menu. Right side: icon buttons and a portrait of a white-haired, freckled character labeled &quot;tap to talk&quot;. Bottom right buttons: &quot;JUMP&quot; and &quot;USE&quot;. Right: the same game with the chat panel open over the castle scene. Top bar: &quot;your den&quot; dropdown, &quot;+ new game&quot;. Button: &quot;earlier ↑&quot;. User message: &quot;Make the dragon smaller and land it next to me again&quot;. Replies from the white-haired character: &quot;on it. shrinking it to a pony-sized dragon and landing it right beside you.&quot; Then: &quot;it's a little dragon now and you're already up on it over the lake. your view sits right in its saddle, horns ahead. fly back to the house and look down. saw your screen just now: flying over the water, the neck and horns ahead, the house on the far shore&quot; Then: &quot;oh, idea: USE while flying could breathe fire instead, with JUMP held to land. want it?&quot; Input box: &quot;what do you want to bring in?&quot; Buttons below: upload, a small pixel-art icon, &quot;lock in&quot; and a microphone.\" src=\"https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp\" /></p>\n<p>By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens <em>per month</em> (\"we spend 30x payroll on AI tokens\").</p>\n<blockquote>\n<p>Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request.</p>\n<p>Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat.</p>\n</blockquote>\n<p>This is <a href=\"https://en.wikipedia.org/wiki/Continuous_deployment\">continuous deployment</a> turned up to 11:</p>\n<blockquote>\n<p>A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...]</p>\n<p>We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work.</p>\n</blockquote>\n<p>My eyebrows raised at least a dozen times reading this. I have trouble imagining this style of development working on software with higher stakes for when something goes wrong, but for a game this appears to be working surprisingly well.</p>\n<p>Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible. Opus 5.5 doesn't quite hack it for them, and when they tried GPT-6 Astra to apply fixes from a security review everything stopped working:</p>\n<blockquote>\n<p>Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off.</p>\n</blockquote>\n<p>These kinds of extreme experiments are why I'm <a href=\"https://simonwillison.net/2026/Oct/28/vibe-game-development/\">excited about game development</a> as a substrate for exploring the edges of what today's coding agents can do.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/game-design\">game-design</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.878Z"
+    },
+    {
+      "id": "95cafd4597e819bb",
+      "sourceId": "simonwillison",
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "publishedAt": "2026-10-29T14:06:27.000Z",
+      "rawContent": "<blockquote cite=\"https://twitter.com/benhylak/status/2115172657910120740\"><p>every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath.</p>\n<p>except for our product, of course. </p>\n<p>in our product, customers love the ui and love us very much.</p>\n<p>we're special that way.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/benhylak/status/2115172657910120740\">Ben Hylak</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-10-30T13:55:16.878Z"
+    },
     {
       "id": "739a364c99d60f8c",
       "sourceId": "hackernews",
@@ -4920,86 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-08-31T14:56:44.528Z"
-    },
-    {
-      "id": "94c469e9166a9352",
-      "sourceId": "hackernews",
-      "title": "Everyone Should Build Their Own Network Stack",
-      "url": "https://blog.lyc8503.net/en/post/dn42-2-dnet/",
-      "publishedAt": "2026-08-30T09:52:15.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-30T12:40:57.217Z"
-    },
-    {
-      "id": "508266ce174b6f9e",
-      "sourceId": "hackernews",
-      "title": "Brits would quite like their private messages to stay private",
-      "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
-      "publishedAt": "2026-08-30T09:26:08.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-30T12:40:57.217Z"
-    },
-    {
-      "id": "d9340aeff2f228b5",
-      "sourceId": "hackernews",
-      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
-      "publishedAt": "2026-08-30T08:51:39.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-30T12:40:57.217Z"
-    },
-    {
-      "id": "6d2ece70c0a3ce80",
-      "sourceId": "hackernews",
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "publishedAt": "2026-08-30T08:23:26.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-30T12:40:57.217Z"
-    },
-    {
-      "id": "6ef15d8f5d40cbba",
-      "sourceId": "simonwillison",
-      "title": "Introducing Hy4 Preview",
-      "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-      "publishedAt": "2026-08-29T23:53:13.000Z",
-      "rawContent": "<p><strong><a href=\"https://hy.tencent.ai/research/hy4-preview\">Introducing Hy4 Preview</a></strong></p>\nNew open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, <a href=\"https://huggingface.co/tencent/Hy4-preview\">1.56TB on Hugging Face</a>.</p>\n<p>This is a big size increase from their previous <a href=\"https://huggingface.co/tencent/Hy3\">Hy3</a> in July, which was 295B, 21B active, 256,000 context, 598GB.</p>\n<p>I recently started using model chat templates to better understand their capabilities. Here's Hy4's  <a href=\"https://huggingface.co/tencent/Hy4-preview/blob/main/chat_template.jinja\">chat_template.jinja</a> on Hugging Face, which includes this section:</p>\n<div class=\"highlight highlight-text-html-django\"><pre><span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-k\">not</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">defined</span> <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-s\">set</span> <span class=\"pl-s\">reasoning_effort</span> = <span class=\"pl-s\">'high'</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-s\">elif</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-k\">not</span> <span class=\"pl-k\">in</span> [<span class=\"pl-s\">'high'</span>, <span class=\"pl-s\">'no_think'</span>] <span class=\"pl-e\">%}</span>\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">if</span> <span class=\"pl-s\">reasoning_effort</span> <span class=\"pl-s\">is</span> <span class=\"pl-s\">none</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : None, should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">else</span> <span class=\"pl-e\">%}</span>\n        {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }}\n    <span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span>\n<span class=\"pl-e\">{%</span>- <span class=\"pl-k\">endif</span> <span class=\"pl-e\">%}</span></pre></div>\n<p>So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled).</p>\n<p>I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning <a href=\"https://openrouter.ai/tencent/hy4-preview#apps\">via OpenRouter</a> and <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fcb69816b3fb940f2782569a82a523af1\">got this</a>:</p>\n<p><img alt=\"Flat vector cartoon illustration of a white pelican with a large orange bill riding a red bicycle to the right along a grey road with a dashed white centre line, its orange webbed feet on the pedals and grey tail feathers fanned out behind, against a pale blue sky with a yellow sun, white clouds and horizontal white motion lines suggesting speed\" src=\"https://static.simonwillison.net/static/2026-08-29/IMG_7725.jpeg\" /></p>\n<p>Quoting the reasoning trace:</p>\n<blockquote>\n<p>[...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no.</p>\n<p>Maybe add sunglasses? no.</p>\n<p>Maybe add water? no.</p>\n</blockquote>\n<p>It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-08-30T12:40:57.301Z"
-    },
-    {
-      "id": "1e2306d2251e5799",
-      "sourceId": "hackernews",
-      "title": "American Airlines' Legendary Mechanic Passes Away at 100 After 80-Year Career",
-      "url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
-      "publishedAt": "2026-08-29T21:25:17.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.749Z"
-    },
-    {
-      "id": "ff8d7420d4eeccd4",
-      "sourceId": "hackernews",
-      "title": "Iceland votes on whether to restart talks on joining EU",
-      "url": "https://www.bbc.com/news/articles/cn45vdxyvvlo",
-      "publishedAt": "2026-08-29T11:39:38.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-29T13:04:24.852Z"
-    },
-    {
-      "id": "6c66c63ff1adf27b",
-      "sourceId": "hackernews",
-      "title": "Samsung's Processing-in-Memory (PIM)",
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-      "publishedAt": "2026-08-29T06:06:51.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-08-29T13:04:24.852Z"
     }
   ]
 }
