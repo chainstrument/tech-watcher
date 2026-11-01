@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-10-31T13:28:50.025Z",
+  "updatedAt": "2026-11-01T14:09:40.012Z",
   "items": [
+    {
+      "id": "db2f2ea048cd3583",
+      "sourceId": "hackernews",
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "publishedAt": "2026-11-01T13:24:49.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:38.896Z"
+    },
+    {
+      "id": "d6ba8a3f25c046f7",
+      "sourceId": "hackernews",
+      "title": "Norway makes shithouses great again",
+      "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+      "publishedAt": "2026-11-01T10:47:58.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:38.896Z"
+    },
+    {
+      "id": "a181817ce8345f3a",
+      "sourceId": "simonwillison",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "publishedAt": "2026-10-31T23:15:22.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">How We Took Over ChatGPT Accounts</a></strong></p>\nParameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called <a href=\"https://help.openai.com/en/articles/20001246-working-with-writing-blocks-and-code-blocks-in-chatgpt\">HTML previews</a>), where interactive custom HTML apps are displayed in a sandboxed iframe.</p>\n<p>It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data.</p>\n<p>Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes <a href=\"https://mathlive.io/mathfield/virtual-keyboard/\">its own virtual keyboard</a>, which can be triggered in the parent page via <code>postMessage()</code> from the sandboxed iframe.</p>\n<p>That message receiving code uses <code>innerHTML</code>, so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method.</p>\n<p>This meant untrusted code in an iframe could insert HTML, and while <code>innerHTML</code> doesn't directly execute script elements it could be used to inject a new iframe <em>without</em> sandbox restrictions.</p>\n<p>OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it.</p>\n<p>Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference.</p>\n<p>The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf.</p>\n<p>OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/xss\">xss</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/content-security-policy\">content-security-policy</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:39.058Z"
+    },
+    {
+      "id": "4c6605822260484c",
+      "sourceId": "hackernews",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "publishedAt": "2026-10-31T22:41:06.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:38.896Z"
+    },
+    {
+      "id": "5433d48c0a4a7162",
+      "sourceId": "simonwillison",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "publishedAt": "2026-10-31T22:10:01.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a9\">datasette-llm 0.1a9</a></p>\n        <p>I have some big upgrades to <a href=\"https://agent.datasette.io/\">Datasette Agent</a> in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying <code>datasette-llm</code> plugin. </p>\n<p>It now picks up the default model used by <a href=\"https://llm.datasette.io/\">LLM</a>, which means you can start using Datasette Agent without needing to explicitly configure a default model:</p>\n<pre><code>uvx --with datasette-agent datasette content.db --internal internal.db\n</code></pre>\n<p>Previously you would also need to specify a model with <code>-s plugins.datasette-agent.default_model gpt-6-astra</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:39.058Z"
+    },
+    {
+      "id": "2f8f2a14b01c9a21",
+      "sourceId": "hackernews",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "publishedAt": "2026-10-31T19:56:53.000Z",
+      "rawContent": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007.<p><a href=\"https:&#x2F;&#x2F;hackertube.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hackertube.org&#x2F;</a>",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:38.896Z"
+    },
     {
       "id": "1c640f88e053cb51",
       "sourceId": "hackernews",
@@ -200,6 +260,16 @@
       "rawContent": "<blockquote cite=\"https://news.ycombinator.com/item?id=50248124#50249160\"><p>In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered:</p>\n<p>Luna &lt; Terra &lt; Sol &lt; Astra</p>\n<p>[<a href=\"https://news.ycombinator.com/item?id=50248124#50250804\">...</a>] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=50248124#50249160\">Ted Sanders</a>, explaining OpenAI's model naming conventions</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ted-sanders\">ted-sanders</a></p>",
       "status": "nouveau",
       "createdAt": "2026-10-29T14:00:19.223Z"
+    },
+    {
+      "id": "c1d5b93dfeac5e6e",
+      "sourceId": "hackernews",
+      "title": "Radiation Map of the World",
+      "url": "https://radiaverse.com/",
+      "publishedAt": "2026-10-28T20:06:27.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-01T14:09:38.896Z"
     },
     {
       "id": "e9a7a10b5a66f3aa",
@@ -4930,76 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-04T12:02:15.081Z"
-    },
-    {
-      "id": "d240490cb339d1e9",
-      "sourceId": "hackernews",
-      "title": "The Browser's Main Thread Is Expensive",
-      "url": "https://kciter.so/posts/the-expensive-main-thread/en/",
-      "publishedAt": "2026-09-01T14:00:15.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-03T12:00:33.787Z"
-    },
-    {
-      "id": "509d3421298856d6",
-      "sourceId": "hackernews",
-      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-      "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-      "publishedAt": "2026-09-01T10:11:02.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.748Z"
-    },
-    {
-      "id": "2e7d0fb45461c661",
-      "sourceId": "hackernews",
-      "title": "44% on ARC-AGI-1 in 67 cents",
-      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
-      "publishedAt": "2026-09-01T09:52:45.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.748Z"
-    },
-    {
-      "id": "da38740894257e67",
-      "sourceId": "hackernews",
-      "title": "GPU World",
-      "url": "https://www.gpuworld.org/",
-      "publishedAt": "2026-09-01T03:16:36.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.749Z"
-    },
-    {
-      "id": "89e5df783443a9e3",
-      "sourceId": "hackernews",
-      "title": "Fastpotify",
-      "url": "https://fastpotify.rocks/",
-      "publishedAt": "2026-09-01T02:52:14.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.749Z"
-    },
-    {
-      "id": "bf3e1e0703c07305",
-      "sourceId": "simonwillison",
-      "title": "Introducing wrapture",
-      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "publishedAt": "2026-08-31T23:59:36.000Z",
-      "rawContent": "<p><strong><a href=\"https://grahamdumpleton.me/posts/2026/08/introducing-wrapture/\">Introducing wrapture</a></strong></p>\nNew from Graham Dumpleton (of <a href=\"https://pypi.org/project/wrapt/\">wrapt</a>, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time.</p>\n<p>Wrapture (<a href=\"https://wrapture.readthedocs.io/\">full documentation here</a>) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value.</p>\n<p>It acts as both an alternative to <code>unittest.mock</code> and a way to implement tracing against an existing project:</p>\n<blockquote>\n<p>Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about.</p>\n</blockquote>\n<p>Wrapture includes <a href=\"https://wrapture.readthedocs.io/en/latest/otel-export.html\">OpenTelemetry support</a> and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this:</p>\n<div class=\"highlight highlight-source-toml\"><pre><span class=\"pl-smi\">capture</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>summary<span class=\"pl-pds\">\"</span></span>\n\n[[<span class=\"pl-en\">observe</span>]]\n<span class=\"pl-smi\">target</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>domain:Calculator<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">name</span> = [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>outer<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>inner<span class=\"pl-pds\">\"</span></span>]\n\n[[<span class=\"pl-en\">sink</span>]]\n<span class=\"pl-smi\">type</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>jsonlines<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">path</span> = <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>trace.jsonl<span class=\"pl-pds\">\"</span></span></pre></div>\n<p>This is still a very young project - just a few weeks old - but it's off to a very promising start.</p>\n<p>Interestingly, this is also Graham's first attempt at  large entirely agent-driven project:</p>\n<blockquote>\n<p>Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design.</p>\n</blockquote>\n<p>In a follow-up post, <a href=\"https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/\">Unit testing with wrapture</a>, Graham shows the testing patterns supported by the new library:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_stub_with_wrapture</span>():\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    ).<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">returns</span>({\n        <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"stub\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">0</span>}\n    ):\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n            <span class=\"pl-c1\">500</span>\n        )[<span class=\"pl-s\">\"id\"</span>] <span class=\"pl-c1\">==</span> <span class=\"pl-s\">\"stub\"</span></pre>\n<p>And this neat example of a test that calls and then modifies the return value from the original method:</p>\n<pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">test_pinned_result_with_wrapture</span>():\n    <span class=\"pl-s1\">charge</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">wrapture</span>.<span class=\"pl-c1\">binding</span>(\n        <span class=\"pl-v\">Gateway</span>, <span class=\"pl-s\">\"charge\"</span>\n    )\n    <span class=\"pl-s1\">charge</span>.<span class=\"pl-c1\">on_call</span>.<span class=\"pl-c1\">transforms_result</span>(\n        <span class=\"pl-k\">lambda</span> <span class=\"pl-s1\">r</span>: {<span class=\"pl-c1\">**</span><span class=\"pl-s1\">r</span>, <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>}\n    )\n    <span class=\"pl-k\">with</span> <span class=\"pl-s1\">charge</span>:\n        <span class=\"pl-k\">assert</span> <span class=\"pl-en\">OrderService</span>().<span class=\"pl-c1\">place</span>(\n           <span class=\"pl-c1\">500</span>\n        ) <span class=\"pl-c1\">==</span> {\n            <span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s\">\"ch_TEST\"</span>, <span class=\"pl-s\">\"amount\"</span>: <span class=\"pl-c1\">500</span>\n        }</pre>\n\n<p>(In both of these examples the <code>OrderService().place(...)</code> method calls <code>Gateway().charge(...)</code>.)\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/graham-dumpleton\">graham-dumpleton</a>, <a href=\"https://simonwillison.net/tags/monkey-patching\">monkey-patching</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/testing\">testing</a>, <a href=\"https://simonwillison.net/tags/pytest\">pytest</a>, <a href=\"https://simonwillison.net/tags/observability\">observability</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/opentelemetry\">opentelemetry</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.846Z"
-    },
-    {
-      "id": "3bbd285f29ae0294",
-      "sourceId": "simonwillison",
-      "title": "Quoting Andrew Digby",
-      "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-      "publishedAt": "2026-08-31T22:25:02.000Z",
-      "rawContent": "<blockquote cite=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\"><p>325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species <em>is</em> possible with sustained effort.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/digs.bsky.social/post/3mufrrsfhq22r\">Andrew Digby</a>, providing the best news of the year</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kakapo\">kakapo</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-01T12:27:21.846Z"
     }
   ]
 }
