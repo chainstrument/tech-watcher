@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-11-13T15:12:40.790Z",
+  "updatedAt": "2026-11-14T14:00:26.619Z",
   "items": [
+    {
+      "id": "7e8a918c3908973f",
+      "sourceId": "hackernews",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "publishedAt": "2026-11-14T12:45:45.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.191Z"
+    },
+    {
+      "id": "977955ebc50ed7b5",
+      "sourceId": "hackernews",
+      "title": "Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev/",
+      "publishedAt": "2026-11-14T04:23:30.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.191Z"
+    },
+    {
+      "id": "22f7de6935dc23ea",
+      "sourceId": "hackernews",
+      "title": "Ggml v1.0.0",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "publishedAt": "2026-11-14T02:28:29.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.191Z"
+    },
+    {
+      "id": "4cb58a6ed2a63999",
+      "sourceId": "simonwillison",
+      "title": "datasette-cluster-map 0.19",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "publishedAt": "2026-11-13T23:02:45.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p>\n        <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p>\n<p>Here's <a href=\"https://datasette.io/global-power-plants/global-power-plants?owner=Pacific+Gas+%26+Electric+Co.\">a map of power plants owned by California's PG&amp;E</a>, also demonstrating Datasette's recently <a href=\"https://github.com/simonw/datasette/pull/3032\">redesigned facets</a>:</p>\n<p><img alt=\"Screenshot of a faceted map interface. Three facet panels at the top: &quot;country_long 1&quot; with United States of America 81 selected; &quot;owner 1&quot; with Pacific Gas &amp; Electric Co. 81 selected; &quot;primary_fuel 5&quot; listing Hydro 63, Solar 10, Gas 5, Storage 2, Nuclear 1. Each primary_fuel row has a pale blue horizontal bar behind its label, sized in proportion to its count: Hydro's bar fills most of the row width, Solar's is a short sliver, Gas's is shorter still, and Storage and Nuclear have only a thin strip at the left edge. Below is a Leaflet map with + and − zoom controls showing California and Nevada, with marker clusters across northern and central California: 9 near Redding, 21 near Chico, 2 to the west of Chico, 13 northeast of Sacramento, 7 east of Stockton, 6 at Oakland, 10 at Fresno, 9 west of Visalia, 2 north of Bakersfield, plus two individual blue pin markers on the coast, one in the far north and one north of Santa Maria. Attribution: Leaflet | © OpenStreetMap contributors\" src=\"https://static.simonwillison.net/static/2026/power-plants-pge.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/openstreetmap\">openstreetmap</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.325Z"
+    },
+    {
+      "id": "e1058067669e2b5f",
+      "sourceId": "simonwillison",
+      "title": "datasette-leaflet 0.3",
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "publishedAt": "2026-11-13T22:30:54.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p>\n        <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p>\n<p><code>datasette-leaflet</code> is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to <code>strict-origin-when-cross-origin</code>, passing the host but not the full path to the page.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/leaflet\">leaflet</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/openstreetmap\">openstreetmap</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.325Z"
+    },
     {
       "id": "90da5c5c50facd3f",
       "sourceId": "hackernews",
@@ -262,6 +312,16 @@
       "createdAt": "2026-11-11T14:59:49.465Z"
     },
     {
+      "id": "68a7c56a679bd392",
+      "sourceId": "hackernews",
+      "title": "Generative AI uses more energy on non-English text",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "publishedAt": "2026-11-10T15:07:28.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.191Z"
+    },
+    {
       "id": "07abc360420ea0dd",
       "sourceId": "hackernews",
       "title": "The Hardest Tarball?",
@@ -270,6 +330,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-10T15:29:13.400Z"
+    },
+    {
+      "id": "53a787ce3e64cd8e",
+      "sourceId": "hackernews",
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "publishedAt": "2026-11-10T14:16:05.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-14T14:00:25.191Z"
     },
     {
       "id": "f321c904268bcef2",
@@ -4930,76 +5000,6 @@
       "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p>\n        <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p>\n<pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80\n</code></pre>\n<p>The <code>--quality</code> option sets the quality - without that option the WebP file will be lossless.</p>\n<p>In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See <a href=\"https://github.com/simonw/shot-scraper/pull/210\">the PR</a> for some examples.</p>\n<p>I shipped this feature so I could use it to generate the screenshot <a href=\"https://simonwillison.net/2026/Sep/14/commit-rewriter/\">for my new commit-rewriter tool</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/playwright\">playwright</a>, <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
       "status": "nouveau",
       "createdAt": "2026-09-14T13:46:29.412Z"
-    },
-    {
-      "id": "3ea606d07abfdfe6",
-      "sourceId": "hackernews",
-      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "publishedAt": "2026-09-13T21:06:13.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.294Z"
-    },
-    {
-      "id": "2b656074a0a07455",
-      "sourceId": "hackernews",
-      "title": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet",
-      "url": "https://ras.ac.uk/news-and-press/research-highlights/fingerprints-inside-sun-could-reveal-if-it-once-swallowed-planet",
-      "publishedAt": "2026-09-13T12:01:52.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.044Z"
-    },
-    {
-      "id": "34f42138d6987aa0",
-      "sourceId": "hackernews",
-      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
-      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-      "publishedAt": "2026-09-13T10:29:18.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.044Z"
-    },
-    {
-      "id": "4b766bba8f4fae39",
-      "sourceId": "hackernews",
-      "title": "JetKVM Mini",
-      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "publishedAt": "2026-09-13T07:49:46.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.044Z"
-    },
-    {
-      "id": "1f6e75f3866a4a88",
-      "sourceId": "hackernews",
-      "title": "Why are AI agents lying, cheating and coordinating?",
-      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-      "publishedAt": "2026-09-13T01:22:31.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.044Z"
-    },
-    {
-      "id": "56ed9309de330598",
-      "sourceId": "simonwillison",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "publishedAt": "2026-09-12T23:56:42.000Z",
-      "rawContent": "<p>Here's a neat thing I had <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">ChatGPT Work</a> with GPT-6 Astra (Max) do this morning:</p>\n<blockquote>\n<p><code>I live at &lt;my address&gt;. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data.</code></p>\n</blockquote>\n<p>It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route:</p>\n<p><img alt=\"Map screenshot showing a blue route line over a light grey street map. Text: El Granada harbor loop 5.1 km. N ↑ (top right). Street labels along the route: Carmel Avenue, Paloma Avenue, San Carlos Avenue, Avenue Granada, Capistrano Road, Francisco Street, Coastal Trail. The loop runs from the harbor at the bottom left, north along Avenue Granada and Paloma Avenue to a northern point near Carmel Avenue, then east along San Carlos Avenue and south down Francisco Street to the far right, before returning west along the Coastal Trail beside the coastline. Footer: Map data © OpenStreetMap contributors. Give feedback.\" src=\"https://static.simonwillison.net/static/2026/5k-route.webp\" /></p>\n<p>When I asked it how it had created the route, it replied:</p>\n<blockquote>\n<p>I used <strong>Nominatim to locate the address</strong> and <strong>Overpass to download local OpenStreetMap roads and trails</strong>, then calculated the loops locally.</p>\n</blockquote>\n<p>Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature.</p>\n<p>By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem.</p>\n<p>As for displaying the map to me, that used the <a href=\"https://codex-tool-reference.simonw.chatgpt.site/skills/visualize\">visualize skill</a>. It created a file called <code>/workspace/el-granada-5k-share.html</code> to embed directly into the ChatGPT UI.</p>\n<p>Here's <a href=\"https://gist.github.com/simonw/ea652573c8ff5378b218cb10c8c5a480\">a copy of that HTML</a>, which starts like this:</p>\n<div class=\"highlight highlight-text-html-basic\"><pre><span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">div</span> <span class=\"pl-c1\">id</span>=\"<span class=\"pl-s\">eg-share-loop</span>\"<span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">div</span> <span class=\"pl-c1\">class</span>=\"<span class=\"pl-s\">viz-row</span>\"<span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">h3</span><span class=\"pl-kos\">&gt;</span>El Granada harbor loop<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">h3</span><span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">span</span> <span class=\"pl-c1\">class</span>=\"<span class=\"pl-s\">text-small</span>\"<span class=\"pl-kos\">&gt;</span>5.1 km<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">span</span><span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">div</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">div</span> <span class=\"pl-c1\">id</span>=\"<span class=\"pl-s\">eg-share-stage</span>\"<span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">div</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">div</span> <span class=\"pl-c1\">class</span>=\"<span class=\"pl-s\">text-small text-muted</span>\"<span class=\"pl-kos\">&gt;</span>Map data © <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">a</span> <span class=\"pl-c1\">href</span>=\"<span class=\"pl-s\">https://www.openstreetmap.org/copyright</span>\" <span class=\"pl-c1\">target</span>=\"<span class=\"pl-s\">_blank</span>\" <span class=\"pl-c1\">rel</span>=\"<span class=\"pl-s\">noopener</span>\"<span class=\"pl-kos\">&gt;</span>OpenStreetMap contributors<span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">a</span><span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">div</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">style</span><span class=\"pl-kos\">&gt;</span>\n    <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-loop</span> { <span class=\"pl-c1\">width</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">100<span class=\"pl-smi\">%</span></span>; }\n    <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-loop</span> <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-stage</span> { <span class=\"pl-c1\">width</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">100<span class=\"pl-smi\">%</span></span>; <span class=\"pl-c1\">margin</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">8<span class=\"pl-smi\">px</span></span> <span class=\"pl-c1\">0</span>; }\n    <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-loop</span> .<span class=\"pl-c1\">eg-share-map</span> { <span class=\"pl-c1\">display</span><span class=\"pl-kos\">:</span>block; <span class=\"pl-c1\">width</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">100<span class=\"pl-smi\">%</span></span>; <span class=\"pl-c1\">touch-action</span><span class=\"pl-kos\">:</span>none; }\n    <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-loop</span> .<span class=\"pl-c1\">eg-share-map</span> <span class=\"pl-ent\">text</span> { <span class=\"pl-c1\">fill</span><span class=\"pl-kos\">:</span><span class=\"pl-en\">var</span>(<span class=\"pl-s1\">--foreground</span>); <span class=\"pl-c1\">font-size</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">12<span class=\"pl-smi\">px</span></span>; <span class=\"pl-c1\">font-weight</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">400</span>; }\n    <span class=\"pl-kos\">#</span><span class=\"pl-c1\">eg-share-loop</span> .<span class=\"pl-c1\">eg-share-label</span> { <span class=\"pl-c1\">paint-order</span><span class=\"pl-kos\">:</span>stroke; <span class=\"pl-c1\">stroke</span><span class=\"pl-kos\">:</span><span class=\"pl-en\">var</span>(<span class=\"pl-s1\">--background</span>); <span class=\"pl-c1\">stroke-width</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">3<span class=\"pl-smi\">px</span></span>; <span class=\"pl-c1\">stroke-linejoin</span><span class=\"pl-kos\">:</span>round; }\n  <span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">style</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">script</span> <span class=\"pl-c1\">type</span>=\"<span class=\"pl-s\">application/json</span>\" <span class=\"pl-c1\">id</span>=\"<span class=\"pl-s\">eg-share-data</span>\"<span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">{</span><span class=\"pl-s\">\"route\"</span>:<span class=\"pl-kos\">{</span><span class=\"pl-s\">\"type\"</span>:<span class=\"pl-s\">\"LineString\"</span><span class=\"pl-kos\">,</span><span class=\"pl-s\">\"coordinates\"</span>:<span class=\"pl-kos\">[</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">-</span><span class=\"pl-c1\">122.467425</span><span class=\"pl-kos\">,</span><span class=\"pl-c1\">37.4997753</span><span class=\"pl-kos\">]</span> <span class=\"pl-kos\">.</span><span class=\"pl-kos\">.</span><span class=\"pl-kos\">.</span><span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">script</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">script</span> <span class=\"pl-c1\">src</span>=\"<span class=\"pl-s\">https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js</span>\"<span class=\"pl-kos\">&gt;</span><span class=\"pl-kos\">&lt;/</span><span class=\"pl-ent\">script</span><span class=\"pl-kos\">&gt;</span>\n  <span class=\"pl-kos\">&lt;</span><span class=\"pl-ent\">script</span><span class=\"pl-kos\">&gt;</span>\n  (() =&gt; {\n    const root=document.getElementById('eg-share-loop');</pre></div>\n\n<p>The <code>&lt;script type=\"application/json\"&gt;</code> element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of <a href=\"https://codex-tool-reference.simonw.chatgpt.site/skills/visualize\">the visualize skill</a>:</p>\n<blockquote>\n<h3 id=\"external-resources\">External resources</h3>\n<ul>\n<li>The CSP allows only <code>cdnjs.cloudflare.com</code>, <code>esm.sh</code>, <code>cdn.jsdelivr.net</code>, <code>unpkg.com</code>, <code>fonts.googleapis.com</code>, <code>fonts.gstatic.com</code>, and <code>fonts.bunny.net</code>. Other origins are blocked and fail silently.</li>\n</ul>\n</blockquote>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/d3\">d3</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/skills\">skills</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.203Z"
-    },
-    {
-      "id": "eb1d15483d6f2a53",
-      "sourceId": "simonwillison",
-      "title": "California Brown Pelican",
-      "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "publishedAt": "2026-09-12T21:16:09.000Z",
-      "rawContent": "<p><img src=\"https://static.inaturalist.org/photos/733368932/large.jpg\" alt=\"California Brown Pelican\"></p><p><img src=\"https://static.inaturalist.org/photos/733368989/large.jpg\" alt=\"California Brown Pelican\"></p><p>California Brown Pelican, in San Mateo County, CA, US</p><p>The <a href=\"https://en.wikipedia.org/wiki/Pacifica_Pier\">Pacifica Pier</a> shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe.</p>\n<p>It has since been entirely taken over by pelicans!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-13T12:37:34.203Z"
     }
   ]
 }
