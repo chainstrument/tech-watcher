@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-11-14T14:00:26.619Z",
+  "updatedAt": "2026-11-15T14:37:12.824Z",
   "items": [
+    {
+      "id": "d27638383af29436",
+      "sourceId": "hackernews",
+      "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+      "url": "https://prog21.dadgum.com/116.html",
+      "publishedAt": "2026-11-15T13:44:16.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "b14335f00a8d6654",
+      "sourceId": "hackernews",
+      "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "publishedAt": "2026-11-15T13:15:22.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "eba8c0480eb85e20",
+      "sourceId": "hackernews",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "publishedAt": "2026-11-15T12:14:06.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "6921618a4fcf3aa8",
+      "sourceId": "hackernews",
+      "title": "Why did some Apollo missions carry a grenade launcher?",
+      "url": "https://space.stackexchange.com/questions/37775",
+      "publishedAt": "2026-11-15T09:06:43.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "e9477865501b0215",
+      "sourceId": "simonwillison",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "publishedAt": "2026-11-14T23:59:28.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm/releases/tag/0.1a11\">datasette-llm 0.1a11</a></p>\n        <p><code>datasette-llm</code> is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.</p>\n<p>This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol.</p>\n<p>This means that if you're running local models with <a href=\"https://lmstudio.ai\">LM Studio</a> or <a href=\"https://ollama.com\">Ollama</a> or <a href=\"https://github.com/ggml-org/llama.cpp\">llama.cpp</a> (which just hit <a href=\"https://huggingface.co/blog/ggml-org/llama-cpp-v1\">v1.0.0</a>) you can run Datasette via <code>uvx</code> like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>wget https://datasette.io/content.db\n\nuvx --with datasette-agent datasette \\\n  --root --secret 1 \\\n  -s plugins.datasette-llm.default_model <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{</span>\n<span class=\"pl-s\">    \"model\": \"lmstudio-qwen\",</span>\n<span class=\"pl-s\">    \"model_name\": \"qwen/qwen3.8-27b\",</span>\n<span class=\"pl-s\">    \"api_base\": \"http://localhost:1234/v1\"</span>\n<span class=\"pl-s\">  }<span class=\"pl-pds\">'</span></span> content.db</pre></div>\n\n<p>And you'll get a local server running a Datasette Agent instance powered by your local model!</p>\n<p><img alt=\"Screenshot of a chat interface. Header bar reads &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a back arrow, the heading &quot;Chat&quot;, a model label &quot;lmstudio-qwen&quot; and an &quot;EXPORT&quot; button. A blue user message bubble says &quot;how many repos and how many releases are there?&quot; Below it is a collapsed tool call &quot;list_databases_and_tables&quot; and an expanded tool call &quot;sql_query&quot;. Its REQUEST section shows database &quot;content&quot;, display &quot;both&quot; and the SQL: SELECT (SELECT COUNT(*) FROM repos) AS repo_count, (SELECT COUNT(*) FROM releases) AS release_count. Its RESPONSE section shows columns repo_count and release_count with a single row of 200 and 1889. Below that is a table with columns repo_count and release_count and one row: 200, 1889, followed by a &quot;View SQL query&quot; button. The assistant reply reads &quot;There are 200 repos and 1,889 releases in the content database.&quot; At the bottom is a text input with placeholder &quot;Type a message... (# to tag a table or query)&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/lmstudio-datasette-agent.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/uv\">uv</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.900Z"
+    },
+    {
+      "id": "79b046481bd48da6",
+      "sourceId": "hackernews",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "publishedAt": "2026-11-14T21:22:24.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;SpaceX&#x2F;status&#x2F;2121316300702056595</a><p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;jHlpfNSpBmw?t=3233</a>",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "4f7f1f7fcbbee0ff",
+      "sourceId": "simonwillison",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "publishedAt": "2026-11-14T17:09:09.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-vega/releases/tag/0.7\">datasette-vega 0.7</a></p>\n        <p>A new release of Datasette's longest untouched plugin, for rendering charts (using <a href=\"https://vega.github.io/vega-lite/\">Vega-Lite</a>) against data in a table or custom query. The last release was in July 2018!</p>\n<p>I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with <a href=\"https://lite.datasette.io/\">Datasette Lite</a>.</p>\n<p>(Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.)</p>\n<p>Since it works with Datasette Lite, the live demo in the README now <a href=\"https://lite.datasette.io/?install=datasette-vega&amp;csv=https%3A%2F%2Fraw.githubusercontent.com%2Ffivethirtyeight%2Fdata%2Fmaster%2Fairline-safety%2Fairline-safety.csv#/data/airline-safety?_size=max#g.mark=bar&amp;g.x_column=airline&amp;g.x_type=ordinal&amp;g.y_column=fatalities_00_14&amp;g.y_type=quantitative\">links to this demo on Datasette Lite</a>.</p>\n<p><img alt=\"Screenshot of a charting tool. A panel headed &quot;Charting options&quot; has radio buttons for &quot;Bar&quot; (selected), &quot;Line&quot; and &quot;Scatter&quot;. Below are select menus: &quot;X column&quot; set to &quot;airline&quot; with &quot;Type&quot; set to &quot;Label&quot;, and &quot;Y column&quot; set to &quot;fatalities_00_14&quot; with &quot;Type&quot; set to &quot;Numeric&quot;. A &quot;Swap X and Y&quot; button sits beneath those, followed by &quot;Color&quot; and &quot;Size&quot; menus both set to &quot;-- none --&quot;. Underneath the panel is a blue bar chart with airline names along the X axis and fatalities_00_14 on the Y axis, running from 0 to 550 - most airlines have no bar, a handful have bars, and Malaysia Airlines is the tallest.\" src=\"https://static.simonwillison.net/static/2026/datasette-vega.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/visualisation\">visualisation</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-15T14:37:11.900Z"
+    },
     {
       "id": "7e8a918c3908973f",
       "sourceId": "hackernews",
@@ -4930,76 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-15T12:32:21.487Z"
-    },
-    {
-      "id": "72f4aaebdca9e500",
-      "sourceId": "simonwillison",
-      "title": "Quoting Laurie Voss",
-      "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-      "publishedAt": "2026-09-14T14:34:29.000Z",
-      "rawContent": "<blockquote cite=\"https://seldo.com/posts/we-are-all-product-engineers-now/\"><p>The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://seldo.com/posts/we-are-all-product-engineers-now/\">Laurie Voss</a>, We are all Product Engineers now</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/laurie-voss\">laurie-voss</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/deep-blue\">deep-blue</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.656Z"
-    },
-    {
-      "id": "d7d955a392e56c4d",
-      "sourceId": "hackernews",
-      "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
-      "url": "https://github.com/callbacked/kinesis",
-      "publishedAt": "2026-09-14T12:01:31.000Z",
-      "rawContent": "a couple hours ago i had astra take on a 10 month old repo of mine <a href=\"https:&#x2F;&#x2F;github.com&#x2F;callbacked&#x2F;neural-band-poc&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;callbacked&#x2F;neural-band-poc&#x2F;</a> that involved finding a way to use the meta neural band independently from the glasses to read the sEMG data off of it. i really think it is a cool piece of technology that largely gets overlooked by the glasses, and always thought it was a shame it couldn&#x27;t be used outside of its main application.<p>after making quick work of that, i wanted to use it to control my mac using gesture controls and that&#x27;s how kinesis was born. it has been very cool being able to swipe from desktops using my fingers, swiping up to open up mission control or controlling a virtual knob to adjust my volume.<p>i definitely havent scratched the surface with the neural band but it has been a really fun endeavor thus far! i really hope others can find creative uses for their neural bands too :)<p>note: i really hope this works on other bands because the sample size has just been me so far.",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.294Z"
-    },
-    {
-      "id": "5658469c03218a4f",
-      "sourceId": "hackernews",
-      "title": "A 386 PC for Your RP2350",
-      "url": "https://github.com/rh1tech/frank-386",
-      "publishedAt": "2026-09-14T08:25:57.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.294Z"
-    },
-    {
-      "id": "3c5f9d996612bcb6",
-      "sourceId": "hackernews",
-      "title": "EuroBirdPortal – Live bird movements across Europe",
-      "url": "https://www.eurobirdportal.org/ebp/en/",
-      "publishedAt": "2026-09-14T08:25:47.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.294Z"
-    },
-    {
-      "id": "69153e794ef44788",
-      "sourceId": "changelog",
-      "title": "Changelog IRL @ PlanetScale (Sept 17, 2026)",
-      "url": "https://changelog.com/posts/changelog-irl-sf26-planetscale",
-      "publishedAt": "2026-09-14T06:07:29.000Z",
-      "rawContent": "<figure class=\"richtext-figure richtext-figure--full\">\n  <img class=\"border_light-grey\" src=\"https://changelog.place/posts/2627/changelog-irl-sf26-planetscale.png\" referrerpolicy=\"no-referrer\" alt=\"Changelog IRL SF26\">\n  <figcaption>Changelog is taking over PlanetScale's HQ</figcaption>\n</figure>\n<p>We’re getting together IRL!!</p>\n<p>On Thursday, September 17th, Changelog is taking over PlanetScale’s HQ in San Francisco for an evening of short talks and conversations about AI, developer tools and what people are building. We’ll have three 20-minute conversations with some special guests with time for questions, food, drinks and hanging out.</p>\n<p>I’ll be joined by three builders pushing this idea forward, starting with <strong><a href=\"https://x.com/danlovesproofs\">Dan Robinson</a></strong> from <strong>Detail (<a href=\"https://detail.dev\">detail.dev</a>)</strong>, with two more guests to be announced very soon.</p>\n<p>This won’t be three presentations followed by everyone heading home. We’re doing this Changelog-style: live conversations, questions from the room, drinks, and plenty of time afterward for the hallway track.</p>\n<p>If you’re in San Francisco, <a href=\"https://luma.com/planet-8fe6\">register to come hang out!</a></p>\n<hr />\n<h3>Changelog IRL</h3>\n<p><strong>Thursday, September 17th, 2026</strong><br />\n<strong>6:00pm – 9:00pm PDT</strong></p>\n<p><strong>PlanetScale HQ</strong><br />\n108 Natoma St, San Francisco, CA 94105</p>\n<h4>Speakers</h4>\n<ul>\n<li><a href=\"https://x.com/danlovesproofs\">Dan Robinson</a>, (<a href=\"https://detail.dev\">Detail</a>)</li>\n<li><a href=\"https://x.com/_heyglassy\">Christian Glassiognon</a>, Developer Educator at <a href=\"https://planetscale.com/\">PlanetScale</a></li>\n<li>TBD</li>\n</ul>\n<h4>Schedule</h4>\n<ul>\n<li><strong>6:00 - 6:45pm</strong>: Doors open, food, drinks and networking</li>\n<li><strong>6:45 - 7:00pm</strong>: Welcome and opening chat with Adam</li>\n<li><strong>7:00 - 8:00pm</strong>: Three 20-minute talks / conversations</li>\n<li><strong>8:00 - 8:15pm</strong>: Questions</li>\n<li><strong>8:15 - 9:00pm</strong>: Hanging out and networking</li>\n<li><strong>9:00pm</strong>: Close</li>\n</ul>\n<p>All times Pacific. PlanetScale HQ, 108 Natoma St, San Francisco.</p>\n<iframe\n  src=\"https://luma.com/embed/event/evt-FwuxNU3FoL8S1wc/simple\"\n  style=\"\n    width: 100%;\n    aspect-ratio: 4 / 3;\n    display: block;\n    border: 1px solid #bfcbda88;\n    border-radius: 4px;\n  \"\n  frameborder=\"0\"\n  allow=\"fullscreen; payment\"\n  aria-hidden=\"false\"\n  tabindex=\"0\"\n></iframe>\n",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:30.095Z"
-    },
-    {
-      "id": "ac293d7ca39f3bdc",
-      "sourceId": "simonwillison",
-      "title": "commit-rewriter 0.1",
-      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "publishedAt": "2026-09-14T00:28:10.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.1\">commit-rewriter 0.1</a></p>\n        <p>I built this little web app the other day to help edit the commit messages for the <a href=\"https://datasette.io/blog/2026/september-security-releases/\">Datasette security releases</a>. The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication.</p>\n<p>If you want to edit the commit messages for a repository you can run it like this:</p>\n<pre><code>uvx commit-rewriter path/to/repo\n</code></pre>\n<p>Omit the path if you are already in the directory for that repo.</p>\n<p><img alt=\"Screenshot of the commit-rewriter web interface. A heading reads commit-rewriter above the repository path and current branch and commit hash, with a short description of the tool. A toolbar shows a pending edits count with Discard drafts and Rewrite commit messages buttons, followed by a search box for message, author, or hash and an Edited only checkbox. A left sidebar titled Navigate commits lists recent commit messages with their short hashes. The main panel shows a card for each commit with its hash, author and timestamp, an editable text area containing the commit message, and a View full formatted diff toggle.\" src=\"https://static.simonwillison.net/static/2026/commit-rewriter.webp\" /></p>\n<p>When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.412Z"
-    },
-    {
-      "id": "3c2f6dcb128bccaf",
-      "sourceId": "simonwillison",
-      "title": "shot-scraper 1.12",
-      "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
-      "publishedAt": "2026-09-13T23:58:14.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.12\">shot-scraper 1.12</a></p>\n        <p>I've added WebP support to my <a href=\"https://shot-scraper.datasette.io/\">shot-scraper</a> screenshot automation tool. You can now take a WebP screenshot of a web page like this:</p>\n<pre><code>shot-scraper https://simonwillison.net -o screenshot.webp --quality 80\n</code></pre>\n<p>The <code>--quality</code> option sets the quality - without that option the WebP file will be lossless.</p>\n<p>In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See <a href=\"https://github.com/simonw/shot-scraper/pull/210\">the PR</a> for some examples.</p>\n<p>I shipped this feature so I could use it to generate the screenshot <a href=\"https://simonwillison.net/2026/Sep/14/commit-rewriter/\">for my new commit-rewriter tool</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/playwright\">playwright</a>, <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-14T13:46:29.412Z"
     }
   ]
 }
