@@ -1,6 +1,86 @@
 {
-  "updatedAt": "2026-11-15T14:37:12.824Z",
+  "updatedAt": "2026-11-16T16:52:17.623Z",
   "items": [
+    {
+      "id": "1cdc428c2a200690",
+      "sourceId": "hackernews",
+      "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+      "publishedAt": "2026-11-16T15:24:09.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "093fe848f1abd47a",
+      "sourceId": "hackernews",
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings",
+      "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "publishedAt": "2026-11-16T13:39:07.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "7ed8340b8b818806",
+      "sourceId": "hackernews",
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "publishedAt": "2026-11-16T11:39:31.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "626dccd60cd8f73a",
+      "sourceId": "hackernews",
+      "title": "How to make almost anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "publishedAt": "2026-11-16T05:50:37.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "9b09620054bd9f2b",
+      "sourceId": "hackernews",
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "publishedAt": "2026-11-16T02:04:48.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "3c506afcbc502083",
+      "sourceId": "simonwillison",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "publishedAt": "2026-11-15T23:58:36.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-maplibre/releases/tag/0.1a0\">datasette-maplibre 0.1a0</a></p>\n        <p>The first new Datasette geospatial plugin in quite a while! This one combines the excellent <a href=\"https://maplibre.org/maplibre-gl-js/docs/\">MapLibre GL</a> library with <a href=\"https://openfreemap.org\">OpenFreeMap</a>, the free vector map server operated by Zsolt Ero (you should <a href=\"https://github.com/sponsors/hyperknot\">sponsor Zsolt on GitHub</a>.)</p>\n<p>I built most of this with a single prompt to Claude Fable 5.2:</p>\n<blockquote>\n<p><code>Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have</code></p>\n</blockquote>\n<p>\"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view.</p>\n<p>I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can <a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml\">visit this link</a> to load the plugin and a demo database in your browser via Pyodide and WebAssembly.</p>\n<p>I like <a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent\">this demo page</a> showing both GeoJSON shapes and lat/lon points on the same map:</p>\n<p><img alt=\"Screenshot of a web map interface. Toolbar: &quot;View&quot; set to &quot;Clusters&quot;, &quot;Colour by&quot; set to &quot;continent&quot;, plus &quot;Filter to this area&quot; and &quot;Download GeoJSON&quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &quot;All 171 rows are on the map&quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.\" src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/visualization\">visualization</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/openstreetmap\">openstreetmap</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.753Z"
+    },
+    {
+      "id": "0139ca5c534e35bb",
+      "sourceId": "simonwillison",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "publishedAt": "2026-11-15T23:20:27.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a43\">datasette 1.0a43</a></p>\n        <p>I've been leaning hard into Claude Fable 5.2 to help knock things off the <a href=\"https://github.com/simonw/datasette/milestone/37\">1.0 milestone</a>, which is now 53% complete.</p>\n<p>The biggest 1.0 item in this release is <a href=\"https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-register-output-renderer-streaming\">streaming support for output renderers</a> - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-response-stream\">Response.stream()</a> method.</p>\n<p>There are a couple of security fixes, one of which I deemed <a href=\"https://github.com/simonw/datasette/security/advisories/GHSA-mw6v-83vp-7c4c\">deserving of a GitHub advisory</a>: private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed).</p>\n<p>There are dozens of smaller improvements. The row page JSON representation <a href=\"https://docs.datasette.io/en/latest/json_api.html#json-api-row\">finally has a design suitable for 1.0</a>. A new <code>&lt;datasette-copy-button&gt;</code> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modal-confirm\">DatasetteModal.confirm()</a> JavaScript utility method. Plus dozens of bug fixes, including contributions by <a href=\"https://github.com/PDGGK\">Zihan Dai</a>, <a href=\"https://github.com/peterolkhov\">Peter Olkhovets</a>, <a href=\"https://github.com/IlyaKhalafi\">Ilya Khalafi</a>, and <a href=\"https://github.com/AnkitaAdvitot\">Ankita Advitot</a>.</p>\n<p>The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! <a href=\"https://github.com/simonw/datasette/commit/7da8a85ea77786edef975a4066bbadfab0966a0c\">Here's the commit</a> - key CSS is as follows:</p>\n<div class=\"highlight highlight-source-css\"><pre><span class=\"pl-c\">/* Enable cross-document view transitions,</span>\n<span class=\"pl-c\">   for anyone without prefers-reduced-motion */</span>\n<span class=\"pl-k\">@media</span> <span class=\"pl-kos\">(</span><span class=\"pl-c1\">prefers-reduced-motion</span><span class=\"pl-kos\">:</span> no-preference<span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-k\">@view-transition</span> <span class=\"pl-kos\">{</span>\n        <span class=\"pl-c1\">navigation</span><span class=\"pl-kos\">:</span> auto<span class=\"pl-kos\">;</span>\n    <span class=\"pl-kos\">}</span>\n<span class=\"pl-kos\">}</span>\n<span class=\"pl-c\">/* .facet-results should morph from old position to new */</span>\n<span class=\"pl-ent\">html</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">active-view-transition</span> <span class=\"pl-kos\">.</span><span class=\"pl-c1\">content</span> <span class=\"pl-c1\">&gt;</span> <span class=\"pl-kos\">.</span><span class=\"pl-c1\">facet-results</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-c1\">view-transition-name</span><span class=\"pl-kos\">:</span> facet-results<span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span>\n<span class=\"pl-c\">/* So should a .table-wrapper, provided it contains .rows-and-columns */</span>\n<span class=\"pl-ent\">html</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">active-view-transition</span> <span class=\"pl-kos\">.</span><span class=\"pl-c1\">table-wrapper</span><span class=\"pl-kos\">:</span><span class=\"pl-c1\">has</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">&gt;</span> <span class=\"pl-ent\">table</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rows-and-columns</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-c1\">view-transition-name</span><span class=\"pl-kos\">:</span> rows-table<span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span></pre></div>\n\n<p>With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in <a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/162#changes_for_web_developers\">Firefox 162</a> on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.)</p>\n<video controls playsinline preload=\"none\" width=\"930\" height=\"720\" poster=\"https://static.simonwillison.net/static/cors-allow/2026/css-transitions-datasette.webp\">\n  <source src=\"https://static.simonwillison.net/static/cors-allow/2026/css-transitions-datasette.mp4\" type=\"video/mp4\">\n</video>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/css\">css</a>, <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/firefox\">firefox</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/chrome\">chrome</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.753Z"
+    },
+    {
+      "id": "9f458effb436880f",
+      "sourceId": "simonwillison",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "publishedAt": "2026-11-15T23:18:17.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.6\">datasette 0.65.6</a></p>\n        <p>I backported a minor security fix from 1.0a43:</p>\n<blockquote>\n<p>Fixed a security issue where a database registered using <code>add_database(db, name=..., route=...)</code> with a route that differs from its name could be downloaded from <code>/&lt;route&gt;.db</code> by actors who were denied access to it. [...]</p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.753Z"
+    },
     {
       "id": "d27638383af29436",
       "sourceId": "hackernews",
@@ -40,6 +120,26 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-15T14:37:11.666Z"
+    },
+    {
+      "id": "81dba6fe40f7c0eb",
+      "sourceId": "simonwillison",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "publishedAt": "2026-11-15T04:02:45.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.4a0\">datasette-apps 0.4a0</a></p>\n        <p>Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.</p>\n<p>0.4a0 adds support for linking: you can link to an app with <code>#fragments</code> in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other.</p>\n<p>This means you can have e.g. an app that shows details about a specific record, and a completely separate app that searches those records and links to their representations in the first app.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.753Z"
+    },
+    {
+      "id": "d47427f5a2b9c3b3",
+      "sourceId": "simonwillison",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "publishedAt": "2026-11-15T03:49:47.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.6a0\">datasette-agent 0.6a0</a></p>\n        <p>Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:</p>\n<p><img alt=\"Datasette homepage. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about #re - the box is showing autocomplete results for the repos and releases tables.\" src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-16T16:52:16.753Z"
     },
     {
       "id": "e9477865501b0215",
@@ -4900,106 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-19T11:51:10.392Z"
-    },
-    {
-      "id": "219c439494be37ce",
-      "sourceId": "simonwillison",
-      "title": "Gemini Live audio",
-      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-      "publishedAt": "2026-09-15T22:47:07.000Z",
-      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-live\">Gemini Live audio</a></p>\n        <p>Google released <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/\">Gemini 3.8 Live and 3.8 Live Extended Thinking</a> today - two new speech-to-speech models that are a similar shape to OpenAI's <a href=\"https://openai.com/index/introducing-gpt-live/\">GPT-Live</a> family.</p>\n<p>I pointed GPT-6 Astra Extra High at the documentation and <a href=\"https://gist.github.com/simonw/067b7430c5b1f743af9419b0184c38ef\">had it build me this web UI</a> for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking.</p>\n<p><img alt=\"Screenshot of a voice chat web interface with a transcript. Top buttons: Start session, End session, Mute mic, plus a Mic level meter and a timer showing 0:33. Status: Listening. Use headphones to reduce echo. Starting a session asks for microphone access. Transcript (with Download transcript and Clear buttons). Gemini: Yes, it's working perfectly. I can hear you clearly. How can I help you today? You: Okay, this is pretty good. Tell me some interesting facts about the California brown pelican. Gemini: They're famous for their spectacular plunge-dives to catch fish and have huge throat pouches that can hold up to three gallons of water and fish. They also made a great recovery after being endangered — marked as Interrupted. You: No, tell me different facts actually. Gemini: They nest in colonies on offshore islands and can hold up to three gallons of water in their throat pouches. At the bottom is a text input reading Or type a message… with a Send button, and the note: Sending a message interrupts the current response. Transcripts may include speech interrupted before playback.\" src=\"https://static.simonwillison.net/static/2026/gemini-live-tool.webp\" /></p>\n<p>The <a href=\"https://github.com/simonw/tools/blob/main/gemini-live.html\">implementation</a> uses no libraries. It connects to the <code>wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=...</code> WebSocket endpoint and uses a Web Audio API <code>AudioContext</code> for both capture and playback.</p>\n<p>Here's <a href=\"https://ai.google.dev/gemini-api/docs/live-api/get-started-websocket\">the Gemini Live tutorial</a> for getting started with that WebSockets API.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/websockets\">websockets</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:05.080Z"
-    },
-    {
-      "id": "8c1ffd1ffab62160",
-      "sourceId": "hackernews",
-      "title": "My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it",
-      "url": "https://jakeasmith.com/blog/http-build-url/",
-      "publishedAt": "2026-09-15T20:53:36.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-17T12:29:50.865Z"
-    },
-    {
-      "id": "0605bcba6b5c7739",
-      "sourceId": "hackernews",
-      "title": "Introducing System One Models and Jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "publishedAt": "2026-09-15T19:25:03.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:04.936Z"
-    },
-    {
-      "id": "219189adaab3f6d9",
-      "sourceId": "hackernews",
-      "title": "Suspected sabotage causes major Netherlands rail disruption",
-      "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
-      "publishedAt": "2026-09-15T10:22:46.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.487Z"
-    },
-    {
-      "id": "ad52cf91e8d4ddbb",
-      "sourceId": "hackernews",
-      "title": "Alternatives to MinIO for single-node local S3",
-      "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
-      "publishedAt": "2026-09-15T08:21:27.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.487Z"
-    },
-    {
-      "id": "287a2c39f25221f8",
-      "sourceId": "hackernews",
-      "title": "CSS-Tricks in Limbo",
-      "url": "https://vale.rocks/micros/20260915-0135",
-      "publishedAt": "2026-09-15T07:27:46.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.487Z"
-    },
-    {
-      "id": "e4c54a176b8a4673",
-      "sourceId": "hackernews",
-      "title": "I can't stop thinking about Papua New Guinea",
-      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
-      "publishedAt": "2026-09-15T06:16:24.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.487Z"
-    },
-    {
-      "id": "64f040316f79ac59",
-      "sourceId": "simonwillison",
-      "title": "The contagion of fear",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "publishedAt": "2026-09-14T21:18:13.000Z",
-      "rawContent": "<p><strong><a href=\"https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/\">The contagion of fear</a></strong></p>\nBryan Cantrill responds to the <a href=\"https://x.com/hilbertspaess/status/2097476203863224394\">tweet by former Anthropic employee Jacob Coxon</a> confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\".</p>\n<p>Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same:</p>\n<blockquote>\n<p>These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: <a href=\"https://www.youtube.com/watch?v=kwPxjBJamVs\">how would that happen?</a> The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...]</p>\n<p>That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm.</p>\n</blockquote>\n<p>Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=51m44s\">starting at 51m44s</a> in that episode. Here's <a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison/transcript#t=57m4s\">57m04s</a>:</p>\n<blockquote>\n<p>I really think we need to be careful because it's <em>so easy</em> to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/1ifr5f/contagion_fear\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/bryan-cantrill\">bryan-cantrill</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.655Z"
-    },
-    {
-      "id": "f1ea99f442b165fa",
-      "sourceId": "simonwillison",
-      "title": "What blog posts influenced your thinking the most?",
-      "url": "https://simonwillison.net/2026/Sep/14/influences/",
-      "publishedAt": "2026-09-14T20:21:48.000Z",
-      "rawContent": "<p><a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking#c_4fxnwn\">My comment</a> on <a href=\"https://lobste.rs/s/lbavmm/what_blog_posts_influenced_your_thinking\">What blog posts influenced your thinking the most?</a> &mdash; Lobste.rs.</p><p>An early Joel Spolsky one for me was <a href=\"https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/\">The Law of Leaky Abstractions</a>. I read that near the start of my career and it's encouraged me to <em>always</em> be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks.</p>\n<p>A more recent one, from 2018, is <a href=\"https://lethain.com/migrations/\">Migrations: the sole scalable fix to tech debt</a> by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs.</p>\n<p><a href=\"https://charity.wtf/p/the-engineer-manager-pendulum\">The Engineer/Manager Pendulum</a> by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an \"Individual Contributor\" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/joel-spolsky\">joel-spolsky</a>, <a href=\"https://simonwillison.net/tags/software-engineering\">software-engineering</a>, <a href=\"https://simonwillison.net/tags/will-larson\">will-larson</a>, <a href=\"https://simonwillison.net/tags/charity-majors\">charity-majors</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.656Z"
-    },
-    {
-      "id": "85519a8f6e295c80",
-      "sourceId": "hackernews",
-      "title": "iOS 27, iPadOS 27, and macOS 27",
-      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-      "publishedAt": "2026-09-14T17:50:29.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-15T12:32:21.487Z"
     }
   ]
 }
