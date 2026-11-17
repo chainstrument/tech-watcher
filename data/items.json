@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-16T16:52:17.623Z",
+  "updatedAt": "2026-11-17T16:47:12.681Z",
   "items": [
+    {
+      "id": "b138e21104747003",
+      "sourceId": "hackernews",
+      "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+      "url": "https://alloyhtml.com/example.html",
+      "publishedAt": "2026-11-17T15:07:09.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.204Z"
+    },
+    {
+      "id": "de86fe1708919f4d",
+      "sourceId": "hackernews",
+      "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "publishedAt": "2026-11-17T14:53:43.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.204Z"
+    },
+    {
+      "id": "1ef68d8c66fafe73",
+      "sourceId": "hackernews",
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "publishedAt": "2026-11-17T11:45:51.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.204Z"
+    },
+    {
+      "id": "38f599c774ee5c8e",
+      "sourceId": "simonwillison",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "publishedAt": "2026-11-17T06:16:26.000Z",
+      "rawContent": "<blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.421Z"
+    },
+    {
+      "id": "a50437ccc021c623",
+      "sourceId": "simonwillison",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "publishedAt": "2026-11-16T23:57:26.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.3\">llm 0.37.3</a></p>\n        <p>A bug fix release for <a href=\"https://llm.datasette.io\">LLM</a>, mainly to cover a problem with the most recent Homebrew package of the software.</p>\n<p>Homebrew now ships the latest SQLite, <a href=\"https://www.sqlite.org/releaselog/3_54_1.html\">3.54.1</a>, which includes <a href=\"https://sqlite.org/bugs/info/2026-10-12T13:52:22Z\">a fix</a> that <a href=\"https://github.com/simonw/llm/issues/1879\">broke LLM's logging code</a>.</p>\n<p>Short version: in SQLite 3.54.0 the following SQL:</p>\n<pre><code>select json_object('a', (select json_array(1)))\n</code></pre>\n<p>Returns this:</p>\n<pre><code>{\"a\":[1]}\n</code></pre>\n<p>But in 3.54.1 the same query returns this:</p>\n<pre><code>{\"a\":\"[1]\"}\n</code></pre>\n<p>According <a href=\"https://sqlite.org/forum/forumpost/dff1a343157e422f\">to D. Richard Hipp</a>:</p>\n<blockquote>\n<p>That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.</p>\n</blockquote>\n<p>The workaround looks like this:</p>\n<pre><code>select json_object('a', json((select json_array(1))))\n</code></pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/d-richard-hipp\">d-richard-hipp</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.421Z"
+    },
+    {
+      "id": "ddde1161b716eb7e",
+      "sourceId": "hackernews",
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "publishedAt": "2026-11-16T20:43:36.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.204Z"
+    },
     {
       "id": "1cdc428c2a200690",
       "sourceId": "hackernews",
@@ -10,6 +70,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-16T16:52:16.570Z"
+    },
+    {
+      "id": "bd1b982a23794ee4",
+      "sourceId": "hackernews",
+      "title": "First Photos of the Poles of a Rod-Shaped Bacterium",
+      "url": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664",
+      "publishedAt": "2026-11-16T15:02:20.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-17T16:47:11.204Z"
     },
     {
       "id": "093fe848f1abd47a",
@@ -4930,76 +5000,6 @@
       "rawContent": "<p><strong><a href=\"https://claude.com/blog/cowork-is-now-claude\">Claude Cowork and chat are now one Claude</a></strong></p>\nIn hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>\n<blockquote>\n<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]</p>\n<p>This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.</p>\n</blockquote>\n<p>I guess this means Claude is becoming a <strong>general agent</strong> in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.</p>\n<p>On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">Understanding ChatGPT Work</a>.</p>\n<p>I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49729412\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
       "status": "nouveau",
       "createdAt": "2026-09-17T12:29:51.001Z"
-    },
-    {
-      "id": "35cfdc3ffbab38ec",
-      "sourceId": "simonwillison",
-      "title": "Quoting Mustafa Suleyman",
-      "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-      "publishedAt": "2026-09-16T16:00:54.000Z",
-      "rawContent": "<blockquote cite=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\">Mustafa Suleyman</a>, A warning about ‘model welfare’</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-17T12:29:51.001Z"
-    },
-    {
-      "id": "ee7e1277b46f7d3d",
-      "sourceId": "hackernews",
-      "title": "The Google Play app review process now regularly takes longer than a week",
-      "url": "https://gultsch.social/@daniel/117280438824908947",
-      "publishedAt": "2026-09-16T11:19:11.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:04.936Z"
-    },
-    {
-      "id": "a641edc097b21920",
-      "sourceId": "hackernews",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "publishedAt": "2026-09-16T11:15:53.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-17T12:29:50.865Z"
-    },
-    {
-      "id": "5069b05c4ab509d0",
-      "sourceId": "hackernews",
-      "title": "Salesforce Global Outage",
-      "url": "https://status.salesforce.com/products/all",
-      "publishedAt": "2026-09-16T10:37:08.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:04.936Z"
-    },
-    {
-      "id": "3732e05b897afbd2",
-      "sourceId": "hackernews",
-      "title": "EU chief opens door for Canada to become 'associate member'",
-      "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
-      "publishedAt": "2026-09-16T09:54:05.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:04.936Z"
-    },
-    {
-      "id": "467dc9d436589458",
-      "sourceId": "hackernews",
-      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/",
-      "publishedAt": "2026-09-16T08:08:57.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-16T12:30:04.936Z"
-    },
-    {
-      "id": "cc1d399ef9c4fc87",
-      "sourceId": "hackernews",
-      "title": "“The Secret Life of Circuits” is here",
-      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
-      "publishedAt": "2026-09-15T23:15:05.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-19T11:51:10.392Z"
     }
   ]
 }
