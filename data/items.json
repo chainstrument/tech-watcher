@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-11-20T15:59:02.589Z",
+  "updatedAt": "2026-11-21T15:11:16.271Z",
   "items": [
+    {
+      "id": "cf85127411206c4e",
+      "sourceId": "hackernews",
+      "title": "Derek Lowe: Detonating a Pile of Lead Azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "publishedAt": "2026-11-21T13:23:14.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.825Z"
+    },
+    {
+      "id": "74442715952b612f",
+      "sourceId": "hackernews",
+      "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+      "url": "https://simple-bench.com/",
+      "publishedAt": "2026-11-21T13:16:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.825Z"
+    },
+    {
+      "id": "772848921d60d08d",
+      "sourceId": "hackernews",
+      "title": "My Monitor Was Cutting My Download Speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "publishedAt": "2026-11-21T10:36:32.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.825Z"
+    },
+    {
+      "id": "3819f88b6b779427",
+      "sourceId": "changelog",
+      "title": "A seminal moment in computing",
+      "url": "https://changelog.com/podcast/692",
+      "publishedAt": "2026-11-20T20:00:00.000Z",
+      "rawContent": "<p>MG, founder and CEO of WorkOS, is back to talk about leading a company through what DHH called a seminal moment in computing. He explains Atlas, the AI coworker WorkOS built for itself and then launched, why agents will soon choose and sign up for your tech stack, and why this moment feels closer to fire than to the iPhone. Then he gets practical: starting a company is easier than ever, but product-market fit is harder, so be a heat-seeking missile for pain, pick customers you like, and stop calling yourself non-technical.</p>\n<p><a href=\"https://changelog.zulipchat.com/#narrow/stream/456187-interviews\">Join the discussion</a></p><p><a href=\"https://changelog.com/++\" rel=\"payment\">Changelog++</a> members save 11 minutes on this episode because they made the ads disappear. Join today!</p><p>Sponsors:</p><p><ul><li><a href=\"https://clickhouse.com/observability\">ClickHouse Observability</a> – Fully managed observability for SREs and their agents. Send OpenTelemetry to a managed OTLP endpoint; ClickHouse runs ingestion, schema, scaling. Full-fidelity logs, metrics and traces (no sampling), no separate cardinality charge. Public beta: $0.10/GB logs and traces, $0.05 per million metric points (half of standard), 30-day retention.\n</li>\n<li><a href=\"https://deepgram.com\">Deepgram</a> – Speech-to-text, text-to-speech, and voice agent APIs for developers building voice AI applications.\n</li>\n<li><a href=\"https://fingerprint.com/\">Fingerprint</a> – Detect threats, AI agents, and bots with device intelligence.\n</li>\n<li><a href=\"https://coder.com/\">Coder.com</a> – Secure environments where devs and agents work in parallel. Open by design. Secure by default.\n</li>\n<li><a href=\"https://fly.io/\">Fly.io</a> – <strong>The home of Changelog.com</strong> — Computers for agents, from sandboxes to production. Give your agent its own hardware-isolated Linux computer. Deploy what it builds without changing platforms.\n</li>\n</ul></p><p>Featuring:</p><ul><li>Michael Grinich &ndash; <a href=\"https://workos.com\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/grinich\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/grinich\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://x.com/grinich\" rel=\"external ugc\">X</a></li><li>Adam Stacoviak &ndash; <a href=\"https://adamstacoviak.com/\" rel=\"external ugc\">Website</a>, <a href=\"https://github.com/adamstac\" rel=\"external ugc\">GitHub</a>, <a href=\"https://www.linkedin.com/in/adamstacoviak\" rel=\"external ugc\">LinkedIn</a>, <a href=\"https://changelog.social/@adam\" rel=\"external ugc\">Mastodon</a>, <a href=\"https://x.com/adamstac\" rel=\"external ugc\">X</a></li></ul></p><p>Show Notes:</p><p><ul>\n<li><a href=\"https://workos.com\">WorkOS</a></li>\n<li><a href=\"https://workos.com/atlas\">WorkOS Atlas</a></li>\n<li><a href=\"https://workos.com/airlock\">Airlock</a></li>\n<li><a href=\"https://workos.com/auth-md\">auth.md</a></li>\n<li><a href=\"https://workos.com/customers\">WorkOS customers</a></li>\n<li><a href=\"https://omarchy.org\">Omarchy</a></li>\n<li><a href=\"https://changelog.com/founderstalk/96\">Selling to Enterprise (Founders Talk #96)</a></li>\n</ul>\n</p><p>Something missing or broken? <a href=\"https://github.com/thechangelog/show-notes/blob/master/podcast/the-changelog-692.md\">PRs welcome!</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:16.162Z"
+    },
+    {
+      "id": "cf3b0c6c1cbc2369",
+      "sourceId": "simonwillison",
+      "title": "Quoting Ravi Vakil",
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "publishedAt": "2026-11-20T19:21:49.000Z",
+      "rawContent": "<blockquote cite=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\"><p>Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\">Ravi Vakil</a>, Hurried Announcement: Alessandro Masullo GRH</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.937Z"
+    },
+    {
+      "id": "cb5e6e91712c9ca4",
+      "sourceId": "hackernews",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "publishedAt": "2026-11-20T18:33:14.000Z",
+      "rawContent": "Related: <i>Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50574968</a>",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.825Z"
+    },
+    {
+      "id": "f27b1f34ce20932c",
+      "sourceId": "simonwillison",
+      "title": "Quoting Levent Alpöge",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "publishedAt": "2026-11-20T16:30:48.000Z",
+      "rawContent": "<blockquote cite=\"https://alpo.ge/remark.pdf\"><p>I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...]</p>\n<p>Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://alpo.ge/remark.pdf\">Levent Alpöge</a>, alpo.ge/remark.pdf</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/levent-alpoge\">levent-alpoge</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.937Z"
+    },
     {
       "id": "3b3270b0917323ae",
       "sourceId": "hackernews",
@@ -260,6 +330,16 @@
       "rawContent": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p>\n<p>You can now do all of the following, using a carefully crafted URL to <strong>lite.datasette.io</strong>:</p>\n<ul>\n<li>Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script</li>\n<li>Select a released version of Datasette to load from PyPI</li>\n<li>Load a specific commit, tag, or branch name from the Datasette GitHub repository</li>\n<li>Pick from over 100 versions of SQLite to use with Datasette</li>\n<li>Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools</li>\n</ul>\n<p>The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo.</p>\n<p>As an example, consider the following URL:</p>\n<p><a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent\">https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</a></p>\n<p>Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this:</p>\n<p><img src=\"https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp\" alt=\"Screenshot of a web map interface. Toolbar: &quot;View&quot; set to &quot;Clusters&quot;, &quot;Colour by&quot; set to &quot;continent&quot;, plus &quot;Filter to this area&quot; and &quot;Download GeoJSON&quot; buttons. A world map shows countries outlined and shaded by continent, with coloured dots and numbered cluster circles. A popup for a point in South America reads: capital Caracas, country Venezuela, continent South America, capital_population 2985000, latitude 10.502944, longitude -66.918983. Legend: Africa (52), Asia (45), Europe (39), North America (16), South America (13), Oceania (6). Text: &quot;All 171 rows are on the map&quot;. Below, a table with columns country, continent, capital_population, latitude, longitude, boundary. First row: Afghanistan, Asia, 3277000, 34.518636, 69.181314, with a small map in the boundary column showing Afghanistan outlined and shaded in blue.\" style=\"max-width: 100%;\" /></p>\n<p>That's Datasette running the new <a href=\"https://github.com/datasette/datasette-maplibre\">datasette-maplibre</a> plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table.</p>\n<p>Let's break down that URL to see what it's doing:</p>\n<pre><code>https://lite.datasette.io/\n  ?install=datasette-maplibre\n  &amp;url=https://.../demo.db\n  &amp;metadata=https://.../metadata.yml\n  #/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent\n</code></pre>\n<p>The <code>?install=datasette-maplibre</code> installs that additional plugin from PyPI. You can pass <code>&amp;install=...</code> as many times as you like to load more plugins.</p>\n<p><code>&amp;url=https://.../demo.db</code> loads that SQLite database from the provided URL. These URLs need to have <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS\">open CORS headers</a> - I host files like this in <a href=\"https://gist.github.com/\">Gists</a>, because they provide an easy way to get open CORS headers on a web-hosted file.</p>\n<p><code>&amp;metadata=https://.../metadata.yml</code> loads <a href=\"https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml\">this metadata.yml file</a>. The metadata file adds HTML descriptions to various tables, and to the Datasette homepage. Visit <a href=\"https://lite.datasette.io/?install=datasette-maplibre&amp;url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&amp;metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/\">that homepage here</a> for a guided tour of the other features of that plugin, all defined in the metadata file.</p>\n<p><code>#/demo/capitals_and_countries%23map=0/4.2/180&amp;color=continent</code> is a fragment hash that turns into a location within Datasette - here it's loading the <code>/demo/capitals_and_countries</code> SQL view, then appending <em>another</em> fragment hash to it (<code>%23</code> is a URL-encoded <code>#</code>) which tells the map plugin to zoom to a certain location and to set the color of the shapes on the map based on the <code>continent</code> column in the data.</p>\n<p>That URL is doing a lot of work! I wrote more about this trick for building URL-addressable software in <a href=\"https://simonwillison.net/2025/Feb/13/url-addressable-python/\">URL-addressable Pyodide Python environments</a> last year.</p>\n<p>The full set of supported URL arguments is <a href=\"https://github.com/simonw/datasette-lite#load-a-different-datasette-version\">described in the Datasette Lite README</a>.</p>\n<p>I've already started using Datasette Lite as part of the Datasette development process. Here's <a href=\"https://github.com/simonw/datasette/issues/3056#issuecomment-6902484982\">a recent issue</a> describing a pagination bug - I posted a comment there demonstrating the old, broken behavior and the new fix using links to Datasette Lite:</p>\n<blockquote>\n<p>Demo of the bug: <a href=\"https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a42&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a> - click next and the second page is empty.</p>\n<p>Here's that same page with the bug fixed (running on 1.0a43): <a href=\"https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score\">https://lite.datasette.io/?ref=1.0a43&amp;sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&amp;_sort=score</a></p>\n</blockquote>\n<h4 id=\"how-this-works-using-service-workers\">How this works, using service workers</h4>\n<p>Datasette Lite is not a new project. I launched the first version <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">back in 2022</a>, originally as a bit of a joke (running server-side apps in the browser is pretty funny) but one that quickly started proving its value.</p>\n<p>The problem with that initial version is that it was a <em>hack</em>. It worked by running Datasette in a Pyodide web worker, simulating requests through that stack, then injecting the resulting HTML back into the top level page using <code>innerHTML</code>.</p>\n<p>This worked for basic Datasette, but meant that any feature that used JavaScript failed to work, because script tags in <code>innerHTML</code> don't execute, and the web worker tricks it used failed to load additional JavaScript or CSS files.</p>\n<p>The new version takes a completely different approach based on <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API\">Service Workers</a>. These allow JavaScript to intercept HTTP requests for new pages and resources and serve them from client-side code instead.</p>\n<p>Datasette Lite registers a service worker for the entire <code>lite.datasette.io</code> domain. The parent page then creates an iframe that sends requests for Datasette pages to URLs that look like this:</p>\n<pre><code>/app/aa94e6851595/ # the homepage (HTML)\n/app/aa94e6851595/data/places # a table page (HTML)\n/app/aa94e6851595/-/static/navigation-search.js # (JavaScript)\n/app/aa94e6851595/-/static/app.css # (CSS)\n</code></pre>\n<p>Those are regular Datasette URLs, but with a <code>/app/aa94e6851595/</code> prefix. What's that about?</p>\n<p>The <code>/app/&lt;session&gt;/</code> prefix is necessary because of multiple tabs.</p>\n<p>Consider the URL above, which loads the demo instance with the <code>datasette-maplibre</code> plugin. That URL defines a full, custom Datasette instance. You might have that one running in a tab, then one of my other demo links running in another.</p>\n<p>The service worker for <code>lite.datasette.io</code> is shared between all of those tabs. If it routed to a single instance of Datasette then every tab would share that underlying instance, no matter what plugins or other settings their URL attempted to configure.</p>\n<p>Instead, the parent page generates a random session ID and uses it as a prefix for all of the subsequent hidden asset and page loads. The service worker can then use that session ID to route those requests back through the parent page to a web worker running a dedicated Datasette instance for that particular session.</p>\n<p>(We still need a web worker because Pyodide in a service worker would not be able to maintain state beyond around 30 seconds, depending on the browser. There are a lot of moving parts here!)</p>\n<p>I had Claude Fable 5.2 <a href=\"https://gisthost.github.io/?4192a5a24136cad4c8490ccb15e87d83\">generate several SVG diagrams</a> to help explain this. Here's my favorite of those, now embedded in the Datasette Lite README:</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/datasette-lite-diag.webp\" alt=\"Architecture diagram titled &quot;What happens when you click a link in Datasette Lite&quot;, with a legend showing a solid arrow for &quot;request&quot; and a dashed arrow for &quot;response&quot;. A blue box labeled &quot;index.html: the page you opened - Each tab picks a random session and starts one Web Worker.&quot; contains two white boxes: &quot;iframe Datasette pages at /app/session/…&quot; and &quot;shell.js the page's own script: relays&quot;. Below it is a yellow box labeled &quot;sw.js: the service worker - Intercepts requests for /app/session/….&quot; To the right is a green box marked 4 and labeled &quot;webworker.js: a Web Worker - Pyodide: Python in WebAssembly&quot; containing three stacked white boxes: &quot;ASGI bridge + cookie jar&quot;, &quot;Datasette ASGI app&quot; and &quot;SQLite databases&quot;. Numbered arrows connect them: solid arrow 1 from the iframe down to sw.js, solid arrow 2 from sw.js up to shell.js, solid arrow 3 from shell.js across to the Web Worker, dashed arrow 5 from the Web Worker back to shell.js, dashed arrow 6 from shell.js down to sw.js, and dashed arrow 7 from sw.js up to the iframe. A numbered key at the bottom reads: 1 The page requests /app/session/fixtures. 2 sw.js intercepts it and posts it to the owning tab. 3 shell.js forwards it to the Web Worker. 4 Python adds cookies and calls Datasette, which queries SQLite. 5 The status, headers and body return to the page, 6 then to sw.js over a MessagePort, 7 which hands the browser a Response. The iframe renders it.\" style=\"max-width: 100%;\" /></p>\n<p>This system started life <a href=\"https://simonwillison.net/2026/May/30/pyodide-asgi-browser/\">back in May</a> as an <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">AI research spike</a> generated using Claude Opus 4.8. It wasn't until November (and Claude Fable 5.2) that I felt familiar enough with how it all works to confidently ship it to production!</p>\n<h4 id=\"bonus-feature-pick-your-version-of-sqlite\">Bonus feature: pick your version of SQLite</h4>\n<p>I added this feature <a href=\"https://github.com/simonw/datasette-lite/commit/de661dbee42a68304811a0035b78e6b683203cd1\">last night</a> as an off-shoot of investigating <a href=\"https://simonwillison.net/2026/Nov/16/llm/\">a potential bug in SQLite</a>.</p>\n<p>Datasette is meant to work against any released version of SQLite since 3.25 (released in September 2018). There have been 87 further releases since then.</p>\n<p>Being able to fire up Datasette against a specific version of SQLite is really useful for demonstrating new SQLite features and debugging weird issues.</p>\n<p>In the past I've <a href=\"https://til.simonwillison.net/sqlite/sqlite-version-macos-python\">used various tricks</a> to get different SQLite versions running with Python on my Mac, but it's not a trivial process.</p>\n<p>WebAssembly is perfect for this. I can load up a custom SQLite build entirely in my browser, test it there, then discard it when I close my tab.</p>\n<p><a href=\"https://github.com/datasette/pysqlite3-wasm-wheels\">datasette/pysqlite3-wasm-wheels</a> is my new repository which contains WebAssembly compiled Python wheels for <a href=\"https://github.com/coleifer/pysqlite3\">pysqlite3</a> for 163 different SQLite versions. Each version gets a file with a name like this:</p>\n<p><code>pysqlite3-0.6.2-3.54.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl</code></p>\n<p>That's for SQLite 3.54.1, the most recent version.</p>\n<p>Datasette Lite now takes a special <code>?sqlite=</code> URL parameter, which will accept a version number like <code>3.54.1</code>, resolve the path to the corresponding wheel file, then fetch that wheel and install it into the Pyodide environment and configure Datasette to use it.</p>\n<p>Once I'd built the wheels, I decided to have Claude Fable 5.2 build me [this bonus tool](<a href=\"https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)\">https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&amp;sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29)</a> for comparing a SQL query across any selected versions of SQLite. Here's an example showing how <code>select json_object('a', (select json_array(1)))</code> differs between SQLite 3.54.0 and 3.54.1:</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/compare-sqlite.webp\" alt=\"Screenshot of a web tool for comparing SQL across SQLite versions. Heading &quot;SQLite versions (163 available)&quot; sits above a filter text input with placeholder &quot;Filter, e.g. 3.4&quot;, a &quot;Clear selection&quot; button and a blue &quot;Start REPL with 2 versions&quot; button. Below is a scrollable grid of pill-shaped checkboxes, one per version, running from 3.54.1 down past 3.30.0, with 3.54.1 and 3.54.0 checked. A &quot;REPL&quot; heading follows, with two green status badges reading &quot;3.54.1 ready&quot; and &quot;3.54.0 ready&quot;, then a textarea containing &quot;select json_object('a', (select json_array(1)))&quot; beside a blue &quot;Run&quot; button, and a row of clickable example queries labeled &quot;Examples:&quot;. The output section shows the prompt &quot;sqlite&gt; select json_object('a', (select json_array(1)))&quot; followed by an orange warning &quot;Versions differ: 2 different results&quot; and two side-by-side yellow result panels, each with the query as its column header. The &quot;SQLite 3.54.1&quot; panel returns a JSON object where key &quot;a&quot; has a string value: the array containing 1, wrapped in double quotes. The &quot;SQLite 3.54.0&quot; panel returns a JSON object where key &quot;a&quot; has an actual array containing 1, with no quotes around it.\" style=\"max-width: 100%;\" /></p>\n<h4 id=\"this-should-work-for-every-other-python-app-too\">This should work for every other Python app, too</h4>\n<p>Nothing about how Datasette Lite works is unique to Datasette. Almost any Python application should be able to pull the same trick - running entirely in the browser using WebAssembly and Pyodide, as a cheap way to provide preview environments, demonstrate features, and recreate bugs.</p>\n<p>C and Rust extensions used to be a blocker for this kind of thing, but any good coding agent can compile those to Pyodide-compatible WebAssembly now. You can <a href=\"https://github.com/pypi/warehouse/pull/19804\">even publish them to PyPI</a> as of PEP 783 in April 2026.</p>\n<p>One catch is databases. SQLite is no problem at all, but running PostgreSQL or MySQL in WebAssembly, while possible, is still a path less trodden.</p>\n<p>I'd love to see WebAssembly preview environments like these become a common pattern across the Python ecosystem.</p>\n<p>For Hacker News: Full server-side Datasette Python app in the browser with service workers</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/urls\">urls</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/service-workers\">service-workers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
       "status": "nouveau",
       "createdAt": "2026-11-18T16:18:23.056Z"
+    },
+    {
+      "id": "8b203e54ba21f794",
+      "sourceId": "hackernews",
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "publishedAt": "2026-11-17T15:22:57.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-21T15:11:15.825Z"
     },
     {
       "id": "b138e21104747003",
@@ -4920,86 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-21T13:46:28.777Z"
-    },
-    {
-      "id": "67d17b89a42e9d78",
-      "sourceId": "hackernews",
-      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
-      "url": "https://github.com/jaredpalmer/kev/tree/main",
-      "publishedAt": "2026-09-21T07:11:55.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-21T13:46:28.777Z"
-    },
-    {
-      "id": "c8aee9fb8db23a5b",
-      "sourceId": "simonwillison",
-      "title": "Quoting voxium",
-      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
-      "publishedAt": "2026-09-20T21:06:43.000Z",
-      "rawContent": "<blockquote cite=\"https://twitter.com/v0xium/status/2101526107128529120\"><p>It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/v0xium/status/2101526107128529120\">voxium</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-21T13:46:28.886Z"
-    },
-    {
-      "id": "e133d02a1d698c5d",
-      "sourceId": "simonwillison",
-      "title": "MCP was always a bad idea?",
-      "url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
-      "publishedAt": "2026-09-20T20:24:41.000Z",
-      "rawContent": "<p><a href=\"https://news.ycombinator.com/item?id=49779329#49779718\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49779329\">MCP was always a bad idea?</a> &mdash; Hacker News.</p><p>This article entirely misses the value that MCP brings today.</p>\n<p>Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly.</p>\n<p>If you want to operate something that's less YOLO than that, you'll find yourself wanting:</p>\n<ol>\n<li>Control over exactly which external services it can access</li>\n<li>A way to handle authentication that doesn't allow the agent to directly access API keys</li>\n<li>A sensible UI to allow users to connect and authenticate further services</li>\n<li>Strong audit logging for what's going on</li>\n</ol>\n<p>MCP makes all of that so much easier to provide.</p>\n<p>Thinking MCP is obsolete because full coding agents don't need it misses out on all of the other things we might want to build.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-22T12:28:37.951Z"
-    },
-    {
-      "id": "f9d4182cc1e12525",
-      "sourceId": "simonwillison",
-      "title": "llm-keys-ui 0.1",
-      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-      "publishedAt": "2026-09-20T19:22:19.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-keys-ui/releases/tag/0.1\">llm-keys-ui 0.1</a></p>\n        <p>This plugin solves a very specific problem.</p>\n<p>I've started using <a href=\"https://learn.chatgpt.com/docs/remote\">Codex Remote</a> to run coding agents on various machines while controlling them from my phone. </p>\n<p>Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key.</p>\n<p>I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly.</p>\n<p>With this plugin, I can tell Codex to run:</p>\n<pre><code>uvx --with llm-keys-ui llm keys-ui --all\n</code></pre>\n<p>Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys.</p>\n<p>Then later it can use a command like <code>llm keys get anthropic</code> as part of a shell command when it needs to use a key.</p>\n<div style=\"display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; width: 100%;\">\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8166.jpeg\"\n    alt=\"Chat conversation requesting uvx --with llm-keys-ui llm keys-ui --all, with a response listing four server URLs on port 8010 and confirming the server is still running.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n  <img\n    src=\"https://static.simonwillison.net/static/2026-09-20/IMG_8167.jpeg\"\n    alt=\"LLM keys web interface listing anthropic, openai, openrouter, and qwen-dummy as stored keys, with a form containing Key name and New value fields and a Save key button. Existing key values are never displayed.\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n</div>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-21T13:46:28.886Z"
-    },
-    {
-      "id": "9abe70756d1def10",
-      "sourceId": "hackernews",
-      "title": "If AI coding is lowering your code quality, you're not managing quality right",
-      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "publishedAt": "2026-09-20T11:37:10.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.432Z"
-    },
-    {
-      "id": "fb6a5d2fee7403bf",
-      "sourceId": "hackernews",
-      "title": "Why Do We Need Human Mathematicians Anymore?",
-      "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
-      "publishedAt": "2026-09-20T10:49:58.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.433Z"
-    },
-    {
-      "id": "03adfb64fbd190e6",
-      "sourceId": "hackernews",
-      "title": "AI and the Destruction of the Creative Commons",
-      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
-      "publishedAt": "2026-09-20T10:07:51.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-20T12:08:30.432Z"
-    },
-    {
-      "id": "33879f77e1536c69",
-      "sourceId": "simonwillison",
-      "title": "datasette-explain 0.2.2",
-      "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "publishedAt": "2026-09-20T00:22:04.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-explain/releases/tag/0.2.2\">datasette-explain 0.2.2</a></p>\n        <blockquote>\n<ul>\n<li>Explain plans now work on read-only stored-query pages.</li>\n</ul>\n</blockquote>\n<p>I upgraded <a href=\"https://datasette.simonwillison.net\">datasette.simonwillison.net</a> to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-21T13:46:28.886Z"
     }
   ]
 }
