@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-11-22T15:09:13.645Z",
+  "updatedAt": "2026-11-23T19:05:30.995Z",
   "items": [
+    {
+      "id": "5d4fbf8ddc9ca1d0",
+      "sourceId": "hackernews",
+      "title": "Kagi Mail (public beta)",
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "publishedAt": "2026-11-23T17:17:01.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.638Z"
+    },
+    {
+      "id": "8d83fbfc47ac58f7",
+      "sourceId": "hackernews",
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "publishedAt": "2026-11-23T16:13:12.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.638Z"
+    },
+    {
+      "id": "cf5164636ad3b77e",
+      "sourceId": "hackernews",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "publishedAt": "2026-11-23T14:00:18.000Z",
+      "rawContent": "<a href=\"https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\" rel=\"nofollow\">https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-board-reinstates-j...</a>",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.638Z"
+    },
+    {
+      "id": "f1db7ce98881d890",
+      "sourceId": "hackernews",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "publishedAt": "2026-11-23T10:06:43.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.638Z"
+    },
+    {
+      "id": "b0c1b6250591975f",
+      "sourceId": "simonwillison",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "publishedAt": "2026-11-22T19:45:06.000Z",
+      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/select-styling\">Select Styling Specimens</a></p>\n        <p>I got frustrated at how HTML <code>&lt;select&gt;</code> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:</p>\n<p><img alt=\"The same select box in Chrome, Safari, and Firefox, Chrome is white with a black border. Safari is grey with no border. Firefox is gray with a black border. They are all slightly different sizes.\" src=\"https://static.simonwillison.net/static/2026/select-firefox-safari-chrome.webp\" /></p>\n<p>So I had Claude Fable 5.2 <a href=\"https://claude.ai/share/a82c181c-0ea6-4fec-a659-8de653cb3e7b\">build</a> me <a href=\"https://tools.simonwillison.net/select-styling\">this page</a> showing all of the ways they can be styled:</p>\n<blockquote>\n<p><code>Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser</code></p>\n</blockquote>\n<p>After some experimentation I've decided my favorite CSS for select boxes is this:</p>\n<div class=\"highlight highlight-source-css\"><pre><span class=\"pl-ent\">select</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-c1\">appearance</span><span class=\"pl-kos\">:</span> none<span class=\"pl-kos\">;</span>\n  <span class=\"pl-c1\">color</span><span class=\"pl-kos\">:</span> <span class=\"pl-pds\"><span class=\"pl-kos\">#</span>1f2933</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-c1\">padding</span><span class=\"pl-kos\">:</span> <span class=\"pl-c1\">0.5<span class=\"pl-smi\">em</span></span> <span class=\"pl-c1\">2.25<span class=\"pl-smi\">em</span></span> <span class=\"pl-c1\">0.5<span class=\"pl-smi\">em</span></span> <span class=\"pl-c1\">0.75<span class=\"pl-smi\">em</span></span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-c1\">border</span><span class=\"pl-kos\">:</span> <span class=\"pl-c1\">1<span class=\"pl-smi\">px</span></span> solid <span class=\"pl-pds\"><span class=\"pl-kos\">#</span>c4cbd3</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-c1\">border-radius</span><span class=\"pl-kos\">:</span> <span class=\"pl-c1\">6<span class=\"pl-smi\">px</span></span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-c1\">background</span><span class=\"pl-kos\">:</span> <span class=\"pl-pds\"><span class=\"pl-kos\">#</span>fff</span> <span class=\"pl-en\">url</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E\"</span><span class=\"pl-kos\">)</span> no-repeat right <span class=\"pl-c1\">0.75<span class=\"pl-smi\">em</span></span> center <span class=\"pl-c1\">/</span> <span class=\"pl-c1\">0.75<span class=\"pl-smi\">em</span></span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span></pre></div>\n\n<p>Here's what that looks like in the three browsers:</p>\n<p><img alt=\"Now the select box is the same in all three browsers - it has a rounded corner grey border and a grey downward facing arrow in each one.\" src=\"https://static.simonwillison.net/static/2026/select-styled-firefox-safari-chrome.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/css\">css</a>, <a href=\"https://simonwillison.net/tags/html\">html</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.963Z"
+    },
     {
       "id": "9e90f9c0947157e7",
       "sourceId": "hackernews",
@@ -70,6 +120,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-21T15:11:15.825Z"
+    },
+    {
+      "id": "092e69e17574fe4b",
+      "sourceId": "hackernews",
+      "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+      "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+      "publishedAt": "2026-11-21T09:14:02.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-23T19:05:29.638Z"
     },
     {
       "id": "312324520679159f",
@@ -4940,66 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-23T12:39:07.671Z"
-    },
-    {
-      "id": "8f820c2b26f6994a",
-      "sourceId": "simonwillison",
-      "title": "llm-anthropic 0.29",
-      "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "publishedAt": "2026-09-22T17:14:55.000Z",
-      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p>\n        <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p>\n<pre><code>llm -m claude-opus-5.5 \"prompt goes here\"\n</code></pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-23T12:39:07.839Z"
-    },
-    {
-      "id": "0dd3bed5c7dd1c27",
-      "sourceId": "hackernews",
-      "title": "Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "publishedAt": "2026-09-22T16:29:05.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-23T12:39:07.671Z"
-    },
-    {
-      "id": "38d6b6f15cfc66e9",
-      "sourceId": "hackernews",
-      "title": "AI Has No Wisdom and Neither Will You",
-      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
-      "publishedAt": "2026-09-22T12:11:09.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-22T12:28:37.827Z"
-    },
-    {
-      "id": "8aaca18b2d857af3",
-      "sourceId": "hackernews",
-      "title": "Type Punning in C and C++",
-      "url": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
-      "publishedAt": "2026-09-22T11:29:47.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-22T12:28:37.827Z"
-    },
-    {
-      "id": "537f6e86521ee1ff",
-      "sourceId": "hackernews",
-      "title": "AMD's random number generator can't generate a 0?",
-      "url": "https://board.flatassembler.net/topic.php?t=24261",
-      "publishedAt": "2026-09-22T08:39:43.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-22T12:28:37.827Z"
-    },
-    {
-      "id": "b57778213c8ad4af",
-      "sourceId": "hackernews",
-      "title": "Can gzip be a language model?",
-      "url": "https://nathan.rs/posts/gzip-lm/",
-      "publishedAt": "2026-09-22T06:08:39.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-22T12:28:37.827Z"
     }
   ]
 }
