@@ -1,6 +1,66 @@
 {
-  "updatedAt": "2026-11-27T17:20:17.713Z",
+  "updatedAt": "2026-11-28T16:03:06.604Z",
   "items": [
+    {
+      "id": "7894c64dc70e906c",
+      "sourceId": "hackernews",
+      "title": "Physics Breakthrough Simulator",
+      "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+      "publishedAt": "2026-11-28T14:52:45.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:05.930Z"
+    },
+    {
+      "id": "8b716eecbb9560f2",
+      "sourceId": "hackernews",
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "publishedAt": "2026-11-28T11:57:04.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:05.930Z"
+    },
+    {
+      "id": "9664a77cd54aa398",
+      "sourceId": "hackernews",
+      "title": "Audible removes download option for purchased audiobooks",
+      "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
+      "publishedAt": "2026-11-28T11:51:27.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:05.930Z"
+    },
+    {
+      "id": "6883534b81e937fb",
+      "sourceId": "hackernews",
+      "title": "Farewell",
+      "url": "https://github.com/p-e-w/heretic/issues/601",
+      "publishedAt": "2026-11-28T11:42:26.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:05.930Z"
+    },
+    {
+      "id": "82d791fb8b445f86",
+      "sourceId": "hackernews",
+      "title": "Claude Code sabotage: preliminary benchmarking",
+      "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "publishedAt": "2026-11-28T10:37:40.000Z",
+      "rawContent": "",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:05.930Z"
+    },
+    {
+      "id": "bedee2e9acb0a56a",
+      "sourceId": "simonwillison",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-charts/releases/tag/0.4a0\">datasette-charts 0.4a0</a></p>\n        <p>The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic.</p>\n<p>I've also added a website for the plugin, at <a href=\"https://charts.datasette.io/\">charts.datasette.io</a>. The new website includes a <a href=\"https://charts.datasette.io/docs/plugins/\">tutorial for plugin authors</a>, and <a href=\"https://charts.datasette.io/gallery/\">a gallery</a> showing all of the core charts and annotations, each one linking to an interactive demo on <a href=\"https://lite.datasette.io/\">Datasette Lite</a>.</p>\n<p><img alt=\"Screenshot of a documentation page section showing a two-by-two grid of cards, each with a chart screenshot, a heading, a description, a link and a collapsed disclosure. Heading: &quot;Annotations&quot;. Intro text: &quot;Notes drawn on a chart: lines, shaded ranges, callouts and text. They are part of the chart's spec, so they are kept in the link to the chart. Documentation for annotations.&quot; where &quot;Documentation for annotations&quot; is a link. Card 1: an area line chart titled &quot;Rows per quarter of published_at&quot;, y-axis labelled &quot;↑ Rows&quot; with ticks 0, 20, 40, 60, 80, 100, 120, 140, 160 and x-axis ticks 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, with a vertical dashed line just before 2023 labelled &quot;Datasette 1.0a0&quot;; the line peaks near 150 in mid 2020 and near 138 in early 2023. Caption &quot;SCREENSHOT&quot;. Heading &quot;A line at an x value&quot;. Text &quot;A dashed line across the chart at a date, here the day of a release.&quot; Link &quot;Try this demo yourself&quot;. Disclosure &quot;▶ Chart spec&quot;. Card 2: a stacked bar chart titled &quot;Rows per year of upload_time by packagetype&quot;, legend &quot;bdist_wheel&quot; (blue) and &quot;sdist&quot; (orange), y-axis labelled &quot;↑ Rows&quot; with ticks 0, 100, 200, 300, 400, 500, 600 and x-axis ticks 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, with a solid red horizontal line at 500 labelled &quot;500 uploads a year&quot;; the bars for 2020, 2021 and 2023 rise above the line. Caption &quot;SCREENSHOT&quot;. Heading &quot;A line at a y value&quot;. Text &quot;A reference line at a value, drawn solid and in red.&quot; Link &quot;Try this demo yourself&quot;. Disclosure &quot;▶ Chart spec&quot;. Card 3: a blue histogram titled &quot;Distribution of latitude&quot;, y-axis labelled &quot;↑ Rows&quot; with ticks 0, 1,000, 2,000, 3,000, 4,000, 5,000, 6,000, 7,000, 8,000 and x-axis labelled &quot;latitude →&quot; with ticks −80, −60, −40, −20, 0, 20, 40, 60, with a grey shaded band from roughly −23 to 23 labelled &quot;The tropics&quot;; the tallest bar is just above 7,000 at around 40. Caption &quot;SCREENSHOT&quot;. Heading &quot;A shaded range&quot;. Text &quot;A band between two x values, on a histogram.&quot; Link &quot;Try this demo yourself&quot;. Disclosure &quot;▶ Chart spec&quot;. Card 4: a scatter plot of blue dots titled &quot;generation_gwh_2017 against capacity_mw&quot;, y-axis labelled &quot;↑ generation_gwh_2017&quot; with ticks 0, 5,000, 10,000, 15,000, 20,000, 25,000, 30,000, 35,000, 40,000 and x-axis labelled &quot;capacity_mw →&quot; with ticks 0, 1,000, 2,000, 3,000, 4,000, 5,000, showing an upward trend, with one black dot at the far right near 5,400 capacity and 31,000 generation joined by a short line to the label &quot;Gravelines, France&quot;. Caption &quot;SCREENSHOT&quot;. Heading &quot;A callout on a point&quot;. Text &quot;A dot on one data point with a line to its label. On a scatter plot the callout gives both x and y.&quot; Link &quot;Try this demo yourself&quot;. Disclosure &quot;▶ Chart spec&quot;.\" src=\"https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette-charts\">datasette-charts</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/visualization\">visualization</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:06.089Z"
+    },
     {
       "id": "ffbfe873b32cbcec",
       "sourceId": "hackernews",
@@ -40,6 +100,16 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-11-27T17:20:16.764Z"
+    },
+    {
+      "id": "cb9c58904170486c",
+      "sourceId": "simonwillison",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "publishedAt": "2026-11-27T00:26:17.000Z",
+      "rawContent": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-mcp/releases/tag/0.4\">datasette-mcp 0.4</a></p>\n        <p>Fixed for compatibility with <a href=\"https://docs.datasette.io/en/latest/changelog.html#a44-2026-11-22\">Datasette 1.0a44</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "status": "nouveau",
+      "createdAt": "2026-11-28T16:03:06.090Z"
     },
     {
       "id": "f879ffca2b443204",
@@ -4930,76 +5000,6 @@
       "rawContent": "",
       "status": "nouveau",
       "createdAt": "2026-09-27T12:52:36.039Z"
-    },
-    {
-      "id": "752c86a4d07c8551",
-      "sourceId": "hackernews",
-      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
-      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
-      "publishedAt": "2026-09-27T10:19:51.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-28T15:08:30.359Z"
-    },
-    {
-      "id": "6bc27e7b80eee4e4",
-      "sourceId": "hackernews",
-      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
-      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-      "publishedAt": "2026-09-27T06:19:33.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-27T12:52:36.039Z"
-    },
-    {
-      "id": "669d8cd0cb0cb12c",
-      "sourceId": "simonwillison",
-      "title": "Kākāpō Party",
-      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "publishedAt": "2026-09-26T23:39:06.000Z",
-      "rawContent": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/kakapo-party\">Kākāpō Party</a></p>\n        <p>I presented a closing keynote for the <a href=\"https://www.wearedevelopers.com/world-congress-north-america\">WeAreDevelopers World Congress North America</a> yesterday. As <a href=\"https://simonwillison.net/2019/Dec/10/better-presentations/\">a STAR moment</a> I decided to weave in references to the record breaking <a href=\"https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/\">kākāpō breeding season</a> we had in 2026.</p>\n<p>For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt:</p>\n<blockquote>\n<p><code>Here are some photos of kakapo parrots just to remind you what they look like</code></p>\n<p><code>I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them</code></p>\n</blockquote>\n<p>Here's <a href=\"https://claude.ai/share/43bec0be-a0a3-4737-bfac-34894af34ddc\">the transcript</a>, and this is the <a href=\"https://tools.simonwillison.net/kakapo-party\">resulting page</a>. It's pretty great!</p>\n<p>I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session:</p>\n<blockquote>\n<p><code>Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long</code></p>\n<p><code>don't start clicking until 3s in</code></p>\n<p><code>make sure several clicks are spread around the clickable area</code></p>\n</blockquote>\n<p>Claude Code used Playwright (<a href=\"https://gisthost.github.io/?368b481fba654c4fb84d90188da77581/page-001.html\">transcript here</a>) and produced this video, which was exactly what I needed for my final slide:</p>\n<p><video\n    controls=\"controls\"\n    preload=\"none\"\n    poster=\"https://static.simonwillison.net/static/2026/kakapo-party-first-frame.webp\"\n    width=\"1280\"\n    height=\"720\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n    <source src=\"https://static.simonwillison.net/static/2026/kakapo-party-small.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n\n<p>Here's the full Playwright script it used, which was pleasingly short:</p>\n<pre><span class=\"pl-c\"># /// script</span>\n<span class=\"pl-c\"># dependencies = [\"playwright\"]</span>\n<span class=\"pl-c\"># ///</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">time</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">playwright</span>.<span class=\"pl-s1\">sync_api</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">sync_playwright</span>\n<span class=\"pl-c1\">W</span>, <span class=\"pl-c1\">H</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">1280</span>, <span class=\"pl-c1\">720</span>\n<span class=\"pl-c\"># Canvas fills the viewport; spread clicks across corners, edges and centre</span>\n<span class=\"pl-s1\">clicks</span> <span class=\"pl-c1\">=</span> [\n    (<span class=\"pl-c1\">3.0</span>, <span class=\"pl-c1\">640</span>, <span class=\"pl-c1\">360</span>),   <span class=\"pl-c\"># centre</span>\n    (<span class=\"pl-c1\">4.2</span>, <span class=\"pl-c1\">160</span>, <span class=\"pl-c1\">120</span>),   <span class=\"pl-c\"># top-left</span>\n    (<span class=\"pl-c1\">5.4</span>, <span class=\"pl-c1\">1120</span>, <span class=\"pl-c1\">120</span>),  <span class=\"pl-c\"># top-right</span>\n    (<span class=\"pl-c1\">6.6</span>, <span class=\"pl-c1\">180</span>, <span class=\"pl-c1\">600</span>),   <span class=\"pl-c\"># bottom-left</span>\n    (<span class=\"pl-c1\">7.8</span>, <span class=\"pl-c1\">1100</span>, <span class=\"pl-c1\">600</span>),  <span class=\"pl-c\"># bottom-right</span>\n    (<span class=\"pl-c1\">9.0</span>, <span class=\"pl-c1\">640</span>, <span class=\"pl-c1\">100</span>),   <span class=\"pl-c\"># top-centre</span>\n    (<span class=\"pl-c1\">10.0</span>, <span class=\"pl-c1\">380</span>, <span class=\"pl-c1\">380</span>),  <span class=\"pl-c\"># mid-left</span>\n    (<span class=\"pl-c1\">11.0</span>, <span class=\"pl-c1\">900</span>, <span class=\"pl-c1\">380</span>),  <span class=\"pl-c\"># mid-right</span>\n    (<span class=\"pl-c1\">12.2</span>, <span class=\"pl-c1\">640</span>, <span class=\"pl-c1\">620</span>),  <span class=\"pl-c\"># bottom-centre</span>\n    (<span class=\"pl-c1\">13.2</span>, <span class=\"pl-c1\">640</span>, <span class=\"pl-c1\">300</span>),  <span class=\"pl-c\"># finale centre</span>\n]\n<span class=\"pl-k\">with</span> <span class=\"pl-en\">sync_playwright</span>() <span class=\"pl-k\">as</span> <span class=\"pl-s1\">p</span>:\n    <span class=\"pl-s1\">b</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">p</span>.<span class=\"pl-c1\">chromium</span>.<span class=\"pl-c1\">launch</span>()\n    <span class=\"pl-s1\">ctx</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">b</span>.<span class=\"pl-c1\">new_context</span>(<span class=\"pl-s1\">viewport</span><span class=\"pl-c1\">=</span>{<span class=\"pl-s\">\"width\"</span>:<span class=\"pl-c1\">W</span>,<span class=\"pl-s\">\"height\"</span>:<span class=\"pl-c1\">H</span>}, <span class=\"pl-s1\">record_video_dir</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"vids\"</span>, <span class=\"pl-s1\">record_video_size</span><span class=\"pl-c1\">=</span>{<span class=\"pl-s\">\"width\"</span>:<span class=\"pl-c1\">W</span>,<span class=\"pl-s\">\"height\"</span>:<span class=\"pl-c1\">H</span>})\n    <span class=\"pl-s1\">page</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">ctx</span>.<span class=\"pl-c1\">new_page</span>()\n    <span class=\"pl-s1\">t0</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">time</span>.<span class=\"pl-c1\">time</span>()\n    <span class=\"pl-s1\">page</span>.<span class=\"pl-c1\">goto</span>(<span class=\"pl-s\">\"file:///Users/simon/Downloads/kakapo-party.html\"</span>)\n    <span class=\"pl-k\">for</span> <span class=\"pl-s1\">t</span>,<span class=\"pl-s1\">x</span>,<span class=\"pl-s1\">y</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">clicks</span>:\n        <span class=\"pl-s1\">time</span>.<span class=\"pl-c1\">sleep</span>(<span class=\"pl-en\">max</span>(<span class=\"pl-c1\">0</span>, <span class=\"pl-s1\">t</span><span class=\"pl-c1\">-</span>(<span class=\"pl-s1\">time</span>.<span class=\"pl-c1\">time</span>()<span class=\"pl-c1\">-</span><span class=\"pl-s1\">t0</span>)))\n        <span class=\"pl-s1\">page</span>.<span class=\"pl-c1\">mouse</span>.<span class=\"pl-c1\">click</span>(<span class=\"pl-s1\">x</span>,<span class=\"pl-s1\">y</span>)\n    <span class=\"pl-s1\">time</span>.<span class=\"pl-c1\">sleep</span>(<span class=\"pl-en\">max</span>(<span class=\"pl-c1\">0</span>, <span class=\"pl-c1\">16.0</span><span class=\"pl-c1\">-</span>(<span class=\"pl-s1\">time</span>.<span class=\"pl-c1\">time</span>()<span class=\"pl-c1\">-</span><span class=\"pl-s1\">t0</span>)))\n    <span class=\"pl-s1\">ctx</span>.<span class=\"pl-c1\">close</span>(); <span class=\"pl-s1\">b</span>.<span class=\"pl-c1\">close</span>()</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/animation\">animation</a>, <a href=\"https://simonwillison.net/tags/speaking\">speaking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/kakapo\">kakapo</a>, <a href=\"https://simonwillison.net/tags/playwright\">playwright</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a></p>",
-      "status": "nouveau",
-      "createdAt": "2026-09-27T12:52:36.197Z"
-    },
-    {
-      "id": "d556f1ce2ab954a8",
-      "sourceId": "hackernews",
-      "title": "Go Concurrency Distilled",
-      "url": "https://antonz.org/go-concurrency-distilled/",
-      "publishedAt": "2026-09-26T14:34:49.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-27T12:52:36.039Z"
-    },
-    {
-      "id": "fef3d86a310799ac",
-      "sourceId": "hackernews",
-      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
-      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "publishedAt": "2026-09-26T10:55:56.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-26T12:07:55.526Z"
-    },
-    {
-      "id": "694d66cc71d806e6",
-      "sourceId": "hackernews",
-      "title": "Fifteen years later, the Apple Cards origin story",
-      "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
-      "publishedAt": "2026-09-26T09:13:41.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-26T12:07:55.526Z"
-    },
-    {
-      "id": "c63b1c7ece30ab44",
-      "sourceId": "hackernews",
-      "title": "Floci: Locally emulating any cloud service",
-      "url": "https://floci.io",
-      "publishedAt": "2026-09-26T08:31:02.000Z",
-      "rawContent": "",
-      "status": "nouveau",
-      "createdAt": "2026-09-26T12:07:55.526Z"
     }
   ]
 }
